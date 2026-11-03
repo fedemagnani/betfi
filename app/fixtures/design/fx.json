@@ -1,0 +1,11 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "eur_per_usd_ppm": 921068,
+  "as_of": "2026-10-29",
+  "source": "ecb",
+  "fallback": false,
+  "eur_per_sol_ppm": 135800000,
+  "sol_as_of_ms": 1793301600000,
+  "sol_source": "pyth",
+  "sol_fallback": false
+}

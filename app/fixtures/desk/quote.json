@@ -1,0 +1,40 @@
+{
+  "copy_fee_u": 0,
+  "fee_u": 7430522,
+  "legs": [
+    {
+      "game_id": "nba-phi-ind-2026-10-28",
+      "m1_ppm": 50000,
+      "overlaps": true,
+      "p_max_u": 709000,
+      "pick": "away",
+      "price_u": 699000,
+      "side": "long",
+      "start_ms": 1793228400000,
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI"
+    },
+    {
+      "game_id": "nba-hou-mil-2026-10-28",
+      "m1_ppm": 50000,
+      "overlaps": true,
+      "p_max_u": 243000,
+      "pick": "home",
+      "price_u": 240000,
+      "side": "short",
+      "start_ms": 1793232000000,
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU"
+    }
+  ],
+  "min_payout_per_unit_u": 5218317,
+  "n": 2,
+  "odds_fair_u": 6122761,
+  "odds_offered_u": 5379709,
+  "pascal_fees_est_u": 196976,
+  "payout_u": 53797090,
+  "quote_expires_at": 1793213000,
+  "quote_msg": "c2NoZWRpbmEvcXVvdGUvdjH1k7/L1r46nWQ/5pSbpfttZyUTCgSx3hPrNFri5fJtCQIAAABn/kN64pIdInKGSdrDSaXjc/otAI/YtAzJIAv9KmZDX3cjDRwxczqhFbGAqfrfTQsVkfuug8yaqF9XMvAhBuMjcH7iagAAAAAAeKoKAAAAAABQwwAAf0eMqyxtQbOcE/DrYmTEiyOtPZI2YLGybDKX5UMKZp61tAYQ/ICyPB6CcgwZ67uA9cfauxEmrqFcVFmJFvLYyoCM4moAAAAAAYCpAwAAAAAAUMMAAICWmAAAAAAAfRZSAAAAAABIQuJqAAAAAA==",
+  "quote_sig": "EaVFeLd+2j6G4me7y/E78+0h0rhut/TNLhCcI57HNe4WlWUemyGsYX1C6Z9ACXV0QrTBZ5Vla3BFhjLG00mQAg==",
+  "quote_signer": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+  "slippage_bps": 300,
+  "stake_u": 10000000
+}

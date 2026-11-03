@@ -1,0 +1,249 @@
+{
+  "_source": "On-chain program metadata of Pascal program 3vCgc3aL1D6acmtiqtUgRSRDhep4PnVgs4jk86dGpg7j (mainnet), fetched 2026-10-28 with: anchor idl fetch 3vCgc3aL1D6acmtiqtUgRSRDhep4PnVgs4jk86dGpg7j --provider.cluster mainnet. Codama rootNode; only the permitHeader and placeOrderPermitBody type nodes are kept, verbatim.",
+  "standard": "codama",
+  "version": "1.9.2",
+  "program": {
+    "name": "pascal",
+    "publicKey": "3vCgc3aL1D6acmtiqtUgRSRDhep4PnVgs4jk86dGpg7j",
+    "version": "1.0.0"
+  },
+  "definedTypes": [
+    {
+      "kind": "definedTypeNode",
+      "name": "permitHeader",
+      "type": {
+        "kind": "structTypeNode",
+        "fields": [
+          {
+            "kind": "structFieldTypeNode",
+            "name": "version",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "cmdType",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "deploymentId",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "padding0",
+            "type": {
+              "kind": "fixedSizeTypeNode",
+              "size": 1,
+              "type": {
+                "kind": "bytesTypeNode"
+              }
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "recvWindowMs",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u32",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "clientTsMs",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u64",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "owner",
+            "type": {
+              "kind": "publicKeyTypeNode"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "signer",
+            "type": {
+              "kind": "publicKeyTypeNode"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "definedTypeNode",
+      "name": "placeOrderPermitBody",
+      "type": {
+        "kind": "structTypeNode",
+        "fields": [
+          {
+            "kind": "structFieldTypeNode",
+            "name": "size",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u64",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "price",
+            "type": {
+              "kind": "amountTypeNode",
+              "decimals": 6,
+              "unit": "USD",
+              "number": {
+                "kind": "numberTypeNode",
+                "format": "u64",
+                "endian": "le"
+              }
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "clientOrderId",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u64",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "replaceClientOrderId",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u64",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "expireTsMs",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u64",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "builderPubkey",
+            "type": {
+              "kind": "publicKeyTypeNode"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "symbol",
+            "type": {
+              "kind": "fixedSizeTypeNode",
+              "size": 32,
+              "type": {
+                "kind": "stringTypeNode",
+                "encoding": "utf8"
+              }
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "builderFeeRate",
+            "type": {
+              "kind": "amountTypeNode",
+              "decimals": 6,
+              "number": {
+                "kind": "numberTypeNode",
+                "format": "i32",
+                "endian": "le"
+              }
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "offchainFieldsDigest",
+            "type": {
+              "kind": "fixedSizeTypeNode",
+              "size": 32,
+              "type": {
+                "kind": "bytesTypeNode"
+              }
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "metadata",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "side",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "orderType",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "tif",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "flags",
+            "type": {
+              "kind": "numberTypeNode",
+              "format": "u8",
+              "endian": "le"
+            }
+          },
+          {
+            "kind": "structFieldTypeNode",
+            "name": "padding1",
+            "type": {
+              "kind": "fixedSizeTypeNode",
+              "size": 7,
+              "type": {
+                "kind": "bytesTypeNode"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

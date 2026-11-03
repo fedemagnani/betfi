@@ -1,0 +1,3371 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "symbol": "AI_BEST_MODEL_26DEC31.GOOGLE",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Best AI model end of December 2026",
+        "expected_resolution_time_ms": "1798736400000",
+        "market_description": "Google",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-google-have-the-best-ai-model-at-the-end-of-december-2026",
+          "condition_id": "0x94f240d042917cabd55f0bcbcac7d4d2accd4436773bf91596f76572cac643cb",
+          "market_outcome_token_id": "46179164836162469124070224186387483861653666680647006036020478594822732769561",
+          "reverse_outcome_token_id": "12158180184189429812531457342591452610883474686342531973728413744093391328224"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      "listing_ts_ms": "1785187441185",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/AI_BEST_MODEL_26DEC31/AI_BEST_MODEL_26DEC31.GOOGLE.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.355000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "280",
+          "taker_sell_volume": "2390",
+          "taker_buy_volume_notional": "102.452000",
+          "taker_sell_volume_notional": "615.594000",
+          "taker_buy_trade_count": "3",
+          "taker_sell_trade_count": "15",
+          "window_end_ts_ms_exclusive": "1792995780000"
+        }
+      },
+      "mark_price": "0.345000",
+      "best_bid": "0.341000",
+      "best_ask": "0.349000",
+      "open_interest": "943",
+      "long_interest": "943",
+      "short_interest": "943"
+    },
+    {
+      "symbol": "AI_BEST_MODEL_26OCT31.ANTHROPIC",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Best AI model end of October 2026",
+        "expected_resolution_time_ms": "1793462400000",
+        "market_description": "Anthropic",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-october-2026-20260811194841118",
+          "condition_id": "0x8091d617a6b1a70847d357f59b7d1d303b7599d376ba92729705e233b3716940",
+          "market_outcome_token_id": "17398972530137600675762712744895375915722542439211248541948693649429200536957",
+          "reverse_outcome_token_id": "85377241479106312434941600365981690112200050573592763839850833219429995374007"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      "listing_ts_ms": "1787254037072",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/AI_BEST_MODEL_26OCT31/AI_BEST_MODEL_26OCT31.ANTHROPIC.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.106000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "2766",
+          "taker_sell_volume": "1418",
+          "taker_buy_volume_notional": "1867.110000",
+          "taker_sell_volume_notional": "808.467000",
+          "taker_buy_trade_count": "17",
+          "taker_sell_trade_count": "14",
+          "window_end_ts_ms_exclusive": "1792033200000"
+        }
+      },
+      "mark_price": "0.046500",
+      "best_bid": "0.042000",
+      "best_ask": "0.051000",
+      "open_interest": "380",
+      "long_interest": "380",
+      "short_interest": "380"
+    },
+    {
+      "symbol": "AI_MILLENNIUM_COUNT_2026.0",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Additional Millennium Prize solutions by AI in 2026",
+        "expected_resolution_time_ms": "1798779540000",
+        "market_description": "0",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-ai-solve-0-more-millennium-prize-problems-in-2026",
+          "condition_id": "0x39037b0f4d68925a61cbc5b720f0825325d03a6d07cce28e12bd63187f1b3539",
+          "market_outcome_token_id": "23562320982557386178443515603059705096749168834175657820475997828949413665923",
+          "reverse_outcome_token_id": "26615354544378591694965726741213830197651534400889931749095877249002057483435"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Tech",
+          "AI"
+        ],
+        "topic": {
+          "id": "ai-millennium-prize",
+          "description": "AI Millennium Prize problems"
+        }
+      },
+      "listing_ts_ms": "1789413027125",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/AI_MILLENNIUM_COUNT_2026/AI_MILLENNIUM_COUNT_2026.0.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.860500",
+          "taker_buy_volume": "33",
+          "taker_sell_volume": "57",
+          "taker_buy_volume_notional": "27.720000",
+          "taker_sell_volume_notional": "46.911000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "3656",
+          "taker_sell_volume": "5358",
+          "taker_buy_volume_notional": "2740.379000",
+          "taker_sell_volume_notional": "4058.820000",
+          "taker_buy_trade_count": "34",
+          "taker_sell_trade_count": "26",
+          "window_end_ts_ms_exclusive": "1793102040000"
+        }
+      },
+      "mark_price": "0.795500",
+      "best_bid": "0.792000",
+      "best_ask": "0.799000",
+      "open_interest": "5012",
+      "long_interest": "5012",
+      "short_interest": "5012"
+    },
+    {
+      "symbol": "ANTHROPIC_IPO.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Anthropic IPO by date",
+        "expected_resolution_time_ms": "1798775999000",
+        "market_description": "By December 31, 2026",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-anthropic-ipo-by-december-31-2026-546-128-719",
+          "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+          "market_outcome_token_id": "48566046548914168443252668519852295704538578584318207505303160546351275413281",
+          "reverse_outcome_token_id": "93059136868154519251041831451057854973981985548329066772466504724611138205828"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "AI",
+          "Pre-IPO"
+        ],
+        "topic": {
+          "id": "anthropic-ipo",
+          "description": "Anthropic IPO"
+        }
+      },
+      "listing_ts_ms": "1784601748132",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/ANTHROPIC_IPO/ANTHROPIC_IPO.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.940000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "2425",
+          "taker_sell_volume": "1997",
+          "taker_buy_volume_notional": "1965.246000",
+          "taker_sell_volume_notional": "1542.587000",
+          "taker_buy_trade_count": "17",
+          "taker_sell_trade_count": "7",
+          "window_end_ts_ms_exclusive": "1793048100000"
+        }
+      },
+      "mark_price": "0.935000",
+      "best_bid": "0.930000",
+      "best_ask": "0.940000",
+      "open_interest": "393",
+      "long_interest": "393",
+      "short_interest": "393"
+    },
+    {
+      "symbol": "ANTH_IPO_MC_27DEC31_RNG.1_1P5T",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "Anthropic IPO market cap",
+        "expected_resolution_time_ms": "1830315599000",
+        "game_page": {
+          "game_id": "anthropic-ipo-market-cap-2027-12-31",
+          "game_description": "Anthropic IPO Market Cap",
+          "section_id": "narrow-ranges",
+          "section_description": "Narrow Ranges",
+          "section_display_order": 200,
+          "row_display_order": 100
+        },
+        "market_description": "[$1T - $1.5T]",
+        "range": {
+          "upper": "15",
+          "lower": "10",
+          "scale": "1",
+          "prefix": "$",
+          "suffix": "T"
+        },
+        "scalar": {
+          "upper": "15",
+          "lower": "10",
+          "scale": "1",
+          "prefix": "$",
+          "suffix": "T"
+        },
+        "sort_order": "MARKET_DESCRIPTION_ASC",
+        "tags": [
+          "Finance",
+          "Pre-IPO",
+          "AI",
+          "Scalar"
+        ],
+        "topic": {
+          "id": "pre-ipo-stocks",
+          "description": "Pre-IPO Stocks"
+        }
+      },
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/ANTH_IPO_MC_27DEC31_RNG/ANTH_IPO_MC_27DEC31_RNG.1_1P5T.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.805000",
+          "taker_buy_volume": "46",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "38.200000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "2029",
+          "taker_sell_volume": "2262",
+          "taker_buy_volume_notional": "1767.521000",
+          "taker_sell_volume_notional": "1964.420000",
+          "taker_buy_trade_count": "25",
+          "taker_sell_trade_count": "46",
+          "window_end_ts_ms_exclusive": "1793104560000"
+        }
+      },
+      "mark_price": "0.845000",
+      "best_bid": "0.830000",
+      "best_ask": "0.860000",
+      "open_interest": "361",
+      "long_interest": "361",
+      "short_interest": "361"
+    },
+    {
+      "symbol": "BUND_26OCT30_ELVM05_ML.DRAW",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#C67C1E",
+            "dark": "#EA8B52"
+          }
+        },
+        "event_description": "SV 07 Elversberg vs 1. FSV Mainz 05, Moneyline - Reg Time",
+        "expected_event_start_time_ms": "1793388600000",
+        "expected_resolution_time_ms": "1793395800000",
+        "game_page": {
+          "game_id": "bundesliga-elv-m05-2026-10-30",
+          "game_description": "SV 07 Elversberg vs 1. FSV Mainz 05",
+          "section_id": "money-line-reg-time",
+          "section_description": "Moneyline - Reg Time",
+          "section_display_order": 100,
+          "row_display_order": 200
+        },
+        "market_description": "Draw",
+        "market_type": {
+          "kind": "sports",
+          "sport": "soccer",
+          "period": "reg_time",
+          "teams": {
+            "home_name": "SV 07 Elversberg",
+            "home_subject_id": "sv-07-elversberg",
+            "away_name": "1. FSV Mainz 05",
+            "away_subject_id": "1-fsv-mainz-05"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "draw"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "bun-elv-mai-2026-10-30-draw",
+          "condition_id": "0x8d6c2a65e5367838c8a94021c49700ed7138d5e769a4c8aeb1655b36246be761",
+          "market_outcome_token_id": "16635114460336488791708191488167737214382963889491620127667706250758274837891",
+          "reverse_outcome_token_id": "26542976499018979563509267599081075952453126654006838960048494037412185991620"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Soccer",
+          "Bundesliga"
+        ],
+        "topic": {
+          "id": "2026-27-bundesliga",
+          "description": "2026-27 Bundesliga"
+        }
+      },
+      "listing_ts_ms": "1793101101332",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/BUND_26OCT30_ELVM05_ML/BUND_26OCT30_ELVM05_ML.DRAW.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.245000",
+      "best_bid": "0.236000",
+      "best_ask": "0.254000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "CFB_26OCT30_BAYUCF_ML.BAY",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#154734",
+            "dark": "#2E5E4A"
+          },
+          "reverse": {
+            "light": "#BD9401",
+            "dark": "#FFC904"
+          }
+        },
+        "event_description": "Baylor vs UCF, Oct 30, Moneyline",
+        "expected_event_start_time_ms": "1793403000000",
+        "expected_resolution_time_ms": "1793417400000",
+        "game_page": {
+          "game_id": "cfb-bayl-ucf-2026-10-30",
+          "game_description": "Baylor vs UCF, Oct 30",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "Baylor Bears",
+        "market_type": {
+          "kind": "sports",
+          "sport": "football",
+          "period": "full_game",
+          "teams": {
+            "home_name": "UCF Knights",
+            "home_short_name": "UCF",
+            "home_subject_id": "ucf-knights",
+            "away_name": "Baylor Bears",
+            "away_short_name": "Baylor",
+            "away_subject_id": "baylor-bears"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Baylor",
+            "abbreviated": "BAY"
+          },
+          "short": {
+            "extended": "UCF",
+            "abbreviated": "UCF"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cfb-bayl-ucf-2026-10-30",
+          "condition_id": "0x71b89185be34eb70a5754f5e4c6bb9fee34008bd9858df6a97df4dd74892b286",
+          "market_outcome_token_id": "42158635586608931408201736145789201860902690033597720129418401049551877014650",
+          "reverse_outcome_token_id": "79618894176160652090320335052608402856057650370596327110964486108546664831192"
+        },
+        "reverse_description": "UCF Knights",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Football",
+          "NCAA Football"
+        ],
+        "topic": {
+          "id": "2026-ncaa-football",
+          "description": "2026 NCAA Football"
+        }
+      },
+      "listing_ts_ms": "1793107212796",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CFB_26OCT30_BAYUCF_ML/CFB_26OCT30_BAYUCF_ML.BAY.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.485000",
+      "best_bid": "0.480000",
+      "best_ask": "0.490000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "CHN_INVADES_TWN_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "China invades Taiwan by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-china-invade-taiwan-before-2027",
+          "condition_id": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4",
+          "market_outcome_token_id": "94559586571241563470235664821564670251180951772614764383113614156422396181162",
+          "reverse_outcome_token_id": "90772332434487149264114862115632028379978765245278600275169585501290867536237"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "china-taiwan-relations",
+          "description": "China–Taiwan Relations"
+        }
+      },
+      "listing_ts_ms": "1786124462219",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CHN_INVADES_TWN_BY/CHN_INVADES_TWN_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.021000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "103",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "3.914000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1786292280000"
+        }
+      },
+      "mark_price": "0.020500",
+      "best_bid": "0.017000",
+      "best_ask": "0.024000",
+      "open_interest": "103",
+      "long_interest": "103",
+      "short_interest": "103"
+    },
+    {
+      "symbol": "CHN_TWN_CLASH_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "China-Taiwan military clash by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "china-x-taiwan-military-clash-before-2027",
+          "condition_id": "0x4c80df6f557bb0b9de08c0301ebdce500dd9bdc58400d9269fb8fab1709ed584",
+          "market_outcome_token_id": "104812032440315568595318241870590180481232715981192720184511444933968102038477",
+          "reverse_outcome_token_id": "50488227317031565004575684525878022626020008256198844799050708993499540064859"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "china-taiwan-relations",
+          "description": "China-Taiwan Relations"
+        }
+      },
+      "listing_ts_ms": "1789497523631",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CHN_TWN_CLASH_BY/CHN_TWN_CLASH_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.037500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.036000",
+      "best_bid": "0.031000",
+      "best_ask": "0.041000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "CLARITY_ACT_SIGNED_BY.26DEC31",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "Clarity Act signed into law by",
+        "expected_resolution_time_ms": "1798779540000",
+        "market_description": "Dec 31, 2026",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "clarity-act-signed-into-law-in-2026",
+          "condition_id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
+          "market_outcome_token_id": "35198549486569600595408965368290795524428922595732253580266052028158040373233",
+          "reverse_outcome_token_id": "29633826701713552120011280893309822625942861174174976276686142480636225243753"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Crypto",
+          "Clarity Act"
+        ],
+        "topic": {
+          "id": "clarity-act-2026",
+          "description": "Digital Asset Market Clarity Act"
+        }
+      },
+      "listing_ts_ms": "1781044883170",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CLARITY_ACT_SIGNED_BY/CLARITY_ACT_SIGNED_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.043500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "101955",
+          "taker_sell_volume": "84621",
+          "taker_buy_volume_notional": "19228.034000",
+          "taker_sell_volume_notional": "16949.291000",
+          "taker_buy_trade_count": "157",
+          "taker_sell_trade_count": "154",
+          "window_end_ts_ms_exclusive": "1793014620000"
+        }
+      },
+      "mark_price": "0.041500",
+      "best_bid": "0.039000",
+      "best_ask": "0.044000",
+      "open_interest": "25314",
+      "long_interest": "25314",
+      "short_interest": "25314"
+    },
+    {
+      "symbol": "CS2_26OCT28_MGLZNEM_M1ML.MGLZ",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "TheMongolz vs Nemiga, Map 1 Winner",
+        "expected_event_start_time_ms": "1793185200000",
+        "expected_resolution_time_ms": "1793196000000",
+        "game_page": {
+          "game_id": "cs2-mglz-nemi1-2026-10-28",
+          "game_description": "TheMongolz vs Nemiga",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "TheMongolz",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Nemiga",
+            "away_subject_id": "nemiga"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-nemi1-2026-10-28-game1",
+          "condition_id": "0x383855ff5b0f1f174d00a2d19655ee7e3ed437399f3ccf39fc6b862dcddcfea4",
+          "market_outcome_token_id": "106882418134179713811994513954030723806281323735129880297324014663793517786201",
+          "reverse_outcome_token_id": "100059165763045306983464202385542095696037026138097876615717331270201778839787"
+        },
+        "reverse_description": "Nemiga",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793138721257",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT28_MGLZNEM_M1ML/CS2_26OCT28_MGLZNEM_M1ML.MGLZ.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "99",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "50.985000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "99",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "50.985000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793144220000"
+        }
+      },
+      "mark_price": "0.495500",
+      "best_bid": "0.485000",
+      "best_ask": "0.506000",
+      "open_interest": "199",
+      "long_interest": "199",
+      "short_interest": "199"
+    },
+    {
+      "symbol": "DOTA_26OCT28_GLLEG_M1ML.GL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+          },
+          "reverse": {
+            "light": "#694D8B",
+            "dark": "#694D8B"
+          }
+        },
+        "event_description": "GamerLegion vs LEGION, Map 1 Winner",
+        "expected_event_start_time_ms": "1793210400000",
+        "expected_resolution_time_ms": "1793232000000",
+        "game_page": {
+          "game_id": "pari-universe-gamerlegion-legion-2026-10-28",
+          "game_description": "GamerLegion vs LEGION",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "GamerLegion",
+        "market_type": {
+          "kind": "sports",
+          "sport": "dota_2",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "GamerLegion",
+            "home_subject_id": "gamerlegion",
+            "away_name": "LEGION",
+            "away_subject_id": "legion"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "GamerLegion",
+            "abbreviated": "GL"
+          },
+          "short": {
+            "extended": "LEGION",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "dota2-gl-legion1-2026-10-28-game1",
+          "condition_id": "0xc4dec30140b18c65e5c76feebd42ae3ed694c9a56615dda2f03465d836ec07da",
+          "market_outcome_token_id": "106497463055786295061829707731959720232198149718306426834859568550242598189680",
+          "reverse_outcome_token_id": "78217363511095825254145809980407042198054964366828340946151022457924893004564"
+        },
+        "reverse_description": "LEGION",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Dota 2"
+        ],
+        "topic": {
+          "id": "pari-universe",
+          "description": "PARI Universe"
+        }
+      },
+      "listing_ts_ms": "1793139162472",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/DOTA_26OCT28_GLLEG_M1ML/DOTA_26OCT28_GLLEG_M1ML.GL.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.645000",
+      "best_bid": "0.625000",
+      "best_ask": "0.665000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "DOTA_26OCT28_TYAI_M2ML.TY",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Team Yandex vs Astra Invicta, Map 2 Winner",
+        "expected_event_start_time_ms": "1793188800000",
+        "expected_resolution_time_ms": "1793210400000",
+        "game_page": {
+          "game_id": "pari-universe-team-yandex-astra-invicta-2026-10-28",
+          "game_description": "Team Yandex vs Astra Invicta",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "Team Yandex",
+        "market_type": {
+          "kind": "sports",
+          "sport": "dota_2",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Team Yandex",
+            "home_subject_id": "team-yandex",
+            "away_name": "Astra Invicta",
+            "away_subject_id": "astra-invicta"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Yandex",
+            "abbreviated": "TY"
+          },
+          "short": {
+            "extended": "Astra Invicta",
+            "abbreviated": "AI"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "dota2-ty-ai1-2026-10-28-game2",
+          "condition_id": "0xe36737cb8cd08487c84be675a008ada23ff1ba7cf315d903883b17425908724b",
+          "market_outcome_token_id": "16885876516921499269728126880104806252624175580786435017664488723012002492355",
+          "reverse_outcome_token_id": "46943790258932052006017930357185068570325378750443691682544684486216433308921"
+        },
+        "reverse_description": "Astra Invicta",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Dota 2"
+        ],
+        "topic": {
+          "id": "pari-universe",
+          "description": "PARI Universe"
+        }
+      },
+      "listing_ts_ms": "1793139163290",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/DOTA_26OCT28_TYAI_M2ML/DOTA_26OCT28_TYAI_M2ML.TY.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "best_bid": "0.246000",
+      "best_ask": "0.853000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "EPL_2027_CHAMP.ARS",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Premier League champion",
+        "expected_resolution_time_ms": "1811721540000",
+        "market_description": "Arsenal",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-arsenal-win-the-2026-27-english-premier-league-epl-championship-20260701200428750",
+          "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+          "market_outcome_token_id": "106464589845250400124249015666766731317110899241411841699938652823328750757436",
+          "reverse_outcome_token_id": "64668172167711604019715186222824944338693111460367065137032921758495495127809"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Soccer",
+          "EPL"
+        ],
+        "topic": {
+          "id": "epl-2027-champion",
+          "description": "Premier League Champion"
+        }
+      },
+      "listing_ts_ms": "1784234531355",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_2027_CHAMP/EPL_2027_CHAMP.ARS.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.655000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "4138",
+          "taker_sell_volume": "3902",
+          "taker_buy_volume_notional": "2593.061000",
+          "taker_sell_volume_notional": "2450.262000",
+          "taker_buy_trade_count": "5",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1792518180000"
+        }
+      },
+      "mark_price": "0.665000",
+      "best_bid": "0.660000",
+      "best_ask": "0.670000",
+      "open_interest": "1153",
+      "long_interest": "1153",
+      "short_interest": "1153"
+    },
+    {
+      "symbol": "EPL_2027_PTS_DED.MCI",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Points deduction in EPL 26-27",
+        "expected_resolution_time_ms": "1811822399000",
+        "market_description": "Manchester City",
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Soccer",
+          "EPL"
+        ],
+        "topic": {
+          "id": "2026-27-premier-league",
+          "description": "2026-27 Premier League"
+        }
+      },
+      "listing_ts_ms": "1789586479746",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_2027_PTS_DED/EPL_2027_PTS_DED.MCI.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.414500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "1100",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "511.300000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "23",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1790699580000"
+        }
+      },
+      "mark_price": "0.414500",
+      "best_bid": "0.457000",
+      "best_ask": "0.990000",
+      "open_interest": "1100",
+      "long_interest": "1100",
+      "short_interest": "1100"
+    },
+    {
+      "symbol": "F1_2026_CHAMP.HAM",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "2026 F1 drivers' champion",
+        "expected_resolution_time_ms": "1796515200000",
+        "market_description": "Lewis Hamilton",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-lewis-hamilton-be-the-2026-f1-drivers-champion",
+          "condition_id": "0x2cefe6009ea518f77b8a82714e54c0af1d0f25e99b37d4861f4a5d3ebbf142d3",
+          "market_outcome_token_id": "69833456690136644541052533876758499587133457040620330400923606566331654948227",
+          "reverse_outcome_token_id": "107302425155378894910136485915807504436516647414953576160717018829314861130331"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Formula 1"
+        ],
+        "topic": {
+          "id": "2026-formula-1",
+          "description": "2026 Formula 1"
+        }
+      },
+      "listing_ts_ms": "1782229310851",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/F1_2026_CHAMP/F1_2026_CHAMP.HAM.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.004000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "1586",
+          "taker_sell_volume": "2941",
+          "taker_buy_volume_notional": "242.540000",
+          "taker_sell_volume_notional": "326.016000",
+          "taker_buy_trade_count": "26",
+          "taker_sell_trade_count": "24",
+          "window_end_ts_ms_exclusive": "1786612260000"
+        }
+      },
+      "mark_price": "0.004000",
+      "best_ask": "0.008000",
+      "open_interest": "1385",
+      "long_interest": "1385",
+      "short_interest": "1385"
+    },
+    {
+      "symbol": "FED_DECISION_26OCT.NO_CHANGE",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Fed decision in October",
+        "expected_resolution_time_ms": "1793210400000",
+        "market_description": "No change",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+          "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+          "market_outcome_token_id": "111061902544814266207267295505639408607400625795891618462682726460921782993748",
+          "reverse_outcome_token_id": "42038775866198212615491650114881818219665139981763207699110491615333273795415"
+        },
+        "resolves_at_expected_time": true,
+        "sort_order": "PRICE",
+        "tags": [
+          "Finance",
+          "Macro"
+        ],
+        "topic": {
+          "id": "2026-fed-rates",
+          "description": "2026 Fed Rates"
+        }
+      },
+      "listing_ts_ms": "1783990237481",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/FED_DECISION_26OCT/FED_DECISION_26OCT.NO_CHANGE.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.936000",
+          "taker_buy_volume": "5987",
+          "taker_sell_volume": "389",
+          "taker_buy_volume_notional": "5597.435000",
+          "taker_sell_volume_notional": "364.292000",
+          "taker_buy_trade_count": "12",
+          "taker_sell_trade_count": "6",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "112004",
+          "taker_sell_volume": "91187",
+          "taker_buy_volume_notional": "83625.619000",
+          "taker_sell_volume_notional": "68665.129000",
+          "taker_buy_trade_count": "282",
+          "taker_sell_trade_count": "257",
+          "window_end_ts_ms_exclusive": "1793117820000"
+        }
+      },
+      "mark_price": "0.958500",
+      "best_bid": "0.956000",
+      "best_ask": "0.961000",
+      "open_interest": "39949",
+      "long_interest": "39949",
+      "short_interest": "39949"
+    },
+    {
+      "symbol": "FL_27_HOUSE_2026.REP",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BE1219",
+            "dark": "#EC544B"
+          }
+        },
+        "event_description": "FL-27 House Winner",
+        "expected_resolution_time_ms": "1793768400000",
+        "game_page": {
+          "game_id": "2026-florida-elections",
+          "game_description": "Florida Elections",
+          "section_id": "us-house-fl-27",
+          "section_description": "FL-27",
+          "section_display_order": 327,
+          "row_display_order": 10
+        },
+        "market_description": "Republicans",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-republican-party-win-the-fl-27-house-seat",
+          "condition_id": "0x3452bb28983bc33b37ddfd98da2138dfd89782faec65a2607ed5aa86a17c9199",
+          "market_outcome_token_id": "13657829570112686942772887073735938550189108105291149479452313740274785506604",
+          "reverse_outcome_token_id": "90143124819989839765219487395400938700690038937683276302571009974950753729567"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "USA",
+          "Elections",
+          "Midterms",
+          "House"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "listing_ts_ms": "1786415758390",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/FL_27_HOUSE_2026/FL_27_HOUSE_2026.REP.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.665000",
+          "taker_buy_volume": "45",
+          "taker_sell_volume": "115",
+          "taker_buy_volume_notional": "29.955000",
+          "taker_sell_volume_notional": "75.731000",
+          "taker_buy_trade_count": "3",
+          "taker_sell_trade_count": "5",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "35265",
+          "taker_sell_volume": "33469",
+          "taker_buy_volume_notional": "22260.891000",
+          "taker_sell_volume_notional": "21088.728000",
+          "taker_buy_trade_count": "890",
+          "taker_sell_trade_count": "836",
+          "window_end_ts_ms_exclusive": "1793130120000"
+        }
+      },
+      "mark_price": "0.650500",
+      "best_bid": "0.650000",
+      "best_ask": "0.651000",
+      "open_interest": "1269",
+      "long_interest": "1269",
+      "short_interest": "1269"
+    },
+    {
+      "symbol": "FRANCE_PRES_2027.GLUCKSMANN",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "2027 France presidential election winner",
+        "expected_resolution_time_ms": "1809043200000",
+        "market_description": "Raphaël Glucksmann",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-raphal-glucksmann-win-the-2027-french-presidential-election",
+          "condition_id": "0xcfc6e088b78e695e831e094f7aa1197c16b2436e5984b12fb9286361804b8e1b",
+          "market_outcome_token_id": "97531408855841405410232789703119036119573635076996943730887685044477538494161",
+          "reverse_outcome_token_id": "91614037901759358822201019738747890245698909012092657780820261729371244775376"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Elections",
+          "France"
+        ],
+        "topic": {
+          "id": "2027-france-presidential-election",
+          "description": "2027 France Presidential Election"
+        }
+      },
+      "listing_ts_ms": "1784652068327",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/FRANCE_PRES_2027/FRANCE_PRES_2027.GLUCKSMANN.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.036000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "17726",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "551.282000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "3",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "17733",
+          "taker_sell_volume": "17726",
+          "taker_buy_volume_notional": "881.641000",
+          "taker_sell_volume_notional": "551.282000",
+          "taker_buy_trade_count": "6",
+          "taker_sell_trade_count": "3",
+          "window_end_ts_ms_exclusive": "1793110500000"
+        }
+      },
+      "mark_price": "0.035500",
+      "best_bid": "0.033000",
+      "best_ask": "0.038000",
+      "open_interest": "69",
+      "long_interest": "69",
+      "short_interest": "69"
+    },
+    {
+      "symbol": "HOTTEST_YEAR_2026.RANK1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Where 2026 ranks among the hottest years on record",
+        "expected_resolution_time_ms": "1800014400000",
+        "market_description": "Hottest (1st)",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-2026-be-the-hottest-year-on-record",
+          "condition_id": "0xe67f4d31f0eba1b009b49d7a7739b2a5f53a2d7d979a0902b465a510492c33bb",
+          "market_outcome_token_id": "23556429317429021692175226714041757812438092709195093999386854296551945919152",
+          "reverse_outcome_token_id": "107531561888318513792277163301281336651898062064090922046801464380647002668604"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Climate"
+        ],
+        "topic": {
+          "id": "2026-hottest-year",
+          "description": "2026 global temperature ranking"
+        }
+      },
+      "listing_ts_ms": "1785247538006",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/HOTTEST_YEAR_2026/HOTTEST_YEAR_2026.RANK1.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.885000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "170",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "121.606000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "3",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1786636620000"
+        }
+      },
+      "mark_price": "0.880000",
+      "best_bid": "0.870000",
+      "best_ask": "0.890000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "HYPERLIQUID_AIRDROP_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Hyperliquid airdrop by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31, 2026",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-hyperliquid-perform-an-airdrop-by-december-31-2026",
+          "condition_id": "0xfa88bedd0403281fac1b3c8b310755040aabed8ba12ded1b2e3205a3d05a4a28",
+          "market_outcome_token_id": "101513571766435454355723114188696307527864518980689079866102837918467349506537",
+          "reverse_outcome_token_id": "85487630954297906857427842745787851948079273488527800245673979479655643658539"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Finance",
+          "Crypto"
+        ],
+        "topic": {
+          "id": "hyperliquid",
+          "description": "Hyperliquid"
+        }
+      },
+      "listing_ts_ms": "1787279680878",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/HYPERLIQUID_AIRDROP_BY/HYPERLIQUID_AIRDROP_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.085000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "4139",
+          "taker_sell_volume": "306",
+          "taker_buy_volume_notional": "690.747000",
+          "taker_sell_volume_notional": "71.258000",
+          "taker_buy_trade_count": "25",
+          "taker_sell_trade_count": "6",
+          "window_end_ts_ms_exclusive": "1792143960000"
+        }
+      },
+      "mark_price": "0.085000",
+      "best_bid": "0.080000",
+      "best_ask": "0.090000",
+      "open_interest": "4137",
+      "long_interest": "4137",
+      "short_interest": "4137"
+    },
+    {
+      "symbol": "INFANTINO_OUT_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Gianni Infantino out as FIFA president by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "gianni-infantino-out-as-fifa-president-by-december-31-20260706195547871",
+          "condition_id": "0x48d47eede033257e77d676631e6f805d5e1848c0567589030a3a76a862fa1e47",
+          "market_outcome_token_id": "4301913150008555036242742378121421425636969753583463858852315615150555927156",
+          "reverse_outcome_token_id": "7219288355080279781244318078654828822747329147903096891496889491264445925442"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Soccer"
+        ],
+        "topic": {
+          "id": "fifa",
+          "description": "FIFA"
+        }
+      },
+      "listing_ts_ms": "1785770459103",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/INFANTINO_OUT_BY/INFANTINO_OUT_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.045500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.043500",
+      "best_bid": "0.039000",
+      "best_ask": "0.048000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "ISRAEL_PM_2026.NETANYAHU",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Next prime minister of Israel",
+        "expected_resolution_time_ms": "1798675200000",
+        "market_description": "Benjamin Netanyahu",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-benjamin-netanyahu-be-the-next-prime-minister-of-israel",
+          "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+          "market_outcome_token_id": "20006732765674855733524007935991362439352594042415161039767275461950712817548",
+          "reverse_outcome_token_id": "54533569528927082430133047556849600511985191158927477533124630301934489498530"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Elections"
+        ],
+        "topic": {
+          "id": "2026-israel-election",
+          "description": "2026 Israel Election"
+        }
+      },
+      "listing_ts_ms": "1789068146968",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/ISRAEL_PM_2026/ISRAEL_PM_2026.NETANYAHU.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.284500",
+          "taker_buy_volume": "9955",
+          "taker_sell_volume": "12183",
+          "taker_buy_volume_notional": "3086.158000",
+          "taker_sell_volume_notional": "3780.276000",
+          "taker_buy_trade_count": "21",
+          "taker_sell_trade_count": "11",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "10700",
+          "taker_sell_volume": "19691",
+          "taker_buy_volume_notional": "3304.188000",
+          "taker_sell_volume_notional": "5967.814000",
+          "taker_buy_trade_count": "30",
+          "taker_sell_trade_count": "23",
+          "window_end_ts_ms_exclusive": "1793144700000"
+        }
+      },
+      "mark_price": "0.435500",
+      "best_bid": "0.430000",
+      "best_ask": "0.441000",
+      "open_interest": "6325",
+      "long_interest": "6325",
+      "short_interest": "6325"
+    },
+    {
+      "symbol": "KALSHI_IPO_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Kalshi IPO by date",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "By December 31, 2026",
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Finance",
+          "Pre-IPO",
+          "Meta",
+          "Prediction Markets"
+        ],
+        "topic": {
+          "id": "kalshi-ipo",
+          "description": "Kalshi IPO"
+        }
+      },
+      "listing_ts_ms": "1790099497665",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/KALSHI_IPO_BY/KALSHI_IPO_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.033000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.033000",
+      "best_ask": "0.066000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "LALIGA_26OCT30_VILESP_ML.DRAW",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#C67C1E",
+            "dark": "#EA8B52"
+          }
+        },
+        "event_description": "Villarreal CF vs RCD Espanyol de Barcelona, Moneyline - Reg Time",
+        "expected_event_start_time_ms": "1793390400000",
+        "expected_resolution_time_ms": "1793397600000",
+        "game_page": {
+          "game_id": "lal-vil-esp-2026-10-30",
+          "game_description": "Villarreal CF vs RCD Espanyol de Barcelona",
+          "section_id": "money-line-reg-time",
+          "section_description": "Moneyline - Reg Time",
+          "section_display_order": 100,
+          "row_display_order": 200
+        },
+        "market_description": "Draw",
+        "market_type": {
+          "kind": "sports",
+          "sport": "soccer",
+          "period": "reg_time",
+          "teams": {
+            "home_name": "Villarreal CF",
+            "home_subject_id": "villarreal",
+            "away_name": "RCD Espanyol de Barcelona",
+            "away_subject_id": "espanyol"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "draw"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "lal-vil-esp-2026-10-30-draw",
+          "condition_id": "0xd150772db93c23ac6b3a4c84982ef6659e2dbf1e203fe59a48bc683a1f26e101",
+          "market_outcome_token_id": "20586873147420939285329315343503510763533575464903494604758648300305419177117",
+          "reverse_outcome_token_id": "19507068775201778051189079383533232871893219466231543689776064672789025846313"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Soccer",
+          "LaLiga"
+        ],
+        "topic": {
+          "id": "2026-27-laliga",
+          "description": "2026-27 LaLiga"
+        }
+      },
+      "listing_ts_ms": "1793100640937",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LALIGA_26OCT30_VILESP_ML/LALIGA_26OCT30_VILESP_ML.DRAW.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.195000",
+      "best_bid": "0.186000",
+      "best_ask": "0.204000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "LARGESTCO_26DEC31.NVDA",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Largest company by market cap - Dec 31, 2026",
+        "expected_resolution_time_ms": "1798750800000",
+        "market_description": "NVIDIA",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244",
+          "condition_id": "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696",
+          "market_outcome_token_id": "11876606915924142133615854761923277060697657209957870741155164849437788272266",
+          "reverse_outcome_token_id": "114033095271617070714983865791504478906266507670567428753203001241312040895286"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Finance",
+          "Companies"
+        ],
+        "topic": {
+          "id": "largest-company-end-of-december-2026",
+          "description": "Largest Company (end of December 2026)"
+        }
+      },
+      "listing_ts_ms": "1785258029431",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LARGESTCO_26DEC31/LARGESTCO_26DEC31.NVDA.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.635000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "466",
+          "taker_sell_volume": "243",
+          "taker_buy_volume_notional": "360.751000",
+          "taker_sell_volume_notional": "174.722000",
+          "taker_buy_trade_count": "9",
+          "taker_sell_trade_count": "10",
+          "window_end_ts_ms_exclusive": "1792654260000"
+        }
+      },
+      "mark_price": "0.645000",
+      "best_bid": "0.641000",
+      "best_ask": "0.649000",
+      "open_interest": "232",
+      "long_interest": "232",
+      "short_interest": "232"
+    },
+    {
+      "symbol": "LOL_26OCT28_IGLYON_M1ML.IG",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+          },
+          "reverse": {
+            "light": "#B6946B",
+            "dark": "#AE0201"
+          }
+        },
+        "event_description": "Invictus Gaming vs LYON, Map 1 Winner",
+        "expected_event_start_time_ms": "1793228400000",
+        "expected_resolution_time_ms": "1793250000000",
+        "game_page": {
+          "game_id": "lol-ig-lyon-2026-10-28",
+          "game_description": "Invictus Gaming vs LYON",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "Invictus Gaming",
+        "market_type": {
+          "kind": "sports",
+          "sport": "league_of_legends",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Invictus Gaming",
+            "home_short_name": "IG",
+            "home_subject_id": "invictus-gaming",
+            "away_name": "LYON",
+            "away_short_name": "LYON",
+            "away_subject_id": "lyon"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Invictus",
+            "abbreviated": "IG"
+          },
+          "short": {
+            "extended": "Lyon",
+            "abbreviated": "LYON"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "lol-ig1-ly-2026-10-28-game1",
+          "condition_id": "0x994e7f67ce416aa4193c6ef234347dc028f8dc089587ec9fc3f4bc2c9a7046e3",
+          "market_outcome_token_id": "90119793976314934075320160567807322984440109399674226637109330847897846298987",
+          "reverse_outcome_token_id": "32203911284770340215087876216163674798439521700724212996492453120282787329968"
+        },
+        "reverse_description": "LYON",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "League of Legends"
+        ],
+        "topic": {
+          "id": "2026-lol-world-championship",
+          "description": "2026 World Championship"
+        }
+      },
+      "listing_ts_ms": "1793102611893",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LOL_26OCT28_IGLYON_M1ML/LOL_26OCT28_IGLYON_M1ML.IG.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.585000",
+      "best_bid": "0.575000",
+      "best_ask": "0.595000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "MID_2026_BAL_PWR.DS_DH",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "2026 midterms balance of power",
+        "expected_resolution_time_ms": "1793768400000",
+        "market_description": "Dem Senate, Dem House",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "2026-balance-of-power-d-senate-d-house-949",
+          "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+          "market_outcome_token_id": "34722410608062854697106861099776685947172185964394483545370684749662285977831",
+          "reverse_outcome_token_id": "24483563228660028121020430722896740519524131851526579619586176931221901842798"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Midterms",
+          "Balance of Power"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/MID_2026_BAL_PWR/MID_2026_BAL_PWR.DS_DH.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.655000",
+          "taker_buy_volume": "60",
+          "taker_sell_volume": "500",
+          "taker_buy_volume_notional": "39.600000",
+          "taker_sell_volume_notional": "325.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "95387",
+          "taker_sell_volume": "72220",
+          "taker_buy_volume_notional": "60621.080000",
+          "taker_sell_volume_notional": "45323.960000",
+          "taker_buy_trade_count": "635",
+          "taker_sell_trade_count": "591",
+          "window_end_ts_ms_exclusive": "1793128560000"
+        }
+      },
+      "mark_price": "0.655000",
+      "best_bid": "0.650000",
+      "best_ask": "0.660000",
+      "open_interest": "26045",
+      "long_interest": "26045",
+      "short_interest": "26045"
+    },
+    {
+      "symbol": "MLB_2026_WS.TB",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "2026 MLB World Series champion",
+        "expected_resolution_time_ms": "1793851200000",
+        "market_description": "Tampa Bay Rays",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-tampa-bay-rays-win-the-2026-world-series",
+          "condition_id": "0x4d9567b9fa71a94b6e43ddb62ea6104cbb01926813938d241cce336bd72a8ba5",
+          "market_outcome_token_id": "47619537154464827225570738666275423513741144464229940374555699932743034295206",
+          "reverse_outcome_token_id": "12972183694776856517378634879501709915001116611116827712475548366106177177382"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "MLB"
+        ],
+        "topic": {
+          "id": "2026-mlb-world-series",
+          "description": "2026 MLB World Series"
+        }
+      },
+      "listing_ts_ms": "1783969750961",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/MLB_2026_WS/MLB_2026_WS.TB.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.161000",
+          "taker_buy_volume": "50",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "2.150000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "219",
+          "taker_sell_volume": "5090",
+          "taker_buy_volume_notional": "53.548000",
+          "taker_sell_volume_notional": "1794.860000",
+          "taker_buy_trade_count": "4",
+          "taker_sell_trade_count": "5",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.040500",
+      "best_bid": "0.038000",
+      "best_ask": "0.043000",
+      "open_interest": "5079",
+      "long_interest": "5079",
+      "short_interest": "5079"
+    },
+    {
+      "symbol": "MLB_26OCT27_MILTB_ML.MIL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#C1930C",
+            "dark": "#FFC52F"
+          },
+          "reverse": {
+            "light": "#092C5C",
+            "dark": "#325589"
+          }
+        },
+        "event_description": "Brewers vs Rays, Oct 27, Moneyline",
+        "expected_event_start_time_ms": "1793145600000",
+        "expected_resolution_time_ms": "1793160000000",
+        "game_page": {
+          "game_id": "mlb-mil-tb-2026-10-27",
+          "game_description": "Brewers vs Rays, Oct 27",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "Milwaukee Brewers",
+        "market_type": {
+          "kind": "sports",
+          "sport": "baseball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Tampa Bay Rays",
+            "home_short_name": "Rays",
+            "home_subject_id": "tampa-bay-rays",
+            "away_name": "Milwaukee Brewers",
+            "away_short_name": "Brewers",
+            "away_subject_id": "milwaukee-brewers"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Brewers",
+            "abbreviated": "MIL"
+          },
+          "short": {
+            "extended": "Rays",
+            "abbreviated": "TB"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "mlb-mil-tb-2026-10-27",
+          "condition_id": "0x715873c0b0c636cc4c5015571ce52b44eeb6a0fb5332280770d87fb4849825bf",
+          "market_outcome_token_id": "7577535600076294260991020415184328474123945516249499417902681873767213894820",
+          "reverse_outcome_token_id": "108204019193137492910261151404957478615905365075462697430572743848427289145385"
+        },
+        "reverse_description": "Tampa Bay Rays",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Baseball",
+          "MLB"
+        ],
+        "topic": {
+          "id": "mlb",
+          "description": "MLB"
+        }
+      },
+      "listing_ts_ms": "1792926950258",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/MLB_26OCT27_MILTB_ML/MLB_26OCT27_MILTB_ML.MIL.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.492500",
+          "taker_buy_volume": "8",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "4.560000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "8",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "4.560000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793092800000"
+        }
+      },
+      "mark_price": "0.525000",
+      "best_bid": "0.520000",
+      "best_ask": "0.530000",
+      "open_interest": "8",
+      "long_interest": "8",
+      "short_interest": "8"
+    },
+    {
+      "symbol": "NATO_RUS_CLASH_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "NATO-Russia military clash by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nato-x-russia-military-clash-by-december-31-2026-244-538-582",
+          "condition_id": "0xf2bf04609e7458df56c9bb4b1e051286dea11da1c944bbc1dafbcc6b76904e52",
+          "market_outcome_token_id": "105031123790227090351610621121319179238510007553875150023320472711583933704999",
+          "reverse_outcome_token_id": "76326875711147697076353707331532227929486722415800396469798548611383212234361"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "nato-russia-relations",
+          "description": "NATO-Russia Relations"
+        }
+      },
+      "listing_ts_ms": "1789497523885",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NATO_RUS_CLASH_BY/NATO_RUS_CLASH_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.161000",
+          "taker_buy_volume": "563",
+          "taker_sell_volume": "129",
+          "taker_buy_volume_notional": "84.691000",
+          "taker_sell_volume_notional": "21.072000",
+          "taker_buy_trade_count": "8",
+          "taker_sell_trade_count": "3",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "14744",
+          "taker_sell_volume": "12634",
+          "taker_buy_volume_notional": "4162.309000",
+          "taker_sell_volume_notional": "3021.538000",
+          "taker_buy_trade_count": "123",
+          "taker_sell_trade_count": "139",
+          "window_end_ts_ms_exclusive": "1793140020000"
+        }
+      },
+      "mark_price": "0.158500",
+      "best_bid": "0.158000",
+      "best_ask": "0.159000",
+      "open_interest": "505",
+      "long_interest": "505",
+      "short_interest": "505"
+    },
+    {
+      "symbol": "NBA_2027_CHAMPION.MIA",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "2027 NBA champion",
+        "expected_resolution_time_ms": "1813492800000",
+        "market_description": "Miami Heat",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-miami-heat-win-the-2027-nba-finals",
+          "condition_id": "0x6bbbb7121686fcec37d4023c81314b13d9c6a0e2bfd056d51d304b7060232c86",
+          "market_outcome_token_id": "1002605241037566897075427941760276379638292422424020000466947342214004056028",
+          "reverse_outcome_token_id": "41653746158746564954770306466358114002344254365171969258568529914841985091966"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Basketball"
+        ],
+        "topic": {
+          "id": "nba-2027-champion",
+          "description": "NBA 2027 Champion"
+        }
+      },
+      "listing_ts_ms": "1785109808672",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_2027_CHAMPION/NBA_2027_CHAMPION.MIA.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.024000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "3352",
+          "taker_sell_volume": "6569",
+          "taker_buy_volume_notional": "134.080000",
+          "taker_sell_volume_notional": "262.760000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1792099140000"
+        }
+      },
+      "mark_price": "0.017500",
+      "best_bid": "0.015000",
+      "best_ask": "0.020000",
+      "open_interest": "9921",
+      "long_interest": "9921",
+      "short_interest": "9921"
+    },
+    {
+      "symbol": "NBA_26OCT27_BKNBOS_TT.219",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nets vs Celtics, Oct 27, Totals",
+        "expected_event_start_time_ms": "1793143800000",
+        "expected_resolution_time_ms": "1793158200000",
+        "game_page": {
+          "game_id": "nba-bkn-bos-2026-10-27",
+          "game_description": "Nets vs Celtics, Oct 27",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "219.5"
+        },
+        "market_description": "Total Over 219.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Boston Celtics",
+            "home_short_name": "Celtics",
+            "home_subject_id": "boston-celtics",
+            "away_name": "Brooklyn Nets",
+            "away_short_name": "Nets",
+            "away_subject_id": "brooklyn-nets"
+          },
+          "market": {
+            "type": "total_points",
+            "line": "219.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-bkn-bos-2026-10-27-total-219pt5",
+          "condition_id": "0x021f904f4ff50e7b06b96277474941b1d9e953847f0298c9d2de9f0462e26b9e",
+          "market_outcome_token_id": "80202837624158787779963743922628987686640387943891656264434027362266060429208",
+          "reverse_outcome_token_id": "25933222697563595445793160833177414631944137553110192856362356918404247603726"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1793104084930",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT27_BKNBOS_TT/NBA_26OCT27_BKNBOS_TT.219.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "73",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "37.813000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "73",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "37.813000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793144880000"
+        }
+      },
+      "mark_price": "0.535000",
+      "best_bid": "0.521000",
+      "best_ask": "0.549000",
+      "open_interest": "73",
+      "long_interest": "73",
+      "short_interest": "73"
+    },
+    {
+      "symbol": "NETANYAHU_OUT_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Netanyahu out as Israeli prime minister by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "netanyahu-out-before-2027-684-719-226-657",
+          "condition_id": "0xd1796c09d0d6f876f8580086ae9808ec991784e3a74b25a1830a25de71a78c96",
+          "market_outcome_token_id": "114694726451307654528948558967898493662917070661203465131156925998487819889437",
+          "reverse_outcome_token_id": "66255671088804707681511323064315150986307471908131081808279119719218775249892"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "israel-leadership",
+          "description": "Israel Leadership"
+        }
+      },
+      "listing_ts_ms": "1789068150696",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NETANYAHU_OUT_BY/NETANYAHU_OUT_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.400500",
+          "taker_buy_volume": "202",
+          "taker_sell_volume": "307",
+          "taker_buy_volume_notional": "74.902000",
+          "taker_sell_volume_notional": "109.845000",
+          "taker_buy_trade_count": "14",
+          "taker_sell_trade_count": "21",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "227",
+          "taker_sell_volume": "345",
+          "taker_buy_volume_notional": "85.002000",
+          "taker_sell_volume_notional": "124.507000",
+          "taker_buy_trade_count": "15",
+          "taker_sell_trade_count": "23",
+          "window_end_ts_ms_exclusive": "1793145060000"
+        }
+      },
+      "mark_price": "0.281500",
+      "best_bid": "0.279000",
+      "best_ask": "0.284000",
+      "open_interest": "118",
+      "long_interest": "118",
+      "short_interest": "118"
+    },
+    {
+      "symbol": "NFL_2027_CHAMP.CHI",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "2027 NFL champion",
+        "expected_resolution_time_ms": "1802664000000",
+        "market_description": "Chicago Bears",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-chicago-bears-win-the-2027-nfl-league-championship",
+          "condition_id": "0x87f0b061076a7309abeb719136246303ce17fe40b4e9c65aca4149bbdbdd3236",
+          "market_outcome_token_id": "20782101138359830353373339924745258800328483049130539494636298430311546419943",
+          "reverse_outcome_token_id": "58391467081855327160506735992195157760163010112382131578233801495091502400832"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Football",
+          "NFL"
+        ],
+        "topic": {
+          "id": "2026-nfl-season",
+          "description": "2026 NFL Season"
+        }
+      },
+      "listing_ts_ms": "1786127182758",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NFL_2027_CHAMP/NFL_2027_CHAMP.CHI.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.060000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "2286",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "119.960000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "5",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1790467800000"
+        }
+      },
+      "mark_price": "0.060000",
+      "best_bid": "0.058000",
+      "best_ask": "0.062000",
+      "open_interest": "2286",
+      "long_interest": "2286",
+      "short_interest": "2286"
+    },
+    {
+      "symbol": "NFL_26NOV01_BALBUF_ML.BAL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#9E7C0C"
+          },
+          "reverse": {
+            "light": "#00338D",
+            "dark": "#1E50AC"
+          }
+        },
+        "event_description": "Ravens vs Bills, Nov 1, Moneyline",
+        "expected_event_start_time_ms": "1793556000000",
+        "expected_resolution_time_ms": "1793570400000",
+        "game_page": {
+          "game_id": "nfl-bal-buf-2026-11-01",
+          "game_description": "Ravens vs Bills, Nov 1",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "Baltimore Ravens",
+        "market_type": {
+          "kind": "sports",
+          "sport": "football",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Buffalo Bills",
+            "home_short_name": "Bills",
+            "home_subject_id": "buffalo-bills",
+            "away_name": "Baltimore Ravens",
+            "away_short_name": "Ravens",
+            "away_subject_id": "baltimore-ravens"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Ravens",
+            "abbreviated": "BAL"
+          },
+          "short": {
+            "extended": "Bills",
+            "abbreviated": "BUF"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nfl-bal-buf-2026-11-01",
+          "condition_id": "0x6e988ea96e8f18fb71f7635bbedb07cda76063ad6c496eaa5bd468a59013cc0e",
+          "market_outcome_token_id": "20148701274307262079511920329845847090507417100785010730185222912814646865955",
+          "reverse_outcome_token_id": "43210198229947266739275509672182918749849138005596578323550661242708614701747"
+        },
+        "reverse_description": "Buffalo Bills",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Football",
+          "NFL"
+        ],
+        "topic": {
+          "id": "nfl",
+          "description": "NFL"
+        }
+      },
+      "listing_ts_ms": "1792932024052",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NFL_26NOV01_BALBUF_ML/NFL_26NOV01_BALBUF_ML.BAL.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.375000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "161",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "62.790000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "161",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "62.790000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793134860000"
+        }
+      },
+      "mark_price": "0.375000",
+      "best_bid": "0.370000",
+      "best_ask": "0.380000",
+      "open_interest": "161",
+      "long_interest": "161",
+      "short_interest": "161"
+    },
+    {
+      "symbol": "NHL_26OCT27_MINUTA_SP.UTA_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Wild vs Utah, Oct 27, Spreads",
+        "expected_event_start_time_ms": "1793149200000",
+        "expected_resolution_time_ms": "1793163600000",
+        "game_page": {
+          "game_id": "nhl-min-uta-2026-10-27",
+          "game_description": "Wild vs Utah, Oct 27",
+          "section_id": "spreads-full-game",
+          "section_description": "Spreads",
+          "section_display_order": 200,
+          "subject_id": "utah-mammoth",
+          "subject_description": "Utah Mammoth",
+          "value": "-1.5"
+        },
+        "market_description": "Utah Mammoth -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "hockey",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Utah Mammoth",
+            "home_short_name": "Utah",
+            "home_subject_id": "utah-mammoth",
+            "away_name": "Minnesota Wild",
+            "away_short_name": "Wild",
+            "away_subject_id": "minnesota-wild"
+          },
+          "market": {
+            "type": "spread",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nhl-min-utah-2026-10-27-spread-home-1pt5",
+          "condition_id": "0x7a4ce0528445938373c2b0f6d36ecde3b0a176c93db4c28d9b37134c36144bc5",
+          "market_outcome_token_id": "87474393307096970101995839113928550291431713503638034773020749026780532744718",
+          "reverse_outcome_token_id": "42571794475227366669531775063199955072958668522927607922830110805056126622309"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "NHL"
+        ],
+        "topic": {
+          "id": "nhl",
+          "description": "NHL"
+        }
+      },
+      "listing_ts_ms": "1793103698240",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NHL_26OCT27_MINUTA_SP/NHL_26OCT27_MINUTA_SP.UTA_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "62",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "18.662000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "62",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "18.662000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793129940000"
+        }
+      },
+      "mark_price": "0.305000",
+      "best_bid": "0.300000",
+      "best_ask": "0.310000",
+      "open_interest": "62",
+      "long_interest": "62",
+      "short_interest": "62"
+    },
+    {
+      "symbol": "NHL_26OCT27_NJDDAL_ML.NJD",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#CE1126",
+            "dark": "#CE1126"
+          },
+          "reverse": {
+            "light": "#006847",
+            "dark": "#006847"
+          }
+        },
+        "event_description": "Devils vs Stars, Oct 27, Moneyline",
+        "expected_event_start_time_ms": "1793145600000",
+        "expected_resolution_time_ms": "1793160000000",
+        "game_page": {
+          "game_id": "nhl-njd-dal-2026-10-27",
+          "game_description": "Devils vs Stars, Oct 27",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "New Jersey Devils",
+        "market_type": {
+          "kind": "sports",
+          "sport": "hockey",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Dallas Stars",
+            "home_short_name": "Stars",
+            "home_subject_id": "dallas-stars",
+            "away_name": "New Jersey Devils",
+            "away_short_name": "Devils",
+            "away_subject_id": "new-jersey-devils"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Devils",
+            "abbreviated": "NJD"
+          },
+          "short": {
+            "extended": "Stars",
+            "abbreviated": "DAL"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nhl-nj-dal-2026-10-27",
+          "condition_id": "0xf04fc6139ec6fb9b53430736567783f1da2cff5c9198caa811b7a691df9b3482",
+          "market_outcome_token_id": "25579021993738209500329617726449538994822056004479008849057398679206836498669",
+          "reverse_outcome_token_id": "46801792542790376855098533945897389062294155156427294599015594913371043322323"
+        },
+        "reverse_description": "Dallas Stars",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "NHL"
+        ],
+        "topic": {
+          "id": "nhl",
+          "description": "NHL"
+        }
+      },
+      "listing_ts_ms": "1792931114805",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NHL_26OCT27_NJDDAL_ML/NHL_26OCT27_NJDDAL_ML.NJD.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.455000",
+          "taker_buy_volume": "56",
+          "taker_sell_volume": "9",
+          "taker_buy_volume_notional": "27.114000",
+          "taker_sell_volume_notional": "4.140000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "56",
+          "taker_sell_volume": "9",
+          "taker_buy_volume_notional": "27.114000",
+          "taker_sell_volume_notional": "4.140000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793120580000"
+        }
+      },
+      "mark_price": "0.465500",
+      "best_bid": "0.461000",
+      "best_ask": "0.470000",
+      "open_interest": "65",
+      "long_interest": "65",
+      "short_interest": "65"
+    },
+    {
+      "symbol": "OH_SEN_2026.DEM",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#025AC3",
+            "dark": "#4385E4"
+          }
+        },
+        "event_description": "Ohio Senate Winner",
+        "expected_resolution_time_ms": "1793768400000",
+        "game_page": {
+          "game_id": "2026-ohio-elections",
+          "game_description": "Ohio Elections",
+          "section_id": "us-senate",
+          "section_description": "U.S. Senate",
+          "section_display_order": 200,
+          "row_display_order": 20
+        },
+        "market_description": "Democrats",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-democrats-win-the-ohio-senate-race-in-2026",
+          "condition_id": "0x968a1a79e001d49fa3ee1429e3b95eb01797587740f86d4e6becf3ab1b275bfb",
+          "market_outcome_token_id": "83018072688154066292491996133599479395547801317505487833443670253228061205312",
+          "reverse_outcome_token_id": "79825167762459488478206414509755176562349257846652439268369145558426777722770"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Midterms",
+          "Senate"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "listing_ts_ms": "1785952007748",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/OH_SEN_2026/OH_SEN_2026.DEM.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.679500",
+          "taker_buy_volume": "2527",
+          "taker_sell_volume": "1290",
+          "taker_buy_volume_notional": "1746.503000",
+          "taker_sell_volume_notional": "896.781000",
+          "taker_buy_trade_count": "33",
+          "taker_sell_trade_count": "19",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "81533",
+          "taker_sell_volume": "60495",
+          "taker_buy_volume_notional": "50153.646000",
+          "taker_sell_volume_notional": "37747.019000",
+          "taker_buy_trade_count": "1761",
+          "taker_sell_trade_count": "1741",
+          "window_end_ts_ms_exclusive": "1793142060000"
+        }
+      },
+      "mark_price": "0.691500",
+      "best_bid": "0.691000",
+      "best_ask": "0.692000",
+      "open_interest": "18274",
+      "long_interest": "18274",
+      "short_interest": "18274"
+    },
+    {
+      "symbol": "POLYMARKET_TOKEN_BY.27DEC31",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "Polymarket launches official token by",
+        "expected_resolution_time_ms": "1830315599000",
+        "market_description": "Dec 31 2027",
+        "sort_order": "PRICE",
+        "tags": [
+          "Crypto",
+          "Meta",
+          "Prediction Markets"
+        ],
+        "topic": {
+          "id": "polymarket-token",
+          "description": "Polymarket Token"
+        }
+      },
+      "listing_ts_ms": "1786976698165",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLYMARKET_TOKEN_BY/POLYMARKET_TOKEN_BY.27DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.315000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "7209",
+          "taker_sell_volume": "5451",
+          "taker_buy_volume_notional": "3313.670000",
+          "taker_sell_volume_notional": "2449.960000",
+          "taker_buy_trade_count": "308",
+          "taker_sell_trade_count": "257",
+          "window_end_ts_ms_exclusive": "1792932420000"
+        }
+      },
+      "mark_price": "0.290000",
+      "best_bid": "0.280000",
+      "best_ask": "0.300000",
+      "open_interest": "4584",
+      "long_interest": "4584",
+      "short_interest": "4584"
+    },
+    {
+      "symbol": "POLY_NEW_CLOB_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket launches new CLOB by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31, 2026",
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Meta",
+          "Prediction Markets"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1790623584052",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_NEW_CLOB_BY/POLY_NEW_CLOB_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.572500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "384",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "230.520000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "17",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1791212820000"
+        }
+      },
+      "mark_price": "0.572500",
+      "best_bid": "0.516000",
+      "best_ask": "0.746000",
+      "open_interest": "384",
+      "long_interest": "384",
+      "short_interest": "384"
+    },
+    {
+      "symbol": "REP_HOUSE_SEATS_2026_RNG.180_230",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "event_description": "Republican House seats",
+        "expected_resolution_time_ms": "1793768400000",
+        "market_description": "[180 - 230]",
+        "range": {
+          "upper": "230",
+          "lower": "180",
+          "scale": "0",
+          "prefix": "",
+          "suffix": ""
+        },
+        "resolves_at_expected_time": true,
+        "scalar": {
+          "upper": "230",
+          "lower": "180",
+          "scale": "0",
+          "prefix": "",
+          "suffix": ""
+        },
+        "sort_order": "MARKET_DESCRIPTION_ASC",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Midterms",
+          "Seats",
+          "Scalar"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/REP_HOUSE_SEATS_2026_RNG/REP_HOUSE_SEATS_2026_RNG.180_230.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.350000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "2433",
+          "taker_sell_volume": "68182",
+          "taker_buy_volume_notional": "1083.390000",
+          "taker_sell_volume_notional": "23583.890000",
+          "taker_buy_trade_count": "43",
+          "taker_sell_trade_count": "8030",
+          "window_end_ts_ms_exclusive": "1790208060000"
+        }
+      },
+      "mark_price": "0.330000",
+      "best_bid": "0.320000",
+      "best_ask": "0.340000",
+      "open_interest": "1126",
+      "long_interest": "1126",
+      "short_interest": "1126"
+    },
+    {
+      "symbol": "RUS_UKR_TALKS_BY.26DEC31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Russia-Ukraine peace talks by",
+        "expected_resolution_time_ms": "1798779599000",
+        "market_description": "Dec 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "russia-ukraine-peace-talks-by-december-31-2026-20260609012542189-588",
+          "condition_id": "0x8e1e5c26dec73aee98230dc0ef93a294142587ca24190c4728d4b7ff831a22e0",
+          "market_outcome_token_id": "114038073393175685070375877302821250190661708223658125394758492913778794477403",
+          "reverse_outcome_token_id": "41750771425854629959289349826538829467990870639746643500760657557812686111800"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "russia-ukraine-war",
+          "description": "Russia-Ukraine War"
+        }
+      },
+      "listing_ts_ms": "1789071786827",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/RUS_UKR_TALKS_BY/RUS_UKR_TALKS_BY.26DEC31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.770000",
+          "taker_buy_volume": "85",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "68.974000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "4",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "3346",
+          "taker_sell_volume": "3240",
+          "taker_buy_volume_notional": "2384.372000",
+          "taker_sell_volume_notional": "2056.443000",
+          "taker_buy_trade_count": "97",
+          "taker_sell_trade_count": "83",
+          "window_end_ts_ms_exclusive": "1793130780000"
+        }
+      },
+      "mark_price": "0.854000",
+      "best_bid": "0.850000",
+      "best_ask": "0.858000",
+      "open_interest": "563",
+      "long_interest": "563",
+      "short_interest": "563"
+    },
+    {
+      "symbol": "TX_GOV_2026.REP",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BE1219",
+            "dark": "#EC544B"
+          }
+        },
+        "event_description": "Texas Governor Winner",
+        "expected_resolution_time_ms": "1793768400000",
+        "game_page": {
+          "game_id": "2026-texas-elections",
+          "game_description": "Texas Elections",
+          "section_id": "governor",
+          "section_description": "Governor",
+          "section_display_order": 100,
+          "row_display_order": 10
+        },
+        "market_description": "Republicans",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-republicans-win-the-texas-governor-race-in-2026",
+          "condition_id": "0xcd953913ecd5bf5387092bf447fe13190871b2bc9436c85b0918b4767c3fa58a",
+          "market_outcome_token_id": "54743173400191373818547682740700297683169841200363505623023527116388816282328",
+          "reverse_outcome_token_id": "1866695229821909795321299492017203124655045093500207568743162324352894510180"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "USA",
+          "Elections",
+          "Midterms",
+          "Governor"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "listing_ts_ms": "1786394923840",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/TX_GOV_2026/TX_GOV_2026.REP.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.671500",
+          "taker_buy_volume": "2804",
+          "taker_sell_volume": "1662",
+          "taker_buy_volume_notional": "1850.133000",
+          "taker_sell_volume_notional": "1131.686000",
+          "taker_buy_trade_count": "36",
+          "taker_sell_trade_count": "26",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "129261",
+          "taker_sell_volume": "130019",
+          "taker_buy_volume_notional": "98625.302000",
+          "taker_sell_volume_notional": "99958.584000",
+          "taker_buy_trade_count": "3141",
+          "taker_sell_trade_count": "3298",
+          "window_end_ts_ms_exclusive": "1793143140000"
+        }
+      },
+      "mark_price": "0.654500",
+      "best_bid": "0.654000",
+      "best_ask": "0.655000",
+      "open_interest": "16495",
+      "long_interest": "16495",
+      "short_interest": "16495"
+    },
+    {
+      "symbol": "TX_SEN_2026.DEM",
+      "taker_fee_rate": "0.010000",
+      "maker_rebate_share": "0.500000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 2,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#025AC3",
+            "dark": "#4385E4"
+          }
+        },
+        "event_description": "Texas Senate Winner",
+        "expected_resolution_time_ms": "1793768400000",
+        "game_page": {
+          "game_id": "2026-texas-elections",
+          "game_description": "Texas Elections",
+          "section_id": "us-senate",
+          "section_description": "U.S. Senate",
+          "section_display_order": 200,
+          "row_display_order": 20
+        },
+        "market_description": "Democrats",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+          "condition_id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
+          "market_outcome_token_id": "15290572385458522370285732869432740297199321382471116558439914335588167718663",
+          "reverse_outcome_token_id": "25172545206000541692667496253531562288536270988826888609620735617040533835056"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Elections",
+          "Midterms",
+          "Senate"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/TX_SEN_2026/TX_SEN_2026.DEM.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.645000",
+          "taker_buy_volume": "1700",
+          "taker_sell_volume": "2677",
+          "taker_buy_volume_notional": "1153.000000",
+          "taker_sell_volume_notional": "1820.360000",
+          "taker_buy_trade_count": "5",
+          "taker_sell_trade_count": "4",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "99719",
+          "taker_sell_volume": "47462",
+          "taker_buy_volume_notional": "63826.130000",
+          "taker_sell_volume_notional": "29381.820000",
+          "taker_buy_trade_count": "663",
+          "taker_sell_trade_count": "542",
+          "window_end_ts_ms_exclusive": "1793136180000"
+        }
+      },
+      "mark_price": "0.675000",
+      "best_bid": "0.670000",
+      "best_ask": "0.680000",
+      "open_interest": "60375",
+      "long_interest": "60375",
+      "short_interest": "60375"
+    },
+    {
+      "symbol": "UCL_2027_CHAMP.PSG",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "UEFA Champions League champion",
+        "expected_resolution_time_ms": "1811721540000",
+        "market_description": "Paris Saint-Germain",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-paris-saint-germain-win-the-2026-27-uefa-champions-league-championship-20260701202025550",
+          "condition_id": "0x282ce6c97ce923e33bbe05eaa72d64d1fa9179e72f7a6de7cc30840106d5fb39",
+          "market_outcome_token_id": "42217322941028479596443192387253851340512855886718995311794210900077539715203",
+          "reverse_outcome_token_id": "57882303494718476741889475007540298393296227831857718154029094594976493026235"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Soccer",
+          "UCL"
+        ],
+        "topic": {
+          "id": "uefa-champions-league-2027-champion",
+          "description": "UEFA Champions League Champion"
+        }
+      },
+      "listing_ts_ms": "1784234556476",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_2027_CHAMP/UCL_2027_CHAMP.PSG.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.175000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "4720",
+          "taker_sell_volume": "4661",
+          "taker_buy_volume_notional": "775.210000",
+          "taker_sell_volume_notional": "738.720000",
+          "taker_buy_trade_count": "5",
+          "taker_sell_trade_count": "4",
+          "window_end_ts_ms_exclusive": "1793014020000"
+        }
+      },
+      "mark_price": "0.175000",
+      "best_bid": "0.170000",
+      "best_ask": "0.180000",
+      "open_interest": "1000",
+      "long_interest": "1000",
+      "short_interest": "1000"
+    },
+    {
+      "symbol": "US_IRAN_CFR_THRU.26OCT31",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "U.S.–Iran ceasefire continues through",
+        "expected_resolution_time_ms": "1793478599000",
+        "market_description": "Oct 31",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "us-x-iran-ceasefire-continues-through-october-31-20260917",
+          "condition_id": "0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4",
+          "market_outcome_token_id": "67102598924726349989742049657609063097299442010642912942032681022413402597017",
+          "reverse_outcome_token_id": "114475889232765203212032217024645308497828327658421967586050553616813506019119"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "2026-iran-conflict",
+          "description": "2026 Iran Conflict"
+        }
+      },
+      "listing_ts_ms": "1789741266743",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/US_IRAN_CFR_THRU/US_IRAN_CFR_THRU.26OCT31.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.895500",
+          "taker_buy_volume": "146",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "134.156000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "11",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "158923",
+          "taker_sell_volume": "67692",
+          "taker_buy_volume_notional": "110830.577000",
+          "taker_sell_volume_notional": "46027.900000",
+          "taker_buy_trade_count": "364",
+          "taker_sell_trade_count": "320",
+          "window_end_ts_ms_exclusive": "1793115060000"
+        }
+      },
+      "mark_price": "0.944500",
+      "best_bid": "0.944000",
+      "best_ask": "0.945000",
+      "open_interest": "20029",
+      "long_interest": "20029",
+      "short_interest": "20029"
+    },
+    {
+      "symbol": "US_JOBS_26OCT_SCL.M25_100K",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "U.S. jobs added in October 2026",
+        "expected_resolution_time_ms": "1793971800000",
+        "market_description": "[-25k, 100k]",
+        "resolves_at_expected_time": true,
+        "scalar": {
+          "upper": "100",
+          "lower": "-25",
+          "scale": "0",
+          "prefix": "",
+          "suffix": "k"
+        },
+        "sort_order": "MARKET_DESCRIPTION_ASC",
+        "tags": [
+          "Finance",
+          "Macro",
+          "Scalar"
+        ],
+        "topic": {
+          "id": "2026-us-labor-market",
+          "description": "2026 U.S. Labor Market"
+        }
+      },
+      "listing_ts_ms": "1793135421650",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/US_JOBS_26OCT_SCL/US_JOBS_26OCT_SCL.M25_100K.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        }
+      },
+      "mark_price": "0.659500",
+      "best_bid": "0.631000",
+      "best_ask": "0.688000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0"
+    },
+    {
+      "symbol": "VENEZUELA_LEADER_2026.MADURO",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Venezuela leader at end of 2026",
+        "expected_resolution_time_ms": "1798736400000",
+        "market_description": "Nicolás Maduro",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-nicols-maduro-be-the-leader-of-venezuela-end-of-2026",
+          "condition_id": "0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f",
+          "market_outcome_token_id": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+          "reverse_outcome_token_id": "21527446005162722668702146847806837944786417986794925592709069062391666573103"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "venezuela-politics",
+          "description": "Venezuelan Politics"
+        }
+      },
+      "listing_ts_ms": "1790007013109",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/VENEZUELA_LEADER_2026/VENEZUELA_LEADER_2026.MADURO.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.805000",
+          "taker_buy_volume": "22",
+          "taker_sell_volume": "42",
+          "taker_buy_volume_notional": "18.062000",
+          "taker_sell_volume_notional": "34.040000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "689",
+          "taker_sell_volume": "351",
+          "taker_buy_volume_notional": "533.161000",
+          "taker_sell_volume_notional": "269.012000",
+          "taker_buy_trade_count": "20",
+          "taker_sell_trade_count": "14",
+          "window_end_ts_ms_exclusive": "1793114640000"
+        }
+      },
+      "mark_price": "0.792500",
+      "best_bid": "0.790000",
+      "best_ask": "0.795000",
+      "open_interest": "96",
+      "long_interest": "96",
+      "short_interest": "96"
+    },
+    {
+      "symbol": "WTI_PRICE_26OCT.REACH_110",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "WTI crude oil price hit in Oct 2026",
+        "expected_resolution_time_ms": "1793491200000",
+        "market_description": "$110 or above",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-wti-reach-110-in-october-2026",
+          "condition_id": "0x28c4c18e1933cc4af657f84bd048e88ab6b157ecbe588b7fc05486a56e0aae4e",
+          "market_outcome_token_id": "48826694677500007830254034120105004977134115589121199841803945556544556178546",
+          "reverse_outcome_token_id": "54762094343809130455355675308205256535303318895258447603471204422777976116299"
+        },
+        "sort_order": "SYMBOL_DESC",
+        "tags": [
+          "Finance",
+          "Commodities"
+        ],
+        "topic": {
+          "id": "wti-crude-oil",
+          "description": "WTI Crude Oil"
+        }
+      },
+      "listing_ts_ms": "1790876539881",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/WTI_PRICE_26OCT/WTI_PRICE_26OCT.REACH_110.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.120000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793145180000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "951",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "124.581000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "18",
+          "window_end_ts_ms_exclusive": "1793046720000"
+        }
+      },
+      "mark_price": "0.031000",
+      "best_bid": "0.016000",
+      "best_ask": "0.046000",
+      "open_interest": "951",
+      "long_interest": "951",
+      "short_interest": "951"
+    }
+  ],
+  "seq": "12110239487",
+  "state_time_ms": "1793145250512",
+  "server_time_ms": "1793145250541"
+}

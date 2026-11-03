@@ -1,0 +1,37 @@
+# Anchor 1.2.2 workspace (anchor-lang; the installed CLI is 1.2.1) for the Schedina on-chain program.
+# No [toolchain] solana_version / anchor_version on purpose: setting them makes
+# the Anchor CLI switch the machine-wide Solana / avm install. Build with the
+# installed Agave CLI (cargo-build-sbf, platform-tools v1.57, rustc 1.95.0-dev).
+
+# The program crate sits at schedina/, not the default programs/*.
+[workspace]
+members = ["schedina", "mock-amm"]
+
+[features]
+resolution = true
+skip-lint = false
+
+# Program ID; keypair keys/schedina-program-keypair.json (gitignored, main checkout only).
+# `anchor build` compares declare_id! with target/deploy/schedina-keypair.json and, if that
+# file is missing, generates a random one and fails with "Program ID mismatch". Main
+# checkout: `cp ../keys/schedina-program-keypair.json target/deploy/schedina-keypair.json`.
+# Clean clones and CI (no keys/): `anchor build --ignore-keys`. Never `anchor keys sync`.
+[programs.localnet]
+schedina = "HXdZFi7tR669G1hXogh3uGGqLYsoZPCSuiutAviLNToW"
+# Step 4.D mock AMM; keypair keys/mock-amm-program-keypair.json (gitignored, like D-014).
+mock_amm = "5WhsDY2XjzJoWDbe1AgJnnNgJccQwte9TgsvG4yRtHbf"
+
+# Same program ID on devnet. Deploy with scripts/deploy.sh (the `--features devnet` .so).
+[programs.devnet]
+schedina = "HXdZFi7tR669G1hXogh3uGGqLYsoZPCSuiutAviLNToW"
+
+[provider]
+cluster = "localnet"
+# Upgrade authority (deploy fee payer), kept outside the repo. Any `anchor deploy` /
+# `anchor test --validator` uses it; scripts/deploy.sh passes it explicitly instead.
+wallet = "~/.config/schedina/upgrade-authority.json"
+
+[scripts]
+# LiteSVM tests load target/deploy/schedina.so: build it first (the harness also
+# refuses a .so older than any program source file).
+test = "anchor build --ignore-keys && cargo test --workspace --locked"

@@ -1,0 +1,17 @@
+# Anchor program workspace, separate from the root crates/ workspace: it pins Rust 1.97.1
+# (rust-toolchain.toml) while crates/ and app/ run current stable.
+[workspace]
+members = ["schedina", "mock-amm"]
+resolver = "3"
+
+[profile.release]
+# Size over speed (sibling D-016): smaller .so, less deploy rent, for a few k CU.
+opt-level = "s"
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+
+[profile.release.build-override]
+opt-level = 3
+incremental = false
+codegen-units = 1

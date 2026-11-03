@@ -1,0 +1,173 @@
+{
+  "_source": "Machine-readable copy of vectors.mjs (same values; tests/signing_vectors.rs checks every hex string and signature below against vectors.mjs where it appears there), plus: (1) the docs' Cancel Order and Mass Cancel full test vectors with their signatures and the second cancel signature from the Cancel Orders request example (docs.pascal.trade, 'Request Signing' and 'Cancel Orders', fetched 2026-10-28); (2) place-order vectors WITH a builder, generated on 2026-10-28 by the reference implementation pascal-sign.js with tweetnacl 1.0.3. No Pascal-published vector carries a builder (decisions D-003), so these check the Rust port against the JS reference byte for byte, not against Pascal. Only public test seeds appear: [7;32] owner, [8;32] trading key, [9;32] test builder.",
+  "keys": {
+    "owner_seed_hex": "0707070707070707070707070707070707070707070707070707070707070707",
+    "owner_pubkey": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+    "trading_seed_hex": "0808080808080808080808080808080808080808080808080808080808080808",
+    "trading_pubkey": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+    "builder_seed_hex": "0909090909090909090909090909090909090909090909090909090909090909",
+    "builder_pubkey": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+  },
+  "auth": {
+    "client_ts_ms": 1731536000000,
+    "recv_window_ms": 5000,
+    "deployment_id": 3
+  },
+  "docs_place_order": {
+    "source": "DOCS Request Signing > Place Order (test vector and request example)",
+    "message_hex": "01010300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca0a0000000000000070640800000000002a000000000000002b000000000000008082cd2793010000000000000000000000000000000000000000000000000000000000000000000053494d5f4556454e545f312e4d41524b45545f3100000000000000000000000000000000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3000000010700000000000000",
+    "signature": "46gXGMwTxEckctHD3tjVyedhGG95VK2F97F3idkSYFR3WNEX4rG9g6g8KDTQPoxzLieudk8WHDXw7xNV3R2WwKCd",
+    "request": {
+      "client_order_id": "42",
+      "replace_client_order_id": "43",
+      "symbol": "SIM_EVENT_1.MARKET_1",
+      "side": "BID",
+      "price": "0.550000",
+      "size": "10",
+      "tif": "GTT",
+      "post_only": true,
+      "reduce_only": true,
+      "allow_missing_replace": true,
+      "expires_ts_ms": "1731539600000",
+      "auth": {
+        "client_ts_ms": "1731536000000",
+        "recv_window_ms": "5000",
+        "owner": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+        "signer": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+        "signature": "46gXGMwTxEckctHD3tjVyedhGG95VK2F97F3idkSYFR3WNEX4rG9g6g8KDTQPoxzLieudk8WHDXw7xNV3R2WwKCd"
+      }
+    }
+  },
+  "quickstart_place_order": {
+    "source": "QUICKSTART tests/test_signing_vectors.py::test_place_order_signing_vector (metadata byte 2, no allow_missing_replace)",
+    "metadata": 2,
+    "message_hex": "01010300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca0a0000000000000070640800000000002a000000000000002b000000000000008082cd2793010000000000000000000000000000000000000000000000000000000000000000000053494d5f4556454e545f312e4d41524b45545f3100000000000000000000000000000000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3020000010300000000000000",
+    "signature": "3uG7HnnR2j3R26LoW3VNSJzKUfs16M9kXc58JbhkACwm2KmBXQuozLCQvREuAoxuHQjzADdBTV7NkgNrqRANgaZN"
+  },
+  "docs_cancel": {
+    "source": "DOCS Request Signing > Cancel Order test vector (client_order_id 42); Cancel Orders request example (second element, client_order_id 43)",
+    "cancels": [
+      {
+        "client_order_id": 42,
+        "message_hex": "01020300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca00000000000000002a00000000000000",
+        "signature": "591YziUjZzro24mamxgRrSDdYD71NpsDBmU4UGSyrBYbFiWzYaLjR9he1P5DP8djMKMJzHTsZzwRAagvLqgtiXnc"
+      },
+      {
+        "client_order_id": 43,
+        "signature": "3wFZKJWKA92W6iPszoKQccQmrVEfd6hU68HY6mqWYKEH8yFKQEFRJs1tKmrGDy1PMd3wWwcdcYSVoTgrW5KSnP3f"
+      }
+    ]
+  },
+  "quickstart_cancel": {
+    "source": "QUICKSTART tests/test_signing_vectors.py CANCEL_ORDER_MESSAGE_HEX (metadata byte 2 at offset 81; no signature published in vectors.mjs)",
+    "client_order_id": 42,
+    "metadata": 2,
+    "message_hex": "01020300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca00020000000000002a00000000000000"
+  },
+  "docs_mass_cancel": {
+    "source": "DOCS Request Signing > Mass Cancel test vector",
+    "symbol": "SIM_EVENT_1.MARKET_1",
+    "message_hex": "010a0300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca000000000000000053494d5f4556454e545f312e4d41524b45545f31000000000000000000000000",
+    "signature": "oLmkQxx9xLPK4QJnFhZUFEker5k5pbLregsYPgRrhrd9sEBYDuCtitUtFSVfhiJpTFHWAdmGk6zKDLpPtA3iegS"
+  },
+  "js_reference_place_orders": [
+    {
+      "name": "docs_order_with_builder_1pct",
+      "message_hex": "01010300881300000094962793010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca0a0000000000000070640800000000002a000000000000002b000000000000008082cd2793010000fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f61853494d5f4556454e545f312e4d41524b45545f3100000000000000000000000010270000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3000000010700000000000000",
+      "signature": "C38BqfzFWqeRaHed5x46LxhABBosNzdCVUT9XTNp4fi5tGXD9r12JQeHT1mKwhUJaJm6f8i3V8eqg2kULk8GxBS",
+      "request": {
+        "client_order_id": "42",
+        "replace_client_order_id": "43",
+        "symbol": "SIM_EVENT_1.MARKET_1",
+        "side": "BID",
+        "price": "0.550000",
+        "size": "10",
+        "tif": "GTT",
+        "post_only": true,
+        "reduce_only": true,
+        "allow_missing_replace": true,
+        "expires_ts_ms": "1731539600000",
+        "builder_info": {
+          "builder_pubkey": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf",
+          "builder_fee_rate": "0.010000"
+        },
+        "auth": {
+          "client_ts_ms": "1731536000000",
+          "recv_window_ms": "5000",
+          "owner": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "signer": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+          "signature": "C38BqfzFWqeRaHed5x46LxhABBosNzdCVUT9XTNp4fi5tGXD9r12JQeHT1mKwhUJaJm6f8i3V8eqg2kULk8GxBS"
+        }
+      }
+    },
+    {
+      "name": "ioc_bid_builder_0_1pct",
+      "message_hex": "01010300b80b0000bbe9d283a1010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca0e00000000000000f8e80a00000000000700000000000000ffffffffffffffff0000000000000000fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f6184e42415f32364f435432385f504849494e445f4d4c2e50484900000000000000e8030000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3000000020000000000000000",
+      "signature": "267asXzKMvTijvi62h1YEZUPmqzhjFaV7XAjpKQkCB58MAXVyi3hNgU5CwtEVTrcfp5D5gM5JxQSRN4RoUtE1cMd",
+      "request": {
+        "client_order_id": "7",
+        "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+        "side": "BID",
+        "price": "0.715000",
+        "size": "14",
+        "tif": "IOC",
+        "builder_info": {
+          "builder_pubkey": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf",
+          "builder_fee_rate": "0.001000"
+        },
+        "auth": {
+          "client_ts_ms": "1793213000123",
+          "recv_window_ms": "3000",
+          "owner": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "signer": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+          "signature": "267asXzKMvTijvi62h1YEZUPmqzhjFaV7XAjpKQkCB58MAXVyi3hNgU5CwtEVTrcfp5D5gM5JxQSRN4RoUtE1cMd"
+        }
+      }
+    },
+    {
+      "name": "ioc_ask_reduce_only_builder_0_1pct",
+      "message_hex": "010103008813000008ebd283a1010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca030000000000000068a7040000000000feffffffffffffffffffffffffffffff0000000000000000fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f6184e42415f32364f435432385f504849494e445f4d4c2e50484900000000000000e8030000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3000100020200000000000000",
+      "signature": "66orzeVgQfmeFjuD6PW8SLVJZK1hfc6haynNmtdjwW2JmnUD7bRA9LPXRh5ttJqwEsHRTR6paNEcyPSq8rmNBpFS",
+      "request": {
+        "client_order_id": "18446744073709551614",
+        "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+        "side": "ASK",
+        "price": "0.305000",
+        "size": "3",
+        "tif": "IOC",
+        "reduce_only": true,
+        "builder_info": {
+          "builder_pubkey": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf",
+          "builder_fee_rate": "0.001000"
+        },
+        "auth": {
+          "client_ts_ms": "1793213000456",
+          "recv_window_ms": "5000",
+          "owner": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "signer": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+          "signature": "66orzeVgQfmeFjuD6PW8SLVJZK1hfc6haynNmtdjwW2JmnUD7bRA9LPXRh5ttJqwEsHRTR6paNEcyPSq8rmNBpFS"
+        }
+      }
+    },
+    {
+      "name": "gtc_post_only_no_builder_deployment_0",
+      "message_hex": "0101000060ea000055ecd283a1010000ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c1398f62c6d1a457c51ba6a4b5f3dbd2f69fca93216218dc8997e416bd17d93ca010000000000000001000000000000000100000000000000ffffffffffffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000412e42000000000000000000000000000000000000000000000000000000000000000000dcaf53738f1d5f06164660498a75888e7f0c78ed5f1bc17be1dd1cb3ccf53ce3000100000100000000000000",
+      "signature": "vxm5Ni2CD6Q3bUcjDn4FPL8Mazk8pkaQZU2FrS7zGL4JyffxrZ9xE6gzTuPZ2HNDCkUjvH1hs8Vy4zgt79gv8di",
+      "request": {
+        "client_order_id": "1",
+        "symbol": "A.B",
+        "side": "ASK",
+        "price": "0.000001",
+        "size": "1",
+        "post_only": true,
+        "auth": {
+          "client_ts_ms": "1793213000789",
+          "recv_window_ms": "60000",
+          "owner": "GmaDrppBC7P5ARKV8g3djiwP89vz1jLK23V2GBjuAEGB",
+          "signer": "2KW2XRd9kwqet15Aha2oK3tYvd3nWbTFH1MBiRAv1BE1",
+          "signature": "vxm5Ni2CD6Q3bUcjDn4FPL8Mazk8pkaQZU2FrS7zGL4JyffxrZ9xE6gzTuPZ2HNDCkUjvH1hs8Vy4zgt79gv8di"
+        }
+      }
+    }
+  ]
+}

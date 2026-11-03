@@ -1,0 +1,19 @@
+# Schedina off-chain workspace (pascal-rs, pricing, pascal-mock, desk). Current stable Rust.
+# The Anchor program (programs/) and the Dioxus app (app/) are separate workspaces.
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+exclude = ["app", "programs"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+license = "MIT"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

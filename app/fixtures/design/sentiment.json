@@ -1,0 +1,134 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "as_of_ms": 1793301600000,
+  "min_holders": 3,
+  "games": [
+    {
+      "game_id": "el-fen-pao-2026-10-29",
+      "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+      "price": {
+        "away_u": 489796,
+        "home_u": 510204
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 41,
+          "stake_u": 9735075658
+        },
+        "home": {
+          "accounts": 63,
+          "stake_u": 15887353955
+        },
+        "excluded_makers": 3,
+        "trades_seen": 1874,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 21903920231,
+        "home_u": 35746546400
+      },
+      "schedina": {
+        "away_u": 120000000,
+        "home_u": 310000000,
+        "tickets": 18
+      },
+      "traded_all_time": {
+        "away_u": 87615680927,
+        "home_u": 142986185602,
+        "total_u": 230601866529
+      },
+      "traders": 1842,
+      "recent": [
+        {
+          "amount_u": 542848086,
+          "team": "home",
+          "ts_ms": 1793301540000,
+          "source": "schedina"
+        },
+        {
+          "amount_u": 271424043,
+          "team": "away",
+          "ts_ms": 1793301420000,
+          "source": "pascal"
+        }
+      ]
+    },
+    {
+      "game_id": "el-rma-oly-2026-10-29",
+      "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+      "price": {
+        "away_u": 358975,
+        "home_u": 641025
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 41,
+          "stake_u": 3848189758
+        },
+        "home": {
+          "accounts": 63,
+          "stake_u": 6538303602
+        },
+        "excluded_makers": 3,
+        "trades_seen": 1874,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 8658426956,
+        "home_u": 14711183105
+      },
+      "schedina": {
+        "away_u": 120000000,
+        "home_u": 310000000,
+        "tickets": 18
+      },
+      "traded_all_time": {
+        "away_u": 34633707827,
+        "home_u": 58844732420,
+        "total_u": 93478440247
+      },
+      "traders": 611,
+      "recent": []
+    },
+    {
+      "game_id": "nba-bos-nyk-2026-10-29",
+      "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+      "price": {
+        "away_u": 411765,
+        "home_u": 588235
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 41,
+          "stake_u": 16924796962
+        },
+        "home": {
+          "accounts": 63,
+          "stake_u": 11677265474
+        },
+        "excluded_makers": 3,
+        "trades_seen": 1874,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 38080793166,
+        "home_u": 26273847316
+      },
+      "schedina": {
+        "away_u": 120000000,
+        "home_u": 310000000,
+        "tickets": 18
+      },
+      "traded_all_time": {
+        "away_u": 152323172665,
+        "home_u": 105095389266,
+        "total_u": 257418561931
+      },
+      "traders": 2204,
+      "recent": []
+    }
+  ]
+}

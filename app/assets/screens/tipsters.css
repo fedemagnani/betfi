@@ -1,0 +1,173 @@
+/* ================================================================ tipsters (L9, user request 1 Nov)
+   The list (/tipsters: the tipsters, 30D ROI and win rate), a tipster's page (/tipsters/:wallet:
+   the header card and the open parlays), a parlay (/copy/:id: its games locked, "Copied by", the
+   docked Copy Schedina) and its copiers sheet. Kit tokens and k-* pieces from main.css; only
+   layout and the screens' own bits here. */
+
+.screen-tipsters, .screen-tipster, .screen-parlay { display: flex; flex-direction: column; min-width: 0; }
+.tp-status { margin: 0; padding: 4px; font: var(--type-body-md); color: var(--on-surface-variant); }
+.tp-status.error { color: var(--error); }
+
+/* ---------------------------------------------------------------- the list */
+
+.screen-tipsters { gap: 12px; padding-top: var(--space-md); }
+.tp-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); }
+.tp-head h1 { margin: 0; font: var(--type-headline-md); letter-spacing: var(--ls-headline-md); }
+.tp-mine { position: relative; }
+.tp-mine::after { content: ""; position: absolute; inset: -14px -8px; }
+
+.tp-board { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.tp-row-link {
+  display: flex; align-items: center; gap: 12px; min-width: 0; padding: 12px;
+  border-radius: var(--r-md); background: var(--surface-container-low); border: 1px solid var(--line);
+  color: var(--on-surface);
+}
+.tp-row-link:hover { color: var(--on-surface); background: var(--surface-container-high); }
+.tp-row-link > .k-sym { flex: none; color: var(--outline); }
+.tp-row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.tp-row-name { display: flex; align-items: center; gap: 4px; min-width: 0; }
+.tp-row-name .k-badge { flex: none; }
+.tp-row-handle { min-width: 0; font-size: var(--fs-lg); line-height: 20px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tp-row-stats { display: flex; gap: 4px; min-width: 0; }
+.tp-row-stat {
+  display: inline-flex; align-items: baseline; gap: 4px; padding: 4px 8px;
+  border-radius: var(--r-sm); background: var(--surface-container-lowest);
+}
+.tp-row-label { font: var(--type-label-caps); letter-spacing: var(--ls-label-caps); color: var(--outline); white-space: nowrap; }
+.tp-row-value { font: 700 var(--fs-lg)/var(--lh-lg) var(--font); font-variant-numeric: tabular-nums; color: var(--on-surface); white-space: nowrap; }
+.tp-row-value.k-up { color: var(--sol-green); }
+.tp-row-value.k-down { color: var(--error); }
+
+/* ---------------------------------------------------------------- the profile (mockup fold) */
+
+/* The mockup's page: the card 12 px under the ticker, 8 px between blocks. */
+.screen-tipster { gap: 8px; padding-top: 1px; }
+.tp-profile { border: 1px solid var(--line); }
+.tp-profile.roi-down #tp-roi .k-stat-value { color: var(--error); }
+.tp-profile .k-profile-handle { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* The follower count sits under Follow, so the name block stays as drawn. */
+.tp-follow-col { flex: none; position: relative; display: flex; flex-direction: column; align-items: center; }
+.tp-followers {
+  position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; text-align: center; white-space: nowrap;
+  font: 500 var(--fs-xs)/var(--lh-xs) var(--font); font-variant-numeric: tabular-nums; color: var(--outline);
+}
+.tp-follow-col:not(:has(.k-follow)) .tp-followers { position: static; margin: 0; }
+.tp-socials { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.tp-follow-note { margin: 0; padding-top: 4px; font: var(--type-body-sm); color: var(--error); }
+.screen-tipster .k-section-title.sm { margin: 4px 0 0; }
+.screen-tipster .k-section-title.sm h2 { font-weight: 700; }
+
+.tp-parlays { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.tp-parlay-item > .tp-title-setup, .tp-parlay-item > .tp-setup-msg { margin: 8px 4px 0; }
+.tp-parlay {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px 12px; min-width: 0; padding: 16px;
+  border-radius: var(--r-md); background: var(--surface-container-low); border: 1px solid var(--line);
+  color: var(--on-surface);
+}
+.tp-parlay:hover { color: var(--on-surface); background: var(--surface-container-high); }
+.tp-parlay-sub { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; min-width: 0; }
+.tp-parlay-title { font: 700 var(--fs-lg)/var(--lh-lg) var(--font); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tp-parlay-meta {
+  display: flex; align-items: center; gap: 4px; min-width: 0; white-space: nowrap; overflow: hidden;
+  font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface-variant);
+}
+.tp-parlay-meta .sep { color: var(--outline); }
+.tp-parlay-copies { color: var(--sol-green); font-weight: 600; }
+.tp-parlay-total {
+  flex: none; min-width: 56px; padding: 4px 8px; border-radius: var(--r-sm); text-align: center;
+  background: var(--surface-container-high); font: 700 var(--fs-lg)/var(--lh-lg) var(--font); font-variant-numeric: tabular-nums;
+}
+
+/* At most three team logos, overlapping like avatars. */
+.tp-logos { flex: none; display: flex; align-items: center; }
+.tp-logo {
+  width: 28px; height: 28px; margin-left: -4px; border-radius: 50%; overflow: hidden;
+  display: grid; place-items: center; background: var(--surface-container-highest);
+  box-shadow: 0 0 0 2px var(--surface-container-low);
+  font: 700 10px/1 var(--font); color: var(--on-surface-variant); /* design-lint: allow (team-code glyph in a 28 px circle) */
+}
+.tp-logo:first-child { margin-left: 0; }
+.tp-logo img { width: 22px; height: 22px; object-fit: contain; }
+.tp-logo.code { font-size: 9px; letter-spacing: -0.02em; } /* design-lint: allow (3-letter code in a 28 px circle) */
+.tp-logo.more { font-size: var(--fs-xs); color: var(--outline); }
+.tp-logos.large .tp-logo.code { font-size: 10px; } /* design-lint: allow */ /* design-lint: allow (3-letter code in a 28 px circle) */
+.tp-logos.large .tp-logo { width: 36px; height: 36px; margin-left: -8px; }
+.tp-logos.large .tp-logo:first-child { margin-left: 0; }
+.tp-logos.large .tp-logo img { width: 28px; height: 28px; }
+
+/* ---------------------------------------------------------------- a parlay (/copy/:id) */
+
+.screen-parlay { gap: 8px; padding-top: var(--space-sm); }
+.pl-head {
+  display: flex; flex-direction: column; gap: 8px; padding: 16px;
+  border-radius: var(--r-lg); background: var(--surface-container-low); border: 1px solid var(--line);
+}
+.pl-who { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; color: var(--on-surface); }
+.pl-who:hover { color: var(--primary); }
+.pl-who-name { font: 600 var(--fs-lg)/var(--lh-lg) var(--font); }
+.pl-who .k-sym { color: var(--outline); }
+.pl-title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 0; }
+.pl-title { margin: 0; min-width: 0; font: var(--type-headline-md); letter-spacing: var(--ls-headline-md); overflow-wrap: anywhere; }
+.pl-meta { margin: 0; font: var(--type-body-md); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+.pl-meta b { color: var(--on-surface); }
+.pl-copiers {
+  display: flex; align-items: center; gap: 8px; width: 100%; height: 44px; padding: 0 16px;
+  border: 1px solid var(--positive-line); border-radius: var(--r-sm); background: var(--positive-soft);
+  color: var(--sol-green); font: 700 var(--fs-lg)/var(--lh-lg) var(--font); cursor: pointer;
+}
+.pl-copiers .k-sym:last-child { margin-left: auto; }
+.pl-copiers:hover { background: var(--positive-soft); }
+.pl-copiers:focus-visible { box-shadow: var(--focus); outline: none; }
+.pl-legs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+/* The tipster's pick reads as chosen; the others are locked, not merely unpriced. */
+.pl-bar .k-outcome:disabled:not(.selected) { opacity: 0.38; }
+.pl-bar .k-outcome.selected:disabled { opacity: 1; cursor: default; }
+.pl-dock {
+  position: sticky; z-index: 20; bottom: calc(env(safe-area-inset-bottom) + 12px);
+  display: flex; flex-direction: column; gap: 4px; padding-top: 4px;
+}
+.pl-dock .k-cta { height: 52px; font-size: var(--fs-lg); box-shadow: var(--shadow-cta); }
+.pl-why {
+  margin: 0; padding: 4px 8px; border-radius: var(--r-sm); background: var(--scrim);
+  font: var(--type-body-sm); color: var(--on-surface-variant); text-align: center;
+}
+
+/* ---------------------------------------------------------------- handle and tip name */
+
+.tp-setup { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; padding: 12px; border-radius: var(--r-md); background: var(--surface-container-low); }
+.tp-setup-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.tp-setup-head h2 { margin: 0; font: var(--type-label-caps); letter-spacing: var(--ls-label-caps); color: var(--on-surface-variant); }
+.tp-setup-current { font: var(--type-body-md); font-weight: 700; color: var(--primary); overflow-wrap: anywhere; }
+.tp-setup-note, .tp-setup-label { margin: 0; font: var(--type-body-sm); color: var(--on-surface-variant); }
+.tp-field { display: flex; gap: 8px; align-items: center; min-width: 0; }
+.tp-input {
+  flex: 1; min-width: 0; display: flex; align-items: center; gap: 2px;
+  height: 40px; padding: 0 16px; border-radius: var(--r-full); background: var(--surface-container-high);
+}
+.tp-input:focus-within { box-shadow: var(--focus); }
+.tp-input-at { color: var(--on-surface-variant); font-weight: 700; }
+.tp-input input {
+  flex: 1; min-width: 0; height: 100%; border: 0; padding: 0; background: transparent;
+  color: var(--on-surface); font: var(--type-body-md); font-weight: 600; outline: none;
+}
+.tp-input input::placeholder { color: var(--outline); font-weight: 500; }
+.tp-save {
+  flex: none; height: 40px; padding: 0 16px; border: 0; border-radius: var(--r-sm);
+  background: var(--sol-purple); color: #fff; font: var(--type-label-caps); letter-spacing: var(--ls-label-caps); cursor: pointer;
+}
+.tp-save:disabled { opacity: 0.5; cursor: default; }
+.tp-setup-msg { margin: 0; font: var(--type-body-sm); color: var(--on-surface-variant); }
+.tp-setup-msg.error { color: var(--error); }
+.tp-setup-msg.ok { color: var(--sol-green); }
+.tp-title-setup { display: flex; flex-direction: column; gap: 4px; }
+
+/* ---------------------------------------------------------------- the copiers drawer */
+
+/* Guidelines §5: the parlay under the sheet stays lit and undimmed; the clear backdrop still
+   takes the tap that closes the sheet. The sheet is 72% of the screen as drawn. */
+.tp-copiers-layer .k-sheet-backdrop { background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; }
+.tp-copiers-layer .k-sheet { height: 72dvh; max-height: 85dvh; }
+.tp-copiers { display: flex; flex-direction: column; }
+.tp-copier-nolink { cursor: default; }
+.tp-sheet-status { margin: 0; padding: 16px 0; font: var(--type-body-md); color: var(--on-surface-variant); }
+.tp-sheet-status.error { color: var(--error); }

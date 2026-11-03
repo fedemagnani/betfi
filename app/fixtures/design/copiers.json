@@ -1,0 +1,43 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "ticket": "BuK4TLMurNmmCrYWfq4rBmEihxsATyoowcpbFrwxnFQt",
+  "pool_u": 30888056040,
+  "copiers": [
+    {
+      "wallet": "Ai1dL7FCNv43iS88qFk4hWPgy5GBcBRaULSmbACSQwZ3",
+      "handle": "sol_bull99",
+      "stake_u": 1302835405,
+      "tx": "Dcs8wxQH2Qj3uzsKAfp1cGcCpKz6BoBGLv4THKXFsJjhFY878SzABDXiQGQSwLiWJ2ZnPvLzm4xBwr4a8C5VvRhg"
+    },
+    {
+      "wallet": "7xK9erSri1SVEuHUWVXF5bUjRN1s5PU7xQAXFPcu94Lp",
+      "handle": null,
+      "stake_u": 542848086,
+      "tx": "F8z8RebhjRdPajQ4MEeSkYxKuGowW6Brg4qNADuspfNVDH2WtuGydQAwPhukESXMvZ9k8gW86AXVjjDroMWt61U4"
+    },
+    {
+      "wallet": "Gp1NFTrhrauhmupWpoVTzyu9rdz3MoujVsdWNurX8qNL",
+      "handle": "degencall_sol",
+      "stake_u": 379993660,
+      "tx": "AJFrDcoNKS8pCRdCJHjJuWeG6N39ZrXhXWPpVm2MGeEoEf4pQoUwAdpwZSqkUKPaRqxGpizmxqukEd6prAUxcr1w"
+    },
+    {
+      "wallet": "AnZzRq6oMsPDGMbt76ykFyN8dHpX2GpLwAYFi6eFkMJo",
+      "handle": "elon_parlay",
+      "stake_u": 271424043,
+      "tx": "D6j3i4BZWaGQZG5ubRm7x2MiR2AP7piAvGS3NprN7BrQDa8kHycxAMSRszxZTndHsk4fBy3xBDnT1VVGVUdosz9k"
+    },
+    {
+      "wallet": "3bF8pQiEwugGb1kJ4BQ9M3h2R9MS9HJSFLe8PHhn12qR",
+      "handle": null,
+      "stake_u": 162854426,
+      "tx": "GgpzzVTVowmnZGpLF8hDXr5jEMwLupL56PKeZWTuhWz9GCYicZHw6BqaCWHnCTgJvSYyS85TmGvqgh8NP4dTt8bZ"
+    },
+    {
+      "wallet": "BXXa4AC2FdT4NsJbM8Axys3TY3nX8xp97BJEsPwzPCCK",
+      "handle": "ser_crypto",
+      "stake_u": 108569618,
+      "tx": "FwwZVFeNQH38kMqjKDE319KpCku3kYP96Mreu4SW14amBfhsw5Jkh6iZZRVKd92p4GAHdadA7uyh5raoVcPk37cf"
+    }
+  ]
+}

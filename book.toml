@@ -1,0 +1,15 @@
+# The docs/ pages as a book: `just docs-serve` (http://localhost:3000) or `just docs` (target/book).
+[book]
+title = "Schedina"
+src = "docs"
+
+[build]
+build-dir = "target/book"
+
+# $…$ and $$…$$ rendered to HTML at build time (`cargo install mdbook-katex`); GitHub reads the same syntax.
+[preprocessor.katex]
+after = ["links"]
+
+[output.html]
+# Draws ```mermaid blocks in the browser (mermaid from jsdelivr), no preprocessor to install.
+additional-js = ["docs/theme/mermaid-init.js"]

@@ -1,0 +1,332 @@
+{
+ "status": "success",
+ "data": [
+  {
+   "symbol": "NBA_26OCT30_ORLTOR_ML.ORL",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#0077C0",
+      "dark": "#0077C0"
+     },
+     "reverse": {
+      "light": "#CE1141",
+      "dark": "#CE1141"
+     }
+    },
+    "event_description": "Magic vs Raptors, Oct 30, Moneyline",
+    "expected_event_start_time_ms": "1793403000000",
+    "expected_resolution_time_ms": "1793417400000",
+    "game_page": {
+     "game_id": "nba-orl-tor-2026-10-30",
+     "game_description": "Magic vs Raptors, Oct 30",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Orlando Magic",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Toronto Raptors",
+      "home_short_name": "Raptors",
+      "home_subject_id": "toronto-raptors",
+      "away_name": "Orlando Magic",
+      "away_short_name": "Magic",
+      "away_subject_id": "orlando-magic"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Magic",
+      "abbreviated": "ORL"
+     },
+     "short": {
+      "extended": "Raptors",
+      "abbreviated": "TOR"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-orl-tor-2026-10-30",
+     "condition_id": "0x63667bdf361ede9f79ab4c747202c4ff6b6c128f5f47d1998a493d670dcaedac",
+     "market_outcome_token_id": "41650633347321604309841397556741400672096946934198817445490048827634145317582",
+     "reverse_outcome_token_id": "57317758141770895429062244672364979498268410667136302536112925579131062119119"
+    },
+    "reverse_description": "Toronto Raptors",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792931731627",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT30_ORLTOR_ML/NBA_26OCT30_ORLTOR_ML.ORL.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.335000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "8",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "4.168000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "1",
+     "window_end_ts_ms_exclusive": "1793443620000"
+    },
+    "all_time": {
+     "taker_buy_volume": "40",
+     "taker_sell_volume": "8",
+     "taker_buy_volume_notional": "13.560000",
+     "taker_sell_volume_notional": "4.168000",
+     "taker_buy_trade_count": "1",
+     "taker_sell_trade_count": "1",
+     "window_end_ts_ms_exclusive": "1793407080000"
+    }
+   },
+   "mark_price": "1.000000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0",
+   "resolution": {
+    "price": "1.000000",
+    "seq": "12484547785",
+    "market_resolution_ts_ms": "1793415325364"
+   }
+  },
+  {
+   "symbol": "NBA_26OCT30_CHIBOS_ML.CHI",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#CE1141",
+      "dark": "#CE1141"
+     },
+     "reverse": {
+      "light": "#007A33",
+      "dark": "#007A33"
+     }
+    },
+    "event_description": "Bulls vs Celtics, Oct 30, Moneyline",
+    "expected_event_start_time_ms": "1793403000000",
+    "expected_resolution_time_ms": "1793417400000",
+    "game_page": {
+     "game_id": "nba-chi-bos-2026-10-30",
+     "game_description": "Bulls vs Celtics, Oct 30",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Chicago Bulls",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Boston Celtics",
+      "home_short_name": "Celtics",
+      "home_subject_id": "boston-celtics",
+      "away_name": "Chicago Bulls",
+      "away_short_name": "Bulls",
+      "away_subject_id": "chicago-bulls"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Bulls",
+      "abbreviated": "CHI"
+     },
+     "short": {
+      "extended": "Celtics",
+      "abbreviated": "BOS"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-chi-bos-2026-10-30",
+     "condition_id": "0x0e4e64e43f20f831e9ebef24a463fec18cccd8d468b9dfba7a2a5ccb41dd51d5",
+     "market_outcome_token_id": "16110770377305729549565039796123933745714119859348424623093269063062341377260",
+     "reverse_outcome_token_id": "100794745482619143009641772813673351254664671298953393815153754150534257961100"
+    },
+    "reverse_description": "Boston Celtics",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792931731220",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT30_CHIBOS_ML/NBA_26OCT30_CHIBOS_ML.CHI.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.115000",
+     "taker_buy_volume": "82",
+     "taker_sell_volume": "5",
+     "taker_buy_volume_notional": "10.578000",
+     "taker_sell_volume_notional": "0.350000",
+     "taker_buy_trade_count": "1",
+     "taker_sell_trade_count": "1",
+     "window_end_ts_ms_exclusive": "1793443620000"
+    },
+    "all_time": {
+     "taker_buy_volume": "196",
+     "taker_sell_volume": "10",
+     "taker_buy_volume_notional": "24.258000",
+     "taker_sell_volume_notional": "1.205000",
+     "taker_buy_trade_count": "2",
+     "taker_sell_trade_count": "2",
+     "window_end_ts_ms_exclusive": "1793404500000"
+    }
+   },
+   "mark_price": "0.000000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0",
+   "resolution": {
+    "price": "0.000000",
+    "seq": "12484496381",
+    "market_resolution_ts_ms": "1793415285252"
+   }
+  },
+  {
+   "symbol": "NBA_26OCT30_DETBKN_ML.DET",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#C8102E",
+      "dark": "#C8102E"
+     },
+     "reverse": {
+      "light": "#000000",
+      "dark": "#FFFFFF"
+     }
+    },
+    "event_description": "Pistons vs Nets, Oct 30, Moneyline",
+    "expected_event_start_time_ms": "1793403000000",
+    "expected_resolution_time_ms": "1793417400000",
+    "game_page": {
+     "game_id": "nba-det-bkn-2026-10-30",
+     "game_description": "Pistons vs Nets, Oct 30",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Detroit Pistons",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Brooklyn Nets",
+      "home_short_name": "Nets",
+      "home_subject_id": "brooklyn-nets",
+      "away_name": "Detroit Pistons",
+      "away_short_name": "Pistons",
+      "away_subject_id": "detroit-pistons"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Pistons",
+      "abbreviated": "DET"
+     },
+     "short": {
+      "extended": "Nets",
+      "abbreviated": "BKN"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-det-bkn-2026-10-30",
+     "condition_id": "0xefcf0b8b36d79d5548ccf8c7d8a89a1273e67b47803d96530cb4cedfd90e6f01",
+     "market_outcome_token_id": "1209827133741825772563559541724922035498529451556247437430450182364459527919",
+     "reverse_outcome_token_id": "107980380771382517531522063378472403039187058132306793718212000497833285198192"
+    },
+    "reverse_description": "Brooklyn Nets",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792931731321",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT30_DETBKN_ML/NBA_26OCT30_DETBKN_ML.DET.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.735000",
+     "taker_buy_volume": "2",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "1.860000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "1",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793443620000"
+    },
+    "all_time": {
+     "taker_buy_volume": "20",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "15.180000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "2",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793408580000"
+    }
+   },
+   "mark_price": "1.000000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0",
+   "resolution": {
+    "price": "1.000000",
+    "seq": "12482101154",
+    "market_resolution_ts_ms": "1793413785342"
+   }
+  }
+ ],
+ "seq": "12516873730",
+ "state_time_ms": "1793443717432",
+ "server_time_ms": "1793443717482"
+}

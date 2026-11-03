@@ -1,0 +1,164 @@
+/* L7-1 celebration styles (7.1b, l7-contracts L7-4): the shared Celebration frame (.cel-*, reused
+   by 7.1e copy and 7.1f cash-out), the placement celebration's slip card, and /confirm's progress
+   view. The hero, the badge, the payout and the buttons are the kit's (main.css .k-celebrate,
+   .k-txbadge, .k-payout, .k-cta). Mockup: betfi_bet_placement_celebration (390 px). */
+
+/* The frame fills the column edge to edge under the back header, on the ambient glow. */
+.cel {
+  position: relative; overflow: hidden; min-width: 0;
+  margin: 0 calc(-1 * var(--gutter)); padding: 8px var(--gutter) 24px;
+}
+.cel-glow { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.cel-glow span { position: absolute; border-radius: var(--r-full); filter: blur(64px); }
+.cel-glow span:nth-child(1) { top: -96px; left: 50%; width: 320px; height: 320px; transform: translateX(-50%); background: var(--accent-soft); }
+.cel-glow span:nth-child(2) { top: 192px; right: -10%; width: 256px; height: 256px; background: var(--positive-soft); }
+.cel-glow span:nth-child(3) { top: 384px; left: -15%; width: 288px; height: 288px; background: var(--info-soft); }
+.cel-stream {
+  position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 16px;
+  width: 100%; max-width: 448px; margin: 0 auto; min-width: 0;
+}
+.cel-stream > * { max-width: 100%; }
+/* The hero sits closer to its payout card than the other blocks do (the mockup's space-y). */
+.cel-stream > .k-celebrate { margin-bottom: 0; }
+.cel-stream > .k-payout { margin-top: 0; }
+
+/* The two buttons on their own card (guidelines §8): View Transaction ↗, Brag on 𝕏. */
+.cel-actions {
+  display: flex; flex-direction: column; gap: 8px; width: 100%; padding: 16px;
+  border-radius: var(--r-lg); background: var(--card); border: 1px solid var(--line);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: var(--shadow-1);
+}
+.cel-actions .k-cta { box-shadow: var(--shadow-cta); }
+.cel-actions .k-cta.secondary { box-shadow: var(--shadow-1); }
+
+/* ---------------------------------------------------------------- the placed slip */
+
+.cel-slip {
+  display: flex; flex-direction: column; gap: 16px; width: 100%; padding: 16px;
+  border-radius: var(--r-lg); background: var(--card);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: var(--shadow-1);
+}
+.cel-slip-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.cel-slip-legs { display: flex; flex-direction: column; gap: 8px; padding-top: 4px; }
+/* A copy's fee line under its legs (7.2a-p). */
+.cel-slip-note { margin: 0; font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+
+/* ---------------------------------------------------------------- /confirm before the mint */
+
+.cel-progress .cel-stream { align-items: stretch; gap: 12px; padding-top: 8px; }
+.cel-progress-title { margin: 0; font: var(--type-headline-lg); font-weight: 700; letter-spacing: -0.025em; color: var(--on-surface); text-align: center; }
+.cel-progress-kind { margin: 0; text-align: center; font: var(--type-body-sm); color: var(--on-surface-variant); }
+.cel-progress-kind a { color: var(--primary); }
+.cel-steps {
+  margin: 0; padding: 16px 16px 16px 40px; border-radius: var(--r-lg); background: var(--card);
+  font: var(--type-body-md); color: var(--outline);
+}
+.cel-steps li { padding: 4px 0; }
+.cel-steps li.done { color: var(--on-surface); font-weight: 600; }
+.cel-steps li.done::marker { color: var(--sol-green); }
+.cel-steps li.current { color: var(--primary); font-weight: 600; }
+.cel-steps li.refunded { color: var(--error); }
+.cel-progress-line { margin: 0; font: var(--type-body-sm); color: var(--on-surface-variant); text-align: center; }
+a.cel-progress-line { color: var(--primary); }
+
+/* ---------------------------------------------------------------- the cash-out (7.1f)
+   The frame laid out as `betfi_cash_out_celebration`: its two glows, the mockup's spacing (no
+   stream gap), the 80 px orb with its pinging ring, the payout on its own card, and the two
+   buttons stacked bare (no button card). No balance banner, closed-bet row or verification
+   card (31 Oct, user request). */
+
+#cashout-frame { padding-top: 0; }
+#cashout-frame .cel-glow span:nth-child(1) { top: -48px; width: 288px; height: 288px; background: var(--positive-soft); filter: blur(80px); }
+#cashout-frame .cel-glow span:nth-child(2) { top: 112px; left: 25%; right: auto; width: 224px; height: 224px; background: var(--accent-soft); filter: blur(90px); }
+#cashout-frame .cel-glow span:nth-child(3) { display: none; }
+#cashout-frame .cel-stream { gap: 0; }
+#cashout-frame .cel-stream > .k-celebrate { margin: 8px 0 24px; }
+#cashout-frame .k-celebrate-orb { height: 80px; margin: 16px 0; }
+#cashout-frame .k-celebrate-ring { animation: cel-ping 1.6s cubic-bezier(0, 0, 0.2, 1) infinite; }
+@keyframes cel-ping { 75%, 100% { transform: scale(1.25); opacity: 0; } }
+#cashout-frame .cel-stream > .k-payout {
+  width: 100%; margin-bottom: 16px; padding: 24px; border-radius: var(--r-md);
+  background: var(--surface-container-low); box-shadow: var(--shadow-2);
+}
+#cashout-frame .cel-actions { gap: 8px; margin-top: 8px; padding: 0; background: none; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+#cashout-frame .cel-actions .k-cta { box-shadow: var(--shadow-cta); }
+#cashout-frame .cel-actions .k-cta.secondary { box-shadow: var(--shadow-1); }
+#cashout-frame .cel-actions .k-cta > .k-sym:first-child { display: none; }
+@media (prefers-reduced-motion: reduce) { #cashout-frame .k-celebrate-ring { animation: none; } }
+
+/* ---------------------------------------------------------------- motion (31 Oct, user request)
+   Once per mount: the confetti bursts from the hero (two waves), the hero pops in with a shock
+   ring, each block rises in turn, the figure (counting up, kit::CountUp) pulses once with a
+   shine across its card, the legs slide in. Nothing moves under prefers-reduced-motion. */
+
+.cel-confetti { position: absolute; top: 120px; left: 50%; z-index: 2; width: 0; height: 0; pointer-events: none; }
+.cel-confetti span {
+  position: absolute; left: 0; top: 0; border-radius: 2px; opacity: 0;
+  background: var(--sol-green, #14f195); /* design-lint: allow (confetti, shine) */
+  animation: cel-confetti 1.7s cubic-bezier(0.15, 0.6, 0.35, 1) var(--d, 0ms) forwards;
+}
+.cel-confetti span:nth-child(2n) { border-radius: var(--r-full); }
+.cel-confetti span:nth-child(6n + 1) { background: #14f195; } /* design-lint: allow (confetti, shine) */
+.cel-confetti span:nth-child(6n + 2) { background: #9945ff; } /* design-lint: allow (confetti, shine) */
+.cel-confetti span:nth-child(6n + 3) { background: #d8b9ff; } /* design-lint: allow (confetti, shine) */
+.cel-confetti span:nth-child(6n + 4) { background: #7bd0ff; } /* design-lint: allow (confetti, shine) */
+.cel-confetti span:nth-child(6n + 5) { background: #ffd166; } /* design-lint: allow (confetti, shine) */
+.cel-confetti span:nth-child(6n) { background: #00ec91; } /* design-lint: allow (confetti, shine) */
+/* The cash-out rains money colours: greens and gold. */
+#cashout-frame .cel-confetti { top: 96px; }
+#cashout-frame .cel-confetti span:nth-child(3n + 1) { background: #14f195; } /* design-lint: allow (confetti, shine) */
+#cashout-frame .cel-confetti span:nth-child(3n + 2) { background: #ffd166; } /* design-lint: allow (confetti, shine) */
+#cashout-frame .cel-confetti span:nth-child(3n) { background: #00ec91; } /* design-lint: allow (confetti, shine) */
+@keyframes cel-confetti {
+  0% { opacity: 1; transform: translate(-50%, -50%) scale(0.2) rotate(0deg); }
+  12% { opacity: 1; }
+  55% { opacity: 1; transform: translate(calc(var(--x) - 50%), calc(var(--y) - 50%)) scale(1) rotate(calc(var(--r) * 0.6)); }
+  100% { opacity: 0; transform: translate(calc(var(--x) * 1.15 - 50%), calc(var(--y) + 220px)) scale(0.9) rotate(var(--r)); }
+}
+
+/* Each block rises in turn: hero, figure, body, buttons. */
+.cel-stream > * { animation: cel-rise 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.cel-stream > :nth-child(2) { animation-delay: 0.12s; }
+.cel-stream > :nth-child(3) { animation-delay: 0.3s; }
+.cel-stream > :nth-child(4) { animation-delay: 0.45s; }
+.cel-stream > :nth-child(5) { animation-delay: 0.6s; }
+@keyframes cel-rise { from { opacity: 0; transform: translateY(18px); } }
+
+/* The hero pops (with a little overshoot) and sends out one shock ring. */
+.cel .k-celebrate-tile, .cel .k-celebrate-orb { animation: cel-pop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+@keyframes cel-pop { 0% { transform: scale(0.2) rotate(-14deg); opacity: 0; } 60% { opacity: 1; } 100% { transform: none; } }
+.cel .k-celebrate-tile::after, .cel .k-celebrate-orb::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; border-radius: var(--r-full);
+  border: 3px solid var(--positive-line); transform: translate(-50%, -50%) scale(0.6); opacity: 0;
+  animation: cel-shock 0.9s cubic-bezier(0.1, 0.7, 0.3, 1) 0.15s forwards; pointer-events: none;
+}
+@keyframes cel-shock { 0% { opacity: 0.9; } 100% { opacity: 0; transform: translate(-50%, -50%) scale(2.4); } }
+.cel .k-celebrate-emoji { display: inline-block; animation: cel-wiggle 0.9s ease-in-out 0.55s both; }
+@keyframes cel-wiggle { 0%, 100% { transform: none; } 20% { transform: rotate(-18deg) scale(1.2); } 45% { transform: rotate(14deg) scale(1.25); } 70% { transform: rotate(-6deg) scale(1.1); } }
+
+/* The figure lands: a pulse with a glow as the count-up ends, and a shine across its card. */
+.cel .k-payout { position: relative; overflow: hidden; }
+.cel .k-payout-eur { display: inline-block; animation: cel-land 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 1.15s both; }
+@keyframes cel-land { 0%, 100% { transform: none; } 45% { transform: scale(1.12); text-shadow: 0 0 28px var(--positive-line); } }
+.cel .k-payout::after {
+  content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 45%; pointer-events: none;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.14), transparent); /* design-lint: allow (confetti, shine) */
+  transform: skewX(-18deg); animation: cel-shine 0.9s ease-in-out 1.25s both;
+}
+@keyframes cel-shine { from { left: -60%; } to { left: 120%; } }
+
+/* The legs slide in one after another. */
+.cel-slip-legs > * { animation: cel-slide 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.cel-slip-legs > :nth-child(1) { animation-delay: 0.5s; }
+.cel-slip-legs > :nth-child(2) { animation-delay: 0.6s; }
+.cel-slip-legs > :nth-child(3) { animation-delay: 0.7s; }
+.cel-slip-legs > :nth-child(4) { animation-delay: 0.8s; }
+.cel-slip-legs > :nth-child(n + 5) { animation-delay: 0.9s; }
+@keyframes cel-slide { from { opacity: 0; transform: translateX(-24px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .cel-confetti { display: none; }
+  .cel-stream > *, .cel .k-celebrate-tile, .cel .k-celebrate-orb, .cel .k-celebrate-emoji,
+  .cel .k-payout-eur, .cel-slip-legs > * { animation: none; }
+  .cel .k-celebrate-tile::after, .cel .k-celebrate-orb::after, .cel .k-payout::after { content: none; }
+}

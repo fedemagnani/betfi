@@ -1,0 +1,15 @@
+{
+  "legs": [
+    {
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "side": "long"
+    },
+    {
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+      "side": "short"
+    }
+  ],
+  "stake_u": 10000000,
+  "token_in": null,
+  "copied_from": null
+}

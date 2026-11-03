@@ -1,0 +1,21 @@
+/* The Sportsbook (7.1a): src/ui/card.rs, BetFi C2 `betfi_sportsbook_equal_odds` at 390 px (the
+   shell's 480 px column on wider screens, V-7). Built from the kit (main.css: .k-sport-tabs,
+   .k-match, .k-outcome, .k-section-title); this file only spaces the screen as the mockup does
+   and restyles no kit class outside .home. */
+
+.home { display: flex; flex-direction: column; min-width: 0; }
+.home-note { margin: var(--space-md) 0 0; font: var(--type-body-md); color: var(--on-surface-variant); }
+.home-note.error { color: var(--error); }
+.home-retry {
+  align-self: flex-start; margin-top: var(--space-sm); min-height: 44px; padding: 0 var(--space-md);
+  border-radius: var(--r-full); background: var(--surface-container-high); color: var(--on-surface);
+  font: var(--type-label-caps); letter-spacing: var(--ls-label-caps);
+}
+
+/* Live cards: 4 px under the tabs (mt-space-xs), 8 px apart. */
+.home-live { margin-top: var(--space-xs); }
+.home-live + .home-live { margin-top: var(--space-sm); }
+
+/* Upcoming matches: the kit's section title (16 px above, 8 px below), cards 8 px apart. */
+.home-upcoming { min-width: 0; }
+.home-list { display: flex; flex-direction: column; gap: var(--space-sm); min-width: 0; }

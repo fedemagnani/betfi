@@ -1,0 +1,3084 @@
+{
+  "address": "HXdZFi7tR669G1hXogh3uGGqLYsoZPCSuiutAviLNToW",
+  "metadata": {
+    "name": "schedina",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Schedina: parlay tickets over Pascal markets, backed by a house vault"
+  },
+  "instructions": [
+    {
+      "name": "cash_out",
+      "docs": [
+        "Pays the desk-signed cash-out value. Needs the `Ed25519Program` verify",
+        "instruction immediately before this one, over exactly `quote`'s borsh bytes.",
+        "Ticket user signs."
+      ],
+      "discriminator": [
+        1,
+        110,
+        57,
+        58,
+        159,
+        157,
+        243,
+        192
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "ticket",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  99,
+                  107,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "ticket.user",
+                "account": "Ticket"
+              },
+              {
+                "kind": "account",
+                "path": "ticket.nonce",
+                "account": "Ticket"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user_usdc",
+          "writable": true
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true
+        },
+        {
+          "name": "instructions",
+          "address": "Sysvar1nstructions1111111111111111111111111"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "quote",
+          "type": {
+            "defined": {
+              "name": "CashOutMsg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "faucet_usdc",
+      "docs": [
+        "Mints mock USDC to `recipient`, once per hour per owner. `devnet` feature only."
+      ],
+      "discriminator": [
+        190,
+        45,
+        226,
+        28,
+        94,
+        130,
+        98,
+        127
+      ],
+      "accounts": [
+        {
+          "name": "caller",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "usdc_mint",
+          "writable": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "recipient",
+          "writable": true
+        },
+        {
+          "name": "faucet_claim",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  102,
+                  97,
+                  117,
+                  99,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "recipient.owner",
+                "account": "TokenAccount"
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "finalize",
+      "docs": [
+        "Mints the ticket at fill prices `fills` (0 = unhedged leg) and fill ratio",
+        "`r_ppm`, refunding `S - rS`. Crank only."
+      ],
+      "discriminator": [
+        171,
+        61,
+        218,
+        56,
+        127,
+        115,
+        12,
+        217
+      ],
+      "accounts": [
+        {
+          "name": "crank",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  101,
+                  110,
+                  100,
+                  105,
+                  110,
+                  103
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pending.user",
+                "account": "Pending"
+              },
+              {
+                "kind": "account",
+                "path": "pending.nonce",
+                "account": "Pending"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ticket",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  99,
+                  107,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pending.user",
+                "account": "Pending"
+              },
+              {
+                "kind": "account",
+                "path": "pending.nonce",
+                "account": "Pending"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user",
+          "docs": [
+            "owner (a smart-wallet user must still get the refund)."
+          ],
+          "writable": true
+        },
+        {
+          "name": "user_usdc",
+          "docs": [
+            "Receives the refund `S - rS`; any USDC account owned by the pending's user."
+          ],
+          "writable": true
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "escrow_usdc",
+          "writable": true
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "fills",
+          "type": {
+            "vec": "u64"
+          }
+        },
+        {
+          "name": "r_ppm",
+          "type": "u32"
+        }
+      ]
+    },
+    {
+      "name": "fund_vault",
+      "docs": [
+        "Deposits `amount` micro-USDC into the house vault. Anyone."
+      ],
+      "discriminator": [
+        26,
+        33,
+        207,
+        242,
+        119,
+        108,
+        134,
+        73
+      ],
+      "accounts": [
+        {
+          "name": "funder",
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "funder_usdc",
+          "writable": true
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "init_config",
+      "docs": [
+        "Creates `Config`, `Vault`, the mock USDC mint and the vault and escrow token",
+        "accounts. Upgrade authority only."
+      ],
+      "discriminator": [
+        23,
+        235,
+        115,
+        232,
+        168,
+        96,
+        1,
+        231
+      ],
+      "accounts": [
+        {
+          "name": "deployer",
+          "docs": [
+            "Upgrade authority of this program; pays rent."
+          ],
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "usdc_mint",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  111,
+                  99,
+                  107
+                ]
+              },
+              {
+                "kind": "const",
+                "value": [
+                  85,
+                  83,
+                  68,
+                  67
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116,
+                  95,
+                  117,
+                  115,
+                  100,
+                  99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "escrow_usdc",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119,
+                  95,
+                  117,
+                  115,
+                  100,
+                  99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "program",
+          "address": "HXdZFi7tR669G1hXogh3uGGqLYsoZPCSuiutAviLNToW"
+        },
+        {
+          "name": "program_data"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "authority",
+          "type": "pubkey"
+        },
+        {
+          "name": "params",
+          "type": {
+            "defined": {
+              "name": "Params"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "open_pending",
+      "docs": [
+        "Escrows the stake of a desk-signed quote with the user's floor. The quote is the",
+        "message of the `Ed25519Program` verify instruction immediately before this one",
+        "(borsh `QuoteMsg`, signed by `Config.quote_signer`). User signs."
+      ],
+      "discriminator": [
+        33,
+        5,
+        249,
+        199,
+        254,
+        224,
+        125,
+        35
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  101,
+                  110,
+                  100,
+                  105,
+                  110,
+                  103
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "user"
+              },
+              {
+                "kind": "arg",
+                "path": "nonce"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user_usdc",
+          "docs": [
+            "The user's USDC. No mint account in this instruction (it saves 33 bytes of a",
+            "tight transaction): SPL Token's `transfer` into the escrow, a mock-USDC account,",
+            "fails for any other mint."
+          ],
+          "writable": true
+        },
+        {
+          "name": "escrow_usdc",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119,
+                  95,
+                  117,
+                  115,
+                  100,
+                  99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "instructions",
+          "address": "Sysvar1nstructions1111111111111111111111111"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "nonce",
+          "type": "u64"
+        },
+        {
+          "name": "min_payout_per_unit_u",
+          "type": "u64"
+        },
+        {
+          "name": "expires_at",
+          "type": "i64"
+        },
+        {
+          "name": "is_tip",
+          "type": "bool"
+        },
+        {
+          "name": "copied_from",
+          "type": {
+            "option": "pubkey"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pause",
+      "docs": [
+        "Pauses (or resumes) `open_pending` and `finalize`. Authority only."
+      ],
+      "discriminator": [
+        211,
+        22,
+        221,
+        251,
+        74,
+        121,
+        193,
+        47
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "paused",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "name": "refund_pending",
+      "docs": [
+        "Returns an unfinalized pending's escrow from `expires_at + 15 s`. Anyone."
+      ],
+      "discriminator": [
+        70,
+        207,
+        125,
+        172,
+        197,
+        218,
+        120,
+        112
+      ],
+      "accounts": [
+        {
+          "name": "caller",
+          "docs": [
+            "Anyone; pays the transaction fee only."
+          ],
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  101,
+                  110,
+                  100,
+                  105,
+                  110,
+                  103
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pending.user",
+                "account": "Pending"
+              },
+              {
+                "kind": "account",
+                "path": "pending.nonce",
+                "account": "Pending"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user",
+          "docs": [
+            "owner (a smart-wallet user must still get the refund)."
+          ],
+          "writable": true
+        },
+        {
+          "name": "user_usdc",
+          "writable": true
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "escrow_usdc",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119,
+                  95,
+                  117,
+                  115,
+                  100,
+                  99
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "resolve_leg",
+      "docs": [
+        "Records Pascal's resolution `r_ppm` of leg `leg_index`. Crank (or authority)."
+      ],
+      "discriminator": [
+        178,
+        46,
+        116,
+        78,
+        252,
+        201,
+        13,
+        205
+      ],
+      "accounts": [
+        {
+          "name": "resolver",
+          "docs": [
+            "`Config.crank` or `Config.authority`."
+          ],
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "ticket",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  99,
+                  107,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "ticket.user",
+                "account": "Ticket"
+              },
+              {
+                "kind": "account",
+                "path": "ticket.nonce",
+                "account": "Ticket"
+              }
+            ]
+          }
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "leg_index",
+          "type": "u8"
+        },
+        {
+          "name": "r_ppm",
+          "type": "u32"
+        }
+      ]
+    },
+    {
+      "name": "set_params",
+      "docs": [
+        "Replaces the tunable parameters and backend keys. Authority only."
+      ],
+      "discriminator": [
+        27,
+        234,
+        178,
+        52,
+        147,
+        2,
+        187,
+        141
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "params",
+          "type": {
+            "defined": {
+              "name": "Params"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "settle",
+      "docs": [
+        "Pays `P × Π r̃` once every leg is resolved. Anyone."
+      ],
+      "discriminator": [
+        175,
+        42,
+        185,
+        87,
+        144,
+        131,
+        102,
+        212
+      ],
+      "accounts": [
+        {
+          "name": "caller",
+          "docs": [
+            "Anyone; pays the transaction fee only."
+          ],
+          "signer": true
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "ticket",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  105,
+                  99,
+                  107,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "ticket.user",
+                "account": "Ticket"
+              },
+              {
+                "kind": "account",
+                "path": "ticket.nonce",
+                "account": "Ticket"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user_usdc",
+          "writable": true
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "withdraw_house",
+      "docs": [
+        "Withdraws `amount` from `Vault.free`, never below `Config.reserve`. Authority only."
+      ],
+      "discriminator": [
+        226,
+        236,
+        222,
+        156,
+        198,
+        230,
+        70,
+        147
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "signer": true,
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "config"
+          ]
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true
+        },
+        {
+          "name": "destination",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "event_authority"
+        },
+        {
+          "name": "program"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Config",
+      "discriminator": [
+        155,
+        12,
+        170,
+        224,
+        30,
+        250,
+        204,
+        130
+      ]
+    },
+    {
+      "name": "FaucetClaim",
+      "discriminator": [
+        88,
+        39,
+        189,
+        221,
+        15,
+        215,
+        24,
+        248
+      ]
+    },
+    {
+      "name": "Pending",
+      "discriminator": [
+        36,
+        180,
+        147,
+        170,
+        72,
+        175,
+        173,
+        126
+      ]
+    },
+    {
+      "name": "Ticket",
+      "discriminator": [
+        41,
+        228,
+        24,
+        165,
+        78,
+        90,
+        235,
+        200
+      ]
+    },
+    {
+      "name": "Vault",
+      "discriminator": [
+        211,
+        8,
+        232,
+        43,
+        2,
+        152,
+        117,
+        119
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "ConfigUpdated",
+      "discriminator": [
+        40,
+        241,
+        230,
+        122,
+        11,
+        19,
+        198,
+        194
+      ]
+    },
+    {
+      "name": "HouseWithdrawn",
+      "discriminator": [
+        207,
+        57,
+        254,
+        62,
+        148,
+        108,
+        100,
+        178
+      ]
+    },
+    {
+      "name": "LegResolved",
+      "discriminator": [
+        83,
+        94,
+        20,
+        246,
+        252,
+        125,
+        188,
+        166
+      ]
+    },
+    {
+      "name": "PendingOpened",
+      "discriminator": [
+        90,
+        227,
+        153,
+        200,
+        138,
+        86,
+        210,
+        203
+      ]
+    },
+    {
+      "name": "PendingRefunded",
+      "discriminator": [
+        253,
+        203,
+        132,
+        38,
+        212,
+        186,
+        173,
+        254
+      ]
+    },
+    {
+      "name": "TicketCashedOut",
+      "discriminator": [
+        174,
+        14,
+        251,
+        89,
+        59,
+        107,
+        29,
+        83
+      ]
+    },
+    {
+      "name": "TicketMinted",
+      "discriminator": [
+        22,
+        17,
+        212,
+        38,
+        91,
+        144,
+        104,
+        109
+      ]
+    },
+    {
+      "name": "TicketSettled",
+      "discriminator": [
+        72,
+        40,
+        13,
+        3,
+        184,
+        159,
+        190,
+        211
+      ]
+    },
+    {
+      "name": "TipsterPaid",
+      "discriminator": [
+        243,
+        204,
+        40,
+        94,
+        239,
+        21,
+        115,
+        112
+      ]
+    },
+    {
+      "name": "VaultFunded",
+      "discriminator": [
+        192,
+        119,
+        245,
+        193,
+        55,
+        223,
+        195,
+        50
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "NotUpgradeAuthority",
+      "msg": "signer is not the program's upgrade authority"
+    },
+    {
+      "code": 6001,
+      "name": "NotAuthority",
+      "msg": "signer is not Config.authority"
+    },
+    {
+      "code": 6002,
+      "name": "NotCrank",
+      "msg": "signer is not Config.crank"
+    },
+    {
+      "code": 6003,
+      "name": "NotResolver",
+      "msg": "signer is neither Config.crank nor Config.authority"
+    },
+    {
+      "code": 6004,
+      "name": "InvalidParams",
+      "msg": "invalid config parameter"
+    },
+    {
+      "code": 6005,
+      "name": "Paused",
+      "msg": "the program is paused"
+    },
+    {
+      "code": 6006,
+      "name": "ZeroAmount",
+      "msg": "amount must be positive"
+    },
+    {
+      "code": 6007,
+      "name": "MathOverflow",
+      "msg": "arithmetic overflow"
+    },
+    {
+      "code": 6008,
+      "name": "SignatureMissing",
+      "msg": "the instruction right before this one is not an Ed25519Program verify"
+    },
+    {
+      "code": 6009,
+      "name": "SignatureMalformed",
+      "msg": "Ed25519Program verify must carry exactly one signature, all offsets in itself"
+    },
+    {
+      "code": 6010,
+      "name": "WrongQuoteSigner",
+      "msg": "the verified message is not signed by Config.quote_signer"
+    },
+    {
+      "code": 6011,
+      "name": "QuoteMismatch",
+      "msg": "the verified message differs from this instruction's arguments"
+    },
+    {
+      "code": 6012,
+      "name": "QuoteMalformed",
+      "msg": "the verified message is not a borsh-encoded QuoteMsg"
+    },
+    {
+      "code": 6013,
+      "name": "BadTag",
+      "msg": "wrong message tag"
+    },
+    {
+      "code": 6014,
+      "name": "WrongProgramId",
+      "msg": "message signed for another program id"
+    },
+    {
+      "code": 6015,
+      "name": "QuoteExpired",
+      "msg": "the desk quote has expired"
+    },
+    {
+      "code": 6016,
+      "name": "TooManyLegs",
+      "msg": "leg count is 0 or above Config.max_legs"
+    },
+    {
+      "code": 6017,
+      "name": "DuplicateGame",
+      "msg": "two legs on the same game id"
+    },
+    {
+      "code": 6018,
+      "name": "InvalidLeg",
+      "msg": "invalid leg: side must be 0 or 1, price in (0, 1e6], m1 below 1e6"
+    },
+    {
+      "code": 6019,
+      "name": "StakeTooSmall",
+      "msg": "stake below Config.min_stake or different from the quoted stake"
+    },
+    {
+      "code": 6020,
+      "name": "FloorAboveOffered",
+      "msg": "floor above the offered odds, or zero"
+    },
+    {
+      "code": 6021,
+      "name": "PayoutTooLarge",
+      "msg": "quoted payout above Config.max_payout"
+    },
+    {
+      "code": 6022,
+      "name": "BadExpiry",
+      "msg": "expires_at must be within [now + 30 s, now + 60 s]"
+    },
+    {
+      "code": 6023,
+      "name": "TipNotAllowed",
+      "msg": "a tip needs every leg not yet started and no copied_from"
+    },
+    {
+      "code": 6024,
+      "name": "CopiesNotEnabled",
+      "msg": "copies are not enabled yet (step 2.F)"
+    },
+    {
+      "code": 6025,
+      "name": "PendingExpired",
+      "msg": "the pending has expired"
+    },
+    {
+      "code": 6026,
+      "name": "RefundTooEarly",
+      "msg": "refund opens 15 s after expires_at"
+    },
+    {
+      "code": 6027,
+      "name": "FillCount",
+      "msg": "one fill per leg expected"
+    },
+    {
+      "code": 6028,
+      "name": "BadFillRatio",
+      "msg": "fill ratio r must be in (0, 1e6]"
+    },
+    {
+      "code": 6029,
+      "name": "BadFillPrice",
+      "msg": "fill price must be in (0, 1e6]"
+    },
+    {
+      "code": 6030,
+      "name": "BelowFloor",
+      "msg": "payout per unit below the signed floor"
+    },
+    {
+      "code": 6031,
+      "name": "VaultShort",
+      "msg": "vault free balance cannot cover the payout"
+    },
+    {
+      "code": 6032,
+      "name": "TicketNotOpen",
+      "msg": "ticket is not open"
+    },
+    {
+      "code": 6033,
+      "name": "BadLegIndex",
+      "msg": "leg index out of range"
+    },
+    {
+      "code": 6034,
+      "name": "LegAlreadyResolved",
+      "msg": "leg already resolved"
+    },
+    {
+      "code": 6035,
+      "name": "BadResolution",
+      "msg": "resolution must be in [0, 1e6]"
+    },
+    {
+      "code": 6036,
+      "name": "LegsUnresolved",
+      "msg": "not every leg is resolved"
+    },
+    {
+      "code": 6037,
+      "name": "WrongTicket",
+      "msg": "cash-out quote is for another ticket"
+    },
+    {
+      "code": 6038,
+      "name": "CashOutStale",
+      "msg": "cash-out quote is stale"
+    },
+    {
+      "code": 6039,
+      "name": "CashOutAbovePayout",
+      "msg": "cash-out above the ticket payout"
+    },
+    {
+      "code": 6040,
+      "name": "LegLost",
+      "msg": "a leg is lost: no cash-out"
+    },
+    {
+      "code": 6041,
+      "name": "BelowReserve",
+      "msg": "withdrawal would take vault.free below Config.reserve"
+    },
+    {
+      "code": 6042,
+      "name": "FaucetAmount",
+      "msg": "faucet amount must be in (0, FAUCET_MAX]"
+    },
+    {
+      "code": 6043,
+      "name": "FaucetCooldown",
+      "msg": "faucet cooldown: one claim per hour"
+    }
+  ],
+  "types": [
+    {
+      "name": "CashOutMsg",
+      "docs": [
+        "Desk cash-out quote. Signed bytes = borsh of this struct:",
+        "`tag[19] ‖ program_id[32] ‖ ticket[32] ‖ c_u u64 ‖ ts i64` = 99 bytes."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "tag",
+            "docs": [
+              "`b\"schedina/cashout/v1\"`."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                19
+              ]
+            }
+          },
+          {
+            "name": "program_id",
+            "type": "pubkey"
+          },
+          {
+            "name": "ticket",
+            "docs": [
+              "The `Ticket` PDA."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "c_u",
+            "docs": [
+              "Amount paid to the user, micro-USDC, `<= Ticket.payout_u`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "ts",
+            "docs": [
+              "Desk Unix time of the quote; valid while `|now - ts| <= 30`."
+            ],
+            "type": "i64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Config",
+      "docs": [
+        "Global parameters. PDA `[\"config\"]`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "authority",
+            "docs": [
+              "Offline key: `set_params`, `pause`, `withdraw_house`, the 0.5 resolution exception."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "crank",
+            "docs": [
+              "Backend key: `finalize`, `resolve_leg`."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "quote_signer",
+            "docs": [
+              "Backend key whose ed25519 signature `open_pending` and `cash_out` verify."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "usdc_mint",
+            "docs": [
+              "Mock USDC, PDA `[\"mock\", \"USDC\"]`, 6 decimals, mint authority = this `Config`."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "copy_fee_bps",
+            "docs": [
+              "Copy fee in bps of stake (2.F; 200 = 2%)."
+            ],
+            "type": "u16"
+          },
+          {
+            "name": "tipster_share_bps",
+            "docs": [
+              "Tipster share of the copy fee in bps (2.F; 8_000 = 80%)."
+            ],
+            "type": "u16"
+          },
+          {
+            "name": "max_legs",
+            "docs": [
+              "Legs per ticket, `1..=MAX_LEGS`."
+            ],
+            "type": "u8"
+          },
+          {
+            "name": "max_payout",
+            "docs": [
+              "Largest ticket payout, micro-USDC."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "min_stake",
+            "docs": [
+              "Smallest stake, micro-USDC."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "reserve",
+            "docs": [
+              "`withdraw_house` never takes `Vault.free` below this."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "paused",
+            "docs": [
+              "Blocks `open_pending` and `finalize` (exits stay open)."
+            ],
+            "type": "bool"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "usdc_mint_bump",
+            "type": "u8"
+          },
+          {
+            "name": "reserved",
+            "type": {
+              "array": [
+                "u8",
+                64
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConfigUpdated",
+      "docs": [
+        "`set_params` and `pause`: the config after the change."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "crank",
+            "type": "pubkey"
+          },
+          {
+            "name": "quote_signer",
+            "type": "pubkey"
+          },
+          {
+            "name": "max_legs",
+            "type": "u8"
+          },
+          {
+            "name": "max_payout",
+            "type": "u64"
+          },
+          {
+            "name": "min_stake",
+            "type": "u64"
+          },
+          {
+            "name": "reserve",
+            "type": "u64"
+          },
+          {
+            "name": "copy_fee_bps",
+            "type": "u16"
+          },
+          {
+            "name": "tipster_share_bps",
+            "type": "u16"
+          },
+          {
+            "name": "paused",
+            "type": "bool"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FaucetClaim",
+      "docs": [
+        "Faucet rate limit per recipient owner (devnet builds only). PDA `[\"faucet\", owner]`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "owner",
+            "type": "pubkey"
+          },
+          {
+            "name": "last_claim_ts",
+            "type": "i64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HouseWithdrawn",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "destination",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount_u",
+            "type": "u64"
+          },
+          {
+            "name": "vault_free",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegResolved",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "ticket",
+            "type": "pubkey"
+          },
+          {
+            "name": "leg_index",
+            "type": "u8"
+          },
+          {
+            "name": "r_ppm",
+            "docs": [
+              "Pascal's resolution price of the symbol (long side)."
+            ],
+            "type": "u32"
+          },
+          {
+            "name": "rtilde_ppm",
+            "docs": [
+              "The ticket's factor for this leg (`r` long, `1e6 - r` short)."
+            ],
+            "type": "u32"
+          },
+          {
+            "name": "resolver",
+            "type": "pubkey"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegStatus",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Open"
+          },
+          {
+            "name": "Won"
+          },
+          {
+            "name": "Lost"
+          },
+          {
+            "name": "Partial"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Params",
+      "docs": [
+        "Everything `set_params` can change, plus the authority at init."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "crank",
+            "type": "pubkey"
+          },
+          {
+            "name": "quote_signer",
+            "type": "pubkey"
+          },
+          {
+            "name": "max_legs",
+            "type": "u8"
+          },
+          {
+            "name": "max_payout",
+            "type": "u64"
+          },
+          {
+            "name": "min_stake",
+            "type": "u64"
+          },
+          {
+            "name": "reserve",
+            "type": "u64"
+          },
+          {
+            "name": "copy_fee_bps",
+            "type": "u16"
+          },
+          {
+            "name": "tipster_share_bps",
+            "type": "u16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pending",
+      "docs": [
+        "A user's escrowed request for a ticket, alive 30-60 s. PDA",
+        "`[\"pending\", user, nonce u64 LE]`. Closed (rent to `user`) by `finalize` or",
+        "`refund_pending`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "stake_u",
+            "docs": [
+              "Escrowed stake (`quote.stake_u`)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "copy_fee_u",
+            "docs": [
+              "Escrowed copy fee (2.F; 0 in the MVP)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "n",
+            "type": "u8"
+          },
+          {
+            "name": "legs",
+            "docs": [
+              "Legs `0..n` as signed by the desk; the rest zeroed."
+            ],
+            "type": {
+              "array": [
+                {
+                  "defined": {
+                    "name": "QuoteLeg"
+                  }
+                },
+                5
+              ]
+            }
+          },
+          {
+            "name": "odds_offered_u",
+            "docs": [
+              "`quote.odds_offered_u`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "min_payout_per_unit_u",
+            "docs": [
+              "The user's floor: `finalize` needs `payout_u * 1e6 >= min_payout_per_unit_u * rs_u`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "quote_expires_at",
+            "type": "i64"
+          },
+          {
+            "name": "quote_hash",
+            "docs": [
+              "sha256 of the signed quote bytes."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "quote_sig",
+            "docs": [
+              "The desk's ed25519 signature over those bytes."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                64
+              ]
+            }
+          },
+          {
+            "name": "expires_at",
+            "docs": [
+              "`finalize` needs `now < expires_at`; `refund_pending` needs `now >= expires_at + 15`."
+            ],
+            "type": "i64"
+          },
+          {
+            "name": "created_at",
+            "type": "i64"
+          },
+          {
+            "name": "is_tip",
+            "type": "bool"
+          },
+          {
+            "name": "tipster",
+            "docs": [
+              "`Some(user)` when `is_tip`."
+            ],
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "copied_from",
+            "docs": [
+              "Original ticket of a copy (2.F; always `None` in the MVP)."
+            ],
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "reserved",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "PendingOpened",
+      "docs": [
+        "What starts the hedge."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "pending",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "legs",
+            "type": {
+              "vec": {
+                "defined": {
+                  "name": "QuoteLeg"
+                }
+              }
+            }
+          },
+          {
+            "name": "stake_u",
+            "type": "u64"
+          },
+          {
+            "name": "copy_fee_u",
+            "type": "u64"
+          },
+          {
+            "name": "odds_offered_u",
+            "type": "u64"
+          },
+          {
+            "name": "min_payout_per_unit_u",
+            "type": "u64"
+          },
+          {
+            "name": "quote_expires_at",
+            "type": "i64"
+          },
+          {
+            "name": "expires_at",
+            "type": "i64"
+          },
+          {
+            "name": "quote_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "is_tip",
+            "type": "bool"
+          },
+          {
+            "name": "copied_from",
+            "type": {
+              "option": "pubkey"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "PendingRefunded",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "pending",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "amount_u",
+            "docs": [
+              "Stake plus copy fee returned."
+            ],
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuoteLeg",
+      "docs": [
+        "One leg as quoted by the desk (85 bytes borsh)."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "symbol_hash",
+            "docs": [
+              "sha256 of the Pascal symbol string, e.g. `NBA_26OCT28_PHIIND_ML.PHI`."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "game_id_hash",
+            "docs": [
+              "sha256 of `display_attributes.game_page.game_id`, e.g. `nba-phi-ind-2026-10-28`."
+            ],
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "start_ts",
+            "docs": [
+              "`expected_event_start_time_ms / 1000`."
+            ],
+            "type": "i64"
+          },
+          {
+            "name": "side",
+            "docs": [
+              "0 long, 1 short."
+            ],
+            "type": "u8"
+          },
+          {
+            "name": "price_u",
+            "docs": [
+              "Ask-side quote price `p_i` for the user's side, micro-units in `(0, 1e6]`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "m1_ppm",
+            "docs": [
+              "Per-leg margin, 30_000 (no overlap) or 50_000 (overlap)."
+            ],
+            "type": "u32"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ticket",
+      "docs": [
+        "A minted parlay. PDA `[\"ticket\", user, nonce u64 LE]`. Immutable except",
+        "`legs[].status`, `legs[].resolution_ppm`, `state`, `paid_u`, `resolved_at`. Never closed."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "n",
+            "type": "u8"
+          },
+          {
+            "name": "legs",
+            "type": {
+              "array": [
+                {
+                  "defined": {
+                    "name": "TicketLeg"
+                  }
+                },
+                5
+              ]
+            }
+          },
+          {
+            "name": "stake_u",
+            "docs": [
+              "Stake behind the ticket, `rS` (C2 `rs_u`)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "refund_u",
+            "docs": [
+              "`S - rS`, returned at `finalize`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "payout_u",
+            "docs": [
+              "Locked payout `P` (C2 `payout_u`)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "odds_u",
+            "docs": [
+              "`floor(P * 1e6 / rS)`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "odds_offered_u",
+            "docs": [
+              "The desk's signed offered odds."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "min_payout_per_unit_u",
+            "type": "u64"
+          },
+          {
+            "name": "r_ppm",
+            "docs": [
+              "Fill ratio `r`."
+            ],
+            "type": "u32"
+          },
+          {
+            "name": "fee_u",
+            "docs": [
+              "`rS × m(n)`, for the books (no transfer: the margin is inside `P`)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "copy_fee_u",
+            "docs": [
+              "Copy fee charged (2.F; 0 in the MVP)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "state",
+            "type": {
+              "defined": {
+                "name": "TicketState"
+              }
+            }
+          },
+          {
+            "name": "tipster",
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "copied_from",
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "quote_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "minted_at",
+            "type": "i64"
+          },
+          {
+            "name": "resolved_at",
+            "docs": [
+              "When the ticket left `Open` (settle or cash-out); 0 before."
+            ],
+            "type": "i64"
+          },
+          {
+            "name": "paid_u",
+            "docs": [
+              "Amount paid out at settle or cash-out; 0 before."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "reserved",
+            "type": {
+              "array": [
+                "u8",
+                64
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "TicketCashedOut",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "ticket",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "payout_u",
+            "type": "u64"
+          },
+          {
+            "name": "c_u",
+            "type": "u64"
+          },
+          {
+            "name": "ts",
+            "type": "i64"
+          },
+          {
+            "name": "vault_locked",
+            "type": "u64"
+          },
+          {
+            "name": "vault_free",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TicketLeg",
+      "docs": [
+        "A minted leg."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "symbol_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "game_id_hash",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          },
+          {
+            "name": "start_ts",
+            "type": "i64"
+          },
+          {
+            "name": "side",
+            "docs": [
+              "0 long, 1 short."
+            ],
+            "type": "u8"
+          },
+          {
+            "name": "price_u",
+            "docs": [
+              "Signed quote price `p_i`."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "fill_u",
+            "docs": [
+              "Price used in the payout: the fill for a hedged leg, `price_u` otherwise."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "m1_ppm",
+            "type": "u32"
+          },
+          {
+            "name": "hedged",
+            "docs": [
+              "`true` when `finalize` got a non-zero fill for this leg."
+            ],
+            "type": "bool"
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": {
+                "name": "LegStatus"
+              }
+            }
+          },
+          {
+            "name": "resolution_ppm",
+            "docs": [
+              "Pascal's resolution `r` (long side), micro-units; 0 while `Open`."
+            ],
+            "type": "u32"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TicketMinted",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "ticket",
+            "type": "pubkey"
+          },
+          {
+            "name": "pending",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "fills",
+            "docs": [
+              "The crank's `fills` argument (0 = unhedged leg)."
+            ],
+            "type": {
+              "vec": "u64"
+            }
+          },
+          {
+            "name": "r_ppm",
+            "type": "u32"
+          },
+          {
+            "name": "stake_u",
+            "type": "u64"
+          },
+          {
+            "name": "refund_u",
+            "type": "u64"
+          },
+          {
+            "name": "payout_u",
+            "type": "u64"
+          },
+          {
+            "name": "odds_u",
+            "type": "u64"
+          },
+          {
+            "name": "fee_u",
+            "type": "u64"
+          },
+          {
+            "name": "tipster",
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "copied_from",
+            "type": {
+              "option": "pubkey"
+            }
+          },
+          {
+            "name": "vault_locked",
+            "type": "u64"
+          },
+          {
+            "name": "vault_free",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TicketSettled",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "ticket",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "payout_u",
+            "type": "u64"
+          },
+          {
+            "name": "paid_u",
+            "type": "u64"
+          },
+          {
+            "name": "vault_locked",
+            "type": "u64"
+          },
+          {
+            "name": "vault_free",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TicketState",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Open"
+          },
+          {
+            "name": "Settled"
+          },
+          {
+            "name": "CashedOut"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TipsterPaid",
+      "docs": [
+        "Reserved for step 2.F (copy-fee split); not emitted yet."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "tipster",
+            "type": "pubkey"
+          },
+          {
+            "name": "ticket",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount_u",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vault",
+      "docs": [
+        "House accounting. PDA `[\"vault\"]`. Invariants: `locked == Σ payout_u` over `Open`",
+        "tickets; `free + locked ==` balance of `usdc_ata`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "usdc_ata",
+            "docs": [
+              "House token account, PDA `[\"vault_usdc\"]` (owner `Config`)."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "escrow_ata",
+            "docs": [
+              "Escrow token account for pending stakes, PDA `[\"escrow_usdc\"]` (owner `Config`);",
+              "its balance is `Σ (stake_u + copy_fee_u)` over live `Pending` accounts."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "locked",
+            "docs": [
+              "Full payout of every open ticket."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "free",
+            "docs": [
+              "Unencumbered house money."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "lp_shares",
+            "docs": [
+              "v2 (LP vault); always 0."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "reserved",
+            "type": {
+              "array": [
+                "u8",
+                64
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "VaultFunded",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "funder",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount_u",
+            "type": "u64"
+          },
+          {
+            "name": "vault_free",
+            "type": "u64"
+          }
+        ]
+      }
+    }
+  ],
+  "constants": [
+    {
+      "name": "CASHOUT_TAG",
+      "docs": [
+        "First bytes of every signed cash-out message."
+      ],
+      "type": {
+        "array": [
+          "u8",
+          19
+        ]
+      },
+      "value": "[115, 99, 104, 101, 100, 105, 110, 97, 47, 99, 97, 115, 104, 111, 117, 116, 47, 118, 49]"
+    },
+    {
+      "name": "CASHOUT_TTL",
+      "docs": [
+        "A cash-out quote is valid while `|now - ts| <= CASHOUT_TTL`."
+      ],
+      "type": "i64",
+      "value": "30"
+    },
+    {
+      "name": "CONFIG_SEED",
+      "docs": [
+        "`Config` PDA: `[\"config\"]`. Also the token authority of the mock mint and of both",
+        "program token accounts."
+      ],
+      "type": "bytes",
+      "value": "[99, 111, 110, 102, 105, 103]"
+    },
+    {
+      "name": "ESCROW_USDC_SEED",
+      "docs": [
+        "Escrow token account holding every open `Pending`'s stake, PDA `[\"escrow_usdc\"]`,",
+        "owner `Config`."
+      ],
+      "type": "bytes",
+      "value": "[101, 115, 99, 114, 111, 119, 95, 117, 115, 100, 99]"
+    },
+    {
+      "name": "FAUCET_COOLDOWN",
+      "docs": [
+        "Seconds between two `faucet_usdc` claims by the same recipient owner."
+      ],
+      "type": "i64",
+      "value": "3600"
+    },
+    {
+      "name": "FAUCET_MAX",
+      "docs": [
+        "Largest `faucet_usdc` mint per claim: 10,000 mock USDC."
+      ],
+      "type": "u64",
+      "value": "10000000000"
+    },
+    {
+      "name": "FAUCET_SEED",
+      "docs": [
+        "`FaucetClaim` PDA: `[\"faucet\", owner]` (`devnet` builds only)."
+      ],
+      "type": "bytes",
+      "value": "[102, 97, 117, 99, 101, 116]"
+    },
+    {
+      "name": "MOCK_SEED",
+      "docs": [
+        "Mock mints (`MockMint`): `[\"mock\", symbol]`; mock USDC is `[\"mock\", \"USDC\"]`."
+      ],
+      "type": "bytes",
+      "value": "[109, 111, 99, 107]"
+    },
+    {
+      "name": "ONE",
+      "docs": [
+        "`1.0` in micro-units (prices, probabilities, odds, `_ppm` ratios)."
+      ],
+      "type": "u64",
+      "value": "1000000"
+    },
+    {
+      "name": "PENDING_SEED",
+      "docs": [
+        "`Pending` PDA: `[\"pending\", user, nonce u64 LE]`."
+      ],
+      "type": "bytes",
+      "value": "[112, 101, 110, 100, 105, 110, 103]"
+    },
+    {
+      "name": "PENDING_TTL_MAX",
+      "type": "i64",
+      "value": "60"
+    },
+    {
+      "name": "PENDING_TTL_MIN",
+      "docs": [
+        "`Pending.expires_at` must lie in `[now + MIN, now + MAX]` at `open_pending` (C3)."
+      ],
+      "type": "i64",
+      "value": "30"
+    },
+    {
+      "name": "QUOTE_TAG",
+      "docs": [
+        "First bytes of every signed quote message (C3 domain separation)."
+      ],
+      "type": {
+        "array": [
+          "u8",
+          17
+        ]
+      },
+      "value": "[115, 99, 104, 101, 100, 105, 110, 97, 47, 113, 117, 111, 116, 101, 47, 118, 49]"
+    },
+    {
+      "name": "REFUND_GRACE",
+      "docs": [
+        "`refund_pending` opens this long after `expires_at`, so a `finalize` sent before",
+        "expiry cannot lose the race."
+      ],
+      "type": "i64",
+      "value": "15"
+    },
+    {
+      "name": "TICKET_SEED",
+      "docs": [
+        "`Ticket` PDA: `[\"ticket\", user, nonce u64 LE]` (same nonce as its `Pending`)."
+      ],
+      "type": "bytes",
+      "value": "[116, 105, 99, 107, 101, 116]"
+    },
+    {
+      "name": "TIPSTER_SEED",
+      "docs": [
+        "`TipsterProfile` PDA: `[\"tipster\", wallet]` (reserved; step 2.F)."
+      ],
+      "type": "bytes",
+      "value": "[116, 105, 112, 115, 116, 101, 114]"
+    },
+    {
+      "name": "USDC_DECIMALS",
+      "docs": [
+        "Mock USDC decimals (micro-USDC units)."
+      ],
+      "type": "u8",
+      "value": "6"
+    },
+    {
+      "name": "USDC_SYMBOL",
+      "type": "bytes",
+      "value": "[85, 83, 68, 67]"
+    },
+    {
+      "name": "VAULT_SEED",
+      "docs": [
+        "`Vault` PDA: `[\"vault\"]` (accounting of the house token account)."
+      ],
+      "type": "bytes",
+      "value": "[118, 97, 117, 108, 116]"
+    },
+    {
+      "name": "VAULT_USDC_SEED",
+      "docs": [
+        "House USDC token account (`Vault.usdc_ata`), PDA `[\"vault_usdc\"]`, owner `Config`."
+      ],
+      "type": "bytes",
+      "value": "[118, 97, 117, 108, 116, 95, 117, 115, 100, 99]"
+    }
+  ]
+}

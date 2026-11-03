@@ -1,0 +1,103 @@
+{
+  "_doc": "Copy-fee vectors (plan step 2.F; program `schedina::math::copy_fee` / `copy_split`). Integer micro-units. open_pending of a copy (copied_from set) escrows escrow_u = stake_u + copy_fee_u with copy_fee_u = ceil(stake_u * copy_fee_bps / 10_000) (charged to the user: rounds up, C1). finalize at fill ratio r_ppm: rs_u = floor(stake_u * r_ppm / 1e6) (C2); copy_used_u = floor(copy_fee_u * r_ppm / 1e6) (same scaling as rs_u); tipster_u = floor(copy_used_u * tipster_share_bps / 10_000) goes to the tipster's USDC account (TipsterPaid.amount_u); house_u = copy_used_u - tipster_u is credited to Vault.free; refund_u = (stake_u - rs_u) + (copy_fee_u - copy_used_u) goes back to the user (TicketMinted.refund_u, Ticket.refund_u); Ticket.copy_fee_u = copy_used_u. refund_pending returns escrow_u. Own tickets and own tips carry no copy fee. copy_fee_bps and tipster_share_bps are read from Config at open_pending and finalize respectively. programs/schedina/tests/copy_fee_vectors.rs checks the program's math against this file.",
+  "copy_fee": [
+    {
+      "name": "10 USDC, full fill",
+      "stake_u": 10000000,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 1000000,
+      "copy_fee_u": 200000,
+      "escrow_u": 10200000,
+      "rs_u": 10000000,
+      "copy_used_u": 200000,
+      "tipster_u": 160000,
+      "house_u": 40000,
+      "refund_u": 0
+    },
+    {
+      "name": "10 USDC, r = 0.6",
+      "stake_u": 10000000,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 600000,
+      "copy_fee_u": 200000,
+      "escrow_u": 10200000,
+      "rs_u": 6000000,
+      "copy_used_u": 120000,
+      "tipster_u": 96000,
+      "house_u": 24000,
+      "refund_u": 4080000
+    },
+    {
+      "name": "5 USDC minimum demo stake, full fill",
+      "stake_u": 5000000,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 1000000,
+      "copy_fee_u": 100000,
+      "escrow_u": 5100000,
+      "rs_u": 5000000,
+      "copy_used_u": 100000,
+      "tipster_u": 80000,
+      "house_u": 20000,
+      "refund_u": 0
+    },
+    {
+      "name": "1 USDC + 1 micro, fee rounds up, r = 1/3",
+      "stake_u": 1000001,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 333333,
+      "copy_fee_u": 20001,
+      "escrow_u": 1020002,
+      "rs_u": 333333,
+      "copy_used_u": 6666,
+      "tipster_u": 5332,
+      "house_u": 1334,
+      "refund_u": 680003
+    },
+    {
+      "name": "37.123457 USDC, r = 0.777777",
+      "stake_u": 37123457,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 777777,
+      "copy_fee_u": 742470,
+      "escrow_u": 37865927,
+      "rs_u": 28873771,
+      "copy_used_u": 577476,
+      "tipster_u": 461980,
+      "house_u": 115496,
+      "refund_u": 8414680
+    },
+    {
+      "name": "250 USDC, r = 0.5",
+      "stake_u": 250000000,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 500000,
+      "copy_fee_u": 5000000,
+      "escrow_u": 255000000,
+      "rs_u": 125000000,
+      "copy_used_u": 2500000,
+      "tipster_u": 2000000,
+      "house_u": 500000,
+      "refund_u": 127500000
+    },
+    {
+      "name": "1 USDC, r = 1 micro",
+      "stake_u": 1000000,
+      "copy_fee_bps": 200,
+      "tipster_share_bps": 8000,
+      "r_ppm": 1,
+      "copy_fee_u": 20000,
+      "escrow_u": 1020000,
+      "rs_u": 1,
+      "copy_used_u": 0,
+      "tipster_u": 0,
+      "house_u": 0,
+      "refund_u": 1019999
+    }
+  ]
+}

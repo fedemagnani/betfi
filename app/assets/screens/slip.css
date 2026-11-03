@@ -1,0 +1,65 @@
+/* L7-1 bet drawer styles (7.1b, l7-contracts L7-4). The sheet, the pick rows, the stake block, the
+   summary and the CTA are the kit's (main.css .k-sheet, .k-pick, .k-stake, .k-summary, .k-cta);
+   this file lays out what the drawer adds: the pick list, the quiet tip and fee lines, the
+   fee details, and the typed amount of a token (mockBONK). Mockup:
+   betfi_sportsbook_bet_drawer_instagram_style (390 px). */
+
+/* ---------------------------------------------------------------- picks */
+
+.slip-picks { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.slip-pick { min-width: 0; }
+
+/* ---------------------------------------------------------------- quiet lines under the summary */
+
+.slip-quiet { display: flex; flex-direction: column; gap: 2px; min-width: 0; padding: 0 4px; }
+.slip-tip { display: flex; flex-direction: column; min-width: 0; }
+.slip-tip .k-toggle { min-height: 36px; font-size: var(--fs-sm); line-height: 16px; color: var(--on-surface-variant); }
+.slip-tip .k-toggle-track { width: 36px; height: 20px; border-radius: var(--r-md); background: var(--surface-container-highest); }
+.slip-tip .k-toggle-knob { left: 2px; top: 2px; width: 16px; height: 16px; border-radius: var(--r-sm); background: var(--on-surface-variant); }
+.slip-tip .k-toggle input:checked + .k-toggle-track { background: var(--sol-purple); }
+.slip-tip .k-toggle input:checked + .k-toggle-track .k-toggle-knob { transform: translateX(16px); background: #fff; }
+.slip-tip.blocked .k-toggle { color: var(--outline); }
+/* L9: the tip's optional name, under the switch while it is on. */
+.slip-tip-name {
+  display: flex; align-items: center; min-width: 0; height: 36px; margin: 2px 0 4px; padding: 0 12px;
+  border-radius: var(--r-full); background: var(--surface-container-high);
+}
+.slip-tip-name:focus-within { box-shadow: var(--focus); }
+.slip-tip-name input {
+  flex: 1; min-width: 0; height: 100%; border: 0; padding: 0; background: transparent;
+  color: var(--on-surface); font: var(--type-body-sm); font-weight: 600; outline: none;
+}
+.slip-tip-name input::placeholder { color: var(--outline); font-weight: 500; }
+
+.slip-line { margin: 0; font-size: var(--fs-xs); line-height: 16px; color: var(--outline); font-variant-numeric: tabular-nums; }
+.slip-line .num, .slip-line span { font-variant-numeric: tabular-nums; }
+.slip-error { margin: 0; font-size: var(--fs-sm); line-height: 16px; color: var(--error); }
+
+/* ---------------------------------------------------------------- paying in a token (mockBONK) */
+
+.slip-token-end { display: flex; align-items: center; gap: 4px; }
+.slip-token-field { position: relative; display: flex; align-items: center; justify-content: center; padding: 8px 0 2px; }
+.slip-token-amount {
+  width: 100%; min-width: 0; padding: 0 40px; border: 0; background: none; text-align: center;
+  font: var(--type-display-hero-mobile); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-display-hero-mobile); color: var(--on-surface);
+}
+.slip-token-amount::placeholder { color: var(--surface-bright); }
+.slip-token-amount:focus { outline: none; }
+.slip-token-field:focus-within { box-shadow: inset 0 -2px 0 var(--sol-green); }
+.slip-token-field .k-icon-btn { position: absolute; right: 4px; }
+.slip-hint { display: block; padding-bottom: 4px; }
+.slip-token-stake .slip-error { text-align: center; padding-bottom: 4px; }
+.slip-small { margin: 0; font-size: var(--fs-xs); line-height: 16px; color: var(--outline); }
+.slip-token-line { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; padding: 0 4px; }
+.slip-inline-link { min-height: 28px; font-size: var(--fs-xs); }
+
+/* ---------------------------------------------------------------- placing: the status in the CTA */
+
+/* The CTA carries escrowed → hedging → minted while the bet is placed: legible, gently pulsing,
+   not greyed out like a CTA that cannot be used. */
+@keyframes slip-status { 50% { filter: brightness(1.12); } }
+.k-sheet:has(.slip-placing) .k-cta:disabled { opacity: 1; animation: slip-status 1.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .k-sheet:has(.slip-placing) .k-cta:disabled { animation: none; } }
+
+/* Placing (1 Nov): the ring and the steps, compact. */
+.slip-progress { padding: 4px 0 8px; }

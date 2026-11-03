@@ -1,0 +1,53 @@
+[package]
+name = "schedina"
+version = "0.1.0"
+description = "Schedina: parlay tickets over Pascal markets, backed by a house vault"
+edition = "2021"
+publish = false
+# MSRV of the on-chain code; must stay at or below the platform-tools rustc (1.95.0-dev),
+# which also checks it during `anchor build`. Host builds use rust-toolchain.toml (1.97.1).
+rust-version = "1.89"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "schedina"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+# `anchor-spl/idl-build` needs its Token-2022 interface module; host-only, not in the .so.
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build", "anchor-spl/token_2022"]
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+# Compiles `faucet_usdc` (mock USDC for demos). Never enable for a mainnet build.
+devnet = []
+
+[dependencies]
+anchor-lang = { version = "=1.2.2", features = ["init-if-needed", "event-cpi"] }
+# Classic SPL Token only (mock USDC mint and vault, step 1.C).
+anchor-spl = { version = "=1.2.2", default-features = false, features = ["token", "solana-v3"] }
+# Reads the `Ed25519Program` verify instruction back (quote and cash-out signatures, C3).
+solana-instructions-sysvar = "3.0.1"
+# sha256 of the signed quote (`Pending.quote_hash`): the `sol_sha256` syscall on-chain, `sha2` on the host.
+solana-sha256-hasher = { version = "3.1", features = ["sha2"] }
+
+[dev-dependencies]
+# `precompiles` loads the ed25519 / secp256k1 precompiles; without it an `Ed25519Program`
+# instruction fails with `InvalidProgramForExecution` (step 1.C verifies quotes with it).
+litesvm = { version = "0.18.1", features = ["precompiles"] }
+serde_json = "1"
+solana-account = "4"
+solana-ed25519-program = "3.0.0"
+solana-instruction-error = "2"
+solana-keypair = "3"
+solana-message = "4"
+solana-signer = "3"
+solana-transaction = "4"
+solana-transaction-error = "3"
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("solana"))'] }

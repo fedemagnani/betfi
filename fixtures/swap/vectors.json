@@ -1,0 +1,101 @@
+{
+  "about": "Mock AMM (step 4.D) constant-product vectors, computed by hand with integer arithmetic (checked with Python's int, never with the Rust code). fee_in = ceil(amount_in * fee_bps / 10000); a = amount_in - fee_in; amount_out = floor(a * r_out / (r_in + a)); gross_out = floor(amount_in * r_out / (r_in + amount_in)); fee_out = gross_out - amount_out (the fee in output tokens, the desk's /swap-quote fee_u); min_out = floor(amount_out * (10000 - slippage_bps) / 10000). amount_out 0 means the program refuses the swap (ZeroOut). Used by programs/mock-amm/tests (LiteSVM), crates/desk/src/swap (quote math) and app/tx (swap instruction).",
+  "fee_bps": 50,
+  "slippage_bps": 50,
+  "worked_example": {
+    "case": "sell 10,000 mockBONK (5 dp) into a 5,000,000 mockBONK : 5,000 USDC pool",
+    "amount_in": "10,000.00000 mockBONK = 1,000,000,000 base units",
+    "fee_in": "ceil(1,000,000,000 * 50 / 10,000) = 5,000,000 (50 mockBONK)",
+    "a": "1,000,000,000 - 5,000,000 = 995,000,000",
+    "amount_out": "floor(995,000,000 * 5,000,000,000 / (500,000,000,000 + 995,000,000)) = floor(4,975,000,000,000,000,000 / 500,995,000,000) = floor(9,930,238.82) = 9,930,238 (9.930238 USDC)",
+    "gross_out": "floor(1,000,000,000 * 5,000,000,000 / 501,000,000,000) = floor(9,980,039.92) = 9,980,039",
+    "fee_out": "9,980,039 - 9,930,238 = 49,801 (0.049801 USDC, the 0.5% fee line)",
+    "min_out": "floor(9,930,238 * 9,950 / 10,000) = floor(9,880,586.81) = 9,880,586"
+  },
+  "swaps": [
+    {
+      "name": "sell 10,000 mockBONK into 5M:5,000",
+      "direction": "sell",
+      "r_in": 500000000000,
+      "r_out": 5000000000,
+      "amount_in": 1000000000,
+      "fee_in": 5000000,
+      "amount_out": 9930238,
+      "gross_out": 9980039,
+      "fee_out": 49801,
+      "min_out": 9880586
+    },
+    {
+      "name": "sell 1 base unit: the fee takes it all, refused",
+      "direction": "sell",
+      "r_in": 500000000000,
+      "r_out": 5000000000,
+      "amount_in": 1,
+      "fee_in": 1,
+      "amount_out": 0,
+      "gross_out": 0,
+      "fee_out": 0,
+      "min_out": 0
+    },
+    {
+      "name": "sell 199 base units: the fee rounds up to 1",
+      "direction": "sell",
+      "r_in": 500000000000,
+      "r_out": 5000000000,
+      "amount_in": 199,
+      "fee_in": 1,
+      "amount_out": 1,
+      "gross_out": 1,
+      "fee_out": 0,
+      "min_out": 0
+    },
+    {
+      "name": "buy mockBONK with 25 USDC",
+      "direction": "buy",
+      "r_in": 5000000000,
+      "r_out": 500000000000,
+      "amount_in": 25000000,
+      "fee_in": 125000,
+      "amount_out": 2475185949,
+      "gross_out": 2487562189,
+      "fee_out": 12376240,
+      "min_out": 2462810019
+    },
+    {
+      "name": "sell as much mockBONK as the pool holds (price impact)",
+      "direction": "sell",
+      "r_in": 500000000000,
+      "r_out": 5000000000,
+      "amount_in": 500000000000,
+      "fee_in": 2500000000,
+      "amount_out": 2493734335,
+      "gross_out": 2500000000,
+      "fee_out": 6265665,
+      "min_out": 2481265663
+    },
+    {
+      "name": "sell 1 mockSOL (9 dp) into 1,000 mockSOL : 150,000 USDC",
+      "direction": "sell",
+      "r_in": 1000000000000,
+      "r_out": 150000000000,
+      "amount_in": 1000000000,
+      "fee_in": 5000000,
+      "amount_out": 149101643,
+      "gross_out": 149850149,
+      "fee_out": 748506,
+      "min_out": 148356134
+    },
+    {
+      "name": "tiny pool 1,000:1,000, 1,000 in",
+      "direction": "sell",
+      "r_in": 1000,
+      "r_out": 1000,
+      "amount_in": 1000,
+      "fee_in": 5,
+      "amount_out": 498,
+      "gross_out": 500,
+      "fee_out": 2,
+      "min_out": 495
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "tipster": {
+    "wallet": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+    "settled": 2,
+    "won": 2,
+    "hit_rate_ppm": 1000000,
+    "roi_ppm": 358604,
+    "brier_ppm": 55100,
+    "edge_ppm": 220500,
+    "avg_odds_u": 1590288,
+    "skin_u": 15000000,
+    "followers_roi_ppm": 85000,
+    "streak": 2,
+    "open_count": 1,
+    "open_staked_u": 5000000,
+    "copies": 1,
+    "fees_earned_u": 160000,
+    "handle": "midnight_parlays",
+    "verified": false,
+    "roi_30d_ppm": 358604,
+    "copiers": 1
+  },
+  "history": [
+    {
+      "ticket": "7Ry11kJCyyB9w8B3zdR5vhD97UYni4ommuFXtLGyeBVk",
+      "settled_at": 1793236000,
+      "roi_cum_ppm": 820000,
+      "brier_cum_ppm": 90601
+    },
+    {
+      "ticket": "A1dRXD5cVdzT89zHG4Kdf5VB3JLT7yjtNkAkpASKtsmu",
+      "settled_at": 1793245200,
+      "roi_cum_ppm": 358604,
+      "brier_cum_ppm": 55100
+    }
+  ],
+  "settled": [
+    {
+      "ticket": "A1dRXD5cVdzT89zHG4Kdf5VB3JLT7yjtNkAkpASKtsmu",
+      "user": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "nonce": 6,
+      "state": "settled",
+      "n": 1,
+      "stake_u": 10000000,
+      "payout_u": 11279069,
+      "odds_offered_u": 1127906,
+      "odds_fair_u": 1176470,
+      "fee_u": 485636,
+      "minted_at": 1793212700,
+      "settled_at": 1793245200,
+      "paid_u": 11279069,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "ticket settled"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+          "game_id": "nba-sas-uta-2026-10-28",
+          "away": "San Antonio Spurs",
+          "home": "Utah Jazz",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793235600000,
+          "p_quote_u": 860000,
+          "p_fill_u": 860000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "89950",
+          "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+          "side": "bid",
+          "price_u": 860000,
+          "size": 12,
+          "fee_u": 28896,
+          "builder_fee_u": 10320,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "3fW4nRf2Dmp53j9T4GyRLErc1AThvb7P1VFi6h6JEmb3ioGxnH9WyVoBncX8pNr4fsb53BiKS9LsEGf7SikRWo96",
+        "finalize": "wBbKVzssh5hiQzjaFPpv6shP5KTXVXZXaYAnTicX2SLki462vQ8m374ZZiFKqGvDzKn6XHoEc6u4rDAd1KdC8sA",
+        "settle": "2ZZsfDsFHTy6wBymnWDhypF9EUgP1CQjpSPkGWuq24PxfggYXCUBU5vmGyhoxxqSu98wiViLs47SF54kKFb4qmbu",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "671zkoSfZQRBok14SbkCS45kVdrdVNRixE6jQ6xcvpt5qJ4eHYGNBV51SmLo5AyNANoPr1XCcBc1FdovC6s12ETw"
+        ],
+        "slot": {
+          "open_pending": 418160442,
+          "cash_out": null,
+          "settle": 418301552
+        },
+        "confirm_ms": {
+          "open_pending": 590,
+          "cash_out": null
+        }
+      },
+      "tipster": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "copied_from": null,
+      "posted_odds_u": 1127906,
+      "title": "Late tip-off single",
+      "pool_u": 0,
+      "copies": 0,
+      "teams": [
+        "SAS"
+      ]
+    },
+    {
+      "ticket": "7Ry11kJCyyB9w8B3zdR5vhD97UYni4ommuFXtLGyeBVk",
+      "user": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "nonce": 5,
+      "state": "cashed_out",
+      "n": 2,
+      "stake_u": 5000000,
+      "payout_u": 10263355,
+      "odds_offered_u": 2052671,
+      "odds_fair_u": 2274427,
+      "fee_u": 1108780,
+      "minted_at": 1793212800,
+      "settled_at": 1793236000,
+      "paid_u": 9100000,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "ticket cashed out"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "game_id": "nba-phi-ind-2026-10-28",
+          "away": "Philadelphia 76ers",
+          "home": "Indiana Pacers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793228400000,
+          "p_quote_u": 699000,
+          "p_fill_u": 699000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+          "game_id": "nba-orl-tor-2026-10-28",
+          "away": "Orlando Magic",
+          "home": "Toronto Raptors",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793230200000,
+          "p_quote_u": 629000,
+          "p_fill_u": 629000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "90001",
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "side": "bid",
+          "price_u": 699000,
+          "size": 8,
+          "fee_u": 33663,
+          "builder_fee_u": 5592,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "90002",
+          "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+          "side": "ask",
+          "price_u": 371000,
+          "size": 13,
+          "fee_u": 60673,
+          "builder_fee_u": 4823,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "3NncghQ6jVqTp1oKhZhb5ronqJM5KpsSrSKavEkdev4Xc84StZUiwtrZYPV7ixXChDKffGVSZ3fSaq3i9LMLuC7G",
+        "finalize": "ojhTi8nr2kMtqKb1GjDLr6org6V1r9aLH9yAuJuVKTcpWQc5gosWr8DZr3btJAXGs2Yw3YVtm4eMhYhzRdbNjEk",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": "ah6GxShswaPJkMYFJTdNjqdFEksd64HFvUudSKothZpsAymAaoYuzJXrL7JZx4uX2C9ohGqeLWKJ4HNJFEFuZjn",
+        "resolve_leg": [
+          "sZH5sxhWs75y5pWWPyS7c2vVkLTy4JBw9Pm17zWwRKEqfFN4wg2Z1jZi7gJRR8pfaieFgkfByeu7h7G6xCGbqFa"
+        ],
+        "slot": {
+          "open_pending": 418171830,
+          "cash_out": 418250990,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": 820,
+          "cash_out": 710
+        }
+      },
+      "tipster": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "copied_from": null,
+      "posted_odds_u": 2052671,
+      "title": null,
+      "pool_u": 0,
+      "copies": 0,
+      "teams": [
+        "PHI",
+        "TOR"
+      ]
+    }
+  ],
+  "open": [
+    {
+      "ticket": "HGMZNFqTMf4bcdUpSoZNG981rPiAYk6utvoPuSJ19DZy",
+      "user": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "nonce": 7,
+      "state": "open",
+      "n": 3,
+      "stake_u": 5000000,
+      "payout_u": 14795428,
+      "odds_offered_u": 2959085,
+      "odds_fair_u": 3514745,
+      "fee_u": 2778297,
+      "minted_at": 1793213000,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 4650000,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "game_id": "nba-phi-ind-2026-10-28",
+          "away": "Philadelphia 76ers",
+          "home": "Indiana Pacers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793228400000,
+          "p_quote_u": 699000,
+          "p_fill_u": 699000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+          "game_id": "nba-orl-tor-2026-10-28",
+          "away": "Orlando Magic",
+          "home": "Toronto Raptors",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793230200000,
+          "p_quote_u": 629000,
+          "p_fill_u": 629000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        },
+        {
+          "idx": 2,
+          "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+          "game_id": "nba-okc-dal-2026-10-28",
+          "away": "Oklahoma City Thunder",
+          "home": "Dallas Mavericks",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793237400000,
+          "p_quote_u": 659000,
+          "p_fill_u": 659000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "90001",
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "side": "bid",
+          "price_u": 699000,
+          "size": 8,
+          "fee_u": 33663,
+          "builder_fee_u": 5592,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "90002",
+          "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+          "side": "ask",
+          "price_u": 371000,
+          "size": 13,
+          "fee_u": 60673,
+          "builder_fee_u": 4823,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "90003",
+          "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+          "side": "bid",
+          "price_u": 659000,
+          "size": 23,
+          "fee_u": 103370,
+          "builder_fee_u": 15157,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "2sbQKQr77CTo7qbkPRjqHbH4AeqMdghxhrgYFX8YQfUEwVNRNYXwDqABiUoGgHQ1RztwJcF4F5h6phT9pDSx3TSy",
+        "finalize": "5e1yyaV8yWW5hvtSWqD5deb4QUcqDx8ji7M7AVoFCRbUEq8uRHL5Zt7yd2aiBnuTC8Kiig47drD3Ls6fepNYCRB4",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 418220101,
+          "cash_out": null,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": 640,
+          "cash_out": null
+        }
+      },
+      "tipster": "6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos",
+      "copied_from": null,
+      "posted_odds_u": 2959085,
+      "title": "Wednesday double",
+      "pool_u": 10000000,
+      "copies": 1,
+      "teams": [
+        "PHI",
+        "TOR",
+        "OKC"
+      ]
+    }
+  ]
+}

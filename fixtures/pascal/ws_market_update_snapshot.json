@@ -1,0 +1,8 @@
+{
+  "channel": "market_update",
+  "type": "snapshot",
+  "data": [],
+  "seq": "12117113181",
+  "state_time_ms": "1793147857611",
+  "server_time_ms": "1793147857630"
+}

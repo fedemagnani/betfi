@@ -1,0 +1,24 @@
+# Scripted events for pascal-mock on the NBA tape of 28 Oct 2026 (crates/pascal-mock/src/script.rs).
+#
+# One [[resolve]] table per line of the plan's form `resolve <symbol> <price> at <clock>`:
+#   symbol  Pascal symbol on the tape
+#   price   settlement price in [0, 1]: "1" = the long side (the away team here) won, "0" = it lost
+#   at      when, on the mock clock:
+#             1793242800000   absolute tape time, Unix ms
+#             "start+40m"     tape time after the clock start (--start, default the first snapshot)
+#             "wall+40s"      wall-clock time after boot, whatever --speed is (D-090): at --speed 60 it
+#                             lands 40 min into the tape; at --speed 0 it fires 40 s after boot, never at boot
+#
+# Loaded automatically when the mock serves this tape (or its sample/ or raw/); --no-script skips it.
+# Markets that resolve on the tape itself (search.jsonl) resolve at their recorded time anyway;
+# a scripted resolution that comes first wins, and a market resolves only once.
+#
+# Demo script (plan 2.D, spec section 9 step 3): leg 1 (PHI @ IND, the first game of the night)
+# resolves for the away team 40 s of wall clock after boot. Run it with
+#   just mock-demo                     (= just mock --tape tapes/nba-2026-10-28 --speed 60)
+# and see tapes/README.md, "Demo".
+
+[[resolve]]
+symbol = "NBA_26OCT28_PHIIND_ML.PHI"
+price = "1"
+at = "wall+40s"

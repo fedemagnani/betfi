@@ -1,0 +1,528 @@
+{
+ "status": "success",
+ "data": [
+  {
+   "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#CE1141",
+      "dark": "#CE1141"
+     },
+     "reverse": {
+      "light": "#00471B",
+      "dark": "#226032"
+     }
+    },
+    "event_description": "Rockets vs Bucks, Oct 28, Moneyline",
+    "expected_event_start_time_ms": "1793232000000",
+    "expected_resolution_time_ms": "1793246400000",
+    "game_page": {
+     "game_id": "nba-hou-mil-2026-10-28",
+     "game_description": "Rockets vs Bucks, Oct 28",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Houston Rockets",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Milwaukee Bucks",
+      "home_short_name": "Bucks",
+      "home_subject_id": "milwaukee-bucks",
+      "away_name": "Houston Rockets",
+      "away_short_name": "Rockets",
+      "away_subject_id": "houston-rockets"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Rockets",
+      "abbreviated": "HOU"
+     },
+     "short": {
+      "extended": "Bucks",
+      "abbreviated": "MIL"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-hou-mil-2026-10-28",
+     "condition_id": "0x1d997e055eb5adca2a91ea72601cc16af004d805d2bef90c93994ea4ba46e63f",
+     "market_outcome_token_id": "114802959469268542646294653680125499438837281363641343048667595106588268933506",
+     "reverse_outcome_token_id": "86422857282776024788068920183146130710781356479708854930189047288283695249521"
+    },
+    "reverse_description": "Milwaukee Bucks",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792758918249",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT28_HOUMIL_ML/NBA_26OCT28_HOUMIL_ML.HOU.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.775000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    },
+    "all_time": {
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    }
+   },
+   "mark_price": "0.765000",
+   "best_bid": "0.760000",
+   "best_ask": "0.770000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#EF3B24",
+      "dark": "#EF3B24"
+     },
+     "reverse": {
+      "light": "#00538C",
+      "dark": "#0A5891"
+     }
+    },
+    "event_description": "Thunder vs Mavericks, Oct 28, Moneyline",
+    "expected_event_start_time_ms": "1793237400000",
+    "expected_resolution_time_ms": "1793251800000",
+    "game_page": {
+     "game_id": "nba-okc-dal-2026-10-28",
+     "game_description": "Thunder vs Mavericks, Oct 28",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Oklahoma City Thunder",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Dallas Mavericks",
+      "home_short_name": "Mavericks",
+      "home_subject_id": "dallas-mavericks",
+      "away_name": "Oklahoma City Thunder",
+      "away_short_name": "Thunder",
+      "away_subject_id": "oklahoma-city-thunder"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Thunder",
+      "abbreviated": "OKC"
+     },
+     "short": {
+      "extended": "Mavericks",
+      "abbreviated": "DAL"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-okc-dal-2026-10-28",
+     "condition_id": "0xc7db36794c62024a534e102bc83c9b5bf7c3ac80ca59106aec8816b57ec4c6f8",
+     "market_outcome_token_id": "60739642562901839902206623386931515902675588770126963271838134667478223811007",
+     "reverse_outcome_token_id": "33565980366170242965510720771768873559146153779020999207012338059026390225512"
+    },
+    "reverse_description": "Dallas Mavericks",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792758918451",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT28_OKCDAL_ML/NBA_26OCT28_OKCDAL_ML.OKC.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.755000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "20",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "13.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "1",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    },
+    "all_time": {
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "20",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "13.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "1",
+     "window_end_ts_ms_exclusive": "1793206200000"
+    }
+   },
+   "mark_price": "0.655000",
+   "best_bid": "0.651000",
+   "best_ask": "0.659000",
+   "open_interest": "20",
+   "long_interest": "20",
+   "short_interest": "20"
+  },
+  {
+   "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#0077C0",
+      "dark": "#0077C0"
+     },
+     "reverse": {
+      "light": "#CE1141",
+      "dark": "#CE1141"
+     }
+    },
+    "event_description": "Magic vs Raptors, Oct 28, Moneyline",
+    "expected_event_start_time_ms": "1793230200000",
+    "expected_resolution_time_ms": "1793244600000",
+    "game_page": {
+     "game_id": "nba-orl-tor-2026-10-28",
+     "game_description": "Magic vs Raptors, Oct 28",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Orlando Magic",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Toronto Raptors",
+      "home_short_name": "Raptors",
+      "home_subject_id": "toronto-raptors",
+      "away_name": "Orlando Magic",
+      "away_short_name": "Magic",
+      "away_subject_id": "orlando-magic"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Magic",
+      "abbreviated": "ORL"
+     },
+     "short": {
+      "extended": "Raptors",
+      "abbreviated": "TOR"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-orl-tor-2026-10-28",
+     "condition_id": "0x54be07487d153da3bd6d376a5a95f2d99fcf7dd2e0f78318bc74d78868266c95",
+     "market_outcome_token_id": "5056223884062069199358435655722917427766628341585162500689855971926840299800",
+     "reverse_outcome_token_id": "26960153426012864857146558839764372504143262755569803995340335567510483231378"
+    },
+    "reverse_description": "Toronto Raptors",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792758918502",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT28_ORLTOR_ML/NBA_26OCT28_ORLTOR_ML.ORL.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.350000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    },
+    "all_time": {
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    }
+   },
+   "mark_price": "0.375000",
+   "best_bid": "0.371000",
+   "best_ask": "0.379000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#006BB6",
+      "dark": "#ED174C"
+     },
+     "reverse": {
+      "light": "#002D62",
+      "dark": "#2B568E"
+     }
+    },
+    "event_description": "76ers vs Pacers, Oct 28, Moneyline",
+    "expected_event_start_time_ms": "1793228400000",
+    "expected_resolution_time_ms": "1793242800000",
+    "game_page": {
+     "game_id": "nba-phi-ind-2026-10-28",
+     "game_description": "76ers vs Pacers, Oct 28",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "Philadelphia 76ers",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Indiana Pacers",
+      "home_short_name": "Pacers",
+      "home_subject_id": "indiana-pacers",
+      "away_name": "Philadelphia 76ers",
+      "away_short_name": "76ers",
+      "away_subject_id": "philadelphia-76ers"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "76ers",
+      "abbreviated": "PHI"
+     },
+     "short": {
+      "extended": "Pacers",
+      "abbreviated": "IND"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-phi-ind-2026-10-28",
+     "condition_id": "0xab9571b00f4a53fe46c1acb1e59b0885202cd7c3bb7e2347313fcebcfadd7e98",
+     "market_outcome_token_id": "4142393048898276915338959730526264015385646971647587793098079113530274780235",
+     "reverse_outcome_token_id": "26564768351172572506624047575033153770816895524645428805390327155897544578386"
+    },
+    "reverse_description": "Indiana Pacers",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792758918554",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT28_PHIIND_ML/NBA_26OCT28_PHIIND_ML.PHI.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.595000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "30",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "19.830000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "2",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    },
+    "all_time": {
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "30",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "19.830000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "2",
+     "window_end_ts_ms_exclusive": "1793211660000"
+    }
+   },
+   "mark_price": "0.695000",
+   "best_bid": "0.691000",
+   "best_ask": "0.699000",
+   "open_interest": "30",
+   "long_interest": "30",
+   "short_interest": "30"
+  },
+  {
+   "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "colors": {
+     "market": {
+      "light": "#000000",
+      "dark": "#C4CED4"
+     },
+     "reverse": {
+      "light": "#D7880A",
+      "dark": "#2D568B"
+     }
+    },
+    "event_description": "Spurs vs Jazz, Oct 28, Moneyline",
+    "expected_event_start_time_ms": "1793235600000",
+    "expected_resolution_time_ms": "1793250000000",
+    "game_page": {
+     "game_id": "nba-sas-uta-2026-10-28",
+     "game_description": "Spurs vs Jazz, Oct 28",
+     "section_id": "money-line-full-game",
+     "section_description": "Moneyline",
+     "section_display_order": 100
+    },
+    "market_description": "San Antonio Spurs",
+    "market_type": {
+     "kind": "sports",
+     "sport": "basketball",
+     "period": "full_game",
+     "teams": {
+      "home_name": "Utah Jazz",
+      "home_short_name": "Jazz",
+      "home_subject_id": "utah-jazz",
+      "away_name": "San Antonio Spurs",
+      "away_short_name": "Spurs",
+      "away_subject_id": "san-antonio-spurs"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "outcome_labels": {
+     "long": {
+      "extended": "Spurs",
+      "abbreviated": "SAS"
+     },
+     "short": {
+      "extended": "Jazz",
+      "abbreviated": "UTA"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "nba-sas-uta-2026-10-28",
+     "condition_id": "0x576d7bbcf84a17c32320fbd1ff30acfa7b32398a7d880eaae8fe3846228dbbd9",
+     "market_outcome_token_id": "32429257327464857167318139136981164071313678213227789475317435435404153822889",
+     "reverse_outcome_token_id": "71940414133955271235560381721825780721970685296435940516445968001335900891780"
+    },
+    "reverse_description": "Utah Jazz",
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Basketball",
+     "NBA"
+    ],
+    "topic": {
+     "id": "nba",
+     "description": "NBA"
+    }
+   },
+   "listing_ts_ms": "1792758918605",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT28_SASUTA_ML/NBA_26OCT28_SASUTA_ML.SAS.md",
+   "stats": {
+    "last_24h": {
+     "mark_price_start": "0.825000",
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    },
+    "all_time": {
+     "taker_buy_volume": "0",
+     "taker_sell_volume": "0",
+     "taker_buy_volume_notional": "0.000000",
+     "taker_sell_volume_notional": "0.000000",
+     "taker_buy_trade_count": "0",
+     "taker_sell_trade_count": "0",
+     "window_end_ts_ms_exclusive": "1793212920000"
+    }
+   },
+   "mark_price": "0.850000",
+   "best_bid": "0.840000",
+   "best_ask": "0.860000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  }
+ ],
+ "seq": "12216604065",
+ "state_time_ms": "1793212985011",
+ "server_time_ms": "1793212985025"
+}

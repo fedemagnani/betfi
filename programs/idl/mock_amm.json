@@ -1,0 +1,1314 @@
+{
+  "address": "5WhsDY2XjzJoWDbe1AgJnnNgJccQwte9TgsvG4yRtHbf",
+  "metadata": {
+    "name": "mock_amm",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Schedina mock AMM (devnet/localnet only): mock mints with a faucet and constant-product pools against mock USDC"
+  },
+  "instructions": [
+    {
+      "name": "add_liquidity",
+      "docs": [
+        "Deposits both sides at the pool price (the first deposit sets it: admin only)."
+      ],
+      "discriminator": [
+        181,
+        157,
+        89,
+        67,
+        143,
+        182,
+        52,
+        72
+      ],
+      "accounts": [
+        {
+          "name": "provider",
+          "signer": true
+        },
+        {
+          "name": "amm_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pool",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  111,
+                  108
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pool.mint",
+                "account": "Pool"
+              }
+            ]
+          }
+        },
+        {
+          "name": "provider_mint",
+          "writable": true
+        },
+        {
+          "name": "provider_usdc",
+          "writable": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "relations": [
+            "pool"
+          ]
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true,
+          "relations": [
+            "pool"
+          ]
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        }
+      ],
+      "args": [
+        {
+          "name": "mint_amount",
+          "type": "u64"
+        },
+        {
+          "name": "max_usdc",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "faucet",
+      "docs": [
+        "Mints mock tokens to any token account, capped and once an hour per owner."
+      ],
+      "discriminator": [
+        0,
+        98,
+        59,
+        30,
+        144,
+        142,
+        113,
+        12
+      ],
+      "accounts": [
+        {
+          "name": "caller",
+          "docs": [
+            "Whose hourly claim this is; pays nothing (L8: `payer` pays the rent)."
+          ],
+          "signer": true
+        },
+        {
+          "name": "amm_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "mock_token",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  111,
+                  107,
+                  101,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "mint",
+          "writable": true,
+          "relations": [
+            "mock_token"
+          ]
+        },
+        {
+          "name": "recipient",
+          "writable": true
+        },
+        {
+          "name": "faucet_claim",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  102,
+                  97,
+                  117,
+                  99,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              },
+              {
+                "kind": "account",
+                "path": "caller"
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "payer",
+          "docs": [
+            "Pays the `FaucetClaim` rent (L8). Last, so the earlier account indices are unchanged."
+          ],
+          "writable": true,
+          "signer": true
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "init_amm",
+      "docs": [
+        "Creates `AmmConfig` with the signer as admin and `usdc_mint` as every pool's quote",
+        "mint. Upgrade authority only."
+      ],
+      "discriminator": [
+        86,
+        210,
+        92,
+        250,
+        251,
+        155,
+        189,
+        27
+      ],
+      "accounts": [
+        {
+          "name": "admin",
+          "docs": [
+            "Upgrade authority of this program; becomes `AmmConfig.admin` and pays rent."
+          ],
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "amm_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "program",
+          "address": "5WhsDY2XjzJoWDbe1AgJnnNgJccQwte9TgsvG4yRtHbf"
+        },
+        {
+          "name": "program_data"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "usdc_mint",
+          "type": "pubkey"
+        }
+      ]
+    },
+    {
+      "name": "init_mock_mint",
+      "docs": [
+        "Creates the mock mint `[\"mock\", symbol]` and its `MockToken`. Admin only."
+      ],
+      "discriminator": [
+        70,
+        216,
+        190,
+        134,
+        84,
+        23,
+        160,
+        198
+      ],
+      "accounts": [
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "amm_config"
+          ]
+        },
+        {
+          "name": "amm_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "mint",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  109,
+                  111,
+                  99,
+                  107
+                ]
+              },
+              {
+                "kind": "arg",
+                "path": "symbol"
+              }
+            ]
+          }
+        },
+        {
+          "name": "mock_token",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  111,
+                  107,
+                  101,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "symbol",
+          "type": "string"
+        },
+        {
+          "name": "decimals",
+          "type": "u8"
+        },
+        {
+          "name": "faucet_max",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "init_pool",
+      "docs": [
+        "Creates the pool of a mock mint against the USDC mint, with empty vaults. Admin only."
+      ],
+      "discriminator": [
+        116,
+        233,
+        199,
+        204,
+        115,
+        159,
+        171,
+        36
+      ],
+      "accounts": [
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "amm_config"
+          ]
+        },
+        {
+          "name": "amm_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "mock_token",
+          "docs": [
+            "Pools exist only for this program's mock mints."
+          ],
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  116,
+                  111,
+                  107,
+                  101,
+                  110
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "mint",
+          "relations": [
+            "mock_token"
+          ]
+        },
+        {
+          "name": "usdc_mint",
+          "relations": [
+            "amm_config"
+          ]
+        },
+        {
+          "name": "pool",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  111,
+                  108
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pool"
+              },
+              {
+                "kind": "account",
+                "path": "mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault_usdc",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pool"
+              },
+              {
+                "kind": "account",
+                "path": "usdc_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "set_lookup_table",
+      "docs": [
+        "Points `AmmConfig.lookup_table` at an address lookup table. Admin only."
+      ],
+      "discriminator": [
+        235,
+        249,
+        109,
+        59,
+        171,
+        208,
+        117,
+        65
+      ],
+      "accounts": [
+        {
+          "name": "admin",
+          "signer": true,
+          "relations": [
+            "amm_config"
+          ]
+        },
+        {
+          "name": "amm_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  109,
+                  109,
+                  95,
+                  99,
+                  111,
+                  110,
+                  102,
+                  105,
+                  103
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "lookup_table"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "swap",
+      "docs": [
+        "Constant-product swap with a 0.5% fee; fails below `min_out`. User signs."
+      ],
+      "discriminator": [
+        248,
+        198,
+        158,
+        145,
+        225,
+        117,
+        135,
+        200
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "signer": true
+        },
+        {
+          "name": "pool",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  111,
+                  108
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pool.mint",
+                "account": "Pool"
+              }
+            ]
+          }
+        },
+        {
+          "name": "user_in",
+          "docs": [
+            "Pays `amount_in`; SPL Token checks that `user` is its owner or delegate."
+          ],
+          "writable": true
+        },
+        {
+          "name": "user_out",
+          "docs": [
+            "Receives the output; any account of the output mint."
+          ],
+          "writable": true
+        },
+        {
+          "name": "vault_in",
+          "writable": true
+        },
+        {
+          "name": "vault_out",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount_in",
+          "type": "u64"
+        },
+        {
+          "name": "min_out",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "AmmConfig",
+      "discriminator": [
+        218,
+        244,
+        33,
+        104,
+        203,
+        203,
+        43,
+        111
+      ]
+    },
+    {
+      "name": "FaucetClaim",
+      "discriminator": [
+        88,
+        39,
+        189,
+        221,
+        15,
+        215,
+        24,
+        248
+      ]
+    },
+    {
+      "name": "MockToken",
+      "discriminator": [
+        88,
+        107,
+        212,
+        6,
+        227,
+        196,
+        28,
+        235
+      ]
+    },
+    {
+      "name": "Pool",
+      "discriminator": [
+        241,
+        154,
+        109,
+        4,
+        17,
+        177,
+        109,
+        188
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "FaucetMinted",
+      "discriminator": [
+        228,
+        230,
+        157,
+        243,
+        15,
+        10,
+        221,
+        100
+      ]
+    },
+    {
+      "name": "LiquidityAdded",
+      "discriminator": [
+        154,
+        26,
+        221,
+        108,
+        238,
+        64,
+        217,
+        161
+      ]
+    },
+    {
+      "name": "MockMintCreated",
+      "discriminator": [
+        233,
+        21,
+        229,
+        72,
+        125,
+        168,
+        120,
+        215
+      ]
+    },
+    {
+      "name": "PoolCreated",
+      "discriminator": [
+        202,
+        44,
+        41,
+        88,
+        104,
+        220,
+        157,
+        82
+      ]
+    },
+    {
+      "name": "Swapped",
+      "discriminator": [
+        217,
+        52,
+        52,
+        83,
+        147,
+        135,
+        96,
+        109
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "NotUpgradeAuthority",
+      "msg": "signer is not the program's upgrade authority"
+    },
+    {
+      "code": 6001,
+      "name": "NotAdmin",
+      "msg": "signer is not AmmConfig.admin"
+    },
+    {
+      "code": 6002,
+      "name": "BadSymbol",
+      "msg": "symbol must be 1-8 ASCII upper-case letters or digits"
+    },
+    {
+      "code": 6003,
+      "name": "BadDecimals",
+      "msg": "decimals out of range"
+    },
+    {
+      "code": 6004,
+      "name": "ZeroAmount",
+      "msg": "amount must be positive"
+    },
+    {
+      "code": 6005,
+      "name": "FaucetAmount",
+      "msg": "faucet amount above this mint's cap"
+    },
+    {
+      "code": 6006,
+      "name": "FaucetCooldown",
+      "msg": "faucet claimed less than an hour ago"
+    },
+    {
+      "code": 6007,
+      "name": "MathOverflow",
+      "msg": "arithmetic overflow"
+    },
+    {
+      "code": 6008,
+      "name": "EmptyPool",
+      "msg": "the pool has no liquidity on one side"
+    },
+    {
+      "code": 6009,
+      "name": "ZeroOut",
+      "msg": "the swap would pay out nothing"
+    },
+    {
+      "code": 6010,
+      "name": "SlippageExceeded",
+      "msg": "output below min_out"
+    },
+    {
+      "code": 6011,
+      "name": "WrongVault",
+      "msg": "vault accounts are not this pool's"
+    },
+    {
+      "code": 6012,
+      "name": "MintMismatch",
+      "msg": "token account mint does not match"
+    },
+    {
+      "code": 6013,
+      "name": "DepositSlippage",
+      "msg": "deposit needs more USDC than max_usdc"
+    },
+    {
+      "code": 6014,
+      "name": "SameMint",
+      "msg": "the pool's mint cannot be the USDC mint"
+    },
+    {
+      "code": 6015,
+      "name": "BadLookupTable",
+      "msg": "not an address lookup table"
+    }
+  ],
+  "types": [
+    {
+      "name": "AmmConfig",
+      "docs": [
+        "PDA `[\"amm_config\"]`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "docs": [
+              "Creates mints and pools, seeds first liquidity, sets the lookup table; faucet-exempt."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "usdc_mint",
+            "docs": [
+              "The quote currency of every pool: schedina's mock USDC (`[\"mock\",\"USDC\"]` of schedina)."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "lookup_table",
+            "docs": [
+              "Address lookup table holding the static accounts of `[swap, verify, open_pending]`",
+              "(`Pubkey::default()` until set). Clients read it to build a v0 transaction."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "reserved",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "FaucetClaim",
+      "docs": [
+        "PDA `[\"faucet\", mint, caller]`: last faucet claim of `mint` signed by `owner`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "owner",
+            "type": "pubkey"
+          },
+          {
+            "name": "mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "last_claim_ts",
+            "type": "i64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FaucetMinted",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "recipient",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiquidityAdded",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "pool",
+            "type": "pubkey"
+          },
+          {
+            "name": "provider",
+            "type": "pubkey"
+          },
+          {
+            "name": "mint_amount",
+            "type": "u64"
+          },
+          {
+            "name": "usdc_amount",
+            "type": "u64"
+          },
+          {
+            "name": "reserve_mint",
+            "type": "u64"
+          },
+          {
+            "name": "reserve_usdc",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MockMintCreated",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "symbol",
+            "type": "string"
+          },
+          {
+            "name": "decimals",
+            "type": "u8"
+          },
+          {
+            "name": "faucet_max",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MockToken",
+      "docs": [
+        "PDA `[\"token\", mint]`: one per mock mint."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "mint",
+            "docs": [
+              "The SPL mint, PDA `[\"mock\", symbol]`, mint authority `AmmConfig`, no freeze authority."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "symbol",
+            "type": "string"
+          },
+          {
+            "name": "decimals",
+            "type": "u8"
+          },
+          {
+            "name": "faucet_max",
+            "docs": [
+              "Largest faucet claim, base units."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "mint_bump",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pool",
+      "docs": [
+        "PDA `[\"pool\", mint]`: constant-product pool of `mint` against `usdc_mint`."
+      ],
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "usdc_mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "vault",
+            "docs": [
+              "Token account of `mint`, PDA `[\"vault\", pool, mint]`, owner this pool."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "vault_usdc",
+            "docs": [
+              "Token account of `usdc_mint`, PDA `[\"vault\", pool, usdc_mint]`, owner this pool."
+            ],
+            "type": "pubkey"
+          },
+          {
+            "name": "fee_bps",
+            "docs": [
+              "Fee in bps of the amount in (`FEE_BPS`)."
+            ],
+            "type": "u16"
+          },
+          {
+            "name": "fees_mint",
+            "docs": [
+              "Fees kept so far, in `mint` (sells of the mock token) and in USDC (buys)."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "fees_usdc",
+            "type": "u64"
+          },
+          {
+            "name": "swaps",
+            "type": "u64"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "vault_bump",
+            "type": "u8"
+          },
+          {
+            "name": "vault_usdc_bump",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoolCreated",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "pool",
+            "type": "pubkey"
+          },
+          {
+            "name": "mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "usdc_mint",
+            "type": "pubkey"
+          },
+          {
+            "name": "fee_bps",
+            "type": "u16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swapped",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "pool",
+            "type": "pubkey"
+          },
+          {
+            "name": "user",
+            "type": "pubkey"
+          },
+          {
+            "name": "mint_in",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount_in",
+            "type": "u64"
+          },
+          {
+            "name": "fee_in",
+            "docs": [
+              "Part of `amount_in` kept by the pool."
+            ],
+            "type": "u64"
+          },
+          {
+            "name": "amount_out",
+            "type": "u64"
+          },
+          {
+            "name": "reserve_in",
+            "type": "u64"
+          },
+          {
+            "name": "reserve_out",
+            "type": "u64"
+          }
+        ]
+      }
+    }
+  ],
+  "constants": [
+    {
+      "name": "AMM_CONFIG_SEED",
+      "docs": [
+        "`AmmConfig` PDA `[\"amm_config\"]`: admin, the pinned USDC mint, the lookup table. Also",
+        "the mint authority of every mock mint."
+      ],
+      "type": "bytes",
+      "value": "[97, 109, 109, 95, 99, 111, 110, 102, 105, 103]"
+    },
+    {
+      "name": "FAUCET_COOLDOWN",
+      "docs": [
+        "Seconds between two faucet claims of one mint by one owner (admin exempt)."
+      ],
+      "type": "i64",
+      "value": "3600"
+    },
+    {
+      "name": "FAUCET_SEED",
+      "docs": [
+        "`FaucetClaim` PDA `[\"faucet\", mint, caller]` (the signer of `faucet`)."
+      ],
+      "type": "bytes",
+      "value": "[102, 97, 117, 99, 101, 116]"
+    },
+    {
+      "name": "FEE_BPS",
+      "docs": [
+        "Pool fee: 0.5% of the amount in (spec section 8), kept in the pool."
+      ],
+      "type": "u16",
+      "value": "50"
+    },
+    {
+      "name": "MOCK_SEED",
+      "docs": [
+        "Mock mints `[\"mock\", symbol]` (SPL mints, authority `AmmConfig`)."
+      ],
+      "type": "bytes",
+      "value": "[109, 111, 99, 107]"
+    },
+    {
+      "name": "POOL_SEED",
+      "docs": [
+        "`Pool` PDA `[\"pool\", mint]`: one pool per mock mint, against the USDC mint."
+      ],
+      "type": "bytes",
+      "value": "[112, 111, 111, 108]"
+    },
+    {
+      "name": "TOKEN_SEED",
+      "docs": [
+        "`MockToken` PDA `[\"token\", mint]`: symbol, decimals and faucet cap of a mock mint."
+      ],
+      "type": "bytes",
+      "value": "[116, 111, 107, 101, 110]"
+    },
+    {
+      "name": "VAULT_SEED",
+      "docs": [
+        "Pool token accounts `[\"vault\", pool, mint]` and `[\"vault\", pool, usdc_mint]`, owner `Pool`."
+      ],
+      "type": "bytes",
+      "value": "[118, 97, 117, 108, 116]"
+    }
+  ]
+}

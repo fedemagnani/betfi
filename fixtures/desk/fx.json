@@ -1,0 +1,10 @@
+{
+  "eur_per_usd_ppm": 898470,
+  "as_of": "2026-10-29",
+  "source": "ecb",
+  "fallback": false,
+  "eur_per_sol_ppm": 135848664,
+  "sol_as_of_ms": 1793318400000,
+  "sol_source": "pyth",
+  "sol_fallback": false
+}

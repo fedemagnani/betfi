@@ -1,0 +1,446 @@
+{
+  "status": "success",
+  "data": {
+    "items": [
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "1000.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "1000.000000",
+        "seq": "11577443207",
+        "transfer_ts_ms": "1792870438679",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "11343649802",
+        "transfer_ts_ms": "1792769719818",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "2071.034046",
+        "fee_usd": "0.000000",
+        "net_usd": "2071.034046",
+        "seq": "11223890561",
+        "transfer_ts_ms": "1792702516729",
+        "user_reward_reason": "MIDTERMS_2026_TRADING_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "11187081986",
+        "transfer_ts_ms": "1792675873515",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "WITHDRAWAL",
+        "status": "COMPLETED",
+        "collateral_change_usd": "-500.000000",
+        "fee_usd": "0.500000",
+        "net_usd": "-499.500000",
+        "seq": "11180262014",
+        "transfer_ts_ms": "1792671435083",
+        "chain_seq": "1827232"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "1535.335991",
+        "fee_usd": "0.000000",
+        "net_usd": "1535.335991",
+        "seq": "10210969680",
+        "transfer_ts_ms": "1792082703266",
+        "user_reward_reason": "MIDTERMS_2026_TRADING_REWARD"
+      },
+      {
+        "type": "WITHDRAWAL",
+        "status": "COMPLETED",
+        "collateral_change_usd": "-1500.000000",
+        "fee_usd": "0.500000",
+        "net_usd": "-1499.500000",
+        "seq": "10207936160",
+        "transfer_ts_ms": "1792080364293",
+        "chain_seq": "1629120"
+      },
+      {
+        "type": "WITHDRAWAL",
+        "status": "COMPLETED",
+        "collateral_change_usd": "-25.000000",
+        "fee_usd": "0.500000",
+        "net_usd": "-24.500000",
+        "seq": "9646177627",
+        "transfer_ts_ms": "1791669898630",
+        "chain_seq": "1527328"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "463.265892",
+        "fee_usd": "0.000000",
+        "net_usd": "463.265892",
+        "seq": "9296223920",
+        "transfer_ts_ms": "1791482721562",
+        "user_reward_reason": "MIDTERMS_2026_TRADING_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "2297.046970",
+        "fee_usd": "0.000000",
+        "net_usd": "2297.046970",
+        "seq": "8233614380",
+        "transfer_ts_ms": "1790876800121",
+        "user_reward_reason": "MIDTERMS_2026_TRADING_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "8223835357",
+        "transfer_ts_ms": "1790868828879",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "8099314787",
+        "transfer_ts_ms": "1790778938214",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7983760907",
+        "transfer_ts_ms": "1790685833435",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "1000.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "1000.000000",
+        "seq": "7876021080",
+        "transfer_ts_ms": "1790597609436",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7825409421",
+        "transfer_ts_ms": "1790556463883",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7659032797",
+        "transfer_ts_ms": "1790471902403",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7501691358",
+        "transfer_ts_ms": "1790395786707",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7421405356",
+        "transfer_ts_ms": "1790352232314",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7399662118",
+        "transfer_ts_ms": "1790337320198",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "1703.891465",
+        "fee_usd": "0.000000",
+        "net_usd": "1703.891465",
+        "seq": "7294277934",
+        "transfer_ts_ms": "1790276484473",
+        "user_reward_reason": "MIDTERMS_2026_TRADING_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7228279744",
+        "transfer_ts_ms": "1790228257904",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "7118800118",
+        "transfer_ts_ms": "1790144453921",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "1000.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "1000.000000",
+        "seq": "7012745278",
+        "transfer_ts_ms": "1790057555270",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6987442273",
+        "transfer_ts_ms": "1790034904743",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "DEPOSIT",
+        "status": "COMPLETED",
+        "collateral_change_usd": "4995.995504",
+        "fee_usd": "0.000000",
+        "net_usd": "4995.995504",
+        "seq": "6978367858",
+        "transfer_ts_ms": "1790025672170"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6948848557",
+        "transfer_ts_ms": "1789996946578",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6928211102",
+        "transfer_ts_ms": "1789978685613",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6887771493",
+        "transfer_ts_ms": "1789947166330",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6798875009",
+        "transfer_ts_ms": "1789910849835",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6794653228",
+        "transfer_ts_ms": "1789908485485",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6752335847",
+        "transfer_ts_ms": "1789879748686",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "DEPOSIT",
+        "status": "COMPLETED",
+        "collateral_change_usd": "4995.995781",
+        "fee_usd": "0.000000",
+        "net_usd": "4995.995781",
+        "seq": "6698746157",
+        "transfer_ts_ms": "1789860043765"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6662164731",
+        "transfer_ts_ms": "1789844117456",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6615226402",
+        "transfer_ts_ms": "1789812781139",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6582492458",
+        "transfer_ts_ms": "1789789041774",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6522347879",
+        "transfer_ts_ms": "1789754991568",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6512137060",
+        "transfer_ts_ms": "1789746625063",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6479604588",
+        "transfer_ts_ms": "1789719952942",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6460640502",
+        "transfer_ts_ms": "1789703782320",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "10.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "10.000000",
+        "seq": "6422234122",
+        "transfer_ts_ms": "1789677560613",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "REWARD",
+        "status": "COMPLETED",
+        "collateral_change_usd": "100.000000",
+        "fee_usd": "0.000000",
+        "net_usd": "100.000000",
+        "seq": "6403995154",
+        "transfer_ts_ms": "1789664646211",
+        "user_reward_reason": "MIDTERMS_2026_REFERRAL_REWARD"
+      },
+      {
+        "type": "DEPOSIT",
+        "status": "COMPLETED",
+        "collateral_change_usd": "4995.996277",
+        "fee_usd": "0.000000",
+        "net_usd": "4995.996277",
+        "seq": "6264381265",
+        "transfer_ts_ms": "1789560035932"
+      },
+      {
+        "type": "DEPOSIT",
+        "status": "COMPLETED",
+        "collateral_change_usd": "4746.198390",
+        "fee_usd": "0.000000",
+        "net_usd": "4746.198390",
+        "seq": "5013424910",
+        "transfer_ts_ms": "1788472554758"
+      },
+      {
+        "type": "DEPOSIT",
+        "status": "COMPLETED",
+        "collateral_change_usd": "249.541861",
+        "fee_usd": "0.000000",
+        "net_usd": "249.541861",
+        "seq": "5011284723",
+        "transfer_ts_ms": "1788470572731"
+      }
+    ],
+    "next_cursor": "00000000005011284723:0000000000"
+  },
+  "seq": "12115569688",
+  "state_time_ms": "1793147357693",
+  "server_time_ms": "1793147357837"
+}

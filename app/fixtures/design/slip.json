@@ -1,0 +1,48 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "kind": "parlay",
+  "stake_u": 27142405,
+  "presets_eur": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "always_accept_better": true,
+  "odds_before_u": 4620049,
+  "picks": [
+    {
+      "game_id": "el-fen-pao-2026-10-29",
+      "kind": "winner",
+      "line": null,
+      "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+      "side": "short",
+      "label": "Panathinaikos",
+      "outcome": "1",
+      "odds_u": 1960000,
+      "odds_before_u": null
+    },
+    {
+      "game_id": "el-rma-oly-2026-10-29",
+      "kind": "winner",
+      "line": null,
+      "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+      "side": "short",
+      "label": "Real Madrid",
+      "outcome": "1",
+      "odds_u": 1560001,
+      "odds_before_u": null
+    },
+    {
+      "game_id": "nba-bos-nyk-2026-10-29",
+      "kind": "winner",
+      "line": null,
+      "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+      "side": "short",
+      "label": "Boston Celtics",
+      "outcome": "1",
+      "odds_u": 1700000,
+      "odds_before_u": null
+    }
+  ]
+}

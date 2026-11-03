@@ -1,0 +1,4374 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "symbol": "US_IRAN_CFR_THRU.26OCT24",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "U.S.–Iran ceasefire continues through",
+        "expected_resolution_time_ms": "1792873799000",
+        "market_description": "Oct 24",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "us-x-iran-ceasefire-continues-through-october-24",
+          "condition_id": "0x8cd2457d67e7c9260161f6307ec7c4dde35217b94dbe7959c0ef9d0a63f7344d",
+          "market_outcome_token_id": "56958610485808723049255227463404509732265251450428499709279354570207840417592",
+          "reverse_outcome_token_id": "17194856706950679222768875988453798226354637620680155002161189122989044089159"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "2026-iran-conflict",
+          "description": "2026 Iran Conflict"
+        }
+      },
+      "listing_ts_ms": "1791990558587",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/US_IRAN_CFR_THRU/US_IRAN_CFR_THRU.26OCT24.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.992000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "6351",
+          "taker_sell_volume": "1810",
+          "taker_buy_volume_notional": "5615.635000",
+          "taker_sell_volume_notional": "1442.046000",
+          "taker_buy_trade_count": "89",
+          "taker_sell_trade_count": "71",
+          "window_end_ts_ms_exclusive": "1792976880000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12109453024",
+        "market_resolution_ts_ms": "1793144700122"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_VITNAVI_ML.VIT",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BF9316",
+            "dark": "#4A4F91"
+          },
+          "reverse": {
+            "light": "#000000",
+            "dark": "#FFF200"
+          }
+        },
+        "event_description": "Vitality vs Natus Vincere, Match Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-vit-navi-2026-10-27",
+          "game_description": "Vitality vs Natus Vincere",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "Vitality",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Vitality",
+            "home_subject_id": "team-vitality",
+            "away_name": "Natus Vincere",
+            "away_subject_id": "natus-vincere"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Vitality",
+            "abbreviated": "VIT"
+          },
+          "short": {
+            "extended": "Natus Vincere",
+            "abbreviated": "NAVI"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-vit-navi-2026-10-27",
+          "condition_id": "0xb3c19de9454d2e75d734bc6e801d64300a22e4ca618850de24e087b47ebafe5a",
+          "market_outcome_token_id": "32104354852038544644295870521225133937092470742216666648250566979137842369271",
+          "reverse_outcome_token_id": "3049937109975499621843408862928384473129423135367954343490176225149726691549"
+        },
+        "reverse_description": "Natus Vincere",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064568237",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_VITNAVI_ML/CS2_26OCT27_VITNAVI_ML.VIT.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "89",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "65.164000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "3",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "89",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "65.164000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "3",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793126220000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12096036188",
+        "market_resolution_ts_ms": "1793133747232"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_VITNAVI_M2ML.VIT",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BF9316",
+            "dark": "#4A4F91"
+          },
+          "reverse": {
+            "light": "#000000",
+            "dark": "#FFF200"
+          }
+        },
+        "event_description": "Vitality vs Natus Vincere, Map 2 Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-vit-navi-2026-10-27",
+          "game_description": "Vitality vs Natus Vincere",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "Vitality",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Vitality",
+            "home_subject_id": "team-vitality",
+            "away_name": "Natus Vincere",
+            "away_subject_id": "natus-vincere"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Vitality",
+            "abbreviated": "VIT"
+          },
+          "short": {
+            "extended": "Natus Vincere",
+            "abbreviated": "NAVI"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-vit-navi-2026-10-27-game2",
+          "condition_id": "0x5adee6f1de0d299e02c675a5e3cabe3f7425c01b6f4f3aa185761b7c1336c295",
+          "market_outcome_token_id": "94758369595618022400974161410248689048994996537714418948792726909843264734159",
+          "reverse_outcome_token_id": "65151719570591430455037064588168826668992134792740454812815531695683242972291"
+        },
+        "reverse_description": "Natus Vincere",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453773",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_VITNAVI_M2ML/CS2_26OCT27_VITNAVI_M2ML.VIT.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.635000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12095931419",
+        "market_resolution_ts_ms": "1793133657144"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_VITNAVI_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Vitality vs Natus Vincere, Total Maps",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-vit-navi-2026-10-27",
+          "game_description": "Vitality vs Natus Vincere",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Vitality",
+            "home_subject_id": "team-vitality",
+            "away_name": "Natus Vincere",
+            "away_subject_id": "natus-vincere"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-vit-navi-2026-10-27-total-games-2pt5",
+          "condition_id": "0xb44b2fe48b18ed4063a113a84be2adcf38975b79d99cdb12dec2195af9102115",
+          "market_outcome_token_id": "85629957831450051884552772777705232084169348812095185440022306333427925932070",
+          "reverse_outcome_token_id": "70445419826457322361388576729418377150594533427504306608863559384481754682492"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064568748",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_VITNAVI_TT/CS2_26OCT27_VITNAVI_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12094685386",
+        "market_resolution_ts_ms": "1793132521958"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_VITNAVI_SP.VIT_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Vitality vs Natus Vincere, Map Handicap",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-vit-navi-2026-10-27",
+          "game_description": "Vitality vs Natus Vincere",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "team-vitality",
+          "subject_description": "Vitality",
+          "value": "-1.5"
+        },
+        "market_description": "Vitality -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Vitality",
+            "home_subject_id": "team-vitality",
+            "away_name": "Natus Vincere",
+            "away_subject_id": "natus-vincere"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-vit-navi-2026-10-27-map-handicap-away-1pt5",
+          "condition_id": "0xfb8ed9c2686823b6d8bcb7a3d8145161070e6dc3844e081178cc531480d52f40",
+          "market_outcome_token_id": "45788143753117829411366773907087345430977207714106691015324231306970226217780",
+          "reverse_outcome_token_id": "102513669937883773487023707817442895203795558369323187079195961576550158584193"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064568492",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_VITNAVI_SP/CS2_26OCT27_VITNAVI_SP.VIT_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12094685363",
+        "market_resolution_ts_ms": "1793132521907"
+      }
+    },
+    {
+      "symbol": "DOTA_26OCT27_BBLEG_ML.BB",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#FF3050",
+            "dark": "#FF3050"
+          },
+          "reverse": {
+            "light": "#694D8B",
+            "dark": "#694D8B"
+          }
+        },
+        "event_description": "BetBoom Team vs LEGION, Match Winner",
+        "expected_event_start_time_ms": "1793111400000",
+        "expected_resolution_time_ms": "1793133000000",
+        "game_page": {
+          "game_id": "pari-universe-betboom-team-legion-2026-10-27",
+          "game_description": "BetBoom Team vs LEGION",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "BetBoom Team",
+        "market_type": {
+          "kind": "sports",
+          "sport": "dota_2",
+          "series_format": "best_of_one",
+          "teams": {
+            "home_name": "BetBoom Team",
+            "home_subject_id": "betboom-team",
+            "away_name": "LEGION",
+            "away_subject_id": "legion"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "BetBoom Team",
+            "abbreviated": "BB"
+          },
+          "short": {
+            "extended": "LEGION",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "dota2-bb4-legion1-2026-10-27",
+          "condition_id": "0xfc7c9daba530e646c8d4db1010231daa0cbdbe51858c67e18590b356dd3a61c4",
+          "market_outcome_token_id": "25769800209767521112690625099485634664400833334035473300968008968478309366446",
+          "reverse_outcome_token_id": "111833051663506036585589215317483373717846402938854662092749417810299285514825"
+        },
+        "reverse_description": "LEGION",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Dota 2"
+        ],
+        "topic": {
+          "id": "pari-universe",
+          "description": "PARI Universe"
+        }
+      },
+      "listing_ts_ms": "1793112136011",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/DOTA_26OCT27_BBLEG_ML/DOTA_26OCT27_BBLEG_ML.BB.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "187",
+          "taker_sell_volume": "162",
+          "taker_buy_volume_notional": "80.784000",
+          "taker_sell_volume_notional": "69.984000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "187",
+          "taker_sell_volume": "162",
+          "taker_buy_volume_notional": "80.784000",
+          "taker_sell_volume_notional": "69.984000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793118180000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12093547474",
+        "market_resolution_ts_ms": "1793131496431"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_VITNAVI_M1ML.VIT",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BF9316",
+            "dark": "#4A4F91"
+          },
+          "reverse": {
+            "light": "#000000",
+            "dark": "#FFF200"
+          }
+        },
+        "event_description": "Vitality vs Natus Vincere, Map 1 Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-vit-navi-2026-10-27",
+          "game_description": "Vitality vs Natus Vincere",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "Vitality",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Vitality",
+            "home_subject_id": "team-vitality",
+            "away_name": "Natus Vincere",
+            "away_subject_id": "natus-vincere"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Vitality",
+            "abbreviated": "VIT"
+          },
+          "short": {
+            "extended": "Natus Vincere",
+            "abbreviated": "NAVI"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-vit-navi-2026-10-27-game1",
+          "condition_id": "0xc2642fdc2cb37ffe16204f86ddc961f9a5bb35983a67263fdbbc4951a0f346bf",
+          "market_outcome_token_id": "73629711937040821798622121214672799845937414985128038159171689446914905946972",
+          "reverse_outcome_token_id": "10379335821273914944743282742033023909639122901522120784193602418465882124881"
+        },
+        "reverse_description": "Natus Vincere",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453721",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_VITNAVI_M1ML/CS2_26OCT27_VITNAVI_M1ML.VIT.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.675000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12090966874",
+        "market_resolution_ts_ms": "1793129371808"
+      }
+    },
+    {
+      "symbol": "DOTA_26OCT27_BBAI_ML.BB",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "BetBoom Team vs Astra Invicta, Match Winner",
+        "expected_event_start_time_ms": "1793116800000",
+        "expected_resolution_time_ms": "1793138400000",
+        "game_page": {
+          "game_id": "pari-universe-betboom-team-astra-invicta-2026-10-27",
+          "game_description": "BetBoom Team vs Astra Invicta",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "BetBoom Team",
+        "market_type": {
+          "kind": "sports",
+          "sport": "dota_2",
+          "series_format": "best_of_one",
+          "teams": {
+            "home_name": "BetBoom Team",
+            "home_subject_id": "betboom-team",
+            "away_name": "Astra Invicta",
+            "away_subject_id": "astra-invicta"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "BetBoom Team",
+            "abbreviated": "BB"
+          },
+          "short": {
+            "extended": "Astra Invicta",
+            "abbreviated": "AI"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "dota2-bb4-ai1-2026-10-27",
+          "condition_id": "0x7a44f1dac96043dffbe6db5eb8bb0d1fbef281de8c7565eb6bf3b157aae37495",
+          "market_outcome_token_id": "103372206744369399162819536901802686637147031071616251432707100724959042344970",
+          "reverse_outcome_token_id": "21732727021930217581369463780706022339913810136272481493195180895348382030905"
+        },
+        "reverse_description": "Astra Invicta",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Dota 2"
+        ],
+        "topic": {
+          "id": "pari-universe",
+          "description": "PARI Universe"
+        }
+      },
+      "listing_ts_ms": "1793112135655",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/DOTA_26OCT27_BBAI_ML/DOTA_26OCT27_BBAI_ML.BB.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "27",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "15.039000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "27",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "15.039000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793112600000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12088271529",
+        "market_resolution_ts_ms": "1793127311642"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_FURTYL_SP.FUR_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "FURIA vs TYLOO, Map Handicap",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-furia-tyloo-2026-10-27",
+          "game_description": "FURIA vs TYLOO",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "furia",
+          "subject_description": "FURIA",
+          "value": "-1.5"
+        },
+        "market_description": "FURIA -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "FURIA",
+            "home_subject_id": "furia",
+            "away_name": "TYLOO",
+            "away_subject_id": "tyloo"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-furia-tyloo-2026-10-27-map-handicap-away-1pt5",
+          "condition_id": "0x8f87ee6d73b9f5163603becc5b313d6a14c114a824c7f6ee0371b07f1de1f98a",
+          "market_outcome_token_id": "84648259815029381139964022626890499670395968718420126632686127051534784598761",
+          "reverse_outcome_token_id": "20965268618253959237269169755549258498671928068214385972868617703425719844191"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064564572",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_FURTYL_SP/CS2_26OCT27_FURTYL_SP.FUR_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12088069939",
+        "market_resolution_ts_ms": "1793127171588"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_FURTYL_ML.FUR",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+          },
+          "reverse": {
+            "light": "#D63831",
+            "dark": "#D63831"
+          }
+        },
+        "event_description": "FURIA vs TYLOO, Match Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-furia-tyloo-2026-10-27",
+          "game_description": "FURIA vs TYLOO",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "FURIA",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "FURIA",
+            "home_subject_id": "furia",
+            "away_name": "TYLOO",
+            "away_subject_id": "tyloo"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "FURIA",
+            "abbreviated": "FUR"
+          },
+          "short": {
+            "extended": "TYLOO",
+            "abbreviated": "TYL"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-furia-tyloo-2026-10-27",
+          "condition_id": "0x00a7cfc951eefa604c28a61bd9b228f13294e4965a947c56af0695066871ec7c",
+          "market_outcome_token_id": "29842283624211975965767090396645180694133968420699405949261875369398318672442",
+          "reverse_outcome_token_id": "89776328905736525111865901599564158965994408112550921546950451156007182061632"
+        },
+        "reverse_description": "TYLOO",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064564317",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_FURTYL_ML/CS2_26OCT27_FURTYL_ML.FUR.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12088069875",
+        "market_resolution_ts_ms": "1793127171537"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TSMOUZ_ML.TS",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#7DA713",
+            "dark": "#BDF935"
+          },
+          "reverse": {
+            "light": "#B11739",
+            "dark": "#B11739"
+          }
+        },
+        "event_description": "Spirit vs MOUZ, Match Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-ts7-mouz-2026-10-27",
+          "game_description": "Spirit vs MOUZ",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "Spirit",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Spirit",
+            "home_subject_id": "spirit",
+            "away_name": "MOUZ",
+            "away_subject_id": "mouz"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Spirit",
+            "abbreviated": "TS"
+          },
+          "short": {
+            "extended": "MOUZ",
+            "abbreviated": "MOUZ"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-ts7-mouz-2026-10-27",
+          "condition_id": "0xdda9d2ef99f17e2c4b16dc686088f8309d624a54716113c17ea4e5cfd23fda34",
+          "market_outcome_token_id": "97491579527423394169858220175879467382038374955704028626987635672772387640760",
+          "reverse_outcome_token_id": "33970656655477632554556312114783473178628631429162193715697978247472356970797"
+        },
+        "reverse_description": "MOUZ",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064567474",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TSMOUZ_ML/CS2_26OCT27_TSMOUZ_ML.TS.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "896",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "571.989000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "896",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "571.989000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793118120000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12086806358",
+        "market_resolution_ts_ms": "1793126116931"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TSMOUZ_SP.TS_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Spirit vs MOUZ, Map Handicap",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-ts7-mouz-2026-10-27",
+          "game_description": "Spirit vs MOUZ",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "spirit",
+          "subject_description": "Spirit",
+          "value": "-1.5"
+        },
+        "market_description": "Spirit -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Spirit",
+            "home_subject_id": "spirit",
+            "away_name": "MOUZ",
+            "away_subject_id": "mouz"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-ts7-mouz-2026-10-27-map-handicap-away-1pt5",
+          "condition_id": "0x7b2bc5c52feb17f88000c475e922108d9f0fc390b8b258ccf071f41ec6eeab61",
+          "market_outcome_token_id": "15294047715800504175090549226251534342282999270494646808440589406922073397503",
+          "reverse_outcome_token_id": "77544977148195918636711747427453405611534094534634417163530086107837843417812"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064567729",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TSMOUZ_SP/CS2_26OCT27_TSMOUZ_SP.TS_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "114",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "32.604000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "114",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "32.604000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793101080000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12086780224",
+        "market_resolution_ts_ms": "1793126096961"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TSMOUZ_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Spirit vs MOUZ, Total Maps",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-ts7-mouz-2026-10-27",
+          "game_description": "Spirit vs MOUZ",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Spirit",
+            "home_subject_id": "spirit",
+            "away_name": "MOUZ",
+            "away_subject_id": "mouz"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-ts7-mouz-2026-10-27-total-games-2pt5",
+          "condition_id": "0x7399a1b15243829106fc6c898e12a8b26eaf71b6fe23567ffb89a612d0293a1d",
+          "market_outcome_token_id": "99556545522995700284819845987710237724715649720538097125398155094408808398581",
+          "reverse_outcome_token_id": "47459626090224932830216951789379153422067914409520123265876766987392388315866"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064567982",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TSMOUZ_TT/CS2_26OCT27_TSMOUZ_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12086687395",
+        "market_resolution_ts_ms": "1793126016979"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_FURTYL_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "FURIA vs TYLOO, Total Maps",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-furia-tyloo-2026-10-27",
+          "game_description": "FURIA vs TYLOO",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "FURIA",
+            "home_subject_id": "furia",
+            "away_name": "TYLOO",
+            "away_subject_id": "tyloo"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-furia-tyloo-2026-10-27-total-games-2pt5",
+          "condition_id": "0xcf68ba473c4991ba1a62159d66f707fc656a1a4770b2d71933bd6abcdab0ffb4",
+          "market_outcome_token_id": "57405912558740010271054066088842167079359909991651444306753451724882958095424",
+          "reverse_outcome_token_id": "3508476183404152740747697023826406776662968065669900621638956710747052475268"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064564827",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_FURTYL_TT/CS2_26OCT27_FURTYL_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12086687318",
+        "market_resolution_ts_ms": "1793126016928"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_FURTYL_M2ML.FUR",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+          },
+          "reverse": {
+            "light": "#D63831",
+            "dark": "#D63831"
+          }
+        },
+        "event_description": "FURIA vs TYLOO, Map 2 Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-furia-tyloo-2026-10-27",
+          "game_description": "FURIA vs TYLOO",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "FURIA",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "FURIA",
+            "home_subject_id": "furia",
+            "away_name": "TYLOO",
+            "away_subject_id": "tyloo"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "FURIA",
+            "abbreviated": "FUR"
+          },
+          "short": {
+            "extended": "TYLOO",
+            "abbreviated": "TYL"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-furia-tyloo-2026-10-27-game2",
+          "condition_id": "0xbb5c7cf67b4231a4d8d494290f29ef83c34305a14ea765af93cdbd786d1baa0a",
+          "market_outcome_token_id": "78354031094481499270103974670644857375933038103690772178949813225695658918454",
+          "reverse_outcome_token_id": "58690968879148544656143241074023174230054974309907467362294887165987437894544"
+        },
+        "reverse_description": "TYLOO",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453260",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_FURTYL_M2ML/CS2_26OCT27_FURTYL_M2ML.FUR.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.840000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12086687243",
+        "market_resolution_ts_ms": "1793126016876"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_FURTYL_M1ML.FUR",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+          },
+          "reverse": {
+            "light": "#D63831",
+            "dark": "#D63831"
+          }
+        },
+        "event_description": "FURIA vs TYLOO, Map 1 Winner",
+        "expected_event_start_time_ms": "1793120400000",
+        "expected_resolution_time_ms": "1793142000000",
+        "game_page": {
+          "game_id": "cs2-furia-tyloo-2026-10-27",
+          "game_description": "FURIA vs TYLOO",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "FURIA",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "FURIA",
+            "home_subject_id": "furia",
+            "away_name": "TYLOO",
+            "away_subject_id": "tyloo"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "FURIA",
+            "abbreviated": "FUR"
+          },
+          "short": {
+            "extended": "TYLOO",
+            "abbreviated": "TYL"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-furia-tyloo-2026-10-27-game1",
+          "condition_id": "0x80d9649acad922f94dbcc453a47f89203deb6e7129e6ee7da3f50dc40f64afc1",
+          "market_outcome_token_id": "92544040610158564376892272570705259605229114519639096168046822683927164371915",
+          "reverse_outcome_token_id": "40671269236065541547332860685496262212319226085440492681041649612548702085101"
+        },
+        "reverse_description": "TYLOO",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453208",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_FURTYL_M1ML/CS2_26OCT27_FURTYL_M1ML.FUR.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.805000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12084081339",
+        "market_resolution_ts_ms": "1793123914165"
+      }
+    },
+    {
+      "symbol": "DOTA_26OCT27_AILEG_ML.AI",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Astra Invicta vs LEGION, Match Winner",
+        "expected_event_start_time_ms": "1793106000000",
+        "expected_resolution_time_ms": "1793127600000",
+        "game_page": {
+          "game_id": "pari-universe-astra-invicta-legion-2026-10-27",
+          "game_description": "Astra Invicta vs LEGION",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "Astra Invicta",
+        "market_type": {
+          "kind": "sports",
+          "sport": "dota_2",
+          "series_format": "best_of_one",
+          "teams": {
+            "home_name": "Astra Invicta",
+            "home_subject_id": "astra-invicta",
+            "away_name": "LEGION",
+            "away_subject_id": "legion"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Astra Invicta",
+            "abbreviated": "AI"
+          },
+          "short": {
+            "extended": "LEGION",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "dota2-ai1-legion1-2026-10-27",
+          "condition_id": "0x33b0858cf15d0f5fc1ba0a93a25a79837bc31ffaf17762b8aea73f2df36793e8",
+          "market_outcome_token_id": "19144871016609755396838318698948428259334073105107564054421391487786404754426",
+          "reverse_outcome_token_id": "66615377876173334447289598839442715679685853475539906348291154128536435027294"
+        },
+        "reverse_description": "LEGION",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Dota 2"
+        ],
+        "topic": {
+          "id": "pari-universe",
+          "description": "PARI Universe"
+        }
+      },
+      "listing_ts_ms": "1793112135296",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/DOTA_26OCT27_AILEG_ML/DOTA_26OCT27_AILEG_ML.AI.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12080051376",
+        "market_resolution_ts_ms": "1793120762160"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TSMOUZ_M2ML.TS",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#7DA713",
+            "dark": "#BDF935"
+          },
+          "reverse": {
+            "light": "#B11739",
+            "dark": "#B11739"
+          }
+        },
+        "event_description": "Spirit vs MOUZ, Map 2 Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-ts7-mouz-2026-10-27",
+          "game_description": "Spirit vs MOUZ",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "Spirit",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Spirit",
+            "home_subject_id": "spirit",
+            "away_name": "MOUZ",
+            "away_subject_id": "mouz"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Spirit",
+            "abbreviated": "TS"
+          },
+          "short": {
+            "extended": "MOUZ",
+            "abbreviated": "MOUZ"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-ts7-mouz-2026-10-27-game2",
+          "condition_id": "0x12eb344d93cfbc4e22d1ceaf5ec30c46beccef6c9645f8ef971252e7cd6d08b8",
+          "market_outcome_token_id": "15030586508635354674471516361411772677784672867515781493525089465862245196030",
+          "reverse_outcome_token_id": "55961570312435268371594325623158043201989116034774398856239962099277803824179"
+        },
+        "reverse_description": "MOUZ",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453671",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TSMOUZ_M2ML/CS2_26OCT27_TSMOUZ_M2ML.TS.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.555000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12080051301",
+        "market_resolution_ts_ms": "1793120762110"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TSMOUZ_M1ML.TS",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#7DA713",
+            "dark": "#BDF935"
+          },
+          "reverse": {
+            "light": "#B11739",
+            "dark": "#B11739"
+          }
+        },
+        "event_description": "Spirit vs MOUZ, Map 1 Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-ts7-mouz-2026-10-27",
+          "game_description": "Spirit vs MOUZ",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "Spirit",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Spirit",
+            "home_subject_id": "spirit",
+            "away_name": "MOUZ",
+            "away_subject_id": "mouz"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Spirit",
+            "abbreviated": "TS"
+          },
+          "short": {
+            "extended": "MOUZ",
+            "abbreviated": "MOUZ"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-ts7-mouz-2026-10-27-game1",
+          "condition_id": "0x5f9950fbcf95cef54ac1e64bd2e6e64167174aa3cfcdc0705a2a331a057e204f",
+          "market_outcome_token_id": "80213601565147133396584908911921336390502718981773391460068784814103229729909",
+          "reverse_outcome_token_id": "27957398555478271339230521069951022241033430900979125075838787585635921318625"
+        },
+        "reverse_description": "MOUZ",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453620",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TSMOUZ_M1ML/CS2_26OCT27_TSMOUZ_M1ML.TS.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.525000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12075916370",
+        "market_resolution_ts_ms": "1793117499172"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_MGLZLEG_ML.MGLZ",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#B9953D",
+            "dark": "#F3CD77"
+          },
+          "reverse": {
+            "light": "#2D231C",
+            "dark": "#5E534B"
+          }
+        },
+        "event_description": "TheMongolz vs Legacy, Match Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-mglz-lgc-2026-10-27",
+          "game_description": "TheMongolz vs Legacy",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "TheMongolz",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Legacy",
+            "away_subject_id": "legacy"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "The MongolZ",
+            "abbreviated": "MGLZ"
+          },
+          "short": {
+            "extended": "Legacy",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-lgc-2026-10-27",
+          "condition_id": "0x2910f4295c4a22b2da8babc955d80fec140e49511c579eae381202064e7df84d",
+          "market_outcome_token_id": "16130646826124719944632262203698988864743049370263941985150832307459745333616",
+          "reverse_outcome_token_id": "84550983245085953567845443188857618318802353819795053540774159994061331568983"
+        },
+        "reverse_description": "Legacy",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064565082",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_MGLZLEG_ML/CS2_26OCT27_MGLZLEG_ML.MGLZ.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "25",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "10.650000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "25",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "10.650000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793069040000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12074358525",
+        "market_resolution_ts_ms": "1793116307117"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_MGLZLEG_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "TheMongolz vs Legacy, Total Maps",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-mglz-lgc-2026-10-27",
+          "game_description": "TheMongolz vs Legacy",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Legacy",
+            "away_subject_id": "legacy"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-lgc-2026-10-27-total-games-2pt5",
+          "condition_id": "0x3d91a733a4a6978973972d3639d5ffcb1f5095d136a4e46fd7f1334224a058e3",
+          "market_outcome_token_id": "7395067946256602378331848389860954210252927088285027006096917198086193590668",
+          "reverse_outcome_token_id": "50106239272655017640311714099640130489077682133576461692684967602993012834630"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064565590",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_MGLZLEG_TT/CS2_26OCT27_MGLZLEG_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12074241996",
+        "market_resolution_ts_ms": "1793116217088"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_MGLZLEG_SP.LEG_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "TheMongolz vs Legacy, Map Handicap",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-mglz-lgc-2026-10-27",
+          "game_description": "TheMongolz vs Legacy",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "legacy",
+          "subject_description": "Legacy",
+          "value": "-1.5"
+        },
+        "market_description": "Legacy -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Legacy",
+            "away_subject_id": "legacy"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "away",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-lgc-2026-10-27-map-handicap-home-1pt5",
+          "condition_id": "0xa8310e4da17a0f0b070884a9331e65f7cda0ccd0da3b163b9faa940d3ec97277",
+          "market_outcome_token_id": "23056450469148888773515133600450077384723490737391853383036236325267753336783",
+          "reverse_outcome_token_id": "62348280055592835083334417783082935327402758642402759817447060218197157317479"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064565335",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_MGLZLEG_SP/CS2_26OCT27_MGLZLEG_SP.LEG_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12074241899",
+        "market_resolution_ts_ms": "1793116217038"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_MGLZLEG_M2ML.MGLZ",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#B9953D",
+            "dark": "#F3CD77"
+          },
+          "reverse": {
+            "light": "#2D231C",
+            "dark": "#5E534B"
+          }
+        },
+        "event_description": "TheMongolz vs Legacy, Map 2 Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-mglz-lgc-2026-10-27",
+          "game_description": "TheMongolz vs Legacy",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "TheMongolz",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Legacy",
+            "away_subject_id": "legacy"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "The MongolZ",
+            "abbreviated": "MGLZ"
+          },
+          "short": {
+            "extended": "Legacy",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-lgc-2026-10-27-game2",
+          "condition_id": "0xe3f8d1e93df33d8d517f2b80b494df46550f587c7217a6dadcf63ec532077cc7",
+          "market_outcome_token_id": "19332322150267628080129082229662277672203261056993741575217185321299341430524",
+          "reverse_outcome_token_id": "61758473065484223579863437953132031576056993609698667436019953508000832112017"
+        },
+        "reverse_description": "Legacy",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453362",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_MGLZLEG_M2ML/CS2_26OCT27_MGLZLEG_M2ML.MGLZ.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.470000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12074241844",
+        "market_resolution_ts_ms": "1793116216987"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_ML.TL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#001538",
+            "dark": "#4464AD"
+          },
+          "reverse": {
+            "light": "#17ABA2",
+            "dark": "#0FC6BB"
+          }
+        },
+        "event_description": "Liquid vs Aurora Gaming, Match Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "Liquid",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Liquid",
+            "abbreviated": "TL"
+          },
+          "short": {
+            "extended": "Aurora Gaming",
+            "abbreviated": "AUR"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27",
+          "condition_id": "0xb3190794885f832e508d086ffa82d4b84ca1e0ada9c734550637e6fdd9bb1cff",
+          "market_outcome_token_id": "92708239841263145361017304203618583258102423804507532186791623602897510452108",
+          "reverse_outcome_token_id": "108722652282832774715911874188788366649198767708491443860314343249390873561468"
+        },
+        "reverse_description": "Aurora Gaming",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064566709",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_ML/CS2_26OCT27_TLAUR_ML.TL.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "512",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "130.052000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "3",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "512",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "130.052000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "3",
+          "window_end_ts_ms_exclusive": "1793104200000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12071265196",
+        "market_resolution_ts_ms": "1793113763240"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Liquid vs Aurora Gaming, Total Maps",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27-total-games-2pt5",
+          "condition_id": "0x50f0e34d601a0da5f1125a90202d2351c681320ae13dda0930b8e855af9d63ed",
+          "market_outcome_token_id": "80244884709549855981110219828836110839713309735332260096047766804301901327298",
+          "reverse_outcome_token_id": "12397299298524847708181962975946503626707375873844054461839143474006870547219"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064567221",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_TT/CS2_26OCT27_TLAUR_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12071171170",
+        "market_resolution_ts_ms": "1793113683201"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_SP.TL_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Liquid vs Aurora Gaming, Map Handicap",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "team-liquid",
+          "subject_description": "Liquid",
+          "value": "-1.5"
+        },
+        "market_description": "Liquid -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27-map-handicap-away-1pt5",
+          "condition_id": "0xae98c4041c4acacb76674d4dd592d26ce54019abea4955872c3d542cf532290a",
+          "market_outcome_token_id": "6785145971955020131726960412714352440199272368683484020009208951328871930565",
+          "reverse_outcome_token_id": "77828876986695743629384825524825262874797459047477499441013543419924056467382"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793103723062",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_SP/CS2_26OCT27_TLAUR_SP.TL_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12071171126",
+        "market_resolution_ts_ms": "1793113683150"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_SP.AUR_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Liquid vs Aurora Gaming, Map Handicap",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "aurora-gaming",
+          "subject_description": "Aurora Gaming",
+          "value": "-1.5"
+        },
+        "market_description": "Aurora Gaming -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "away",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27-map-handicap-home-1pt5",
+          "condition_id": "0xaad95960aec18e66c8cd63b64e32051c7a93a217561d956050eeddff77e4d752",
+          "market_outcome_token_id": "67430840080048286549021882640964147025235694825876236116865055010860077788564",
+          "reverse_outcome_token_id": "86052227035466502724281226124635250191640652097132591711599888830877518215907"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064566965",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_SP/CS2_26OCT27_TLAUR_SP.AUR_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12071171090",
+        "market_resolution_ts_ms": "1793113683099"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_MGLZLEG_M1ML.MGLZ",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#B9953D",
+            "dark": "#F3CD77"
+          },
+          "reverse": {
+            "light": "#2D231C",
+            "dark": "#5E534B"
+          }
+        },
+        "event_description": "TheMongolz vs Legacy, Map 1 Winner",
+        "expected_event_start_time_ms": "1793109600000",
+        "expected_resolution_time_ms": "1793131200000",
+        "game_page": {
+          "game_id": "cs2-mglz-lgc-2026-10-27",
+          "game_description": "TheMongolz vs Legacy",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "TheMongolz",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "TheMongolz",
+            "home_subject_id": "themongolz",
+            "away_name": "Legacy",
+            "away_subject_id": "legacy"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "The MongolZ",
+            "abbreviated": "MGLZ"
+          },
+          "short": {
+            "extended": "Legacy",
+            "abbreviated": "LEG"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-mglz-lgc-2026-10-27-game1",
+          "condition_id": "0x782dc8642f1aa9146c9fe8d666d91f66fe37927b788d6c54cd722746385a5772",
+          "market_outcome_token_id": "50830103352723174102216056854499163059220069533436838572666482406428886064931",
+          "reverse_outcome_token_id": "36685778971237028263986118454914580100607545044837001091133313788333843923724"
+        },
+        "reverse_description": "Legacy",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453312",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_MGLZLEG_M1ML/CS2_26OCT27_MGLZLEG_M1ML.MGLZ.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.405000",
+          "taker_buy_volume": "27",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "14.499000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "27",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "14.499000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793105940000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12069703264",
+        "market_resolution_ts_ms": "1793112529237"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_M2ML.TL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#001538",
+            "dark": "#4464AD"
+          },
+          "reverse": {
+            "light": "#17ABA2",
+            "dark": "#0FC6BB"
+          }
+        },
+        "event_description": "Liquid vs Aurora Gaming, Map 2 Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "Liquid",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Liquid",
+            "abbreviated": "TL"
+          },
+          "short": {
+            "extended": "Aurora Gaming",
+            "abbreviated": "AUR"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27-game2",
+          "condition_id": "0x83bb6cfe6c1c9a73c7174b0a96b6caf2d46fbc7e4b94333bf2805d8fe3ec2f5f",
+          "market_outcome_token_id": "30614879771596590934482272575137002861792520954501349714591566402747938704291",
+          "reverse_outcome_token_id": "80002663945177098162295011083803190330240469791221438436562262165557110403258"
+        },
+        "reverse_description": "Aurora Gaming",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453569",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_M2ML/CS2_26OCT27_TLAUR_M2ML.TL.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.350000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12066151183",
+        "market_resolution_ts_ms": "1793109785047"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_NEMDEN_ML.NEM",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nemiga vs DENDELE CS, Match Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-nemi1-dendel-2026-10-27",
+          "game_description": "Nemiga vs DENDELE CS",
+          "section_id": "match-moneyline",
+          "section_description": "Match Winner",
+          "section_display_order": 100
+        },
+        "market_description": "Nemiga",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Nemiga",
+            "home_subject_id": "nemiga",
+            "away_name": "DENDELE CS",
+            "away_subject_id": "dendele-cs"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "home"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-nemi1-dendel-2026-10-27",
+          "condition_id": "0x8989cb82cb1c0888615337a3b65b935cc4f25b86732e3288e2fc79c3f5469182",
+          "market_outcome_token_id": "94247890025521413810189096199230276885113501055177004532567965754873419079788",
+          "reverse_outcome_token_id": "52988084884432112870614933495883862277736179547799387163141126504306402804747"
+        },
+        "reverse_description": "DENDELE CS",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064565843",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_NEMDEN_ML/CS2_26OCT27_NEMDEN_ML.NEM.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "508",
+          "taker_sell_volume": "56",
+          "taker_buy_volume_notional": "307.284000",
+          "taker_sell_volume_notional": "32.336000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "508",
+          "taker_sell_volume": "56",
+          "taker_buy_volume_notional": "307.284000",
+          "taker_sell_volume_notional": "32.336000",
+          "taker_buy_trade_count": "2",
+          "taker_sell_trade_count": "2",
+          "window_end_ts_ms_exclusive": "1793096820000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12064743522",
+        "market_resolution_ts_ms": "1793108634003"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_NEMDEN_SP.NEM_1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nemiga vs DENDELE CS, Map Handicap",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-nemi1-dendel-2026-10-27",
+          "game_description": "Nemiga vs DENDELE CS",
+          "section_id": "map-handicap",
+          "section_description": "Map Handicap",
+          "section_display_order": 300,
+          "subject_id": "nemiga",
+          "subject_description": "Nemiga",
+          "value": "-1.5"
+        },
+        "market_description": "Nemiga -1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Nemiga",
+            "home_subject_id": "nemiga",
+            "away_name": "DENDELE CS",
+            "away_subject_id": "dendele-cs"
+          },
+          "market": {
+            "type": "map_handicap",
+            "team": "home",
+            "line": "-1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-nemi1-dendel-2026-10-27-map-handicap-away-1pt5",
+          "condition_id": "0xff6f46ab7666ad8470bed1a84556537f7fde99f0ef546dbd21c43236faf47c16",
+          "market_outcome_token_id": "2302948965345305220429793063001016285867994016394134084196551537519088007721",
+          "reverse_outcome_token_id": "18998016103979723916283072133151635929252190709366308396798494229866151223941"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064566099",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_NEMDEN_SP/CS2_26OCT27_NEMDEN_SP.NEM_1.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12064634661",
+        "market_resolution_ts_ms": "1793108543924"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_NEMDEN_M2ML.NEM",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nemiga vs DENDELE CS, Map 2 Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-nemi1-dendel-2026-10-27",
+          "game_description": "Nemiga vs DENDELE CS",
+          "section_id": "map-2-winner",
+          "section_description": "Map 2 Winner",
+          "section_display_order": 202
+        },
+        "market_description": "Nemiga",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Nemiga",
+            "home_subject_id": "nemiga",
+            "away_name": "DENDELE CS",
+            "away_subject_id": "dendele-cs"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 2,
+            "outcome": "home"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-nemi1-dendel-2026-10-27-game2",
+          "condition_id": "0xdea920d238730be77c95801da4745a53a7a33f78c847adb172aebb8bc55f553d",
+          "market_outcome_token_id": "97094907344886656268093340446571179375946553101744358986375407529118556383507",
+          "reverse_outcome_token_id": "40047930605163436600740169986741857494989422049334385344913291465550749499398"
+        },
+        "reverse_description": "DENDELE CS",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453466",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_NEMDEN_M2ML/CS2_26OCT27_NEMDEN_M2ML.NEM.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.605000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "35",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "20.510000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "35",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "20.510000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793075760000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12063228518",
+        "market_resolution_ts_ms": "1793107486460"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_NEMDEN_TT.2",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nemiga vs DENDELE CS, Total Maps",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-nemi1-dendel-2026-10-27",
+          "game_description": "Nemiga vs DENDELE CS",
+          "section_id": "total-maps",
+          "section_description": "Total Maps",
+          "section_display_order": 400,
+          "value": "2.5"
+        },
+        "market_description": "Total Over 2.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Nemiga",
+            "home_subject_id": "nemiga",
+            "away_name": "DENDELE CS",
+            "away_subject_id": "dendele-cs"
+          },
+          "market": {
+            "type": "total_maps",
+            "line": "2.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-nemi1-dendel-2026-10-27-total-games-2pt5",
+          "condition_id": "0x0c8d52c2a327fa813564475102cd9f8b0d09886107c1b2acda1776ab3b906e64",
+          "market_outcome_token_id": "84075657603487549590683493650754075226640223376960383456450924403803849199886",
+          "reverse_outcome_token_id": "8066896790158693141841533825915662914564904881336583246235286709025857735069"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793064566455",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_NEMDEN_TT/CS2_26OCT27_NEMDEN_TT.2.md",
+      "stats": {
+        "last_24h": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12063124185",
+        "market_resolution_ts_ms": "1793107406363"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_TLAUR_M1ML.TL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#001538",
+            "dark": "#4464AD"
+          },
+          "reverse": {
+            "light": "#17ABA2",
+            "dark": "#0FC6BB"
+          }
+        },
+        "event_description": "Liquid vs Aurora Gaming, Map 1 Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-tl1-aur1-2026-10-27",
+          "game_description": "Liquid vs Aurora Gaming",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "Liquid",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Liquid",
+            "home_subject_id": "team-liquid",
+            "away_name": "Aurora Gaming",
+            "away_subject_id": "aurora-gaming"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Team Liquid",
+            "abbreviated": "TL"
+          },
+          "short": {
+            "extended": "Aurora Gaming",
+            "abbreviated": "AUR"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-tl1-aur1-2026-10-27-game1",
+          "condition_id": "0x50cbb83530db10cdd5cfb0fd5eab093d6d69df661e97833342f35ed241107d39",
+          "market_outcome_token_id": "93810340515378721258659821173118249209237119564762497054361673481515618294079",
+          "reverse_outcome_token_id": "29875337604297564293136039592274063957035157512440660645456290953643952815074"
+        },
+        "reverse_description": "Aurora Gaming",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453517",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_TLAUR_M1ML/CS2_26OCT27_TLAUR_M1ML.TL.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.315000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "21",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "6.804000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793057880000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12061691125",
+        "market_resolution_ts_ms": "1793106384281"
+      }
+    },
+    {
+      "symbol": "CS2_26OCT27_NEMDEN_M1ML.NEM",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Nemiga vs DENDELE CS, Map 1 Winner",
+        "expected_event_start_time_ms": "1793098800000",
+        "expected_resolution_time_ms": "1793120400000",
+        "game_page": {
+          "game_id": "cs2-nemi1-dendel-2026-10-27",
+          "game_description": "Nemiga vs DENDELE CS",
+          "section_id": "map-1-winner",
+          "section_description": "Map 1 Winner",
+          "section_display_order": 201
+        },
+        "market_description": "Nemiga",
+        "market_type": {
+          "kind": "sports",
+          "sport": "counter_strike",
+          "series_format": "best_of_three",
+          "teams": {
+            "home_name": "Nemiga",
+            "home_subject_id": "nemiga",
+            "away_name": "DENDELE CS",
+            "away_subject_id": "dendele-cs"
+          },
+          "market": {
+            "type": "map_winner",
+            "map_number": 1,
+            "outcome": "home"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "cs2-nemi1-dendel-2026-10-27-game1",
+          "condition_id": "0x039527d80499b78b18423cb59113192046d0b4ffc68c316bb1159485f844585e",
+          "market_outcome_token_id": "29424738722677963560993988899404746329871939048515118026652317454061906309877",
+          "reverse_outcome_token_id": "68256054621939167269942989974472047491444534040392967694554488202831242306330"
+        },
+        "reverse_description": "DENDELE CS",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Esports",
+          "Counter-Strike"
+        ],
+        "topic": {
+          "id": "pgl-masters-bucharest-2026",
+          "description": "PGL Masters Bucharest 2026 Group Stage"
+        }
+      },
+      "listing_ts_ms": "1793052453414",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/CS2_26OCT27_NEMDEN_M1ML/CS2_26OCT27_NEMDEN_M1ML.NEM.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.545000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "48",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "25.728000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "48",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "25.728000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793065440000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12060021024",
+        "market_resolution_ts_ms": "1793105212879"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.99P9",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "99.9% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506778833",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.99P9.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057771316",
+        "market_resolution_ts_ms": "1793103655343"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.99",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "99% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506778527",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.99.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057770755",
+        "market_resolution_ts_ms": "1793103654989"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.98",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "98% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506778222",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.98.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057770200",
+        "market_resolution_ts_ms": "1793103654631"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.97",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "97% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506777917",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.97.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057769598",
+        "market_resolution_ts_ms": "1793103654274"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.96",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "96% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506777611",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.96.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057768905",
+        "market_resolution_ts_ms": "1793103653919"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.95",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "95% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506777306",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.95.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057768300",
+        "market_resolution_ts_ms": "1793103653563"
+      }
+    },
+    {
+      "symbol": "POLY_CLOB_UPTIME_26OCT26.90",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Polymarket uptime Oct 20-26",
+        "expected_resolution_time_ms": "1793059200000",
+        "market_description": "90% or above",
+        "sort_order": "MARKET_DESCRIPTION_DESC",
+        "tags": [
+          "Prediction Markets",
+          "Uptime"
+        ],
+        "topic": {
+          "id": "polymarket",
+          "description": "Polymarket"
+        }
+      },
+      "listing_ts_ms": "1792506777002",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/POLY_CLOB_UPTIME_26OCT26/POLY_CLOB_UPTIME_26OCT26.90.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.972000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12057767213",
+        "market_resolution_ts_ms": "1793103653205"
+      }
+    },
+    {
+      "symbol": "LOL_WORLDS_2026_WINNER.AL",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Worlds 2026 winner",
+        "expected_resolution_time_ms": "1794697200000",
+        "market_description": "Anyone's Legend",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-anyones-legend-win-worlds-2026",
+          "condition_id": "0x516c2b0c2010ed4c474a4e372c68dba423646955787e2782e7eb56192f241ad6",
+          "market_outcome_token_id": "91646658198269775308648875490428543912383268084347782992670139482853890371383",
+          "reverse_outcome_token_id": "103781494865639941079637582338451137592688831528378897224327425455273271569712"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Sports",
+          "Esports",
+          "LoL",
+          "League of Legends",
+          "Worlds"
+        ],
+        "topic": {
+          "id": "lol-worlds-2026-winner",
+          "description": "League of Legends Worlds 2026 Winner"
+        }
+      },
+      "listing_ts_ms": "1791584188758",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LOL_WORLDS_2026_WINNER/LOL_WORLDS_2026_WINNER.AL.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.004000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "428",
+          "taker_sell_volume": "2285",
+          "taker_buy_volume_notional": "23.454000",
+          "taker_sell_volume_notional": "116.279000",
+          "taker_buy_trade_count": "4",
+          "taker_sell_trade_count": "16",
+          "window_end_ts_ms_exclusive": "1792322400000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12054058692",
+        "market_resolution_ts_ms": "1793100966638"
+      }
+    },
+    {
+      "symbol": "MLB_26OCT26_MILTB_TT.1",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Brewers vs Rays, Oct 26, Totals",
+        "expected_event_start_time_ms": "1793059200000",
+        "expected_resolution_time_ms": "1793073600000",
+        "game_page": {
+          "game_id": "mlb-mil-tb-2026-10-26",
+          "game_description": "Brewers vs Rays, Oct 26",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "1.5"
+        },
+        "market_description": "Total Over 1.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "baseball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Tampa Bay Rays",
+            "home_short_name": "Rays",
+            "home_subject_id": "tampa-bay-rays",
+            "away_name": "Milwaukee Brewers",
+            "away_short_name": "Brewers",
+            "away_subject_id": "milwaukee-brewers"
+          },
+          "market": {
+            "type": "total",
+            "line": "1.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "mlb-mil-tb-2026-10-26-total-1pt5",
+          "condition_id": "0x3d8fc4ef17590b2f52d6ab4e837ae6fa30a5b4f75d216a7882a200d86469f628",
+          "market_outcome_token_id": "113771005180047078566918594602838208042293954048706825600982191420047010908742",
+          "reverse_outcome_token_id": "36484921916586560957522707903207579706283772125955859446480868510812636049050"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Baseball",
+          "MLB"
+        ],
+        "topic": {
+          "id": "mlb",
+          "description": "MLB"
+        }
+      },
+      "listing_ts_ms": "1793013622082",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/MLB_26OCT26_MILTB_TT/MLB_26OCT26_MILTB_TT.1.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.955500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12036250830",
+        "market_resolution_ts_ms": "1793086271937"
+      }
+    },
+    {
+      "symbol": "MLB_26OCT26_MILTB_TT.0",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Brewers vs Rays, Oct 26, Totals",
+        "expected_event_start_time_ms": "1793059200000",
+        "expected_resolution_time_ms": "1793073600000",
+        "game_page": {
+          "game_id": "mlb-mil-tb-2026-10-26",
+          "game_description": "Brewers vs Rays, Oct 26",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "0.5"
+        },
+        "market_description": "Total Over 0.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "baseball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Tampa Bay Rays",
+            "home_short_name": "Rays",
+            "home_subject_id": "tampa-bay-rays",
+            "away_name": "Milwaukee Brewers",
+            "away_short_name": "Brewers",
+            "away_subject_id": "milwaukee-brewers"
+          },
+          "market": {
+            "type": "total",
+            "line": "0.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "mlb-mil-tb-2026-10-26-total-0pt5",
+          "condition_id": "0xf69119431fd09ab655268983cb16c1ff624fe27b2cf6b108bfa950ff3b1e0780",
+          "market_outcome_token_id": "103960123858398010643149765633700039843375772991826029793647639749481711769034",
+          "reverse_outcome_token_id": "66070113507845296843109803597192502011010789512499894483592313533733077237870"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Baseball",
+          "MLB"
+        ],
+        "topic": {
+          "id": "mlb",
+          "description": "MLB"
+        }
+      },
+      "listing_ts_ms": "1793013622032",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/MLB_26OCT26_MILTB_TT/MLB_26OCT26_MILTB_TT.0.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.992500",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12036250769",
+        "market_resolution_ts_ms": "1793086271886"
+      }
+    },
+    {
+      "symbol": "NBA_26OCT26_GSWDEN_ML.GSW",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#1D428A",
+            "dark": "#2C529B"
+          },
+          "reverse": {
+            "light": "#BF9310",
+            "dark": "#FEC524"
+          }
+        },
+        "event_description": "Warriors vs Nuggets, Oct 26, Moneyline",
+        "expected_event_start_time_ms": "1793066400000",
+        "expected_resolution_time_ms": "1793080800000",
+        "game_page": {
+          "game_id": "nba-gsw-den-2026-10-26",
+          "game_description": "Warriors vs Nuggets, Oct 26",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "Golden State Warriors",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Denver Nuggets",
+            "home_short_name": "Nuggets",
+            "home_subject_id": "denver-nuggets",
+            "away_name": "Golden State Warriors",
+            "away_short_name": "Warriors",
+            "away_subject_id": "golden-state-warriors"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Warriors",
+            "abbreviated": "GSW"
+          },
+          "short": {
+            "extended": "Nuggets",
+            "abbreviated": "DEN"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-gsw-den-2026-10-26",
+          "condition_id": "0x601a35941bf6970372c036efd9a00767c7a722932cf0614a88ed0e44dc54bc1b",
+          "market_outcome_token_id": "2638070444992218975010939315413856634759288427925305434580400709805934104562",
+          "reverse_outcome_token_id": "37804039917921364341934320758155271104509271003668853707774772872554306390303"
+        },
+        "reverse_description": "Denver Nuggets",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1792693086362",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT26_GSWDEN_ML/NBA_26OCT26_GSWDEN_ML.GSW.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.285000",
+          "taker_buy_volume": "30",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "20.070000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "30",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "20.070000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793073180000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12027242892",
+        "market_resolution_ts_ms": "1793078376804"
+      }
+    },
+    {
+      "symbol": "NBA_26OCT26_GSWDEN_SP.DEN_6",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Warriors vs Nuggets, Oct 26, Spreads",
+        "expected_event_start_time_ms": "1793066400000",
+        "expected_resolution_time_ms": "1793080800000",
+        "game_page": {
+          "game_id": "nba-gsw-den-2026-10-26",
+          "game_description": "Warriors vs Nuggets, Oct 26",
+          "section_id": "spreads-full-game",
+          "section_description": "Spreads",
+          "section_display_order": 200,
+          "subject_id": "denver-nuggets",
+          "subject_description": "Denver Nuggets",
+          "value": "-6.5"
+        },
+        "market_description": "Denver Nuggets -6.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Denver Nuggets",
+            "home_short_name": "Nuggets",
+            "home_subject_id": "denver-nuggets",
+            "away_name": "Golden State Warriors",
+            "away_short_name": "Warriors",
+            "away_subject_id": "golden-state-warriors"
+          },
+          "market": {
+            "type": "spread",
+            "team": "home",
+            "line": "-6.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-gsw-den-2026-10-26-spread-home-6pt5",
+          "condition_id": "0xc681a41d65514f162aaa5a4c251042fb9b4e6d561f2ee63d40e2fe7333dfc0b8",
+          "market_outcome_token_id": "32310679710070595259258687701588791862862417125240216997938229208562624267328",
+          "reverse_outcome_token_id": "3370870275776376714102984045225185438528079864634570349941233851399078292193"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1793018570579",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT26_GSWDEN_SP/NBA_26OCT26_GSWDEN_SP.DEN_6.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.535000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "5",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.100000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "5",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.100000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793073420000"
+        }
+      },
+      "mark_price": "0.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "0.000000",
+        "seq": "12027209238",
+        "market_resolution_ts_ms": "1793078346821"
+      }
+    },
+    {
+      "symbol": "NBA_26OCT26_GSWDEN_TT.239",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Warriors vs Nuggets, Oct 26, Totals",
+        "expected_event_start_time_ms": "1793066400000",
+        "expected_resolution_time_ms": "1793080800000",
+        "game_page": {
+          "game_id": "nba-gsw-den-2026-10-26",
+          "game_description": "Warriors vs Nuggets, Oct 26",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "239.5"
+        },
+        "market_description": "Total Over 239.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Denver Nuggets",
+            "home_short_name": "Nuggets",
+            "home_subject_id": "denver-nuggets",
+            "away_name": "Golden State Warriors",
+            "away_short_name": "Warriors",
+            "away_subject_id": "golden-state-warriors"
+          },
+          "market": {
+            "type": "total_points",
+            "line": "239.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-gsw-den-2026-10-26-total-239pt5",
+          "condition_id": "0xf3158d792cc6b746ddee8a9c03cf5e394bfccf85ec85eb3c36d42c76152dbd3f",
+          "market_outcome_token_id": "79449041426675962098584985946990872239511868348264514994740568223792281921574",
+          "reverse_outcome_token_id": "15805342950419191608975189681575823247084115351977570917815017140505022969291"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1793018570935",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT26_GSWDEN_TT/NBA_26OCT26_GSWDEN_TT.239.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.425000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12027082200",
+        "market_resolution_ts_ms": "1793078246696"
+      }
+    },
+    {
+      "symbol": "NHL_26OCT26_DETEDM_TT.6",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Red Wings vs Oilers, Oct 26, Totals",
+        "expected_event_start_time_ms": "1793064600000",
+        "expected_resolution_time_ms": "1793079000000",
+        "game_page": {
+          "game_id": "nhl-det-edm-2026-10-26",
+          "game_description": "Red Wings vs Oilers, Oct 26",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "6.5"
+        },
+        "market_description": "Total Over 6.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "hockey",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Edmonton Oilers",
+            "home_short_name": "Oilers",
+            "home_subject_id": "edmonton-oilers",
+            "away_name": "Detroit Red Wings",
+            "away_short_name": "Red Wings",
+            "away_subject_id": "detroit-red-wings"
+          },
+          "market": {
+            "type": "total_goals",
+            "line": "6.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nhl-det-edm-2026-10-26-total-6pt5",
+          "condition_id": "0x3a059fc663e7c29601c26589749efcf87ea7ad8b784fdc5a1b52cb7356a6c90b",
+          "market_outcome_token_id": "94011450000143555961091180624688966616385749871129684450085433258413394824899",
+          "reverse_outcome_token_id": "52743621121584882699774746546597495481183062077817381619214454592631038999804"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "NHL"
+        ],
+        "topic": {
+          "id": "nhl",
+          "description": "NHL"
+        }
+      },
+      "listing_ts_ms": "1792850256382",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NHL_26OCT26_DETEDM_TT/NHL_26OCT26_DETEDM_TT.6.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.528000",
+          "taker_buy_volume": "5",
+          "taker_sell_volume": "83",
+          "taker_buy_volume_notional": "4.955000",
+          "taker_sell_volume_notional": "43.243000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "5",
+          "taker_sell_volume": "83",
+          "taker_buy_volume_notional": "4.955000",
+          "taker_sell_volume_notional": "43.243000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793074020000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12025866654",
+        "market_resolution_ts_ms": "1793077262999"
+      }
+    },
+    {
+      "symbol": "NBA_26OCT26_GSWDEN_TT.235",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "Warriors vs Nuggets, Oct 26, Totals",
+        "expected_event_start_time_ms": "1793066400000",
+        "expected_resolution_time_ms": "1793080800000",
+        "game_page": {
+          "game_id": "nba-gsw-den-2026-10-26",
+          "game_description": "Warriors vs Nuggets, Oct 26",
+          "section_id": "totals-full-game",
+          "section_description": "Totals",
+          "section_display_order": 300,
+          "value": "235.5"
+        },
+        "market_description": "Total Over 235.5",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Denver Nuggets",
+            "home_short_name": "Nuggets",
+            "home_subject_id": "denver-nuggets",
+            "away_name": "Golden State Warriors",
+            "away_short_name": "Warriors",
+            "away_subject_id": "golden-state-warriors"
+          },
+          "market": {
+            "type": "total_points",
+            "line": "235.5"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-gsw-den-2026-10-26-total-235pt5",
+          "condition_id": "0x4f37c2468637e3898f8bd2bfcfb75c95c105cd35872f72621fdce315fb02fc12",
+          "market_outcome_token_id": "8038478697414911379977755168266844948949978804201968675214465079954225805331",
+          "reverse_outcome_token_id": "2012866170661671246365407893682962899503538119183540650501192124076958654124"
+        },
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1793018570833",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT26_GSWDEN_TT/NBA_26OCT26_GSWDEN_TT.235.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.525000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "15",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "7.965000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "15",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "7.965000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "1",
+          "window_end_ts_ms_exclusive": "1793067420000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12025798331",
+        "market_resolution_ts_ms": "1793077202616"
+      }
+    }
+  ],
+  "seq": "12115553607",
+  "state_time_ms": "1793147352705",
+  "server_time_ms": "1793147352732"
+}

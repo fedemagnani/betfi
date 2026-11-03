@@ -1,0 +1,56 @@
+[package]
+name = "desk"
+description = "Schedina desk: quoter, hedge desk, crank and indexer (plan steps 1.E, 2.A-2.C)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "desk"
+path = "src/main.rs"
+
+# Versions follow l1-contracts.md C6 where it names the crate; the Solana crates are the
+# sibling crank's (small split crates, no solana-sdk).
+[dependencies]
+async-trait = "0.1"
+axum = { version = "0.8", features = ["ws"] }
+base64 = "0.23"
+bs58 = "0.5"
+ed25519-dalek = "3"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+metrics = "0.24"
+metrics-exporter-prometheus = { version = "0.18", default-features = false }
+pascal-rs = { path = "../pascal-rs" }
+pricing = { path = "../pricing" }
+reqwest = { version = "0.13", default-features = false, features = ["json", "rustls"] }
+rust_decimal = { version = "1.43", default-features = false, features = ["std"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.11"
+solana-hash = "4"
+solana-instruction = "4"
+solana-message = "6"
+solana-pubkey = { version = "4", features = ["curve25519"] }
+solana-signature = "3"
+solana-transaction = { version = "6", features = ["wincode"] }
+# Runtime-checked queries only (no `query!`), so the crate builds without a database.
+sqlx = { version = "0.9", default-features = false, features = ["runtime-tokio", "sqlite", "macros", "migrate"] }
+thiserror = "2"
+tokio = { workspace = true, features = ["net", "signal", "sync", "time"] }
+tokio-tungstenite = { version = "0.30", features = ["rustls-tls-webpki-roots"] }
+tower-http = { version = "0.7", features = ["cors", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+wincode = "0.6"
+
+[dev-dependencies]
+pascal-mock = { path = "../pascal-mock" }
+tokio = { workspace = true, features = ["test-util"] }
+
+[lints]
+workspace = true

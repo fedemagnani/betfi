@@ -1,0 +1,73 @@
+{
+  "as_of_ms": 1793212985011,
+  "tipsters": [
+    {
+      "wallet": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "settled": 7,
+      "won": 4,
+      "hit_rate_ppm": 571428,
+      "roi_ppm": 472544,
+      "brier_ppm": 233082,
+      "edge_ppm": 178909,
+      "avg_odds_u": 2517645,
+      "skin_u": 45000000,
+      "followers_roi_ppm": -12000,
+      "streak": 0,
+      "open_count": 1,
+      "open_staked_u": 10000000,
+      "copies": 3,
+      "fees_earned_u": 240000
+    },
+    {
+      "wallet": "CEz5hcaeZ7ho1qvjZ6gWKYRBhr7Ja4UYgw1EkTj5QZaB",
+      "settled": 12,
+      "won": 5,
+      "hit_rate_ppm": 416666,
+      "roi_ppm": 64000,
+      "brier_ppm": 188000,
+      "edge_ppm": 21000,
+      "avg_odds_u": 2610000,
+      "skin_u": 120000000,
+      "followers_roi_ppm": 31000,
+      "streak": 0,
+      "open_count": 0,
+      "open_staked_u": 0,
+      "copies": 9,
+      "fees_earned_u": 1150000
+    },
+    {
+      "wallet": "ADXdoNZiBvkp9RxLL9Q2CvAwTrtuupSE6k8qfXB1Nh8G",
+      "settled": 5,
+      "won": 1,
+      "hit_rate_ppm": 200000,
+      "roi_ppm": -310000,
+      "brier_ppm": 262000,
+      "edge_ppm": -52000,
+      "avg_odds_u": 4900000,
+      "skin_u": 25000000,
+      "followers_roi_ppm": null,
+      "streak": 0,
+      "open_count": 2,
+      "open_staked_u": 10000000,
+      "copies": 0,
+      "fees_earned_u": 0
+    },
+    {
+      "wallet": "Ah8dHtpcDL5gcKGDqS7X1WwnvD2ffHj9EWNMry2XMAyZ",
+      "settled": 2,
+      "won": 2,
+      "hit_rate_ppm": 1000000,
+      "roi_ppm": 950000,
+      "brier_ppm": 90000,
+      "edge_ppm": 310000,
+      "avg_odds_u": 1950000,
+      "skin_u": 8000000,
+      "followers_roi_ppm": null,
+      "streak": 2,
+      "open_count": 0,
+      "open_staked_u": 0,
+      "copies": 0,
+      "fees_earned_u": 0
+    }
+  ]
+}

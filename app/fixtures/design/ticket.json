@@ -1,0 +1,98 @@
+{
+  "ticket": "Gyn6E4YhK3f5stkJ4Ht6JC22CVweNaWJ8ARjhF1ZkWYo",
+  "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+  "nonce": 830369762348663,
+  "state": "open",
+  "n": 3,
+  "stake_u": 27142405,
+  "payout_u": 123508707,
+  "odds_offered_u": 4550396,
+  "odds_fair_u": 5197928,
+  "fee_u": 3381265,
+  "minted_at": 1793301540,
+  "settled_at": null,
+  "paid_u": null,
+  "cash_out": {
+    "available": true,
+    "c_u": 30120000,
+    "reason": null
+  },
+  "legs": [
+    {
+      "idx": 0,
+      "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+      "game_id": "el-fen-pao-2026-10-29",
+      "away": "Fenerbahçe",
+      "home": "Panathinaikos",
+      "pick": "home",
+      "side": "short",
+      "start_ms": 1793298600000,
+      "p_quote_u": 510204,
+      "p_fill_u": 510204,
+      "hedged": true,
+      "status": "open",
+      "resolution_u": null,
+      "kind": "winner",
+      "line": null,
+      "label": "Panathinaikos"
+    },
+    {
+      "idx": 1,
+      "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+      "game_id": "el-rma-oly-2026-10-29",
+      "away": "Olympiacos",
+      "home": "Real Madrid",
+      "pick": "home",
+      "side": "short",
+      "start_ms": 1793303100000,
+      "p_quote_u": 641025,
+      "p_fill_u": 641025,
+      "hedged": true,
+      "status": "open",
+      "resolution_u": null,
+      "kind": "winner",
+      "line": null,
+      "label": "Real Madrid"
+    },
+    {
+      "idx": 2,
+      "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+      "game_id": "nba-bos-nyk-2026-10-29",
+      "away": "NY Knicks",
+      "home": "Boston Celtics",
+      "pick": "home",
+      "side": "short",
+      "start_ms": 1793318400000,
+      "p_quote_u": 588235,
+      "p_fill_u": 588235,
+      "hedged": true,
+      "status": "open",
+      "resolution_u": null,
+      "kind": "winner",
+      "line": null,
+      "label": "Boston Celtics"
+    }
+  ],
+  "fills": [],
+  "tx": {
+    "open_pending": "CYqCxBoKE5KD5qUAUHumNqxa3yF7e9HmdGDtQKMdjU6MAynHUe9x3yC9Wj2dgJmZFURzPpTLsuTdF3LXHcVmAwu4",
+    "finalize": "BS9QfDEtf7irq4wnByxy38DwjthhfQWCAztCaiRyUPesH6PMpAZcck7GbJordkqQJPcN6LytGwEj4LMf8uRJ74Ky",
+    "settle": null,
+    "refund_pending": null,
+    "cash_out": null,
+    "resolve_leg": [],
+    "slot": {
+      "open_pending": 284912041,
+      "cash_out": null,
+      "settle": null
+    },
+    "confirm_ms": {
+      "open_pending": 412,
+      "cash_out": null
+    }
+  },
+  "tipster": null,
+  "copied_from": null,
+  "title": null,
+  "posted_odds_u": 4550396
+}

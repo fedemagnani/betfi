@@ -1,0 +1,235 @@
+{
+  "_doc": "Frozen payout vectors (plan L1 contract C2). Integer micro-units: 1.0 = 1_000_000. rs_u = floor(stake_u * r_ppm / 1e6); acc = rs_u; for each leg in order: acc = floor(acc * (1e6 - m1_ppm) / f_u); payout_u = acc. odds_u = floor(payout_u * 1e6 / rs_u). settle: acc = payout_u; for each leg: acc = floor(acc * rtilde_ppm / 1e6). Floor check (finalize): payout_u * 1e6 >= min_payout_per_unit_u * rs_u. All arithmetic in u128. pricing (1.B) and the program (1.C) must reproduce every number.",
+  "payout": [
+    {
+      "name": "3 legs overlapping at 0.50, full fill",
+      "stake_u": 10000000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        }
+      ],
+      "rs_u": 10000000,
+      "refund_u": 0,
+      "payout_u": 68590000,
+      "odds_u": 6859000
+    },
+    {
+      "name": "3 legs sequential at 0.50, full fill",
+      "stake_u": 10000000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        }
+      ],
+      "rs_u": 10000000,
+      "refund_u": 0,
+      "payout_u": 73013840,
+      "odds_u": 7301384
+    },
+    {
+      "name": "1 leg sequential at 0.50",
+      "stake_u": 10000000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        }
+      ],
+      "rs_u": 10000000,
+      "refund_u": 0,
+      "payout_u": 19400000,
+      "odds_u": 1940000
+    },
+    {
+      "name": "5 legs overlapping at 0.50",
+      "stake_u": 10000000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 500000
+        }
+      ],
+      "rs_u": 10000000,
+      "refund_u": 0,
+      "payout_u": 247609900,
+      "odds_u": 24760990
+    },
+    {
+      "name": "5 legs sequential at 0.50",
+      "stake_u": 10000000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 500000
+        }
+      ],
+      "rs_u": 10000000,
+      "refund_u": 0,
+      "payout_u": 274794887,
+      "odds_u": 27479488
+    },
+    {
+      "name": "mixed tiers, odd prices, r = 0.6, 5 USDC",
+      "stake_u": 5000000,
+      "r_ppm": 600000,
+      "legs": [
+        {
+          "m1_ppm": 50000,
+          "f_u": 695000
+        },
+        {
+          "m1_ppm": 50000,
+          "f_u": 412345
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 233001
+        }
+      ],
+      "rs_u": 3000000,
+      "refund_u": 2000000,
+      "payout_u": 39331166,
+      "odds_u": 13110388
+    },
+    {
+      "name": "2 legs, long favourite and short underdog, r = 1",
+      "stake_u": 7500000,
+      "r_ppm": 1000000,
+      "legs": [
+        {
+          "m1_ppm": 30000,
+          "f_u": 770000
+        },
+        {
+          "m1_ppm": 30000,
+          "f_u": 241000
+        }
+      ],
+      "rs_u": 7500000,
+      "refund_u": 0,
+      "payout_u": 38027425,
+      "odds_u": 5070323
+    }
+  ],
+  "settle": [
+    {
+      "name": "all won (long)",
+      "payout_u": 68590000,
+      "rtilde_ppm": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "paid_u": 68590000
+    },
+    {
+      "name": "one half-void",
+      "payout_u": 68590000,
+      "rtilde_ppm": [
+        1000000,
+        500000,
+        1000000
+      ],
+      "paid_u": 34295000
+    },
+    {
+      "name": "one lost",
+      "payout_u": 68590000,
+      "rtilde_ppm": [
+        1000000,
+        0,
+        1000000
+      ],
+      "paid_u": 0
+    },
+    {
+      "name": "two half-voids",
+      "payout_u": 68590000,
+      "rtilde_ppm": [
+        500000,
+        500000,
+        1000000
+      ],
+      "paid_u": 17147500
+    }
+  ],
+  "floor": [
+    {
+      "name": "floor equal to achieved odds",
+      "payout_u": 68590000,
+      "rs_u": 10000000,
+      "min_payout_per_unit_u": 6859000,
+      "ok": true
+    },
+    {
+      "name": "floor one micro above",
+      "payout_u": 68590000,
+      "rs_u": 10000000,
+      "min_payout_per_unit_u": 6859001,
+      "ok": false
+    },
+    {
+      "name": "3% slippage floor",
+      "payout_u": 68590000,
+      "rs_u": 10000000,
+      "min_payout_per_unit_u": 6653230,
+      "ok": true
+    }
+  ]
+}

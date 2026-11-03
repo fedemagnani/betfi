@@ -1,0 +1,292 @@
+{
+  "as_of_ms": 1793212985011,
+  "date": "2026-10-31",
+  "games": [
+    {
+      "away": {
+        "abbr": "IPS",
+        "name": "Ipswich Town FC"
+      },
+      "expected_resolution_ms": 1793466000000,
+      "game_id": "epl-hul-ips-2026-10-31",
+      "home": {
+        "abbr": "HUL",
+        "name": "Hull City AFC"
+      },
+      "in_play": false,
+      "league": "EPL",
+      "long_team": "home",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Hull City",
+              "odds_u": 2739726,
+              "outcome": "1",
+              "price_u": 365000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_HULIPS_ML.HUL",
+              "team": "home"
+            },
+            {
+              "label": "Draw",
+              "odds_u": 3448275,
+              "outcome": "X",
+              "price_u": 290000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_HULIPS_ML.DRAW",
+              "team": "draw"
+            },
+            {
+              "label": "Ipswich Town",
+              "odds_u": 2777777,
+              "outcome": "2",
+              "price_u": 360000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_HULIPS_ML.IPS",
+              "team": "away"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [],
+      "sport": "soccer",
+      "start_ms": 1793458800000,
+      "started_ms": null,
+      "symbol": "EPL_26OCT31_HULIPS_ML.HUL"
+    },
+    {
+      "away": {
+        "abbr": "BHA",
+        "name": "Brighton & Hove Albion FC"
+      },
+      "expected_resolution_ms": 1793466000000,
+      "game_id": "epl-mac-bri-2026-10-31",
+      "home": {
+        "abbr": "MCI",
+        "name": "Manchester City FC"
+      },
+      "in_play": false,
+      "league": "EPL",
+      "long_team": "home",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Manchester City",
+              "odds_u": 1694915,
+              "outcome": "1",
+              "price_u": 590000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_MCIBHA_ML.MCI",
+              "team": "home"
+            },
+            {
+              "label": "Draw",
+              "odds_u": 4545454,
+              "outcome": "X",
+              "price_u": 220000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_MCIBHA_ML.DRAW",
+              "team": "draw"
+            },
+            {
+              "label": "Brighton & Hove Albion",
+              "odds_u": 4761904,
+              "outcome": "2",
+              "price_u": 210000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_MCIBHA_ML.BHA",
+              "team": "away"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [],
+      "sport": "soccer",
+      "start_ms": 1793458800000,
+      "started_ms": null,
+      "symbol": "EPL_26OCT31_MCIBHA_ML.MCI"
+    },
+    {
+      "away": {
+        "abbr": "BVB",
+        "name": "BV Borussia 09 Dortmund"
+      },
+      "expected_resolution_ms": 1793475000000,
+      "game_id": "bundesliga-fcb-bvb-2026-10-31",
+      "home": {
+        "abbr": "FCB",
+        "name": "FC Bayern München"
+      },
+      "in_play": false,
+      "league": "Bundesliga",
+      "long_team": "home",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Bayern München",
+              "odds_u": 1362397,
+              "outcome": "1",
+              "price_u": 734000,
+              "side": "long",
+              "symbol": "BUND_26OCT31_FCBBVB_ML.FCB",
+              "team": "home"
+            },
+            {
+              "label": "Draw",
+              "odds_u": 5780346,
+              "outcome": "X",
+              "price_u": 173000,
+              "side": "long",
+              "symbol": "BUND_26OCT31_FCBBVB_ML.DRAW",
+              "team": "draw"
+            },
+            {
+              "label": "BV Borussia 09 Dortmund",
+              "odds_u": 7518796,
+              "outcome": "2",
+              "price_u": 133000,
+              "side": "long",
+              "symbol": "BUND_26OCT31_FCBBVB_ML.BVB",
+              "team": "away"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [],
+      "sport": "soccer",
+      "start_ms": 1793467800000,
+      "started_ms": null,
+      "symbol": "BUND_26OCT31_FCBBVB_ML.FCB"
+    },
+    {
+      "away": {
+        "abbr": "FUL",
+        "name": "Fulham FC"
+      },
+      "expected_resolution_ms": 1793484000000,
+      "game_id": "epl-ast-ful-2026-10-31",
+      "home": {
+        "abbr": "AVL",
+        "name": "Aston Villa FC"
+      },
+      "in_play": false,
+      "league": "EPL",
+      "long_team": "home",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Aston Villa",
+              "odds_u": 2040816,
+              "outcome": "1",
+              "price_u": 490000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_AVLFUL_ML.AVL",
+              "team": "home"
+            },
+            {
+              "label": "Draw",
+              "odds_u": 3649635,
+              "outcome": "X",
+              "price_u": 274000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_AVLFUL_ML.DRAW",
+              "team": "draw"
+            },
+            {
+              "label": "Fulham",
+              "odds_u": 3787878,
+              "outcome": "2",
+              "price_u": 264000,
+              "side": "long",
+              "symbol": "EPL_26OCT31_AVLFUL_ML.FUL",
+              "team": "away"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [],
+      "sport": "soccer",
+      "start_ms": 1793476800000,
+      "started_ms": null,
+      "symbol": "EPL_26OCT31_AVLFUL_ML.AVL"
+    },
+    {
+      "away": {
+        "abbr": "ALA",
+        "name": "Deportivo Alavés"
+      },
+      "expected_resolution_ms": 1793484000000,
+      "game_id": "lal-bar-ala-2026-10-31",
+      "home": {
+        "abbr": "BAR",
+        "name": "FC Barcelona"
+      },
+      "in_play": false,
+      "league": "LaLiga",
+      "long_team": "home",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Barcelona",
+              "odds_u": 1121076,
+              "outcome": "1",
+              "price_u": 892000,
+              "side": "long",
+              "symbol": "LALIGA_26OCT31_BARALA_ML.BAR",
+              "team": "home"
+            },
+            {
+              "label": "Draw",
+              "odds_u": 12195121,
+              "outcome": "X",
+              "price_u": 82000,
+              "side": "long",
+              "symbol": "LALIGA_26OCT31_BARALA_ML.DRAW",
+              "team": "draw"
+            },
+            {
+              "label": "Deportivo Alavés",
+              "odds_u": 23255813,
+              "outcome": "2",
+              "price_u": 43000,
+              "side": "long",
+              "symbol": "LALIGA_26OCT31_BARALA_ML.ALA",
+              "team": "away"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [],
+      "sport": "soccer",
+      "start_ms": 1793476800000,
+      "started_ms": null,
+      "symbol": "LALIGA_26OCT31_BARALA_ML.BAR"
+    }
+  ],
+  "sport": "soccer"
+}

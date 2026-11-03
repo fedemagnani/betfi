@@ -1,0 +1,29 @@
+# Instruction and transaction construction for the Schedina app (plan 2.E). No web
+# dependencies, so it compiles and is tested on the host (`cd app && cargo test -p schedina-tx`)
+# and is linked into the wasm app as a path dependency. A member of the app's own workspace.
+[package]
+name = "schedina-tx"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+license = "MIT"
+
+[dependencies]
+# Same major versions as dioxus-solana 0.5.1 re-exports, so `Pubkey` and `Instruction` are the
+# app's types. `curve25519` enables `find_program_address`.
+solana-pubkey = { version = "4", features = ["curve25519"] }
+solana-instruction = "3"
+base64 = "0.23"
+# Leg hashes of the signed quote, checked against the legs the user saw.
+sha2 = "0.11"
+# 4.D: the v0 message of [swap, Ed25519 verify, open_pending] with its lookup table (same
+# versions and `wincode` feature as dioxus-solana already pulls in; no new crate in the lock).
+solana-message = { version = "4", features = ["wincode"] }
+solana-hash = "4"
+
+[dev-dependencies]
+serde_json = "1"
+
+[lints.rust]
+unsafe_code = "forbid"

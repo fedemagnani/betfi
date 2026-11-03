@@ -1,0 +1,38 @@
+{
+  "type": "progress",
+  "pending": "dXvU3r7WBMCuGfJG6121KEzLjrdXLmfAku1PaiK3jEs",
+  "stage": "hedging",
+  "fills": [
+    {
+      "trade_id": "90001",
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "side": "bid",
+      "price_u": 699000,
+      "size": 8,
+      "fee_u": 33663,
+      "builder_fee_u": 5592,
+      "venue": "mock"
+    },
+    {
+      "trade_id": "90002",
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+      "side": "ask",
+      "price_u": 371000,
+      "size": 13,
+      "fee_u": 60673,
+      "builder_fee_u": 4823,
+      "venue": "mock"
+    },
+    {
+      "trade_id": "90003",
+      "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+      "side": "bid",
+      "price_u": 659000,
+      "size": 23,
+      "fee_u": 103370,
+      "builder_fee_u": 15157,
+      "venue": "mock"
+    }
+  ],
+  "ticket": null
+}

@@ -1,0 +1,71 @@
+{
+  "channel": "account",
+  "owner": "7ATdPM8uGMu3qiRSCpc6hUrSZ5VxFSUyYLfRipABG5bC",
+  "exclude_orders": true,
+  "type": "update",
+  "data": {
+    "collateral_usd": "330115.036760",
+    "lifetime_stats": {
+      "maker": {
+        "volume_contracts": "6972683",
+        "weighted_volume": "1088168.308214",
+        "volume_notional_usd": "3140368.200000",
+        "fees_paid_usd": "-5440.832878"
+      },
+      "taker": {
+        "volume_contracts": "1676105",
+        "weighted_volume": "278116.173880",
+        "volume_notional_usd": "727902.962000",
+        "fees_paid_usd": "4274.059013"
+      }
+    },
+    "orders": [],
+    "positions": [
+      {
+        "symbol": "NV_GOV_2026.DEM",
+        "size": "-20818",
+        "cumulative_increasing_contracts": "41528",
+        "cumulative_increasing_notional_usd": "25008.992000",
+        "cumulative_reducing_contracts": "20710",
+        "cumulative_reducing_notional_usd": "12891.432000",
+        "cumulative_fees_usd": "33.128794",
+        "realized_pnl_usd": "-1219.977383",
+        "unrealized_pnl_usd": "-3098.273617",
+        "mark_price": "0.789500",
+        "average_entry_price": "0.640673",
+        "remaining_entry_notional_usd": "13337.537383",
+        "seq": "6109831975",
+        "update_seq": "12117120897",
+        "open_ts_ms": "1789400906541",
+        "update_ts_ms": "1793147858778"
+      }
+    ],
+    "pending_deposits": [],
+    "pending_withdrawals": [],
+    "fills": [
+      {
+        "trade_id": "151800",
+        "symbol": "NV_GOV_2026.DEM",
+        "side": "ASK",
+        "reduce_only": false,
+        "fill_price": "0.790000",
+        "fill_size": "174",
+        "liquidity": "MAKER",
+        "counterparty": "6QCAZxbNGGaLsQpPxvkhcDXomLb9FDJEdinXK6K7j4PP",
+        "order_id": "5900033725",
+        "client_order_id": "66230412495554290",
+        "fee_usd": "-0.144333",
+        "collateral_change_usd": "-36.395667",
+        "position_size_prev": "-20644",
+        "realized_pnl_usd": "0.000000",
+        "position_open_seq": "6109831975",
+        "position_open_ts_ms": "1789400906541",
+        "seq": "12117120897",
+        "trade_ts_ms": "1793147858778"
+      }
+    ]
+  },
+  "seq": "12117121005",
+  "state_time_ms": "1793147858778",
+  "server_time_ms": "1793147858783"
+}

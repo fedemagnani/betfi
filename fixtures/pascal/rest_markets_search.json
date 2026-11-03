@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "symbol": "NBA_26OCT26_GSWDEN_ML.GSW",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#1D428A",
+            "dark": "#2C529B"
+          },
+          "reverse": {
+            "light": "#BF9310",
+            "dark": "#FEC524"
+          }
+        },
+        "event_description": "Warriors vs Nuggets, Oct 26, Moneyline",
+        "expected_event_start_time_ms": "1793066400000",
+        "expected_resolution_time_ms": "1793080800000",
+        "game_page": {
+          "game_id": "nba-gsw-den-2026-10-26",
+          "game_description": "Warriors vs Nuggets, Oct 26",
+          "section_id": "money-line-full-game",
+          "section_description": "Moneyline",
+          "section_display_order": 100
+        },
+        "market_description": "Golden State Warriors",
+        "market_type": {
+          "kind": "sports",
+          "sport": "basketball",
+          "period": "full_game",
+          "teams": {
+            "home_name": "Denver Nuggets",
+            "home_short_name": "Nuggets",
+            "home_subject_id": "denver-nuggets",
+            "away_name": "Golden State Warriors",
+            "away_short_name": "Warriors",
+            "away_subject_id": "golden-state-warriors"
+          },
+          "market": {
+            "type": "moneyline",
+            "outcome": "away"
+          }
+        },
+        "outcome_labels": {
+          "long": {
+            "extended": "Warriors",
+            "abbreviated": "GSW"
+          },
+          "short": {
+            "extended": "Nuggets",
+            "abbreviated": "DEN"
+          }
+        },
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "nba-gsw-den-2026-10-26",
+          "condition_id": "0x601a35941bf6970372c036efd9a00767c7a722932cf0614a88ed0e44dc54bc1b",
+          "market_outcome_token_id": "2638070444992218975010939315413856634759288427925305434580400709805934104562",
+          "reverse_outcome_token_id": "37804039917921364341934320758155271104509271003668853707774772872554306390303"
+        },
+        "reverse_description": "Denver Nuggets",
+        "sort_order": "SYMBOL_ASC",
+        "tags": [
+          "Sports",
+          "Basketball",
+          "NBA"
+        ],
+        "topic": {
+          "id": "nba",
+          "description": "NBA"
+        }
+      },
+      "listing_ts_ms": "1792693086362",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/NBA_26OCT26_GSWDEN_ML/NBA_26OCT26_GSWDEN_ML.GSW.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.285000",
+          "taker_buy_volume": "30",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "20.070000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "30",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "20.070000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "1",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793073180000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12027242892",
+        "market_resolution_ts_ms": "1793078376804"
+      }
+    },
+    {
+      "symbol": "TX_GOV_2026.REP",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "colors": {
+          "market": {
+            "light": "#BE1219",
+            "dark": "#EC544B"
+          }
+        },
+        "event_description": "Texas Governor Winner",
+        "expected_resolution_time_ms": "1793768400000",
+        "game_page": {
+          "game_id": "2026-texas-elections",
+          "game_description": "Texas Elections",
+          "section_id": "governor",
+          "section_description": "Governor",
+          "section_display_order": 100,
+          "row_display_order": 10
+        },
+        "market_description": "Republicans",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "will-the-republicans-win-the-texas-governor-race-in-2026",
+          "condition_id": "0xcd953913ecd5bf5387092bf447fe13190871b2bc9436c85b0918b4767c3fa58a",
+          "market_outcome_token_id": "54743173400191373818547682740700297683169841200363505623023527116388816282328",
+          "reverse_outcome_token_id": "1866695229821909795321299492017203124655045093500207568743162324352894510180"
+        },
+        "sort_order": "PRICE",
+        "tags": [
+          "Politics",
+          "USA",
+          "Elections",
+          "Midterms",
+          "Governor"
+        ],
+        "topic": {
+          "id": "2026-us-midterms",
+          "description": "2026 U.S. Midterms"
+        }
+      },
+      "listing_ts_ms": "1786394923840",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/TX_GOV_2026/TX_GOV_2026.REP.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.671500",
+          "taker_buy_volume": "2825",
+          "taker_sell_volume": "1662",
+          "taker_buy_volume_notional": "1863.888000",
+          "taker_sell_volume_notional": "1131.686000",
+          "taker_buy_trade_count": "37",
+          "taker_sell_trade_count": "26",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "129282",
+          "taker_sell_volume": "130019",
+          "taker_buy_volume_notional": "98639.057000",
+          "taker_sell_volume_notional": "99958.584000",
+          "taker_buy_trade_count": "3142",
+          "taker_sell_trade_count": "3298",
+          "window_end_ts_ms_exclusive": "1793145660000"
+        }
+      },
+      "mark_price": "0.654500",
+      "best_bid": "0.654000",
+      "best_ask": "0.655000",
+      "open_interest": "16495",
+      "long_interest": "16495",
+      "short_interest": "16495"
+    },
+    {
+      "symbol": "US_IRAN_CFR_THRU.26OCT24",
+      "taker_fee_rate": "0.020000",
+      "maker_rebate_share": "0.250000",
+      "tick_size_min": "0.001000",
+      "tick_sig_figs": 3,
+      "display_attributes": {
+        "event_description": "U.S.–Iran ceasefire continues through",
+        "expected_resolution_time_ms": "1792873799000",
+        "market_description": "Oct 24",
+        "reference": {
+          "kind": "polymarket",
+          "market_slug": "us-x-iran-ceasefire-continues-through-october-24",
+          "condition_id": "0x8cd2457d67e7c9260161f6307ec7c4dde35217b94dbe7959c0ef9d0a63f7344d",
+          "market_outcome_token_id": "56958610485808723049255227463404509732265251450428499709279354570207840417592",
+          "reverse_outcome_token_id": "17194856706950679222768875988453798226354637620680155002161189122989044089159"
+        },
+        "sort_order": "EXPECTED_RESOLUTION_TIME",
+        "tags": [
+          "Politics",
+          "Geopolitics"
+        ],
+        "topic": {
+          "id": "2026-iran-conflict",
+          "description": "2026 Iran Conflict"
+        }
+      },
+      "listing_ts_ms": "1791990558587",
+      "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/US_IRAN_CFR_THRU/US_IRAN_CFR_THRU.26OCT24.md",
+      "stats": {
+        "last_24h": {
+          "mark_price_start": "0.992000",
+          "taker_buy_volume": "0",
+          "taker_sell_volume": "0",
+          "taker_buy_volume_notional": "0.000000",
+          "taker_sell_volume_notional": "0.000000",
+          "taker_buy_trade_count": "0",
+          "taker_sell_trade_count": "0",
+          "window_end_ts_ms_exclusive": "1793147280000"
+        },
+        "all_time": {
+          "taker_buy_volume": "6351",
+          "taker_sell_volume": "1810",
+          "taker_buy_volume_notional": "5615.635000",
+          "taker_sell_volume_notional": "1442.046000",
+          "taker_buy_trade_count": "89",
+          "taker_sell_trade_count": "71",
+          "window_end_ts_ms_exclusive": "1792976880000"
+        }
+      },
+      "mark_price": "1.000000",
+      "open_interest": "0",
+      "long_interest": "0",
+      "short_interest": "0",
+      "resolution": {
+        "price": "1.000000",
+        "seq": "12109453024",
+        "market_resolution_ts_ms": "1793144700122"
+      }
+    }
+  ],
+  "seq": "12115555395",
+  "state_time_ms": "1793147353317",
+  "server_time_ms": "1793147353356"
+}

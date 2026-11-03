@@ -1,0 +1,91 @@
+# BetFi slides: presenterm's dark theme on the app's palette (app/assets: --canvas-deep,
+# --on-surface, --sol-green, --sol-purple, --on-surface-variant).
+default:
+  margin:
+    percent: 10
+  colors:
+    foreground: palette:ink
+    background: "0a0b10"
+
+slide_title:
+  alignment: center
+  padding_bottom: 1
+  padding_top: 1
+  colors:
+    foreground: palette:green
+  bold: true
+  font_size: 1
+
+code:
+  alignment: center
+  minimum_size: 50
+  minimum_margin:
+    percent: 8
+  theme_name: base16-eighties.dark
+  padding:
+    horizontal: 2
+    vertical: 1
+
+inline_code:
+  colors:
+    foreground: palette:green
+    background: palette:surface
+
+intro_slide:
+  title:
+    alignment: center
+    colors:
+      foreground: palette:green
+    font_size: 1
+  subtitle:
+    alignment: center
+    colors:
+      foreground: palette:muted
+  author:
+    alignment: center
+    colors:
+      foreground: palette:muted
+    positioning: page_bottom
+  footer: false
+
+headings:
+  h1:
+    colors:
+      foreground: palette:green
+  h2:
+    colors:
+      foreground: palette:purple
+  h3:
+    colors:
+      foreground: palette:muted
+
+block_quote:
+  prefix: "▍ "
+  colors:
+    foreground: palette:ink
+    background: palette:surface
+    prefix: palette:purple
+
+typst:
+  colors:
+    foreground: palette:ink
+    background: "0a0b10"
+
+footer:
+  style: template
+  right: "{current_slide} / {total_slides}"
+
+modals:
+  selection_colors:
+    foreground: palette:green
+
+layout_grid:
+  color: palette:purple
+
+palette:
+  colors:
+    ink: "f5f5f7"
+    muted: "9a9aa3"
+    green: "14f195"
+    purple: "9945ff"
+    surface: "1c1e2d"

@@ -1,0 +1,57 @@
+{
+  "status": "success",
+  "data": {
+    "has_deposited": true,
+    "twitter_account_connection": {
+      "twitter_user_id": "1446064645207384064",
+      "twitter_handle": "OJJIIIIII",
+      "connect_seq": "11530626667"
+    },
+    "collateral_usd": "4.931023",
+    "rewards": {
+      "referral_rewards_received_usd": "0.000000",
+      "builder_fees_received_usd": "0.000000",
+      "user_rewards_received_usd": "0.000000"
+    },
+    "lifetime_stats": {
+      "maker": {
+        "volume_contracts": "0",
+        "weighted_volume": "0.000000",
+        "volume_notional_usd": "0.000000",
+        "fees_paid_usd": "0.000000"
+      },
+      "taker": {
+        "volume_contracts": "360",
+        "weighted_volume": "60.961329",
+        "volume_notional_usd": "95.357000",
+        "fees_paid_usd": "1.013403"
+      }
+    },
+    "orders": [],
+    "positions": [
+      {
+        "symbol": "ISRAEL_PM_2026.NETANYAHU",
+        "size": "3",
+        "cumulative_increasing_contracts": "3",
+        "cumulative_increasing_notional_usd": "0.903000",
+        "cumulative_reducing_contracts": "0",
+        "cumulative_reducing_notional_usd": "0.000000",
+        "cumulative_fees_usd": "0.011361",
+        "realized_pnl_usd": "0.000000",
+        "unrealized_pnl_usd": "0.430500",
+        "mark_price": "0.444500",
+        "average_entry_price": "0.301000",
+        "remaining_entry_notional_usd": "0.903000",
+        "seq": "11968063796",
+        "update_seq": "11968063796",
+        "open_ts_ms": "1793052557191",
+        "update_ts_ms": "1793052557191"
+      }
+    ],
+    "pending_deposits": [],
+    "pending_withdrawals": []
+  },
+  "seq": "12115562204",
+  "state_time_ms": "1793147355710",
+  "server_time_ms": "1793147355758"
+}

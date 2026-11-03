@@ -1,0 +1,321 @@
+{
+  "as_of_ms": 1793212985011,
+  "min_holders": 3,
+  "games": [
+    {
+      "game_id": "nba-phi-ind-2026-10-28",
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "price": {
+        "away_u": 695000,
+        "home_u": 305000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 3,
+          "stake_u": 116760000
+        },
+        "home": {
+          "accounts": 2,
+          "stake_u": 20130000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 7,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 114047000,
+        "home_u": 4485000
+      },
+      "schedina": {
+        "away_u": 9000000,
+        "home_u": 5000000,
+        "tickets": 2
+      },
+      "traded_all_time": {
+        "away_u": 114047000,
+        "home_u": 10170000,
+        "total_u": 124217000
+      },
+      "traders": 8,
+      "recent": [
+        {
+          "amount_u": 4900000,
+          "team": "away",
+          "ts_ms": 1793238438325,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 7000000,
+          "team": "away",
+          "ts_ms": 1793236000000,
+          "source": "schedina"
+        },
+        {
+          "amount_u": 2345000,
+          "team": "home",
+          "ts_ms": 1793235463208,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 11439000,
+          "team": "home",
+          "ts_ms": 1793235407299,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 7799000,
+          "team": "away",
+          "ts_ms": 1793221168722,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 5000000,
+          "team": "home",
+          "ts_ms": 1793220000000,
+          "source": "schedina"
+        },
+        {
+          "amount_u": 106248000,
+          "team": "away",
+          "ts_ms": 1793215138376,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 9000000,
+          "team": "away",
+          "ts_ms": 1793212000000,
+          "source": "schedina"
+        },
+        {
+          "amount_u": 4485000,
+          "team": "home",
+          "ts_ms": 1793211625238,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 5685000,
+          "team": "home",
+          "ts_ms": 1793135700359,
+          "source": "pascal"
+        }
+      ]
+    },
+    {
+      "game_id": "nba-orl-tor-2026-10-28",
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+      "price": {
+        "away_u": 350000,
+        "home_u": 650000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 0,
+          "stake_u": 0
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 3250000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 1,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 0
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 0,
+        "tickets": 0
+      },
+      "traded_all_time": {
+        "away_u": 0,
+        "home_u": 0,
+        "total_u": 0
+      },
+      "traders": 1,
+      "recent": [
+        {
+          "amount_u": 4900000,
+          "team": "home",
+          "ts_ms": 1793235954042,
+          "source": "pascal"
+        }
+      ]
+    },
+    {
+      "game_id": "nba-hou-mil-2026-10-28",
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+      "price": {
+        "away_u": 755000,
+        "home_u": 245000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 3775000
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 7840000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 2,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7680000
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 0,
+        "tickets": 0
+      },
+      "traded_all_time": {
+        "away_u": 0,
+        "home_u": 7680000,
+        "total_u": 7680000
+      },
+      "traders": 2,
+      "recent": [
+        {
+          "amount_u": 4900000,
+          "team": "away",
+          "ts_ms": 1793237838240,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 7680000,
+          "team": "home",
+          "ts_ms": 1793215042716,
+          "source": "pascal"
+        }
+      ]
+    },
+    {
+      "game_id": "nba-sas-uta-2026-10-28",
+      "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+      "price": {
+        "away_u": 855000,
+        "home_u": 145000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 33345000
+        },
+        "home": {
+          "accounts": 2,
+          "stake_u": 7685000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 3,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7950000
+      },
+      "schedina": {
+        "away_u": 7000000,
+        "home_u": 0,
+        "tickets": 1
+      },
+      "traded_all_time": {
+        "away_u": 0,
+        "home_u": 7950000,
+        "total_u": 7950000
+      },
+      "traders": 4,
+      "recent": [
+        {
+          "amount_u": 35490000,
+          "team": "away",
+          "ts_ms": 1793243988318,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 7000000,
+          "team": "away",
+          "ts_ms": 1793236000000,
+          "source": "schedina"
+        },
+        {
+          "amount_u": 3150000,
+          "team": "home",
+          "ts_ms": 1793224804612,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 4800000,
+          "team": "home",
+          "ts_ms": 1793215123499,
+          "source": "pascal"
+        }
+      ]
+    },
+    {
+      "game_id": "nba-okc-dal-2026-10-28",
+      "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+      "price": {
+        "away_u": 635000,
+        "home_u": 365000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 12700000
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 10950000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 3,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7000000
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 9000000,
+        "tickets": 1
+      },
+      "traded_all_time": {
+        "away_u": 0,
+        "home_u": 7000000,
+        "total_u": 7000000
+      },
+      "traders": 3,
+      "recent": [
+        {
+          "amount_u": 9285000,
+          "team": "home",
+          "ts_ms": 1793240927662,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 7635000,
+          "team": "home",
+          "ts_ms": 1793240740526,
+          "source": "pascal"
+        },
+        {
+          "amount_u": 9000000,
+          "team": "home",
+          "ts_ms": 1793212000000,
+          "source": "schedina"
+        }
+      ]
+    }
+  ]
+}

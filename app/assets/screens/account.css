@@ -1,0 +1,108 @@
+/* 7.1f: Account (31 Oct: "Your wallet", "Faucet", then "Your bets", whose rules stay in
+   my-bets.css with the bet cards, L8-4), the house and profile pages that left it, and the dev
+   wallet. Built from the v2 tokens and kit classes in the drawn screens' language (the tipster
+   header's glowing card, #1a1b21 cards with a hairline, caps labels, purple CTA). L6's desktop
+   columns, House and Live blocks are gone with their screens (V-7, D-440). Owned by 7.1f
+   (l7-contracts L7-4). */
+
+/* ================================================================ Account */
+
+.acct { display: flex; flex-direction: column; gap: 12px; padding-top: var(--space-sm); }
+.acct-card {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 12px; min-width: 0; padding: 16px;
+  border-radius: var(--r-md); background: var(--surface-container-low); border: 1px solid var(--line);
+  box-shadow: var(--shadow-1);
+}
+.acct-card > .k-section-title.sm { margin: 0; padding: 0; }
+.acct-label { font: var(--type-label-caps); font-variant-numeric: tabular-nums; letter-spacing: 0; color: var(--on-surface-variant); }
+.acct-sub, .acct .acct-sub { margin: 0; font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+.acct-status, .acct .acct-status { margin: 0; font: var(--type-body-sm); color: var(--on-surface-variant); overflow-wrap: anywhere; }
+.acct-status.ok { color: var(--secondary-fixed); font-weight: 600; }
+.acct-status.error { color: var(--error); }
+.acct .muted { color: var(--outline); }
+
+/* The wallet card (v3: flat, no glows). */
+.acct-wallet { gap: 16px; background: var(--card); border-color: var(--line); }
+.acct-glow { display: none; }
+.acct-who { position: relative; display: flex; align-items: center; gap: 12px; min-width: 0; }
+.acct-who-main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.acct-name { font: var(--type-headline-sm); font-weight: 700; letter-spacing: var(--ls-headline-sm); color: var(--on-surface); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.acct-addr, .acct .acct-addr { font-size: var(--fs-md); line-height: 18px; font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+.acct-net {
+  flex: none; padding: 2px 8px; border-radius: var(--r-full); background: var(--surface-container-high); color: var(--secondary-fixed);
+  font: var(--type-label-caps); letter-spacing: 0;
+}
+.acct-balance {
+  position: relative; display: flex; flex-direction: column; gap: 2px; padding: 12px; border-radius: var(--r-md);
+  background: var(--scrim); border: 1px solid var(--line);
+}
+.acct-balance-eur { font: var(--type-display-hero-mobile); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-display-hero-mobile); color: var(--on-surface); }
+.acct-wallet-row { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.acct-wallet-btn .ds-wallet.inline, .acct-wallet-btn .wallet { margin: 0; }
+.acct-wallet .k-link { position: relative; align-self: flex-start; }
+
+/* Faucet (31 Oct): the drawer's coin pill beside the chosen coin's balance, then the button. */
+.acct-test-chip {
+  padding: 1px 8px; border-radius: var(--r-full); background: var(--warning-soft); color: var(--warning);
+  font: var(--type-label-caps); letter-spacing: 0;
+}
+.acct-faucet-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 0; padding: 12px; border-radius: var(--r-md); background: var(--scrim); border: 1px solid var(--line); }
+.acct-faucet-balance { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; min-width: 0; }
+.acct-faucet-amount { font: var(--type-odds-display); font-variant-numeric: tabular-nums; font-weight: 700; color: var(--on-surface); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.acct-faucet { overflow: visible; }
+.acct-faucet .k-coin { z-index: 2; }
+
+/* Profile */
+.acct-link { position: relative; display: inline-flex; align-items: center; gap: 2px; color: var(--secondary-fixed); font-size: var(--fs-sm); line-height: 16px; font-weight: 700; text-transform: none; letter-spacing: 0; }
+.acct-link::after { content: ""; position: absolute; left: 0; right: 0; top: -14px; bottom: -14px; }
+.acct-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.acct-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.acct-field-label { font: var(--type-label-caps); letter-spacing: 0; color: var(--on-surface-variant); }
+.acct-input {
+  display: flex; align-items: center; gap: 4px; height: 44px; padding: 0 12px; border-radius: var(--r-md);
+  background: var(--surface-container-lowest); border: 1px solid var(--line);
+}
+.acct-input:focus-within { border-color: var(--accent); box-shadow: var(--focus); }
+.acct-input:has(input[aria-invalid="true"]) { border-color: var(--error); }
+.acct-input-at { color: var(--outline); font: 600 var(--fs-lg)/1 var(--font); }
+.acct-input input {
+  flex: 1; min-width: 0; height: 100%; padding: 0; border: 0; outline: 0; background: none; color: var(--on-surface);
+  font: 600 var(--fs-lg)/var(--lh-lg) var(--font); font-variant-numeric: tabular-nums;
+}
+.acct-input input::placeholder { color: var(--outline); font-weight: 400; }
+.acct-field-error { font: var(--type-body-sm); color: var(--error); }
+
+/* The house */
+.acct-house { display: flex; flex-direction: column; gap: 12px; margin-top: 4px; }
+.acct-house > .k-section-title.sm { margin: 0; }
+.acct-house > .acct-sub { margin-top: -8px; padding: 0 4px; }
+.acct-house .k-payout { padding: 8px 0 4px; background: none; box-shadow: none; }
+.acct-house .k-stat-grid .k-stat-value { font-size: var(--fs-lg); line-height: 24px; }
+.acct-house .k-stat-label { font-size: var(--fs-xs); letter-spacing: 0; }
+.acct-house .k-summary.compact dt { min-width: 0; }
+.acct-house .k-summary.compact dd { min-width: 0; overflow-wrap: anywhere; }
+.acct-mock {
+  display: flex; align-items: flex-start; gap: 8px; margin: 0; padding: 12px 16px; border-radius: var(--r-md);
+  background: var(--warning-soft); color: var(--warning); font: var(--type-body-sm);
+}
+.acct-mock-tag {
+  flex: none; padding: 1px 4px; border-radius: var(--r-sm); background: var(--warning); color: var(--surface);
+  font: var(--type-label-caps); letter-spacing: 0;
+}
+.acct-asof { margin: 0; padding: 0 4px; font-size: var(--fs-xs); color: var(--outline); }
+
+/* ================================================================ Dev wallet */
+
+.dw { display: flex; flex-direction: column; gap: 16px; padding-top: 12px; }
+.dw .dw-head h1, .dw > h1 { margin: 0 0 4px; font-size: var(--fs-2xl); font-weight: 700; letter-spacing: var(--ls-tight-2); }
+.dw .dw-sub { margin: 0; font-size: var(--fs-sm); line-height: 1.45; color: var(--on-surface-variant); overflow-wrap: anywhere; }
+.dw-card { gap: 16px; }
+.dw-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.dw .dw-card h2 { margin: 0; font-size: var(--fs-lg); font-weight: 700; }
+.dw-state { font-size: var(--fs-sm); color: var(--on-surface-variant); }
+.dw .dw-addr { margin: 0; font-size: var(--fs-sm); color: var(--on-surface-variant); overflow-wrap: anywhere; }
+.dw-sol { display: flex; align-items: center; gap: 8px; font-size: var(--fs-md); }
+.dw-sol-label { color: var(--on-surface-variant); font-size: var(--fs-sm); font-weight: 700; }
+.dw-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.dw .dw-result { margin: 0; font-size: var(--fs-md); overflow-wrap: anywhere; }
+.dw .ds-wallet.inline { margin: 0; align-self: flex-start; }

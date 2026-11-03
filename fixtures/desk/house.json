@@ -1,0 +1,43 @@
+{
+  "as_of_ms": 1793246000000,
+  "profile": "demo",
+  "vault": {
+    "free_u": 4881420000,
+    "locked_u": 14795428,
+    "reserve_u": 1000000000
+  },
+  "tickets": {
+    "pending": 0,
+    "open": 1,
+    "settled": 7,
+    "cashed_out": 2,
+    "refunded": 1
+  },
+  "hedger": {
+    "venue": "mock",
+    "free_collateral_u": 9950000000,
+    "positions": [
+      {
+        "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+        "held": 23,
+        "target": 23
+      },
+      {
+        "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+        "held": -13,
+        "target": -13
+      },
+      {
+        "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+        "held": 8,
+        "target": 8
+      }
+    ]
+  },
+  "fees": {
+    "margin_u": 1834000,
+    "pascal_fees_u": 197706,
+    "builder_fees_u": 25572,
+    "copy_fees_u": 60000
+  }
+}

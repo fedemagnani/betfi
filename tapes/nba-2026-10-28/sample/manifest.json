@@ -1,0 +1,235 @@
+{
+  "tape": "nba-2026-10-28",
+  "base_url": "https://data.pascal.trade",
+  "selection_time_ms": 1793212984793,
+  "selection_time_utc": "2026-10-28T18:43:04Z",
+  "selection_note": "games starting within 24 h",
+  "catalogue": {
+    "seq": "12216604065",
+    "state_time_ms": "1793212985011",
+    "markets": 3625,
+    "nba_moneyline_candidates": 12
+  },
+  "symbols": [
+    "NBA_26OCT28_PHIIND_ML.PHI",
+    "NBA_26OCT28_ORLTOR_ML.ORL",
+    "NBA_26OCT28_HOUMIL_ML.HOU",
+    "NBA_26OCT28_SASUTA_ML.SAS",
+    "NBA_26OCT28_OKCDAL_ML.OKC"
+  ],
+  "game_ids": [
+    "nba-phi-ind-2026-10-28",
+    "nba-orl-tor-2026-10-28",
+    "nba-hou-mil-2026-10-28",
+    "nba-sas-uta-2026-10-28",
+    "nba-okc-dal-2026-10-28"
+  ],
+  "games": [
+    {
+      "game_id": "nba-phi-ind-2026-10-28",
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "event_description": "76ers vs Pacers, Oct 28, Moneyline",
+      "long_outcome": "away",
+      "long": "PHI",
+      "short": "IND",
+      "away": "Philadelphia 76ers",
+      "home": "Indiana Pacers",
+      "start_ms": 1793228400000,
+      "expected_resolution_ms": 1793242800000,
+      "mark_price_at_selection": "0.695000",
+      "open_interest_at_selection": "30",
+      "score": 248603.68,
+      "start_cet": "Thu 29 Oct 00:00 CET",
+      "expected_resolution_cet": "Thu 29 Oct 04:00 CET",
+      "overlaps_with": [
+        "nba-orl-tor-2026-10-28",
+        "nba-hou-mil-2026-10-28",
+        "nba-sas-uta-2026-10-28",
+        "nba-okc-dal-2026-10-28"
+      ]
+    },
+    {
+      "game_id": "nba-orl-tor-2026-10-28",
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+      "event_description": "Magic vs Raptors, Oct 28, Moneyline",
+      "long_outcome": "away",
+      "long": "ORL",
+      "short": "TOR",
+      "away": "Orlando Magic",
+      "home": "Toronto Raptors",
+      "start_ms": 1793230200000,
+      "expected_resolution_ms": 1793244600000,
+      "mark_price_at_selection": "0.375000",
+      "open_interest_at_selection": "0",
+      "score": 117743.29,
+      "start_cet": "Thu 29 Oct 00:30 CET",
+      "expected_resolution_cet": "Thu 29 Oct 04:30 CET",
+      "overlaps_with": [
+        "nba-phi-ind-2026-10-28",
+        "nba-hou-mil-2026-10-28",
+        "nba-sas-uta-2026-10-28",
+        "nba-okc-dal-2026-10-28"
+      ]
+    },
+    {
+      "game_id": "nba-hou-mil-2026-10-28",
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+      "event_description": "Rockets vs Bucks, Oct 28, Moneyline",
+      "long_outcome": "away",
+      "long": "HOU",
+      "short": "MIL",
+      "away": "Houston Rockets",
+      "home": "Milwaukee Bucks",
+      "start_ms": 1793232000000,
+      "expected_resolution_ms": 1793246400000,
+      "mark_price_at_selection": "0.765000",
+      "open_interest_at_selection": "0",
+      "score": 268853.48,
+      "start_cet": "Thu 29 Oct 01:00 CET",
+      "expected_resolution_cet": "Thu 29 Oct 05:00 CET",
+      "overlaps_with": [
+        "nba-phi-ind-2026-10-28",
+        "nba-orl-tor-2026-10-28",
+        "nba-sas-uta-2026-10-28",
+        "nba-okc-dal-2026-10-28"
+      ]
+    },
+    {
+      "game_id": "nba-sas-uta-2026-10-28",
+      "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+      "event_description": "Spurs vs Jazz, Oct 28, Moneyline",
+      "long_outcome": "away",
+      "long": "SAS",
+      "short": "UTA",
+      "away": "San Antonio Spurs",
+      "home": "Utah Jazz",
+      "start_ms": 1793235600000,
+      "expected_resolution_ms": 1793250000000,
+      "mark_price_at_selection": "0.850000",
+      "open_interest_at_selection": "0",
+      "score": 187972.45,
+      "start_cet": "Thu 29 Oct 02:00 CET",
+      "expected_resolution_cet": "Thu 29 Oct 06:00 CET",
+      "overlaps_with": [
+        "nba-phi-ind-2026-10-28",
+        "nba-orl-tor-2026-10-28",
+        "nba-hou-mil-2026-10-28",
+        "nba-okc-dal-2026-10-28"
+      ]
+    },
+    {
+      "game_id": "nba-okc-dal-2026-10-28",
+      "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+      "event_description": "Thunder vs Mavericks, Oct 28, Moneyline",
+      "long_outcome": "away",
+      "long": "OKC",
+      "short": "DAL",
+      "away": "Oklahoma City Thunder",
+      "home": "Dallas Mavericks",
+      "start_ms": 1793237400000,
+      "expected_resolution_ms": 1793251800000,
+      "mark_price_at_selection": "0.655000",
+      "open_interest_at_selection": "20",
+      "score": 145651.88,
+      "start_cet": "Thu 29 Oct 02:30 CET",
+      "expected_resolution_cet": "Thu 29 Oct 06:30 CET",
+      "overlaps_with": [
+        "nba-phi-ind-2026-10-28",
+        "nba-orl-tor-2026-10-28",
+        "nba-hou-mil-2026-10-28",
+        "nba-sas-uta-2026-10-28"
+      ]
+    }
+  ],
+  "overlapping_pairs": [
+    [
+      "nba-phi-ind-2026-10-28",
+      "nba-orl-tor-2026-10-28"
+    ],
+    [
+      "nba-phi-ind-2026-10-28",
+      "nba-hou-mil-2026-10-28"
+    ],
+    [
+      "nba-phi-ind-2026-10-28",
+      "nba-sas-uta-2026-10-28"
+    ],
+    [
+      "nba-phi-ind-2026-10-28",
+      "nba-okc-dal-2026-10-28"
+    ],
+    [
+      "nba-orl-tor-2026-10-28",
+      "nba-hou-mil-2026-10-28"
+    ],
+    [
+      "nba-orl-tor-2026-10-28",
+      "nba-sas-uta-2026-10-28"
+    ],
+    [
+      "nba-orl-tor-2026-10-28",
+      "nba-okc-dal-2026-10-28"
+    ],
+    [
+      "nba-hou-mil-2026-10-28",
+      "nba-sas-uta-2026-10-28"
+    ],
+    [
+      "nba-hou-mil-2026-10-28",
+      "nba-okc-dal-2026-10-28"
+    ],
+    [
+      "nba-sas-uta-2026-10-28",
+      "nba-okc-dal-2026-10-28"
+    ]
+  ],
+  "recorder": {
+    "args": {
+      "out": "tapes/nba-2026-10-28",
+      "max_games": 5,
+      "books_every": 5.0,
+      "trades_every": 30.0,
+      "search_every": 60.0,
+      "search_early_every": 600,
+      "search_from_hours": 2.0,
+      "warmup_hours": 2.0,
+      "warmup_every": 30,
+      "linger": 120,
+      "max_hours": 14.0
+    },
+    "pid": 12244,
+    "started_utc": "2026-10-28T18:43:04Z"
+  },
+  "files": {
+    "markets_selected.json": "GET /api/v1/markets at selection, data filtered to `symbols` (envelope verbatim)",
+    "raw/books.jsonl": "GET /api/v1/books?symbols=<symbols>",
+    "raw/trades.jsonl": "GET /api/v1/trades?symbols=<symbols>&limit=50",
+    "raw/search.jsonl": "POST /api/v1/markets/search {\"symbols\": <symbols>}",
+    "raw/markets.jsonl": "hourly GET /api/v1/markets, data filtered to `symbols` (marked `trimmed`)",
+    "raw/markets_full.json.gz": "the full GET /api/v1/markets body at selection, gzip",
+    "raw/recorder.log": "one line per request"
+  },
+  "sample": {
+    "made_utc": "2026-10-28T18:44:00Z",
+    "max_mb": 1.0,
+    "source_lines": {
+      "books": 2,
+      "trades": 2,
+      "search": 1,
+      "markets": 1
+    },
+    "kept_lines": {
+      "books": 2,
+      "trades": 1,
+      "search": 1,
+      "markets": 1
+    },
+    "rules": {
+      "books": "evenly thinned over the whole tape, always keeping the first and last line and, per symbol, the last snapshot with a non-empty book and the one after it",
+      "trades": "lines whose list of trade_ids differs from the previous kept line (thinned evenly if over 20% of budget)",
+      "search": "first line, every line where a symbol's resolution first appears or changes, last line",
+      "markets": "first hourly line (already filtered to the tape symbols)"
+    },
+    "lines_verbatim": true
+  }
+}

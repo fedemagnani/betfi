@@ -1,0 +1,644 @@
+[
+ {
+  "team": "1. FC Köln",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/1-fc-koln.png"
+ },
+ {
+  "team": "1. FC Union Berlin",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/1-fc-union-berlin.png"
+ },
+ {
+  "team": "BV Borussia 09 Dortmund",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/bv-borussia-09-dortmund.png"
+ },
+ {
+  "team": "Bayer 04 Leverkusen",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/bayer-04-leverkusen.png"
+ },
+ {
+  "team": "Borussia Mönchengladbach",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/borussia-monchengladbach.png"
+ },
+ {
+  "team": "Eintracht Frankfurt",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/eintracht-frankfurt.png"
+ },
+ {
+  "team": "FC Augsburg",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/fc-augsburg.png"
+ },
+ {
+  "team": "FC Bayern München",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/fc-bayern-munchen.png"
+ },
+ {
+  "team": "FC Schalke 04",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/fc-schalke-04.png"
+ },
+ {
+  "team": "Hamburger SV",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/hamburger-sv.png"
+ },
+ {
+  "team": "RB Leipzig",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/rb-leipzig.png"
+ },
+ {
+  "team": "SC Freiburg",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/sc-freiburg.png"
+ },
+ {
+  "team": "SC Paderborn 07",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/sc-paderborn-07.png"
+ },
+ {
+  "team": "SV Werder Bremen",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/sv-werder-bremen.png"
+ },
+ {
+  "team": "TSG 1899 Hoffenheim",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/tsg-1899-hoffenheim.png"
+ },
+ {
+  "team": "VfB Stuttgart",
+  "league": "Bundesliga",
+  "sport": "soccer",
+  "path": "/teams/bundesliga/vfb-stuttgart.png"
+ },
+ {
+  "team": "AEK Athens",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/aek-athens.png"
+ },
+ {
+  "team": "Bodø/Glimt",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/bodo-glimt.png"
+ },
+ {
+  "team": "Club Brugge",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/club-brugge.png"
+ },
+ {
+  "team": "Como",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/como.png"
+ },
+ {
+  "team": "Fenerbahçe",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/fenerbahce.png"
+ },
+ {
+  "team": "Feyenoord",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/feyenoord.png"
+ },
+ {
+  "team": "Galatasaray",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/galatasaray.png"
+ },
+ {
+  "team": "Inter",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/inter.png"
+ },
+ {
+  "team": "LASK",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/lask.png"
+ },
+ {
+  "team": "Lens",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/lens.png"
+ },
+ {
+  "team": "Lille",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/lille.png"
+ },
+ {
+  "team": "Napoli",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/napoli.png"
+ },
+ {
+  "team": "PSV Eindhoven",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/psv-eindhoven.png"
+ },
+ {
+  "team": "Paris Saint-Germain",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/paris-saint-germain.png"
+ },
+ {
+  "team": "Porto",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/porto.png"
+ },
+ {
+  "team": "Roma",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/roma.png"
+ },
+ {
+  "team": "Sabah",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/sabah.png"
+ },
+ {
+  "team": "Shakhtar Donetsk",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/shakhtar-donetsk.png"
+ },
+ {
+  "team": "Slavia Praha",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/slavia-praha.png"
+ },
+ {
+  "team": "Slovan Bratislava",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/slovan-bratislava.png"
+ },
+ {
+  "team": "Sporting CP",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/sporting-cp.png"
+ },
+ {
+  "team": "Viking",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/viking.png"
+ },
+ {
+  "team": "Villarreal",
+  "league": "Champions League",
+  "sport": "soccer",
+  "path": "/teams/champions-league/villarreal.png"
+ },
+ {
+  "team": "Athletic Club",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/athletic-club.png"
+ },
+ {
+  "team": "CA Osasuna",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/ca-osasuna.png"
+ },
+ {
+  "team": "Club Atlético de Madrid",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/club-atletico-de-madrid.png"
+ },
+ {
+  "team": "Deportivo Alavés",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/deportivo-alaves.png"
+ },
+ {
+  "team": "Elche CF",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/elche-cf.png"
+ },
+ {
+  "team": "FC Barcelona",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/fc-barcelona.png"
+ },
+ {
+  "team": "Getafe CF",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/getafe-cf.png"
+ },
+ {
+  "team": "Levante UD",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/levante-ud.png"
+ },
+ {
+  "team": "Málaga CF",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/malaga-cf.png"
+ },
+ {
+  "team": "RC Celta de Vigo",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/rc-celta-de-vigo.png"
+ },
+ {
+  "team": "RC Deportivo A Coruña",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/rc-deportivo-a-coruna.png"
+ },
+ {
+  "team": "Rayo Vallecano de Madrid",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/rayo-vallecano-de-madrid.png"
+ },
+ {
+  "team": "Real Betis Balompié",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/real-betis-balompie.png"
+ },
+ {
+  "team": "Real Madrid CF",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/real-madrid-cf.png"
+ },
+ {
+  "team": "Real Racing Club",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/real-racing-club.png"
+ },
+ {
+  "team": "Real Sociedad de Fútbol",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/real-sociedad-de-futbol.png"
+ },
+ {
+  "team": "Sevilla FC",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/sevilla-fc.png"
+ },
+ {
+  "team": "Valencia CF",
+  "league": "LaLiga",
+  "sport": "soccer",
+  "path": "/teams/laliga/valencia-cf.png"
+ },
+ {
+  "team": "Atlanta Hawks",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/atlanta-hawks.png"
+ },
+ {
+  "team": "Boston Celtics",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/boston-celtics.png"
+ },
+ {
+  "team": "Brooklyn Nets",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/brooklyn-nets.png"
+ },
+ {
+  "team": "Charlotte Hornets",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/charlotte-hornets.png"
+ },
+ {
+  "team": "Chicago Bulls",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/chicago-bulls.png"
+ },
+ {
+  "team": "Cleveland Cavaliers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/cleveland-cavaliers.png"
+ },
+ {
+  "team": "Dallas Mavericks",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/dallas-mavericks.png"
+ },
+ {
+  "team": "Denver Nuggets",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/denver-nuggets.png"
+ },
+ {
+  "team": "Detroit Pistons",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/detroit-pistons.png"
+ },
+ {
+  "team": "Golden State Warriors",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/golden-state-warriors.png"
+ },
+ {
+  "team": "Houston Rockets",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/houston-rockets.png"
+ },
+ {
+  "team": "Indiana Pacers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/indiana-pacers.png"
+ },
+ {
+  "team": "Los Angeles Clippers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/los-angeles-clippers.png"
+ },
+ {
+  "team": "Los Angeles Lakers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/los-angeles-lakers.png"
+ },
+ {
+  "team": "Memphis Grizzlies",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/memphis-grizzlies.png"
+ },
+ {
+  "team": "Miami Heat",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/miami-heat.png"
+ },
+ {
+  "team": "Milwaukee Bucks",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/milwaukee-bucks.png"
+ },
+ {
+  "team": "Minnesota Timberwolves",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/minnesota-timberwolves.png"
+ },
+ {
+  "team": "New Orleans Pelicans",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/new-orleans-pelicans.png"
+ },
+ {
+  "team": "New York Knicks",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/new-york-knicks.png"
+ },
+ {
+  "team": "Oklahoma City Thunder",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/oklahoma-city-thunder.png"
+ },
+ {
+  "team": "Orlando Magic",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/orlando-magic.png"
+ },
+ {
+  "team": "Philadelphia 76ers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/philadelphia-76ers.png"
+ },
+ {
+  "team": "Phoenix Suns",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/phoenix-suns.png"
+ },
+ {
+  "team": "Portland Trail Blazers",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/portland-trail-blazers.png"
+ },
+ {
+  "team": "Sacramento Kings",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/sacramento-kings.png"
+ },
+ {
+  "team": "San Antonio Spurs",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/san-antonio-spurs.png"
+ },
+ {
+  "team": "Toronto Raptors",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/toronto-raptors.png"
+ },
+ {
+  "team": "Utah Jazz",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/utah-jazz.png"
+ },
+ {
+  "team": "Washington Wizards",
+  "league": "NBA",
+  "sport": "basketball",
+  "path": "/teams/nba/washington-wizards.png"
+ },
+ {
+  "team": "AFC Bournemouth",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/afc-bournemouth.png"
+ },
+ {
+  "team": "Arsenal FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/arsenal-fc.png"
+ },
+ {
+  "team": "Aston Villa FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/aston-villa-fc.png"
+ },
+ {
+  "team": "Brentford FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/brentford-fc.png"
+ },
+ {
+  "team": "Brighton & Hove Albion FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/brighton-hove-albion-fc.png"
+ },
+ {
+  "team": "Chelsea FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/chelsea-fc.png"
+ },
+ {
+  "team": "Coventry City FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/coventry-city-fc.png"
+ },
+ {
+  "team": "Crystal Palace FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/crystal-palace-fc.png"
+ },
+ {
+  "team": "Everton FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/everton-fc.png"
+ },
+ {
+  "team": "Fulham FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/fulham-fc.png"
+ },
+ {
+  "team": "Hull City AFC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/hull-city-afc.png"
+ },
+ {
+  "team": "Ipswich Town FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/ipswich-town-fc.png"
+ },
+ {
+  "team": "Leeds United FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/leeds-united-fc.png"
+ },
+ {
+  "team": "Liverpool FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/liverpool-fc.png"
+ },
+ {
+  "team": "Manchester City FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/manchester-city-fc.png"
+ },
+ {
+  "team": "Manchester United FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/manchester-united-fc.png"
+ },
+ {
+  "team": "Newcastle United FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/newcastle-united-fc.png"
+ },
+ {
+  "team": "Nottingham Forest FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/nottingham-forest-fc.png"
+ },
+ {
+  "team": "Sunderland AFC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/sunderland-afc.png"
+ },
+ {
+  "team": "Tottenham Hotspur FC",
+  "league": "Premier League",
+  "sport": "soccer",
+  "path": "/teams/premier-league/tottenham-hotspur-fc.png"
+ }
+]

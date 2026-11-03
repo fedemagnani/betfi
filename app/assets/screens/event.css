@@ -1,0 +1,165 @@
+/* Event Detail (7.1c): BetFi C2 `betfi_event_detail_market_volume`, built on the kit tokens in
+   main.css. Sizes are the mockup's Tailwind classes (p-space-md = 16 px, rounded-xl = 12 px,
+   headline-sm = 18/24, label-caps = 11/14). Every `font:` shorthand is followed by tabular
+   figures (the shorthand resets them). */
+
+.screen-event { display: flex; flex-direction: column; gap: var(--space-md); min-width: 0; padding-bottom: var(--space-md); }
+
+/* The header's share button (D-500): in the shell's `SubHeader { end }`, 44 px, left of the
+   32 px avatar (gap 8 px); "Link copied" shows under it. */
+.ev-share-wrap { position: relative; display: flex; }
+.ev-share {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; padding: 0; border: 0; border-radius: var(--r-md);
+  background: transparent; color: var(--on-surface-variant); cursor: pointer;
+}
+.ev-share:hover { background: var(--surface-container); color: var(--on-surface); }
+
+/* Cards: surface-container-low, 12 px radius, 16 px padding, shadow-md. */
+.ev-card {
+  min-width: 0; padding: var(--space-md); border-radius: var(--r-md);
+  background: var(--surface-container-low);
+  box-shadow: var(--shadow-1);
+}
+
+/* ---- live card (V-1) */
+.ev-live-top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); padding-bottom: var(--space-sm); min-width: 0; }
+.ev-live-tags { display: flex; align-items: center; gap: var(--space-xs); min-width: 0; }
+.ev-league, .ev-clock-slot {
+  font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface-variant);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ev-clock-slot { display: flex; align-items: center; gap: 4px; flex: none; }
+.ev-clock-slot .k-sym { color: var(--tertiary); }
+
+/* Two equal team columns around the score, so the score sits on the card's centre whatever the
+   names' lengths. */
+.ev-teams { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--space-xs); padding: var(--space-xs) 0; min-width: 0; }
+/* A team keeps its longest word whole (the 1fr column's min is its min-content). */
+.ev-team { display: flex; flex-direction: column; align-items: flex-start; }
+.ev-team.second { align-items: flex-end; text-align: right; }
+.ev-badge {
+  display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; margin-bottom: 4px;
+  border-radius: var(--r-full); background: var(--surface-container-highest); color: var(--primary);
+  box-shadow: var(--shadow-1);
+}
+.ev-team.second .ev-badge { color: var(--secondary-fixed); }
+/* A team logo (31 Oct) inside the same circle, contained, never cropped. */
+.ev-badge.logo { padding: 4px; }
+.ev-badge.logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.ev-team-name {
+  max-width: 100%; font: var(--type-headline-sm); font-variant-numeric: tabular-nums; line-height: 1.25;
+  letter-spacing: var(--ls-headline-sm); color: var(--on-surface); overflow-wrap: break-word;
+}
+
+/* The score slot: each side's chance (V-1), the favoured one in green; before the start, the
+   start time. */
+.ev-mid { display: flex; flex-direction: column; align-items: center; flex: none; padding: 0 var(--space-xs); }
+.ev-score {
+  display: flex; align-items: baseline; gap: var(--space-xs);
+  font: var(--type-display-hero-mobile); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-display-hero-mobile);
+  color: var(--on-surface); white-space: nowrap;
+}
+.ev-score-n.lead { color: var(--secondary-fixed-dim); }
+.ev-score-sep { font: var(--type-headline-sm); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+.ev-score-sub { margin-top: 2px; font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--secondary-fixed); white-space: nowrap; }
+.ev-score-sub.muted { color: var(--on-surface-variant); }
+
+/* ---- the winner market (its title is for screen readers only, 31 Oct) */
+.ev-market { display: flex; flex-direction: column; gap: var(--space-xs); min-width: 0; }
+.ev-outcomes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-sm); padding-top: var(--space-xs); }
+/* Three outcomes (soccer 1-X-2) in one row at 390 px: tighter padding and type. */
+.ev-outcomes.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.ev-outcomes.three .k-outcome-card { padding: 12px; }
+.ev-outcomes.three .k-outcome-card-top { align-items: flex-start; }
+.ev-outcomes.three .k-outcome-card-team { font-size: var(--fs-lg); line-height: 20px; white-space: normal; overflow-wrap: anywhere; }
+.ev-outcomes.three .k-outcome-card-value { font-size: var(--fs-xl); line-height: 28px; }
+
+/* ---- Staked Sentiment (sentiment.rs) */
+.ev-sent { display: flex; flex-direction: column; gap: var(--space-md); }
+.ev-sent-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); min-width: 0; }
+.ev-sent-title {
+  display: flex; align-items: center; gap: 4px; margin: 0; min-width: 0; white-space: nowrap;
+  font: var(--type-headline-sm); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-headline-sm); color: var(--on-surface);
+}
+.ev-sent-title .k-sym { flex: none; color: var(--primary); }
+.ev-chip {
+  display: flex; align-items: center; gap: 4px; flex: none; padding: 2px 8px; border-radius: var(--r-full);
+  background: var(--surface-container); color: var(--tertiary);
+  font: var(--type-body-sm); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.ev-split { display: flex; flex-direction: column; gap: var(--space-xs); }
+.ev-sides { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-sm); padding-top: 4px; }
+.ev-side { display: flex; flex-direction: column; min-width: 0; }
+.ev-side.second { align-items: flex-end; text-align: right; }
+.ev-side-pct { font: var(--type-headline-sm); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-headline-sm); color: var(--primary); }
+.ev-side.second .ev-side-pct { color: var(--secondary-fixed); }
+.ev-side-team {
+  font: var(--type-label-caps); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-label-caps);
+  color: var(--on-surface-variant);
+}
+.ev-side-money { padding-top: 2px; font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface); }
+.ev-side-sol { color: var(--on-surface-variant); }
+.ev-thin { margin: 0; font: var(--type-body-md); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+
+.ev-pool {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm);
+  padding: var(--space-sm); border-radius: var(--r-md); background: var(--surface-container);
+}
+.ev-pool-start { display: flex; align-items: center; gap: var(--space-xs); min-width: 0; }
+.ev-pool-icon {
+  display: flex; align-items: center; justify-content: center; flex: none; width: 32px; height: 32px;
+  border-radius: var(--r-full); background: var(--surface-container-high); color: var(--on-surface-variant);
+}
+.ev-pool-words { display: flex; flex-direction: column; min-width: 0; }
+.ev-pool-title { font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--on-surface); }
+.ev-caps { font: var(--type-label-caps); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-label-caps); color: var(--on-surface-variant); }
+.ev-pool-total { flex: none; font: var(--type-headline-sm); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-headline-sm); color: var(--on-surface); }
+
+.ev-recent { display: flex; flex-direction: column; gap: var(--space-xs); padding-top: var(--space-xs); }
+/* The mockup's caps label sits in a 20 px line box (an inline span in a body-md block). */
+.ev-recent-title { line-height: 20px; letter-spacing: 0; }
+.ev-recent-row {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm);
+  padding: var(--space-xs); border-radius: var(--r-md); background: var(--surface-container);
+  font: var(--type-body-sm); font-variant-numeric: tabular-nums;
+}
+.ev-recent-start { display: flex; align-items: center; gap: var(--space-xs); min-width: 0; }
+.ev-dot { flex: none; width: 8px; height: 8px; border-radius: var(--r-full); background: var(--outline); }
+.ev-dot.first { background: var(--primary-container); }
+.ev-dot.second { background: var(--secondary-container); }
+.ev-recent-amt { font: 600 var(--fs-md)/var(--lh-md) var(--font); font-variant-numeric: tabular-nums; color: var(--on-surface); }
+.ev-recent-on { color: var(--on-surface-variant); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ev-recent-when { flex: none; color: var(--on-surface-variant); white-space: nowrap; }
+
+/* ---- More markets: spread and total lines (L6), collapsed until a kind is opened */
+.ev-more { display: flex; flex-direction: column; gap: var(--space-sm); padding: 12px var(--space-md); }
+.ev-more-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); min-width: 0; }
+.ev-more-title { margin: 0; font: var(--type-headline-sm); font-variant-numeric: tabular-nums; letter-spacing: var(--ls-headline-sm); color: var(--on-surface); white-space: nowrap; }
+.ev-more-tabs { display: flex; gap: 4px; flex: none; }
+.ev-more-tab {
+  display: inline-flex; align-items: center; gap: 2px; min-height: 36px; padding: 0 8px 0 12px; border: 0;
+  border-radius: var(--r-full); background: var(--surface-container-high); color: var(--on-surface-variant);
+  font: 600 var(--fs-md)/var(--lh-md) var(--font); font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.ev-more-tab:hover { color: var(--on-surface); }
+.ev-more-tab.active { background: var(--surface-container-highest); color: var(--secondary-fixed); }
+.ev-lines { display: flex; flex-direction: column; gap: var(--space-sm); padding-top: var(--space-xs); }
+.ev-line { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-sm); }
+.ev-line .k-outcome { white-space: normal; text-align: left; }
+.ev-line .k-outcome-label { min-width: 0; }
+.ev-line .k-outcome-value { flex: none; }
+.ev-caption { margin: 0; font: var(--type-body-sm); font-variant-numeric: tabular-nums; color: var(--outline); }
+
+/* ---- the CTA */
+.ev-cta { padding-top: var(--space-xs); }
+
+.ev-note { margin: 0; font: var(--type-body-md); font-variant-numeric: tabular-nums; color: var(--on-surface-variant); }
+.ev-note.error { color: var(--error); }
+.ev-note-link { font: var(--type-body-md); font-weight: 600; color: var(--secondary-fixed); }
+
+
+/* A game of a tipster's parlay (L9): the pick is fixed, the others are locked. */
+.ev-locked { display: flex; align-items: center; gap: 4px; padding: 8px 12px; border-radius: var(--r-sm); background: var(--surface-container-low); }
+.ev-locked .k-sym { flex: none; color: var(--primary); }
+#event-outcomes .k-outcome:disabled:not(.selected) { opacity: 0.38; }

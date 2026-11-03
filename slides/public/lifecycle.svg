@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-509 -136 1511 673" width="1511" height="673" role="img" aria-label="BetFi bet lifecycle: the quoter signs a quote, the user's open_pending goes through the relay into the schedina program's escrow, the indexer sees it, the hedge desk buys on Pascal through pascal-mock, the crank finalizes or refunds, then resolves and settles from Pascal's results">
+<style>
+  text { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; }
+  .t { font-weight: 650; }
+  .s { font-weight: 450; }
+  .f { font-size: 10.5px; font-weight: 500; }
+  .e { font-size: 11.5px; font-weight: 600; text-anchor: start; letter-spacing: 0.4px; }
+  .h { font-size: 17px; font-weight: 700; text-anchor: start; }
+  .hs { font-size: 11.5px; text-anchor: start; }
+  .lh { font-size: 12.5px; font-weight: 700; text-anchor: start; }
+  .lb { font-size: 11px; font-weight: 600; text-anchor: start; }
+  .l { font-size: 11px; text-anchor: start; }
+  .flow { fill: none; stroke-width: 1.6; stroke-dasharray: 5 7; opacity: 0.9; }
+  .bus { fill: none; stroke-width: 1.4; stroke-dasharray: 1.5 4; stroke-linecap: round; }
+  .flow, .bus { animation: dash 1.2s linear infinite; }
+  @keyframes dash { to { stroke-dashoffset: -24; } }
+  @media (prefers-reduced-motion: reduce) { .flow, .bus { animation: none; } circle { display: none; } }
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,1 L9,5 L0,9 z" fill="context-stroke"/></marker></defs>
+<rect x="-509" y="-136" width="1511" height="673" fill="#0a0b10" rx="14"/>
+<polyline points="103.9,-300.0 -701.5,165.0" stroke="#151722" fill="none"/>
+<polyline points="155.9,-270.0 -649.5,195.0" stroke="#151722" fill="none"/>
+<polyline points="207.8,-240.0 -597.6,225.0" stroke="#151722" fill="none"/>
+<polyline points="259.8,-210.0 -545.6,255.0" stroke="#151722" fill="none"/>
+<polyline points="311.8,-180.0 -493.6,285.0" stroke="#151722" fill="none"/>
+<polyline points="363.7,-150.0 -441.7,315.0" stroke="#151722" fill="none"/>
+<polyline points="415.7,-120.0 -389.7,345.0" stroke="#151722" fill="none"/>
+<polyline points="467.7,-90.0 -337.7,375.0" stroke="#151722" fill="none"/>
+<polyline points="519.6,-60.0 -285.8,405.0" stroke="#151722" fill="none"/>
+<polyline points="571.6,-30.0 -233.8,435.0" stroke="#151722" fill="none"/>
+<polyline points="623.5,0.0 -181.9,465.0" stroke="#151722" fill="none"/>
+<polyline points="675.5,30.0 -129.9,495.0" stroke="#151722" fill="none"/>
+<polyline points="727.5,60.0 -77.9,525.0" stroke="#151722" fill="none"/>
+<polyline points="779.4,90.0 -26.0,555.0" stroke="#151722" fill="none"/>
+<polyline points="831.4,120.0 26.0,585.0" stroke="#151722" fill="none"/>
+<polyline points="883.3,150.0 77.9,615.0" stroke="#151722" fill="none"/>
+<polyline points="935.3,180.0 129.9,645.0" stroke="#151722" fill="none"/>
+<polyline points="987.3,210.0 181.9,675.0" stroke="#151722" fill="none"/>
+<polyline points="1039.2,240.0 233.8,705.0" stroke="#151722" fill="none"/>
+<polyline points="1091.2,270.0 285.8,735.0" stroke="#151722" fill="none"/>
+<polyline points="1143.2,300.0 337.7,765.0" stroke="#151722" fill="none"/>
+<polyline points="103.9,-300.0 1169.1,315.0" stroke="#151722" fill="none"/>
+<polyline points="52.0,-270.0 1117.2,345.0" stroke="#151722" fill="none"/>
+<polyline points="0.0,-240.0 1065.2,375.0" stroke="#151722" fill="none"/>
+<polyline points="-52.0,-210.0 1013.2,405.0" stroke="#151722" fill="none"/>
+<polyline points="-103.9,-180.0 961.3,435.0" stroke="#151722" fill="none"/>
+<polyline points="-155.9,-150.0 909.3,465.0" stroke="#151722" fill="none"/>
+<polyline points="-207.8,-120.0 857.4,495.0" stroke="#151722" fill="none"/>
+<polyline points="-259.8,-90.0 805.4,525.0" stroke="#151722" fill="none"/>
+<polyline points="-311.8,-60.0 753.4,555.0" stroke="#151722" fill="none"/>
+<polyline points="-363.7,-30.0 701.5,585.0" stroke="#151722" fill="none"/>
+<polyline points="-415.7,0.0 649.5,615.0" stroke="#151722" fill="none"/>
+<polyline points="-467.7,30.0 597.6,645.0" stroke="#151722" fill="none"/>
+<polyline points="-519.6,60.0 545.6,675.0" stroke="#151722" fill="none"/>
+<polyline points="-571.6,90.0 493.6,705.0" stroke="#151722" fill="none"/>
+<polyline points="-623.5,120.0 441.7,735.0" stroke="#151722" fill="none"/>
+<polyline points="-675.5,150.0 389.7,765.0" stroke="#151722" fill="none"/>
+<polygon points="-254.6,129.0 285.8,441.0 285.8,430.5 -254.6,118.5" fill="#141b29" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="509.2,312.0 285.8,441.0 285.8,430.5 509.2,301.5" fill="#0f1520" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-31.2,-10.5 509.2,301.5 285.8,430.5 -254.6,118.5" fill="#1b2436" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-88.3,52.5 10.4,109.5 10.4,87.0 -88.3,30.0" fill="#2259c2" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="67.5,76.5 10.4,109.5 10.4,87.0 67.5,54.0" fill="#1a479c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-31.2,-3.0 67.5,54.0 10.4,87.0 -88.3,30.0" fill="#3478f6" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,-10.4,42.0)"><text class="t" font-size="12" y="-2" fill="#ffffff">quoter</text><text class="s" font-size="8.5" y="11" fill="#ffffff" opacity="0.85">prices · signs</text></g>
+<polygon points="145.5,187.5 244.2,244.5 244.2,222.0 145.5,165.0" fill="#2259c2" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="301.4,211.5 244.2,244.5 244.2,222.0 301.4,189.0" fill="#1a479c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="202.6,132.0 301.4,189.0 244.2,222.0 145.5,165.0" fill="#3478f6" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,223.4,177.0)"><text class="t" font-size="12" y="-2" fill="#ffffff">hedge desk</text><text class="s" font-size="8.5" y="11" fill="#ffffff" opacity="0.85">buys every leg</text></g>
+<polygon points="-202.6,118.5 -103.9,175.5 -103.9,153.0 -202.6,96.0" fill="#2259c2" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-46.8,142.5 -103.9,175.5 -103.9,153.0 -46.8,120.0" fill="#1a479c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-145.5,63.0 -46.8,120.0 -103.9,153.0 -202.6,96.0" fill="#3478f6" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,-124.7,108.0)"><text class="t" font-size="12" y="-2" fill="#ffffff">relay</text><text class="s" font-size="8.5" y="11" fill="#ffffff" opacity="0.85">co-signs · pays the fee</text></g>
+<polygon points="-46.8,208.5 52.0,265.5 52.0,243.0 -46.8,186.0" fill="#2259c2" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="109.1,232.5 52.0,265.5 52.0,243.0 109.1,210.0" fill="#1a479c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="10.4,153.0 109.1,210.0 52.0,243.0 -46.8,186.0" fill="#3478f6" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,31.2,198.0)"><text class="t" font-size="12" y="-2" fill="#ffffff">indexer</text><text class="s" font-size="8.5" y="11" fill="#ffffff" opacity="0.85">program logs → bus</text></g>
+<polygon points="114.3,301.5 213.0,358.5 213.0,336.0 114.3,279.0" fill="#2259c2" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="270.2,325.5 213.0,358.5 213.0,336.0 270.2,303.0" fill="#1a479c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="171.5,246.0 270.2,303.0 213.0,336.0 114.3,279.0" fill="#3478f6" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,192.3,291.0)"><text class="t" font-size="12" y="-2" fill="#ffffff">crank</text><text class="s" font-size="8.5" y="11" fill="#ffffff" opacity="0.85">the operator key</text></g>
+<polygon points="-472.8,63.0 -405.3,102.0 -405.3,18.0 -472.8,-21.0" fill="#7a2fe0" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-337.7,63.0 -405.3,102.0 -405.3,18.0 -337.7,-21.0" fill="#5f22b5" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-405.3,-60.0 -337.7,-21.0 -405.3,18.0 -472.8,-21.0" fill="#9945ff" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,-405.3,-21.0)"><text class="t" font-size="13" y="-2" fill="#ffffff">BetFi app</text><text class="s" font-size="9.5" y="12" fill="#ffffff" opacity="0.85">the user signs</text></g>
+<polygon points="-415.7,252.0 15.6,501.0 15.6,490.5 -415.7,241.5" fill="#111d17" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="119.5,441.0 15.6,501.0 15.6,490.5 119.5,430.5" fill="#0c1611" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-311.8,181.5 119.5,430.5 15.6,490.5 -415.7,241.5" fill="#17271f" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-371.5,252.0 -49.4,438.0 -49.4,396.0 -371.5,210.0" fill="#0fbf76" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="28.6,393.0 -49.4,438.0 -49.4,396.0 28.6,351.0" fill="#0b965c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="-293.6,165.0 28.6,351.0 -49.4,396.0 -371.5,210.0" fill="#14f195" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,-171.5,280.5)"><text class="t" font-size="14" y="-2" fill="#04261a">schedina</text><text class="s" font-size="10.5" y="13" fill="#04261a" opacity="0.85">escrow · vault · tickets</text></g>
+<polygon points="805.4,243.0 888.5,291.0 888.5,237.0 805.4,189.0" fill="#c27d1c" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="966.5,246.0 888.5,291.0 888.5,237.0 966.5,192.0" fill="#9c6413" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="883.3,144.0 966.5,192.0 888.5,237.0 805.4,189.0" fill="#f2a93b" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,885.9,190.5)"><text class="t" font-size="14" y="-2" fill="#2b1a02">Pascal</text><text class="s" font-size="10.5" y="13" fill="#2b1a02" opacity="0.85">books · results</text></g>
+<polygon points="602.8,240.0 675.5,282.0 675.5,243.0 602.8,201.0" fill="#2a2e37" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="737.9,246.0 675.5,282.0 675.5,243.0 737.9,207.0" fill="#21242b" stroke="#0a0b10" stroke-width="0.8"/>
+<polygon points="665.1,165.0 737.9,207.0 675.5,243.0 602.8,201.0" fill="#3a3f4b" stroke="#0a0b10" stroke-width="0.8"/>
+<g transform="matrix(0.8660,0.5,-0.8660,0.5,670.3,204.0)"><text class="t" font-size="12" y="-2" fill="#e6e8ee">pascal-mock</text><text class="s" font-size="8.5" y="11" fill="#e6e8ee" opacity="0.85">Pascal's API</text></g>
+<g transform="matrix(0.8660,0.5,0,1,-407.9,253.5)"><text class="e" y="14" fill="#7fbf9f">Solana · Anchor program</text></g>
+<g transform="matrix(0.8660,-0.5,0,1,293.6,433.5)"><text class="e" y="14" fill="#8aa0c8">desk · one process</text></g>
+<path class="bus" d="M83.1,206.0 Q127.3,142.0 171.5,169.0" stroke="#c4d2ee" marker-end="url(#arrow)"/>
+<text class="f" x="127.3" y="156.8" fill="#c4d2ee">PendingOpened</text>
+<path class="bus" d="M237.3,207.0 Q207.8,180.0 178.4,261.0" stroke="#c4d2ee" marker-end="url(#arrow)"/>
+<text class="f" x="251.8" y="217.0" fill="#c4d2ee">HedgeFilled</text>
+<path id="f0" class="flow" d="M-62.4,34.0 Q-211.3,-99.0 -360.3,-21.0" stroke="#3478f6" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#3478f6"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-0.0s"><mpath href="#f0"/></animateMotion></circle>
+<path id="f1" class="flow" d="M-360.3,-21.0 Q-268.5,-57.0 -176.7,100.0" stroke="#9945ff" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#9945ff"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-0.4s"><mpath href="#f1"/></animateMotion></circle>
+<path id="f2" class="flow" d="M-110.9,138.0 Q-181.9,108.0 -252.9,203.5" stroke="#3478f6" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#3478f6"><animateMotion dur="3.2s" repeatCount="indefinite" begin="-0.8s"><mpath href="#f2"/></animateMotion></circle>
+<path id="f3" class="flow" d="M-38.1,327.5 Q-29.4,142.0 -20.8,190.0" stroke="#14f195" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#14f195"><animateMotion dur="3.5s" repeatCount="indefinite" begin="-1.2s"><mpath href="#f3"/></animateMotion></circle>
+<path id="f4" class="flow" d="M275.4,185.0 Q450.3,113.0 625.3,202.0" stroke="#3478f6" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#3478f6"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-1.6s"><mpath href="#f4"/></animateMotion></circle>
+<path id="f5" class="flow" d="M140.3,283.0 Q51.1,247.0 -38.1,327.5" stroke="#3478f6" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#3478f6"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-2.0s"><mpath href="#f5"/></animateMotion></circle>
+<path id="f6" class="flow" d="M625.3,202.0 Q434.7,172.0 244.2,299.0" stroke="#8b93a5" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#8b93a5"><animateMotion dur="3.2s" repeatCount="indefinite" begin="-2.4s"><mpath href="#f6"/></animateMotion></circle>
+<path id="f7" class="flow" d="M-252.9,203.5 Q-306.6,-63.0 -360.3,-21.0" stroke="#14f195" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#14f195"><animateMotion dur="3.5s" repeatCount="indefinite" begin="-2.8s"><mpath href="#f7"/></animateMotion></circle>
+<path id="f8" class="flow" d="M832.3,189.5 Q773.8,135.5 715.3,206.0" stroke="#f2a93b" marker-end="url(#arrow)"/>
+<circle r="3.2" fill="#f2a93b"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-3.2s"><mpath href="#f8"/></animateMotion></circle>
+<rect x="-284.8" y="-52.0" width="176.7" height="16" rx="8" fill="#0a0b10" stroke="#3478f6" stroke-opacity="0.55"/><text class="f" x="-196.4" y="-40.0" fill="#e6e8ee">① signed quote · valid 10 s</text>
+<rect x="-334.8" y="-0.5" width="176.7" height="16" rx="8" fill="#0a0b10" stroke="#9945ff" stroke-opacity="0.55"/><text class="f" x="-246.4" y="11.5" fill="#e6e8ee">② open_pending, user-signed</text>
+<rect x="-304.8" y="134.0" width="231.6" height="16" rx="8" fill="#0a0b10" stroke="#3478f6" stroke-opacity="0.55"/><text class="f" x="-189.0" y="146.0" fill="#e6e8ee">② + sponsor: stake → escrow, 30–60 s</text>
+<rect x="-81.6" y="228.2" width="97.4" height="16" rx="8" fill="#0a0b10" stroke="#14f195" stroke-opacity="0.55"/><text class="f" x="-32.9" y="240.2" fill="#e6e8ee">③ program logs</text>
+<rect x="352.8" y="144.2" width="195.0" height="16" rx="8" fill="#0a0b10" stroke="#3478f6" stroke-opacity="0.55"/><text class="f" x="450.3" y="156.2" fill="#e6e8ee">③ IOC at the user's max prices</text>
+<rect x="-127.8" y="280.7" width="286.5" height="16" rx="8" fill="#0a0b10" stroke="#3478f6" stroke-opacity="0.55"/><text class="f" x="15.4" y="292.7" fill="#e6e8ee">④ finalize: payout locked · or refund_pending</text>
+<rect x="420.3" y="197.8" width="66.9" height="16" rx="8" fill="#0a0b10" stroke="#8b93a5" stroke-opacity="0.55"/><text class="f" x="453.8" y="209.8" fill="#e6e8ee">⑤ results</text>
+<rect x="-429.0" y="25.1" width="262.1" height="16" rx="8" fill="#0a0b10" stroke="#14f195" stroke-opacity="0.55"/><text class="f" x="-298.0" y="37.1" fill="#e6e8ee">⑥ settle, cash-out or refund → the wallet</text>
+<rect x="706.8" y="157.6" width="134.0" height="16" rx="8" fill="#0a0b10" stroke="#f2a93b" stroke-opacity="0.55"/><text class="f" x="773.8" y="169.6" fill="#e6e8ee">live books · results</text>
+<rect x="-497" y="-124" width="460" height="52" fill="#0a0b10"/>
+<text class="h" x="-485" y="-102" fill="#e6e8ee">BetFi · bet lifecycle</text>
+<text class="hs" x="-485" y="-84" fill="#8b93a5">which part sends what, from the quote to the payout</text>
+<text class="lh" x="532" y="337" fill="#e6e8ee">Steps</text>
+<text class="lb" x="532" y="357" fill="#e6e8ee">① Quote</text><text class="l" x="602" y="357" fill="#8b93a5">the quoter prices the slip on Pascal's books and signs it</text>
+<text class="lb" x="532" y="374" fill="#e6e8ee">② Escrow</text><text class="l" x="602" y="374" fill="#8b93a5">the user signs open_pending; the relay co-signs and pays the fee</text>
+<text class="lb" x="532" y="391" fill="#e6e8ee">③ Hedge</text><text class="l" x="602" y="391" fill="#8b93a5">the indexer sees the escrow; the hedge desk buys every leg</text>
+<text class="lb" x="532" y="408" fill="#e6e8ee">④ Mint</text><text class="l" x="602" y="408" fill="#8b93a5">the crank sends finalize: ticket minted, payout locked in the vault</text>
+<text class="lb" x="532" y="425" fill="#e6e8ee"></text><text class="l" x="602" y="425" fill="#8b93a5">nothing filled: refund_pending, 15 s after expiry</text>
+<text class="lb" x="532" y="442" fill="#e6e8ee">⑤ Results</text><text class="l" x="602" y="442" fill="#8b93a5">the crank reads Pascal's results and sends resolve_leg</text>
+<text class="lb" x="532" y="459" fill="#e6e8ee">⑥ Payout</text><text class="l" x="602" y="459" fill="#8b93a5">settle pays from the vault, or the user cashes out earlier</text>
+<path class="flow" d="M532,486 h30" stroke="#e6e8ee"/><text class="l" x="572" y="490" fill="#8b93a5">HTTP · RPC · transaction</text>
+<path class="bus" d="M532,503 h30" stroke="#c4d2ee"/><text class="l" x="572" y="507" fill="#8b93a5">in-process event bus</text>
+</svg>

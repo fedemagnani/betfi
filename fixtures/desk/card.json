@@ -1,0 +1,322 @@
+{
+  "sport": "nba",
+  "date": "2026-10-28",
+  "as_of_ms": 1793212985011,
+  "games": [
+    {
+      "game_id": "nba-phi-ind-2026-10-28",
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "start_ms": 1793228400000,
+      "expected_resolution_ms": 1793242800000,
+      "away": {
+        "name": "Philadelphia 76ers",
+        "abbr": "PHI"
+      },
+      "home": {
+        "name": "Indiana Pacers",
+        "abbr": "IND"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 699000,
+          "odds_u": 1430615,
+          "outcome": "2"
+        },
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 309000,
+          "odds_u": 3236245,
+          "outcome": "1"
+        }
+      ],
+      "markets_count": 1,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "picks": [
+            {
+              "label": "76ers",
+              "team": "away",
+              "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+              "side": "long",
+              "price_u": 699000,
+              "odds_u": 1430615,
+              "outcome": "2"
+            },
+            {
+              "label": "Pacers",
+              "team": "home",
+              "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+              "side": "short",
+              "price_u": 309000,
+              "odds_u": 3236245,
+              "outcome": "1"
+            }
+          ],
+          "market_title": "Moneyline"
+        }
+      ],
+      "sport": "basketball",
+      "league": "NBA"
+    },
+    {
+      "game_id": "nba-orl-tor-2026-10-28",
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+      "start_ms": 1793230200000,
+      "expected_resolution_ms": 1793244600000,
+      "away": {
+        "name": "Orlando Magic",
+        "abbr": "ORL"
+      },
+      "home": {
+        "name": "Toronto Raptors",
+        "abbr": "TOR"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 379000,
+          "odds_u": 2638522,
+          "outcome": "2"
+        },
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 629000,
+          "odds_u": 1589825,
+          "outcome": "1"
+        }
+      ],
+      "markets_count": 1,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "picks": [
+            {
+              "label": "Magic",
+              "team": "away",
+              "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+              "side": "long",
+              "price_u": 379000,
+              "odds_u": 2638522,
+              "outcome": "2"
+            },
+            {
+              "label": "Raptors",
+              "team": "home",
+              "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+              "side": "short",
+              "price_u": 629000,
+              "odds_u": 1589825,
+              "outcome": "1"
+            }
+          ],
+          "market_title": "Moneyline"
+        }
+      ],
+      "sport": "basketball",
+      "league": "NBA"
+    },
+    {
+      "game_id": "nba-hou-mil-2026-10-28",
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+      "start_ms": 1793232000000,
+      "expected_resolution_ms": 1793246400000,
+      "away": {
+        "name": "Houston Rockets",
+        "abbr": "HOU"
+      },
+      "home": {
+        "name": "Milwaukee Bucks",
+        "abbr": "MIL"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 770000,
+          "odds_u": 1298701,
+          "outcome": "2"
+        },
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 240000,
+          "odds_u": 4166666,
+          "outcome": "1"
+        }
+      ],
+      "markets_count": 1,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "picks": [
+            {
+              "label": "Rockets",
+              "team": "away",
+              "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+              "side": "long",
+              "price_u": 770000,
+              "odds_u": 1298701,
+              "outcome": "2"
+            },
+            {
+              "label": "Bucks",
+              "team": "home",
+              "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+              "side": "short",
+              "price_u": 240000,
+              "odds_u": 4166666,
+              "outcome": "1"
+            }
+          ],
+          "market_title": "Moneyline"
+        }
+      ],
+      "sport": "basketball",
+      "league": "NBA"
+    },
+    {
+      "game_id": "nba-sas-uta-2026-10-28",
+      "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+      "start_ms": 1793235600000,
+      "expected_resolution_ms": 1793250000000,
+      "away": {
+        "name": "San Antonio Spurs",
+        "abbr": "SAS"
+      },
+      "home": {
+        "name": "Utah Jazz",
+        "abbr": "UTA"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 860000,
+          "odds_u": 1162790,
+          "outcome": "2"
+        },
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 160000,
+          "odds_u": 6250000,
+          "outcome": "1"
+        }
+      ],
+      "markets_count": 1,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "picks": [
+            {
+              "label": "Spurs",
+              "team": "away",
+              "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+              "side": "long",
+              "price_u": 860000,
+              "odds_u": 1162790,
+              "outcome": "2"
+            },
+            {
+              "label": "Jazz",
+              "team": "home",
+              "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+              "side": "short",
+              "price_u": 160000,
+              "odds_u": 6250000,
+              "outcome": "1"
+            }
+          ],
+          "market_title": "Moneyline"
+        }
+      ],
+      "sport": "basketball",
+      "league": "NBA"
+    },
+    {
+      "game_id": "nba-okc-dal-2026-10-28",
+      "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+      "start_ms": 1793237400000,
+      "expected_resolution_ms": 1793251800000,
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "abbr": "OKC"
+      },
+      "home": {
+        "name": "Dallas Mavericks",
+        "abbr": "DAL"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 659000,
+          "odds_u": 1517450,
+          "outcome": "2"
+        },
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 349000,
+          "odds_u": 2865329,
+          "outcome": "1"
+        }
+      ],
+      "markets_count": 1,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "picks": [
+            {
+              "label": "Thunder",
+              "team": "away",
+              "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+              "side": "long",
+              "price_u": 659000,
+              "odds_u": 1517450,
+              "outcome": "2"
+            },
+            {
+              "label": "Mavericks",
+              "team": "home",
+              "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+              "side": "short",
+              "price_u": 349000,
+              "odds_u": 2865329,
+              "outcome": "1"
+            }
+          ],
+          "market_title": "Moneyline"
+        }
+      ],
+      "sport": "basketball",
+      "league": "NBA"
+    }
+  ]
+}

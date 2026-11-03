@@ -1,0 +1,415 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "tipster": {
+    "wallet": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+    "settled": 50,
+    "won": 38,
+    "hit_rate_ppm": 760000,
+    "roi_ppm": 152000,
+    "brier_ppm": 201000,
+    "edge_ppm": 41000,
+    "avg_odds_u": 3100000,
+    "skin_u": 3120000000,
+    "followers_roi_ppm": 96000,
+    "streak": 32,
+    "open_count": 3,
+    "open_staked_u": 1139980981,
+    "copies": 1396,
+    "fees_earned_u": 412000000,
+    "handle": "lorenzo_hoops",
+    "verified": true,
+    "roi_30d_ppm": 248000,
+    "copiers": 1284
+  },
+  "history": [
+    {
+      "ticket": "CsEjdChUYZWJXqmxJAgFGTnetcy3QWmEBxX7A2skehM6",
+      "settled_at": 1792264800,
+      "roi_cum_ppm": 22487,
+      "brier_cum_ppm": 189792
+    },
+    {
+      "ticket": "Gj847zJM69b67A7KGSyVteDHugbLHhyqSJrjfvz3Xd6g",
+      "settled_at": 1792351200,
+      "roi_cum_ppm": -11094,
+      "brier_cum_ppm": 211791
+    },
+    {
+      "ticket": "9sEy8Majg1d8jav82UvXz68Z49fTnGpci7cnWD7Hc2T6",
+      "settled_at": 1792437600,
+      "roi_cum_ppm": -3806,
+      "brier_cum_ppm": 189687
+    },
+    {
+      "ticket": "HkWVTuzGnewkuhZEtUUVLwwF1MHBscqBRei2jDkAALBK",
+      "settled_at": 1792524000,
+      "roi_cum_ppm": 27279,
+      "brier_cum_ppm": 200618
+    },
+    {
+      "ticket": "HQRvUf2LbRzmYsf3rStbJZmv5Wk7NBdJwJ59EXSceYpA",
+      "settled_at": 1792610400,
+      "roi_cum_ppm": 63735,
+      "brier_cum_ppm": 196341
+    },
+    {
+      "ticket": "GVSosNWGBnLbTBpagAZuNsM738oM81sofzyiZd2SkkEy",
+      "settled_at": 1792696800,
+      "roi_cum_ppm": 153537,
+      "brier_cum_ppm": 188505
+    },
+    {
+      "ticket": "CnGwUoB3CLCZ85iiBp413xPAe95WakKd8p9NtGUH1Srv",
+      "settled_at": 1792783200,
+      "roi_cum_ppm": 136602,
+      "brier_cum_ppm": 201569
+    },
+    {
+      "ticket": "EWec8tyoMqocgJEi6ff8kPUy4Bx2CEVkp2kCB2oPnEwh",
+      "settled_at": 1792869600,
+      "roi_cum_ppm": 103957,
+      "brier_cum_ppm": 205293
+    },
+    {
+      "ticket": "GYrinfMwAqMpcwkanUKVBggYU5Ga8bLea6MaP3XptdaE",
+      "settled_at": 1792956000,
+      "roi_cum_ppm": 102159,
+      "brier_cum_ppm": 206171
+    },
+    {
+      "ticket": "F7oNeBKKVD4SmbYhyspT1Feu6zruuxzDoRMxcP6pQNMR",
+      "settled_at": 1793042400,
+      "roi_cum_ppm": 139109,
+      "brier_cum_ppm": 202454
+    },
+    {
+      "ticket": "EyFJiZR5AyL2AaNayViQooiV16uj76pKet67kc4UrVBH",
+      "settled_at": 1793128800,
+      "roi_cum_ppm": 228268,
+      "brier_cum_ppm": 204099
+    },
+    {
+      "ticket": "CT95zqcaMZksAHnpmFae31XLnMUfoU96NxpZt92E2yfz",
+      "settled_at": 1793215200,
+      "roi_cum_ppm": 264738,
+      "brier_cum_ppm": 186818
+    }
+  ],
+  "settled": [],
+  "open": [
+    {
+      "ticket": "BuK4TLMurNmmCrYWfq4rBmEihxsATyoowcpbFrwxnFQt",
+      "user": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "nonce": 7859921127467635,
+      "state": "open",
+      "n": 3,
+      "stake_u": 542848086,
+      "payout_u": 2470174119,
+      "odds_offered_u": 4550396,
+      "odds_fair_u": 5197928,
+      "fee_u": 67625300,
+      "minted_at": 1793294400,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 542848086,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+          "game_id": "el-rma-oly-2026-10-29",
+          "away": "Olympiacos",
+          "home": "Real Madrid",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793303100000,
+          "p_quote_u": 641025,
+          "p_fill_u": 641025,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Real Madrid"
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+          "game_id": "nba-bos-nyk-2026-10-29",
+          "away": "NY Knicks",
+          "home": "Boston Celtics",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793318400000,
+          "p_quote_u": 588235,
+          "p_fill_u": 588235,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Boston Celtics"
+        },
+        {
+          "idx": 2,
+          "symbol": "UCL_26OCT29_ARSBAY_ML.ARS",
+          "game_id": "ucl-ars-bay-2026-10-29",
+          "away": "Bayern Munich",
+          "home": "Arsenal",
+          "pick": "home",
+          "side": "long",
+          "start_ms": 1793304000000,
+          "p_quote_u": 510204,
+          "p_fill_u": 510204,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Arsenal"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "Cj17q3XNugS2wpVob4uBwG4ReNwPa36Mwn3LoKmLjuX8Cmkbr8rUf1NAxerA21vUL9AaAHtU2Y72UjRCRXdEN2Hf",
+        "finalize": "J5eAiKjVFa1JodSapzPAE8q9p6LcWEd2UwkDH5Tw5ALDBhnWLwjBNp6TxgYR9x6QrvaUoHcR2d3qLJpDR8yAuWSk",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 284905399,
+          "cash_out": null,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": null
+        }
+      },
+      "tipster": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "copied_from": null,
+      "title": "Master Treble",
+      "posted_odds_u": 4550396,
+      "pool_u": 30888056040,
+      "copies": 1284,
+      "teams": [
+        "RM",
+        "BOS",
+        "ARS"
+      ]
+    },
+    {
+      "ticket": "BgVUi46j8qDu2Kc8yJwYuSDqCvEitwx8Lop7a6oUC654",
+      "user": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "nonce": 8362854563992030,
+      "state": "open",
+      "n": 2,
+      "stake_u": 379993660,
+      "payout_u": 1443978505,
+      "odds_offered_u": 3800006,
+      "odds_fair_u": 4210533,
+      "fee_u": 37049381,
+      "minted_at": 1793296200,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 379993660,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT28_ZALFKB_ML.ZAL",
+          "game_id": "el-fkb-zal-2026-10-30",
+          "away": "Žalgiris",
+          "home": "Fenerbahçe",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793383200000,
+          "p_quote_u": 487804,
+          "p_fill_u": 487804,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Fenerbahçe"
+        },
+        {
+          "idx": 1,
+          "symbol": "EL_26OCT28_MACEFS_ML.MAC",
+          "game_id": "el-efs-mac-2026-10-30",
+          "away": "Maccabi",
+          "home": "Anadolu Efes",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793379600000,
+          "p_quote_u": 486875,
+          "p_fill_u": 486875,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Anadolu Efes"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "CvkGM8VixnCATJwxCFPzVKj7mmfKqMa6T57c3TpZUMHPHh1gnAWjPe33H6eaZHnhDoqQHBa8NpS3YeXUW6FWhcri",
+        "finalize": "GCePd3AsrwF7ZFkbaox7ah92mgX2PCfy7MV1qfh3ENVMAa43q7Xvb1fXoFj9xkSb3DHXXS4F1nPpcBcVxwH1ez2L",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 284903386,
+          "cash_out": null,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": null
+        }
+      },
+      "tipster": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "copied_from": null,
+      "title": "EuroLeague Lock",
+      "posted_odds_u": 3800006,
+      "pool_u": 15416885616,
+      "copies": 842,
+      "teams": [
+        "FKB",
+        "EFS"
+      ]
+    },
+    {
+      "ticket": "G882u64BiU2dFXwsppqrL4kSE6y8MqLQnZMMH26e6F5W",
+      "user": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "nonce": 6656020337435597,
+      "state": "open",
+      "n": 4,
+      "stake_u": 217139235,
+      "payout_u": 1346264593,
+      "odds_offered_u": 6200006,
+      "odds_fair_u": 7611981,
+      "fee_u": 40278025,
+      "minted_at": 1793298000,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 217139235,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT28_PARMIL_ML.PAR",
+          "game_id": "el-mil-par-2026-10-31",
+          "away": "Partizan",
+          "home": "Milan",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793466000000,
+          "p_quote_u": 571428,
+          "p_fill_u": 571428,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Milan"
+        },
+        {
+          "idx": 1,
+          "symbol": "EL_26OCT28_VIRBKN_ML.VIR",
+          "game_id": "el-bkn-vir-2026-10-31",
+          "away": "Virtus",
+          "home": "Baskonia",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793473200000,
+          "p_quote_u": 476190,
+          "p_fill_u": 476190,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Baskonia"
+        },
+        {
+          "idx": 2,
+          "symbol": "EL_26OCT28_ASVBAR_ML.ASV",
+          "game_id": "el-bar-asv-2026-11-01",
+          "away": "ASVEL",
+          "home": "Barcelona",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793475900000,
+          "p_quote_u": 719424,
+          "p_fill_u": 719424,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Barcelona"
+        },
+        {
+          "idx": 3,
+          "symbol": "EL_26OCT28_LYOMON_ML.LYO",
+          "game_id": "el-mon-lyo-2026-11-01",
+          "away": "Lyon",
+          "home": "Monaco",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793476800000,
+          "p_quote_u": 671082,
+          "p_fill_u": 671082,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Monaco"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "EbvoVVhzbLFErVJ7bHXqQYj8VSnKJWrGxsyb3tbenUVjH8vYv4cPczW2AQggiTFPktQaxaGbRUBHkhLQrU2PDuaQ",
+        "finalize": "GfCqqqvynC115BNmZM3XFLpoi59kBPbPNQ28b4BuSsSvE6a7GEpR5766tA4NniBmXhGMdBTB57DszCpyCU1tZPEv",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 284906980,
+          "cash_out": null,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": null
+        }
+      },
+      "tipster": "AVy34U163gRuNAmgkYjDzpvP5A8Ee5WHzMJWxqDV8b32",
+      "copied_from": null,
+      "title": "Weekend Hail Mary",
+      "posted_odds_u": 6200006,
+      "pool_u": 10694107276,
+      "copies": 415,
+      "teams": [
+        "MIL",
+        "BKN",
+        "BAR"
+      ]
+    }
+  ]
+}

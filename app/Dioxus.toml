@@ -1,0 +1,12 @@
+[application]
+
+[web.app]
+title = "BetFi"
+
+[web.resource]
+style = []
+script = []
+
+[web.resource.dev]
+style = []
+script = []

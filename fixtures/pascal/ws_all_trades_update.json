@@ -1,0 +1,39 @@
+{
+  "channel": "all_trades",
+  "type": "update",
+  "data": [
+    {
+      "trade_id": "151799",
+      "symbol": "NV_GOV_2026.DEM",
+      "taker_side": "BID",
+      "price": "0.790000",
+      "size": "15",
+      "maker": "7rRcrmxafc5VwVUBzJGY413j7psjtJpqG1DgnziEkzWr",
+      "taker": "6QCAZxbNGGaLsQpPxvkhcDXomLb9FDJEdinXK6K7j4PP",
+      "maker_reduce_only": false,
+      "taker_reduce_only": false,
+      "maker_position_size_prev": "0",
+      "taker_position_size_prev": "234",
+      "seq": "12117120896",
+      "trade_ts_ms": "1793147858778"
+    },
+    {
+      "trade_id": "151800",
+      "symbol": "NV_GOV_2026.DEM",
+      "taker_side": "BID",
+      "price": "0.790000",
+      "size": "174",
+      "maker": "7ATdPM8uGMu3qiRSCpc6hUrSZ5VxFSUyYLfRipABG5bC",
+      "taker": "6QCAZxbNGGaLsQpPxvkhcDXomLb9FDJEdinXK6K7j4PP",
+      "maker_reduce_only": false,
+      "taker_reduce_only": false,
+      "maker_position_size_prev": "-20644",
+      "taker_position_size_prev": "249",
+      "seq": "12117120897",
+      "trade_ts_ms": "1793147858778"
+    }
+  ],
+  "seq": "12117121005",
+  "state_time_ms": "1793147858778",
+  "server_time_ms": "1793147858783"
+}

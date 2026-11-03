@@ -1,0 +1,38 @@
+[package]
+name = "pascal-mock"
+description = "Pascal mock: tape replay or live Pascal books, and a matcher behind the Pascal REST/WS surface (plan steps 1.D, 2.D, 4.L)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "pascal-mock"
+path = "src/main.rs"
+
+[dependencies]
+axum = { version = "0.8", features = ["ws"] }
+bs58 = "0.5"
+clap = { version = "4.6", features = ["derive"] }
+pascal-rs = { path = "../pascal-rs" }
+rust_decimal = { version = "1.43", default-features = false, features = ["std"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { workspace = true, features = ["net", "sync", "signal", "time"] }
+toml = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+url = "2.5"
+
+[dev-dependencies]
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+reqwest = { version = "0.13", default-features = false, features = ["json"] }
+tokio-tungstenite = "0.30"
+
+[lints]
+workspace = true

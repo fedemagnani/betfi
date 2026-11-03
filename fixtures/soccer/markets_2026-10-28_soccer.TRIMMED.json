@@ -1,0 +1,1109 @@
+{
+ "status": "success",
+ "data": [
+  {
+   "symbol": "BUND_26OCT31_FCBBVB_ML.BVB",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Bayern München vs BV Borussia 09 Dortmund, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793467800000",
+    "expected_resolution_time_ms": "1793475000000",
+    "game_page": {
+     "game_id": "bundesliga-fcb-bvb-2026-10-31",
+     "game_description": "FC Bayern München vs BV Borussia 09 Dortmund",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "BV Borussia 09 Dortmund",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Bayern München",
+      "home_subject_id": "fc-bayern-munchen",
+      "away_name": "BV Borussia 09 Dortmund",
+      "away_subject_id": "bv-borussia-09-dortmund"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "bun-bay-dor-2026-10-31-dor",
+     "condition_id": "0x1a1a099da002ab355b76314512318d1a5e273e19ee0d7a818c707758723887fd",
+     "market_outcome_token_id": "15624308387259310156109183040221768582974466064975396682466497208823076666622",
+     "reverse_outcome_token_id": "51579889245329821670942977982310385504738469289988659935592231326147915642783"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "Bundesliga"
+    ],
+    "topic": {
+     "id": "2026-27-bundesliga",
+     "description": "2026-27 Bundesliga"
+    }
+   },
+   "listing_ts_ms": "1793187634435",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/BUND_26OCT31_FCBBVB_ML/BUND_26OCT31_FCBBVB_ML.BVB.md",
+   "mark_price": "0.125000",
+   "best_bid": "0.117000",
+   "best_ask": "0.133000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "BUND_26OCT31_FCBBVB_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Bayern München vs BV Borussia 09 Dortmund, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793467800000",
+    "expected_resolution_time_ms": "1793475000000",
+    "game_page": {
+     "game_id": "bundesliga-fcb-bvb-2026-10-31",
+     "game_description": "FC Bayern München vs BV Borussia 09 Dortmund",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Bayern München",
+      "home_subject_id": "fc-bayern-munchen",
+      "away_name": "BV Borussia 09 Dortmund",
+      "away_subject_id": "bv-borussia-09-dortmund"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "bun-bay-dor-2026-10-31-draw",
+     "condition_id": "0x9ba5f8ca092551dd50690a7d2a8fef7f2fbdaa2c2f7b9d192db50bcbc2cbeef3",
+     "market_outcome_token_id": "45703944142682092838681550338878998558273943683114381078776398180340686176035",
+     "reverse_outcome_token_id": "1243714263684519731435143086482157493789703863425686429274079533643046861462"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "Bundesliga"
+    ],
+    "topic": {
+     "id": "2026-27-bundesliga",
+     "description": "2026-27 Bundesliga"
+    }
+   },
+   "listing_ts_ms": "1793187634487",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/BUND_26OCT31_FCBBVB_ML/BUND_26OCT31_FCBBVB_ML.DRAW.md",
+   "mark_price": "0.165000",
+   "best_bid": "0.157000",
+   "best_ask": "0.173000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "BUND_26OCT31_FCBBVB_ML.FCB",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Bayern München vs BV Borussia 09 Dortmund, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793467800000",
+    "expected_resolution_time_ms": "1793475000000",
+    "game_page": {
+     "game_id": "bundesliga-fcb-bvb-2026-10-31",
+     "game_description": "FC Bayern München vs BV Borussia 09 Dortmund",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "FC Bayern München",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Bayern München",
+      "home_subject_id": "fc-bayern-munchen",
+      "away_name": "BV Borussia 09 Dortmund",
+      "away_subject_id": "bv-borussia-09-dortmund"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "bun-bay-dor-2026-10-31-bay",
+     "condition_id": "0x89f55a4e1aeece4495ea1f6bf58a4edf789513ddbf8e74783f08d30159d7858a",
+     "market_outcome_token_id": "45562040058682188027121607007691459970586262720986622074840135686774235478250",
+     "reverse_outcome_token_id": "55539908711826305483604776784152066685145642739025560526513603707324719417738"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "Bundesliga"
+    ],
+    "topic": {
+     "id": "2026-27-bundesliga",
+     "description": "2026-27 Bundesliga"
+    }
+   },
+   "listing_ts_ms": "1793187634537",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/BUND_26OCT31_FCBBVB_ML/BUND_26OCT31_FCBBVB_ML.FCB.md",
+   "mark_price": "0.724500",
+   "best_bid": "0.715000",
+   "best_ask": "0.734000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_ML.AVL",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "Aston Villa FC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-ast",
+     "condition_id": "0x4deee9064e09c58cf38623ce7a96650a836d75a75d5dbb7d2442c86389feeb45",
+     "market_outcome_token_id": "63836700781975532256871758046818265135873894836552725310494198156221913058577",
+     "reverse_outcome_token_id": "42837314729020887249444011901433875686812455068778277861209884815039333119807"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844456",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_ML/EPL_26OCT31_AVLFUL_ML.AVL.md",
+   "mark_price": "0.480000",
+   "best_bid": "0.470000",
+   "best_ask": "0.490000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-draw",
+     "condition_id": "0xf77f6839bfbab82c5e646c0fcde691e017b4ab9be8e8b947ce3864c26b8fe147",
+     "market_outcome_token_id": "27180885388613949748185454925891987850027089094939970859413082866712484057597",
+     "reverse_outcome_token_id": "42731848553419779264576629084426446390799507442276704063190279608162918943474"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844507",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_ML/EPL_26OCT31_AVLFUL_ML.DRAW.md",
+   "mark_price": "0.265000",
+   "best_bid": "0.256000",
+   "best_ask": "0.274000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_ML.FUL",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Fulham FC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-ful",
+     "condition_id": "0xb187ff606e2b7a6121dd4d430136db9769565d28163065eb12ee04eb6ae69d12",
+     "market_outcome_token_id": "199444503162986994643939314942835052185580669189088137438330207424847248522",
+     "reverse_outcome_token_id": "29522946167218165026344418173704062354145106503890556375179716512528539965335"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844559",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_ML/EPL_26OCT31_AVLFUL_ML.FUL.md",
+   "mark_price": "0.255000",
+   "best_bid": "0.246000",
+   "best_ask": "0.264000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_PP.BTTS",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC (Reg Time), Game Props",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "game-props",
+     "section_description": "Game Props",
+     "section_display_order": 400,
+     "subject_id": "both-teams-to-score",
+     "subject_description": "Both teams to score"
+    },
+    "market_description": "Both teams to score",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "both_teams_to_score"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-btts",
+     "condition_id": "0x9b4e5176209140e439acfa4fe6e28054fa6ab5e1a584e93d3295aadb5cc7e2e6",
+     "market_outcome_token_id": "102988534117494348504599681251511361418565544277404224357481444953121733969105",
+     "reverse_outcome_token_id": "80081513881136751029894954375866280831234866348902693331416684990795819952931"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844610",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_PP/EPL_26OCT31_AVLFUL_PP.BTTS.md",
+   "mark_price": "0.600000",
+   "best_bid": "0.585000",
+   "best_ask": "0.615000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_SP.AVL_1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "aston-villa",
+     "subject_description": "Aston Villa FC",
+     "value": "-1.5"
+    },
+    "market_description": "Aston Villa FC -1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "spread",
+      "team": "home",
+      "line": "-1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-spread-home-1pt5",
+     "condition_id": "0xac91c3d62f65b2831650a6ac300f29ed7dd8b0230e3ec229fd52f8e1b6f9cadf",
+     "market_outcome_token_id": "54683217972851861578198731087311352909006662672838634511532943044663808426158",
+     "reverse_outcome_token_id": "87399574412005479372498514472476684391956015449170739106688906467474310905904"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844662",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_SP/EPL_26OCT31_AVLFUL_SP.AVL_1.md",
+   "mark_price": "0.250000",
+   "best_bid": "0.236000",
+   "best_ask": "0.264000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_AVLFUL_TT.2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Aston Villa FC vs Fulham FC, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "epl-ast-ful-2026-10-31",
+     "game_description": "Aston Villa FC vs Fulham FC",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "2.5"
+    },
+    "market_description": "Total Over 2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Aston Villa FC",
+      "home_subject_id": "aston-villa",
+      "away_name": "Fulham FC",
+      "away_subject_id": "fulham"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-ast-ful-2026-10-31-total-2pt5",
+     "condition_id": "0x30ae47b1ba044d91627b8226074d5e40947241fcc771fdb95e66a2c850cc3b05",
+     "market_outcome_token_id": "41905871957538855704178025035361697784893144909848472673573325283715519776466",
+     "reverse_outcome_token_id": "41699640679729160322543385711625120293075516793656881114977061419071906795474"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186844966",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_AVLFUL_TT/EPL_26OCT31_AVLFUL_TT.2.md",
+   "mark_price": "0.570000",
+   "best_bid": "0.555000",
+   "best_ask": "0.585000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_HULIPS_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Hull City AFC vs Ipswich Town FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-hul-ips-2026-10-31",
+     "game_description": "Hull City AFC vs Ipswich Town FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Hull City AFC",
+      "home_subject_id": "hull-city",
+      "away_name": "Ipswich Town FC",
+      "away_subject_id": "ipswich-town"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-hul-ips-2026-10-31-draw",
+     "condition_id": "0x590329da8e04e21789edd0792a685f9e55729778d37e270eec82d20226c21c4f",
+     "market_outcome_token_id": "61052477736651138907795342855876856117177921270087729643925692374780398728664",
+     "reverse_outcome_token_id": "24098136354444175566221344578519376515866624521747474848219058927745903167739"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186847518",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_HULIPS_ML/EPL_26OCT31_HULIPS_ML.DRAW.md",
+   "mark_price": "0.285000",
+   "best_bid": "0.280000",
+   "best_ask": "0.290000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_HULIPS_ML.HUL",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Hull City AFC vs Ipswich Town FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-hul-ips-2026-10-31",
+     "game_description": "Hull City AFC vs Ipswich Town FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "Hull City AFC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Hull City AFC",
+      "home_subject_id": "hull-city",
+      "away_name": "Ipswich Town FC",
+      "away_subject_id": "ipswich-town"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-hul-ips-2026-10-31-hul",
+     "condition_id": "0xfa2c2f0e63400622f5c4c61487ad9973e7a7e53de8c9fa71e54b3f1221121492",
+     "market_outcome_token_id": "109973347580137639739263405776951881074997016807423394392936981641827555693472",
+     "reverse_outcome_token_id": "83197064549993727631558498615883869559417255890050606848902135733855605439228"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186847569",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_HULIPS_ML/EPL_26OCT31_HULIPS_ML.HUL.md",
+   "mark_price": "0.355000",
+   "best_bid": "0.345000",
+   "best_ask": "0.365000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_HULIPS_ML.IPS",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Hull City AFC vs Ipswich Town FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-hul-ips-2026-10-31",
+     "game_description": "Hull City AFC vs Ipswich Town FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Ipswich Town FC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Hull City AFC",
+      "home_subject_id": "hull-city",
+      "away_name": "Ipswich Town FC",
+      "away_subject_id": "ipswich-town"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-hul-ips-2026-10-31-ips",
+     "condition_id": "0x5b0a89f710062bb4df808ec0b9c19f456e1c135cb58efe7603bf853f72ffc86c",
+     "market_outcome_token_id": "62659152220941631296421624649934613486654141683181389853972004032753621135687",
+     "reverse_outcome_token_id": "93521445689895949284641339569405983077122917403355921271799586031104017060755"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186847620",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_HULIPS_ML/EPL_26OCT31_HULIPS_ML.IPS.md",
+   "mark_price": "0.355000",
+   "best_bid": "0.350000",
+   "best_ask": "0.360000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_MCIBHA_ML.BHA",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Manchester City FC vs Brighton & Hove Albion FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-mac-bri-2026-10-31",
+     "game_description": "Manchester City FC vs Brighton & Hove Albion FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Brighton & Hove Albion FC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Manchester City FC",
+      "home_subject_id": "manchester-city",
+      "away_name": "Brighton & Hove Albion FC",
+      "away_subject_id": "brighton-hove-albion"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-mac-bri-2026-10-31-bri",
+     "condition_id": "0x67075a4ddf0e75dc9400b356a28b688f2418fb2dbd89ab6e6a612dcf839717b7",
+     "market_outcome_token_id": "101592447595007122790714206938755203449916634636488773113674799189240345007935",
+     "reverse_outcome_token_id": "31038705798540738040409754828480513505441479785279004737463571078315746297566"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186848131",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_MCIBHA_ML/EPL_26OCT31_MCIBHA_ML.BHA.md",
+   "mark_price": "0.205000",
+   "best_bid": "0.200000",
+   "best_ask": "0.210000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_MCIBHA_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Manchester City FC vs Brighton & Hove Albion FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-mac-bri-2026-10-31",
+     "game_description": "Manchester City FC vs Brighton & Hove Albion FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Manchester City FC",
+      "home_subject_id": "manchester-city",
+      "away_name": "Brighton & Hove Albion FC",
+      "away_subject_id": "brighton-hove-albion"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-mac-bri-2026-10-31-draw",
+     "condition_id": "0x5e512c915faa9b874f47d8d25352247909b22b049148977e40d89a846bc9a39c",
+     "market_outcome_token_id": "110533557942371846932277632204285606886350638358594755892357435661536547349159",
+     "reverse_outcome_token_id": "26721530037989009121927693334442531491093481638264934936191699560304290095142"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186848183",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_MCIBHA_ML/EPL_26OCT31_MCIBHA_ML.DRAW.md",
+   "mark_price": "0.215000",
+   "best_bid": "0.210000",
+   "best_ask": "0.220000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "EPL_26OCT31_MCIBHA_ML.MCI",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "Manchester City FC vs Brighton & Hove Albion FC, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793458800000",
+    "expected_resolution_time_ms": "1793466000000",
+    "game_page": {
+     "game_id": "epl-mac-bri-2026-10-31",
+     "game_description": "Manchester City FC vs Brighton & Hove Albion FC",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "Manchester City FC",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Manchester City FC",
+      "home_subject_id": "manchester-city",
+      "away_name": "Brighton & Hove Albion FC",
+      "away_subject_id": "brighton-hove-albion"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "epl-mac-bri-2026-10-31-mac",
+     "condition_id": "0xca1390ebe138f4c2d052b570ec3167d1592ea0e31e0ccaa425385f24a99196b3",
+     "market_outcome_token_id": "70643168695352331628859643545797103428052773564724041626328118889047522809081",
+     "reverse_outcome_token_id": "46103138124807222988368747699018366887325664789505067847216734645265540633572"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "EPL"
+    ],
+    "topic": {
+     "id": "2026-27-premier-league",
+     "description": "2026-27 Premier League"
+    }
+   },
+   "listing_ts_ms": "1793186848234",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/EPL_26OCT31_MCIBHA_ML/EPL_26OCT31_MCIBHA_ML.MCI.md",
+   "mark_price": "0.585000",
+   "best_bid": "0.580000",
+   "best_ask": "0.590000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "LALIGA_26OCT31_BARALA_ML.ALA",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Barcelona vs Deportivo Alavés, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "lal-bar-ala-2026-10-31",
+     "game_description": "FC Barcelona vs Deportivo Alavés",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Deportivo Alavés",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Barcelona",
+      "home_subject_id": "barcelona",
+      "away_name": "Deportivo Alavés",
+      "away_subject_id": "alaves"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "lal-bar-ala-2026-10-31-ala",
+     "condition_id": "0x641d5486d7815f3f165394adacf0d30c063f413f3976a29c84769ebe2c4342e7",
+     "market_outcome_token_id": "56762694679537242946798671851143814953790775332014591165302752806308108241229",
+     "reverse_outcome_token_id": "109955195745300012726847365099373225930854435517989378483868456912676817183628"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "LaLiga"
+    ],
+    "topic": {
+     "id": "2026-27-laliga",
+     "description": "2026-27 LaLiga"
+    }
+   },
+   "listing_ts_ms": "1793187228832",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LALIGA_26OCT31_BARALA_ML/LALIGA_26OCT31_BARALA_ML.ALA.md",
+   "mark_price": "0.040500",
+   "best_bid": "0.038000",
+   "best_ask": "0.043000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "LALIGA_26OCT31_BARALA_ML.BAR",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Barcelona vs Deportivo Alavés, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "lal-bar-ala-2026-10-31",
+     "game_description": "FC Barcelona vs Deportivo Alavés",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "FC Barcelona",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Barcelona",
+      "home_subject_id": "barcelona",
+      "away_name": "Deportivo Alavés",
+      "away_subject_id": "alaves"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "lal-bar-ala-2026-10-31-bar",
+     "condition_id": "0xec4122eb837277f4b8a827ab5a1236695d5c8312e6038abed790af2f7391d63e",
+     "market_outcome_token_id": "95539651866159341402170018736334808281619898109626144955120072762409375896536",
+     "reverse_outcome_token_id": "35830150167251788528494047677051225257933787066853095433035788479959437531661"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "LaLiga"
+    ],
+    "topic": {
+     "id": "2026-27-laliga",
+     "description": "2026-27 LaLiga"
+    }
+   },
+   "listing_ts_ms": "1793187228883",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LALIGA_26OCT31_BARALA_ML/LALIGA_26OCT31_BARALA_ML.BAR.md",
+   "mark_price": "0.884500",
+   "best_bid": "0.877000",
+   "best_ask": "0.892000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "LALIGA_26OCT31_BARALA_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "display_attributes": {
+    "event_description": "FC Barcelona vs Deportivo Alavés, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793476800000",
+    "expected_resolution_time_ms": "1793484000000",
+    "game_page": {
+     "game_id": "lal-bar-ala-2026-10-31",
+     "game_description": "FC Barcelona vs Deportivo Alavés",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "FC Barcelona",
+      "home_subject_id": "barcelona",
+      "away_name": "Deportivo Alavés",
+      "away_subject_id": "alaves"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "lal-bar-ala-2026-10-31-draw",
+     "condition_id": "0xcc3cce6dae48babb662fcba212424b49328aa303eb5a3e19d625fc3bdc6afea5",
+     "market_outcome_token_id": "81400516670202589677764047748194638169047598497424392425395940008342756712790",
+     "reverse_outcome_token_id": "35167474360844608716394646961425140183986671386569022659718729234636975038018"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "LaLiga"
+    ],
+    "topic": {
+     "id": "2026-27-laliga",
+     "description": "2026-27 LaLiga"
+    }
+   },
+   "listing_ts_ms": "1793187228935",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/LALIGA_26OCT31_BARALA_ML/LALIGA_26OCT31_BARALA_ML.DRAW.md",
+   "mark_price": "0.075000",
+   "best_bid": "0.068000",
+   "best_ask": "0.082000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  }
+ ],
+ "seq": "12216604065",
+ "state_time_ms": "1793212985011",
+ "server_time_ms": "1793212985025"
+}

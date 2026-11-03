@@ -1,0 +1,50 @@
+{
+  "about": "mock_amm swap, built by Anchor's generated client (programs/mock-amm/tests/swap_ix_vector.rs): sell amount_in mockBONK from the user's mockBONK ATA into the user's mock-USDC ATA. Regenerate with UPDATE_SWAP_FIXTURE=1.",
+  "accounts": [
+    {
+      "pubkey": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf",
+      "signer": true,
+      "writable": false
+    },
+    {
+      "pubkey": "4Aub8FuCV2zsrtvV5GuX3yk637UrHCUQqLygt2CrJB71",
+      "signer": false,
+      "writable": true
+    },
+    {
+      "pubkey": "6zDwjkAB8kzDamcsiR4fBR35U6N9u9jgJzPvwQC28J6o",
+      "signer": false,
+      "writable": true
+    },
+    {
+      "pubkey": "GSJFdjLa1wWw27BXYFNNEbnkp3G8vDggFLixfeWaQXAq",
+      "signer": false,
+      "writable": true
+    },
+    {
+      "pubkey": "AjK2NLDMmLJb6BMD71zyBdvoy5uUGii8GxAnNPQ6dULE",
+      "signer": false,
+      "writable": true
+    },
+    {
+      "pubkey": "DZh28Z1hToMuT3x96T6gsJ3H9SjQ69rcudEPH9bjGuDA",
+      "signer": false,
+      "writable": true
+    },
+    {
+      "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "signer": false,
+      "writable": false
+    }
+  ],
+  "amm_config": "dFXPVDAHPLzYEfpw2kttqgS2WsFhhvGMmbf1XCyE7Tn",
+  "amount_in": 1000000000,
+  "data_hex": "f8c69e91e17587c800ca9a3b000000000ac4960000000000",
+  "min_out": 9880586,
+  "mint": "9n4tnNg5pREwfsMvkpaGNQ6hXrvq6onFvo6eCma34jjq",
+  "pool": "4Aub8FuCV2zsrtvV5GuX3yk637UrHCUQqLygt2CrJB71",
+  "program_id": "5WhsDY2XjzJoWDbe1AgJnnNgJccQwte9TgsvG4yRtHbf",
+  "schedina_program_id": "HXdZFi7tR669G1hXogh3uGGqLYsoZPCSuiutAviLNToW",
+  "usdc_mint": "F6BLLBdH7b4QiCJWibUYvws8fK9upDMP5unCCaqvgH2N",
+  "user": "J2xccRtuG43drESLYznHhLhQkLTdfepcKYbiQ9BsJVaf"
+}

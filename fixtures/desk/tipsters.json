@@ -1,0 +1,47 @@
+{
+  "as_of_ms": 1793246000000,
+  "tipsters": [
+    {
+      "wallet": "8SQQ6hKNtUQXwcPZkB7bGwN5vBxfmSny1e7TUKLhpmZS",
+      "settled": 7,
+      "won": 4,
+      "hit_rate_ppm": 571428,
+      "roi_ppm": 182000,
+      "brier_ppm": 201000,
+      "edge_ppm": 43000,
+      "avg_odds_u": 3450000,
+      "skin_u": 45000000,
+      "followers_roi_ppm": -12000,
+      "streak": 2,
+      "open_count": 1,
+      "open_staked_u": 5000000,
+      "copies": 3,
+      "fees_earned_u": 240000,
+      "handle": "court_vision",
+      "verified": true,
+      "roi_30d_ppm": 241000,
+      "copiers": 2
+    },
+    {
+      "wallet": "BCj1hHoAwbTUoPW8k6t46sHwsMSaWkGBS5ihCEUrUhZx",
+      "settled": 12,
+      "won": 5,
+      "hit_rate_ppm": 416666,
+      "roi_ppm": -35000,
+      "brier_ppm": 233000,
+      "edge_ppm": -12000,
+      "avg_odds_u": 2810000,
+      "skin_u": 120000000,
+      "followers_roi_ppm": null,
+      "streak": 0,
+      "open_count": 0,
+      "open_staked_u": 0,
+      "copies": 0,
+      "fees_earned_u": 0,
+      "handle": null,
+      "verified": true,
+      "roi_30d_ppm": -35000,
+      "copiers": 0
+    }
+  ]
+}

@@ -1,0 +1,1519 @@
+{
+ "status": "success",
+ "seq": "12926976900",
+ "state_time_ms": "1793702046098",
+ "server_time_ms": "1793702046142",
+ "data": [
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_ML.ATM",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "Atlético Madrid",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-atm",
+     "condition_id": "0x121adf25d287e6c70165deb53bec8b4642cd966ee2ca27f2921446b19a8c182f",
+     "market_outcome_token_id": "47116775807582356826876070496300973789459665167222875881636112278095375414297",
+     "reverse_outcome_token_id": "52010539253798803832783652040250092819807160651384207773729678171768609551925"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971549",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_ML/UCL_26NOV03_ATMBAY_ML.ATM.md",
+   "mark_price": "0.345000",
+   "best_bid": "0.340000",
+   "best_ask": "0.350000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_ML.BAY",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Bayern Munich",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-bay",
+     "condition_id": "0xe7f9ccd549f2d959314cce993bc3424f944cc9b95fab6f792ddc49ae5aae1abc",
+     "market_outcome_token_id": "76208488171135342894743862874291209250681104697696082909222562025889106111891",
+     "reverse_outcome_token_id": "59946536809743553577422871103833058835912102778393630093741653355621713578938"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971599",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_ML/UCL_26NOV03_ATMBAY_ML.BAY.md",
+   "mark_price": "0.405000",
+   "best_bid": "0.400000",
+   "best_ask": "0.410000",
+   "open_interest": "32",
+   "long_interest": "32",
+   "short_interest": "32"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-draw",
+     "condition_id": "0xd109bfa808356184b8e89b203122c7979f680a65c4bcb9fcda92a2a153698820",
+     "market_outcome_token_id": "98285806318676790642340739896540919439050165206314151744564033493779631245558",
+     "reverse_outcome_token_id": "15527668732332473728611266298143077309811604206208398746901785490476322753795"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971651",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_ML/UCL_26NOV03_ATMBAY_ML.DRAW.md",
+   "mark_price": "0.245000",
+   "best_bid": "0.240000",
+   "best_ask": "0.250000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_PP.BTTS",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich (Reg Time), Game Props",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "game-props",
+     "section_description": "Game Props",
+     "section_display_order": 400,
+     "subject_id": "both-teams-to-score",
+     "subject_description": "Both teams to score"
+    },
+    "market_description": "Both teams to score",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "both_teams_to_score"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-btts",
+     "condition_id": "0xda52c45a24a69e3a7f69b09a9418866a38a284530c2ea23296db0ca597cd0bed",
+     "market_outcome_token_id": "94007057390214983774851866546310130893532198448723417684390139298764342821759",
+     "reverse_outcome_token_id": "73525156529007871300068838903015421988134878052232088930830232248891821890908"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971701",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_PP/UCL_26NOV03_ATMBAY_PP.BTTS.md",
+   "mark_price": "0.675000",
+   "best_bid": "0.665000",
+   "best_ask": "0.685000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_SP.ATM_1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "atletico-madrid",
+     "subject_description": "Atlético Madrid",
+     "value": "-1.5"
+    },
+    "market_description": "Atlético Madrid -1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "spread",
+      "team": "home",
+      "line": "-1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-spread-home-1pt5",
+     "condition_id": "0xa21d5927270f0488afb7756bed0cfe4f94ea1e9da9518077431990593e6be795",
+     "market_outcome_token_id": "103222437042451213491965996602119715644807240313904218671794634422906325399558",
+     "reverse_outcome_token_id": "16889252653803698113113910624452313856825267647823626417423275182566252032396"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971752",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_SP/UCL_26NOV03_ATMBAY_SP.ATM_1.md",
+   "mark_price": "0.165000",
+   "best_bid": "0.160000",
+   "best_ask": "0.170000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_SP.ATM_2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "atletico-madrid",
+     "subject_description": "Atlético Madrid",
+     "value": "-2.5"
+    },
+    "market_description": "Atlético Madrid -2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "spread",
+      "team": "home",
+      "line": "-2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-spread-home-2pt5",
+     "condition_id": "0x2378aedb0a90bbeb6251c456f4b59b0e80b193361d3b420b50445af6658dbaa2",
+     "market_outcome_token_id": "113634597956213349320637375558046969572483255051866928858403582886703564534375",
+     "reverse_outcome_token_id": "83059784780404198122669911156547820792107575692705842181825875474049876734297"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971802",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_SP/UCL_26NOV03_ATMBAY_SP.ATM_2.md",
+   "mark_price": "0.065000",
+   "best_bid": "0.060000",
+   "best_ask": "0.070000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_SP.BAY_1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "fc-bayern-munchen",
+     "subject_description": "Bayern Munich",
+     "value": "-1.5"
+    },
+    "market_description": "Bayern Munich -1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "spread",
+      "team": "away",
+      "line": "-1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-spread-away-1pt5",
+     "condition_id": "0xc456f747d1c2dc698fbe5479519eb74bf8c7401b2eecedbf422238c5825dfe61",
+     "market_outcome_token_id": "91869962100579111524526408432658812192534403639236609177766473216253802983765",
+     "reverse_outcome_token_id": "103691179811916662947281534033520404078252970422365353541954481190995563277743"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971854",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_SP/UCL_26NOV03_ATMBAY_SP.BAY_1.md",
+   "mark_price": "0.212500",
+   "best_bid": "0.205000",
+   "best_ask": "0.220000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_SP.BAY_2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "fc-bayern-munchen",
+     "subject_description": "Bayern Munich",
+     "value": "-2.5"
+    },
+    "market_description": "Bayern Munich -2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "spread",
+      "team": "away",
+      "line": "-2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-spread-away-2pt5",
+     "condition_id": "0xe05e6e61979fd958bead2bc36b4e375ad38910979348133684370cacd692841f",
+     "market_outcome_token_id": "104643842723000354840110393951087748730290353692295496803927900533292315170107",
+     "reverse_outcome_token_id": "42400742473872689126908515815679731549227405375840982164734994384096067978320"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971904",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_SP/UCL_26NOV03_ATMBAY_SP.BAY_2.md",
+   "mark_price": "0.095000",
+   "best_bid": "0.090000",
+   "best_ask": "0.100000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_TT.0",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "0.5"
+    },
+    "market_description": "Total Over 0.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "0.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-total-0pt5",
+     "condition_id": "0xde1f88556860d4a1279840d28094e44a3b5f1ea5b434e134553bd24ea14b8ba4",
+     "market_outcome_token_id": "92671409312732226427137858108761466492844375369808214254879642173152710774769",
+     "reverse_outcome_token_id": "17038338112185986794724744350641144655167002992913390123104612746942092269320"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446971956",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_TT/UCL_26NOV03_ATMBAY_TT.0.md",
+   "mark_price": "0.963500",
+   "best_bid": "0.960000",
+   "best_ask": "0.967000",
+   "open_interest": "1",
+   "long_interest": "1",
+   "short_interest": "1"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_TT.1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "1.5"
+    },
+    "market_description": "Total Over 1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-total-1pt5",
+     "condition_id": "0x376f57c0e17887033cc08c6071940bd0edcd084536f3b01df83a55d2992858cd",
+     "market_outcome_token_id": "2990934611214415577144547154494002393105068556972734183267821046520552467244",
+     "reverse_outcome_token_id": "114888273768470062101229987229149898420439092220069020944292423322653097239159"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446972008",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_TT/UCL_26NOV03_ATMBAY_TT.1.md",
+   "mark_price": "0.853500",
+   "best_bid": "0.847000",
+   "best_ask": "0.860000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_TT.2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "2.5"
+    },
+    "market_description": "Total Over 2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-total-2pt5",
+     "condition_id": "0xf7b7284a1bb31620681996832161f940b4aab9a09b7dd29216a5aeb8273dd6e8",
+     "market_outcome_token_id": "27038812536343826445260116205837821854894274244477424698707691196432391205604",
+     "reverse_outcome_token_id": "81434864890944108884783965107228322068279898469074578962503450045118072694602"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446972059",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_TT/UCL_26NOV03_ATMBAY_TT.2.md",
+   "mark_price": "0.645000",
+   "best_bid": "0.640000",
+   "best_ask": "0.650000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV03_ATMBAY_TT.3",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "Atlético Madrid vs Bayern Munich, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793736000000",
+    "expected_resolution_time_ms": "1793746800000",
+    "game_page": {
+     "game_id": "ucl-atm-bay-2026-11-03",
+     "game_description": "Atlético Madrid vs Bayern Munich",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "3.5"
+    },
+    "market_description": "Total Over 3.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "Atlético Madrid",
+      "home_subject_id": "atletico-madrid",
+      "away_name": "Bayern Munich",
+      "away_subject_id": "fc-bayern-munchen"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "3.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-atm-bay-2026-11-03-total-3pt5",
+     "condition_id": "0x1dabad5a7fb869d584fa7dd28a6926cf6da3d50ce761a88d57b742c66927bc07",
+     "market_outcome_token_id": "1264496605378022994146984929135500375537766783298470998701665902134537790740",
+     "reverse_outcome_token_id": "69789219619487095863267978710272021938476764983224408636318156324541411063511"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793446972110",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV03_ATMBAY_TT/UCL_26NOV03_ATMBAY_TT.3.md",
+   "mark_price": "0.429500",
+   "best_bid": "0.420000",
+   "best_ask": "0.439000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_ML.AEK1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 100
+    },
+    "market_description": "AEK Athens",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "home"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-aek1",
+     "condition_id": "0x69aeb202063d522a2138eea4af2b246ded0b5f0a369e3533844d3c3a91126b7a",
+     "market_outcome_token_id": "106777711314668536375213333774224943218460456889313536158654065973760832135255",
+     "reverse_outcome_token_id": "18565816573750516247993416744571703982273002423492861786783760304425525609512"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121359",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_ML/UCL_26NOV04_AEK1RMA_ML.AEK1.md",
+   "mark_price": "0.085000",
+   "best_bid": "0.080000",
+   "best_ask": "0.090000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_ML.DRAW",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 200
+    },
+    "market_description": "Draw",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "draw"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-draw",
+     "condition_id": "0x2cdf2ba3625a8ef942f00cd1bd6c09025cfb8f579d0dce3d3e386316bbf44247",
+     "market_outcome_token_id": "83114878841488615553443807302147385000301178231384246893749554236662902169336",
+     "reverse_outcome_token_id": "2549341440066951852545106745466195616985805850727741967075260397927218656006"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121409",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_ML/UCL_26NOV04_AEK1RMA_ML.DRAW.md",
+   "mark_price": "0.125500",
+   "best_bid": "0.118000",
+   "best_ask": "0.133000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_ML.RMA",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Moneyline - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "money-line-reg-time",
+     "section_description": "Moneyline - Reg Time",
+     "section_display_order": 100,
+     "row_display_order": 300
+    },
+    "market_description": "Real Madrid",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "moneyline",
+      "outcome": "away"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-rma",
+     "condition_id": "0x8941f985cce9ac4a175ce7a0a3d75f38536a43de46517d75aa9658ee2cf55574",
+     "market_outcome_token_id": "39515423851331707664526519001996875757487006788622502797081364834883774387767",
+     "reverse_outcome_token_id": "3771084942539439798998256191956824579778203065651547449472385427482459623087"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121460",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_ML/UCL_26NOV04_AEK1RMA_ML.RMA.md",
+   "mark_price": "0.785000",
+   "best_bid": "0.780000",
+   "best_ask": "0.790000",
+   "open_interest": "924",
+   "long_interest": "924",
+   "short_interest": "924"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_PP.BTTS",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid (Reg Time), Game Props",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "game-props",
+     "section_description": "Game Props",
+     "section_display_order": 400,
+     "subject_id": "both-teams-to-score",
+     "subject_description": "Both teams to score"
+    },
+    "market_description": "Both teams to score",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "both_teams_to_score"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-btts",
+     "condition_id": "0x99064519863dedf7f1d740d235e1d7325fff7cd3d052833a1090a9e148dc7d69",
+     "market_outcome_token_id": "101028795656569334185383398796140700434642495103505075073214461551199384691434",
+     "reverse_outcome_token_id": "85113700319061405992664125121623004428691942529463147780249189051068777025675"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121511",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_PP/UCL_26NOV04_AEK1RMA_PP.BTTS.md",
+   "mark_price": "0.575000",
+   "best_bid": "0.565000",
+   "best_ask": "0.585000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_SP.AEK1_1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "aek-athens",
+     "subject_description": "AEK Athens",
+     "value": "-1.5"
+    },
+    "market_description": "AEK Athens -1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "spread",
+      "team": "home",
+      "line": "-1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-spread-home-1pt5",
+     "condition_id": "0xfe77ed5733c5e3d3bd83529c51e9aa4839985c58cbd8c7c896ad91ec26080766",
+     "market_outcome_token_id": "106274947798613901028303271674232020706037714370199396989430566316862502342615",
+     "reverse_outcome_token_id": "44776327131327834518728120208747397229798270702945329700852459916197184208811"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121562",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_SP/UCL_26NOV04_AEK1RMA_SP.AEK1_1.md",
+   "mark_price": "0.025000",
+   "best_bid": "0.020000",
+   "best_ask": "0.030000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_SP.AEK1_2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "aek-athens",
+     "subject_description": "AEK Athens",
+     "value": "-2.5"
+    },
+    "market_description": "AEK Athens -2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "spread",
+      "team": "home",
+      "line": "-2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-spread-home-2pt5",
+     "condition_id": "0xacbf70dd7e48d81c46fdc9086d341395b1a75457d29cb139f90366bc8ab1bff4",
+     "market_outcome_token_id": "41079911353027033753391280682555716991972059886740496750107617768298300085820",
+     "reverse_outcome_token_id": "91142229392437039200105724576123260242116117650449347770468840486817945972086"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121612",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_SP/UCL_26NOV04_AEK1RMA_SP.AEK1_2.md",
+   "mark_price": "0.008000",
+   "best_ask": "0.016000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_SP.RMA_1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "real-madrid",
+     "subject_description": "Real Madrid",
+     "value": "-1.5"
+    },
+    "market_description": "Real Madrid -1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "spread",
+      "team": "away",
+      "line": "-1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-spread-away-1pt5",
+     "condition_id": "0xb66fd00b8d7a5f3d675f9ae5cff0ca2697002de0b2c7977ef64a890337a76b74",
+     "market_outcome_token_id": "37214164062911228205530418198722474823449491687994465415357301846302130811439",
+     "reverse_outcome_token_id": "39517627867013030324276541770906200384323618693118067331251429306521802727410"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121663",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_SP/UCL_26NOV04_AEK1RMA_SP.RMA_1.md",
+   "mark_price": "0.577500",
+   "best_bid": "0.570000",
+   "best_ask": "0.585000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_SP.RMA_2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Spreads - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "spreads-reg-time",
+     "section_description": "Spreads - Reg Time",
+     "section_display_order": 200,
+     "subject_id": "real-madrid",
+     "subject_description": "Real Madrid",
+     "value": "-2.5"
+    },
+    "market_description": "Real Madrid -2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "spread",
+      "team": "away",
+      "line": "-2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-spread-away-2pt5",
+     "condition_id": "0xd1f28c6f358f5b9a6db57cc5cedd56870bff5b1aebb728416f0e884c2f62cd71",
+     "market_outcome_token_id": "22888108437546904823831207173795676006561160302488932293808688256091305763587",
+     "reverse_outcome_token_id": "92186019228711918889316250973054847860623006535020864513773755726483969442132"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121715",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_SP/UCL_26NOV04_AEK1RMA_SP.RMA_2.md",
+   "mark_price": "0.365000",
+   "best_bid": "0.360000",
+   "best_ask": "0.370000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_TT.0",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "0.5"
+    },
+    "market_description": "Total Over 0.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "0.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-total-0pt5",
+     "condition_id": "0x04fdd970ca6fc09a94756b2a882ebf02d4e763aece5d2789275f307b45a4bf41",
+     "market_outcome_token_id": "12218120002651983352886337900028369430465380459743592750805465247670836759238",
+     "reverse_outcome_token_id": "27193161563024382032840486112756537919966962134028089770283225687098030122181"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121766",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_TT/UCL_26NOV04_AEK1RMA_TT.0.md",
+   "mark_price": "0.977000",
+   "best_bid": "0.972000",
+   "best_ask": "0.982000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_TT.1",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "1.5"
+    },
+    "market_description": "Total Over 1.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "1.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-total-1pt5",
+     "condition_id": "0xddbcac4854a6742c98b6079b95a10dd80b068774823fb1c7c2891dfb7ac0f2ff",
+     "market_outcome_token_id": "92269228464515852142046495095526686975288566139284289137610412396954192045791",
+     "reverse_outcome_token_id": "99958663982565334569631722928300030383376155822449850687172861836087348076381"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121816",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_TT/UCL_26NOV04_AEK1RMA_TT.1.md",
+   "mark_price": "0.895000",
+   "best_bid": "0.888000",
+   "best_ask": "0.902000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_TT.2",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "2.5"
+    },
+    "market_description": "Total Over 2.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "2.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-total-2pt5",
+     "condition_id": "0x4d816e48532ff614d711762bd1a08a160ce539128310a21873b3c28790a8a4bc",
+     "market_outcome_token_id": "60625148685810804583486491105990310319347090668749920163142748256847662019132",
+     "reverse_outcome_token_id": "71863897614932346969149480925890495159305791684974839198698885367752915856335"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121867",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_TT/UCL_26NOV04_AEK1RMA_TT.2.md",
+   "mark_price": "0.745000",
+   "best_bid": "0.736000",
+   "best_ask": "0.754000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  },
+  {
+   "symbol": "UCL_26NOV04_AEK1RMA_TT.3",
+   "taker_fee_rate": "0.020000",
+   "maker_rebate_share": "0.250000",
+   "tick_size_min": "0.001000",
+   "tick_sig_figs": 3,
+   "is_mece": false,
+   "display_attributes": {
+    "event_description": "AEK Athens vs Real Madrid, Totals - Reg Time",
+    "expected_event_start_time_ms": "1793814300000",
+    "expected_resolution_time_ms": "1793825100000",
+    "game_page": {
+     "game_id": "ucl-aek1-rma-2026-11-04",
+     "game_description": "AEK Athens vs Real Madrid",
+     "section_id": "totals-reg-time",
+     "section_description": "Totals - Reg Time",
+     "section_display_order": 300,
+     "value": "3.5"
+    },
+    "market_description": "Total Over 3.5",
+    "market_type": {
+     "kind": "sports",
+     "sport": "soccer",
+     "period": "reg_time",
+     "teams": {
+      "home_name": "AEK Athens",
+      "home_subject_id": "aek-athens",
+      "away_name": "Real Madrid",
+      "away_subject_id": "real-madrid"
+     },
+     "market": {
+      "type": "total_goals",
+      "line": "3.5"
+     }
+    },
+    "reference": {
+     "kind": "polymarket",
+     "market_slug": "ucl-aek1-rma-2026-11-04-total-3pt5",
+     "condition_id": "0x8a9c35f6514413bb35d43d77876b53cf16b523ea5363138c358b02bc61facfd3",
+     "market_outcome_token_id": "81089363039879843528114802812164952752443918412469530025368253628621760704655",
+     "reverse_outcome_token_id": "41474660542079485079617221780625221052240284586168335523639870592842151315051"
+    },
+    "sort_order": "SYMBOL_ASC",
+    "tags": [
+     "Sports",
+     "Soccer",
+     "UCL"
+    ],
+    "topic": {
+     "id": "2026-27-uefa-champions-league",
+     "description": "2026-27 UEFA Champions League"
+    }
+   },
+   "listing_ts_ms": "1793537121917",
+   "rules_url": "https://pascal-prod-market-metadata-355653384618.s3.ap-northeast-1.amazonaws.com/events/UCL_26NOV04_AEK1RMA_TT/UCL_26NOV04_AEK1RMA_TT.3.md",
+   "mark_price": "0.530000",
+   "best_bid": "0.515000",
+   "best_ask": "0.545000",
+   "open_interest": "0",
+   "long_interest": "0",
+   "short_interest": "0"
+  }
+ ]
+}

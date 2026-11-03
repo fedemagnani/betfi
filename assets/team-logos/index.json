@@ -1,0 +1,2410 @@
+[
+ {
+  "team": "AFC Bournemouth",
+  "league": "Premier League",
+  "brandfetch_domain": "afcb.co.uk",
+  "brandfetch_id": "idjQi6-fcS",
+  "dir": "premier-league/afc-bournemouth",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 73760
+   },
+   {
+    "file": "logo-dark-820x1079.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 32590
+   }
+  ]
+ },
+ {
+  "team": "Arsenal FC",
+  "league": "Premier League",
+  "brandfetch_domain": "arsenal.com",
+  "brandfetch_id": "ida744DnR8",
+  "dir": "premier-league/arsenal-fc",
+  "files": [
+   {
+    "file": "icon-dark-540x540.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 27538
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 15468
+   },
+   {
+    "file": "logo-dark-800x941.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 28752
+   },
+   {
+    "file": "symbol-light.svg",
+    "type": "symbol",
+    "theme": "light",
+    "bytes": 2347
+   },
+   {
+    "file": "symbol-light-800x305.png",
+    "type": "symbol",
+    "theme": "light",
+    "bytes": 7356
+   }
+  ]
+ },
+ {
+  "team": "Aston Villa FC",
+  "league": "Premier League",
+  "brandfetch_domain": "avfc.co.uk",
+  "brandfetch_id": "idFPmd025E",
+  "dir": "premier-league/aston-villa-fc",
+  "files": [
+   {
+    "file": "icon-dark-399x399.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 12806
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 11606
+   },
+   {
+    "file": "logo-dark-800x1134.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 121947
+   }
+  ]
+ },
+ {
+  "team": "Brentford FC",
+  "league": "Premier League",
+  "brandfetch_domain": "brentfordfc.com",
+  "brandfetch_id": "idXs8Qu2W6",
+  "dir": "premier-league/brentford-fc",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 23612
+   },
+   {
+    "file": "logo-dark-820x820.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 36936
+   }
+  ]
+ },
+ {
+  "team": "Brighton & Hove Albion FC",
+  "league": "Premier League",
+  "brandfetch_domain": "brightonandhovealbion.com",
+  "brandfetch_id": "idCPvhn1M8",
+  "dir": "premier-league/brighton-hove-albion-fc",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 22930
+   },
+   {
+    "file": "logo-dark-800x213.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 12044
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 11711
+   },
+   {
+    "file": "symbol-dark-800x800.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 32179
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 27979
+   }
+  ]
+ },
+ {
+  "team": "Chelsea FC",
+  "league": "Premier League",
+  "brandfetch_domain": "chelseafc.com",
+  "brandfetch_id": "id7yTZ75uZ",
+  "dir": "premier-league/chelsea-fc",
+  "files": [
+   {
+    "file": "icon-dark-480x480.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 29203
+   },
+   {
+    "file": "logo-light-230x230.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 9659
+   }
+  ]
+ },
+ {
+  "team": "Coventry City FC",
+  "league": "Premier League",
+  "brandfetch_domain": "ccfc.co.uk",
+  "brandfetch_id": "idguVdVYQE",
+  "dir": "premier-league/coventry-city-fc",
+  "files": [
+   {
+    "file": "logo-light-820x1063.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 107908
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 244898
+   }
+  ]
+ },
+ {
+  "team": "Crystal Palace FC",
+  "league": "Premier League",
+  "brandfetch_domain": "cpfc.co.uk",
+  "brandfetch_id": "iddi0P11VR",
+  "dir": "premier-league/crystal-palace-fc",
+  "files": [
+   {
+    "file": "icon-dark-1080x1080.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 95532
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 38509
+   },
+   {
+    "file": "logo-dark-800x998.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 48270
+   }
+  ]
+ },
+ {
+  "team": "Everton FC",
+  "league": "Premier League",
+  "brandfetch_domain": "evertonfc.com",
+  "brandfetch_id": "idQ-GKpmoP",
+  "dir": "premier-league/everton-fc",
+  "files": [
+   {
+    "file": "icon-dark-800x800.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 69094
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 28698
+   },
+   {
+    "file": "logo-light-800x825.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 36808
+   },
+   {
+    "file": "logo-dark-170x170.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 8655
+   }
+  ]
+ },
+ {
+  "team": "Fulham FC",
+  "league": "Premier League",
+  "brandfetch_domain": "fulhamfc.com",
+  "brandfetch_id": "idJTNo1NC-",
+  "dir": "premier-league/fulham-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 12294
+   },
+   {
+    "file": "logo-dark-820x1091.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 20585
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 6012
+   }
+  ]
+ },
+ {
+  "team": "Hull City AFC",
+  "league": "Premier League",
+  "brandfetch_domain": "tigerleisure.com",
+  "brandfetch_id": "idPe4b4kmV",
+  "dir": "premier-league/hull-city-afc",
+  "files": [
+   {
+    "file": "logo-dark-170x170.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 9890
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 24628
+   }
+  ],
+  "note": "wearehullcity.co.uk returned a OneTrust cookie-banner logo; replaced with the club shop's entry (tigerleisure.com)"
+ },
+ {
+  "team": "Ipswich Town FC",
+  "league": "Premier League",
+  "brandfetch_domain": "itfc.co.uk",
+  "brandfetch_id": "id6DFdtO2_",
+  "dir": "premier-league/ipswich-town-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 16864
+   },
+   {
+    "file": "logo-light-820x1028.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 23251
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 14386
+   }
+  ]
+ },
+ {
+  "team": "Leeds United FC",
+  "league": "Premier League",
+  "brandfetch_domain": "leedsunited.com",
+  "brandfetch_id": "idbcsSj4Ao",
+  "dir": "premier-league/leeds-united-fc",
+  "files": [
+   {
+    "file": "icon-dark-399x399.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 15740
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 45584
+   },
+   {
+    "file": "logo-light-800x982.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 24509
+   }
+  ]
+ },
+ {
+  "team": "Liverpool FC",
+  "league": "Premier League",
+  "brandfetch_domain": "liverpoolfc.com",
+  "brandfetch_id": "idLw_x5PBk",
+  "dir": "premier-league/liverpool-fc",
+  "files": [
+   {
+    "file": "logo-light-110x200.webp",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 3750
+   },
+   {
+    "file": "logo-dark-185x185.webp",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 4320
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 13139
+   }
+  ]
+ },
+ {
+  "team": "Manchester City FC",
+  "league": "Premier League",
+  "brandfetch_domain": "mancity.com",
+  "brandfetch_id": "idNRR8KZnO",
+  "dir": "premier-league/manchester-city-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 41136
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 14473
+   },
+   {
+    "file": "logo-dark-800x800.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 38919
+   }
+  ]
+ },
+ {
+  "team": "Manchester United FC",
+  "league": "Premier League",
+  "brandfetch_domain": "manutd.com",
+  "brandfetch_id": "id5lpOUZES",
+  "dir": "premier-league/manchester-united-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 28465
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1534332
+   },
+   {
+    "file": "logo-dark-800x968.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 51499
+   }
+  ]
+ },
+ {
+  "team": "Newcastle United FC",
+  "league": "Premier League",
+  "brandfetch_domain": "nufc.co.uk",
+  "brandfetch_id": "idkj2VoGE6",
+  "dir": "premier-league/newcastle-united-fc",
+  "files": [
+   {
+    "file": "icon-dark-1080x1080.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 118211
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 53926
+   },
+   {
+    "file": "logo-light-800x800.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 68975
+   },
+   {
+    "file": "logo-dark-120x120.webp",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 6386
+   }
+  ]
+ },
+ {
+  "team": "Nottingham Forest FC",
+  "league": "Premier League",
+  "brandfetch_domain": "nottinghamforest.co.uk",
+  "brandfetch_id": "idwmZKybXP",
+  "dir": "premier-league/nottingham-forest-fc",
+  "files": [
+   {
+    "file": "logo-dark-820x1744.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 23364
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 36058
+   }
+  ]
+ },
+ {
+  "team": "Sunderland AFC",
+  "league": "Premier League",
+  "brandfetch_domain": "safc.com",
+  "brandfetch_id": "idMQ7TtI1j",
+  "dir": "premier-league/sunderland-afc",
+  "files": [
+   {
+    "file": "logo-light-820x683.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 45483
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 165516
+   }
+  ]
+ },
+ {
+  "team": "Tottenham Hotspur FC",
+  "league": "Premier League",
+  "brandfetch_domain": "tottenhamhotspur.com",
+  "brandfetch_id": "id0hQSdBIF",
+  "dir": "premier-league/tottenham-hotspur-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 7083
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 8300
+   },
+   {
+    "file": "logo-light-800x108.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 4905
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 8310
+   },
+   {
+    "file": "logo-dark-800x108.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 4926
+   },
+   {
+    "file": "symbol-light.svg",
+    "type": "symbol",
+    "theme": "light",
+    "bytes": 4059
+   },
+   {
+    "file": "symbol-light-800x1937.png",
+    "type": "symbol",
+    "theme": "light",
+    "bytes": 22369
+   }
+  ]
+ },
+ {
+  "team": "1. FC Köln",
+  "league": "Bundesliga",
+  "brandfetch_domain": "fc.de",
+  "brandfetch_id": "idnDNrHpkV",
+  "dir": "bundesliga/1-fc-koln",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 26517
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 20979
+   },
+   {
+    "file": "logo-dark-800x921.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 216661
+   }
+  ]
+ },
+ {
+  "team": "1. FC Union Berlin",
+  "league": "Bundesliga",
+  "brandfetch_domain": "fc-union-berlin.de",
+  "brandfetch_id": "id7AcF2iJ1",
+  "dir": "bundesliga/1-fc-union-berlin",
+  "files": [
+   {
+    "file": "logo-light-820x299.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 13094
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 17874
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 11752
+   }
+  ]
+ },
+ {
+  "team": "BV Borussia 09 Dortmund",
+  "league": "Bundesliga",
+  "brandfetch_domain": "bvb.de",
+  "brandfetch_id": "idPoDImo8M",
+  "dir": "bundesliga/bv-borussia-09-dortmund",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 2522
+   },
+   {
+    "file": "logo-dark-800x800.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 18226
+   },
+   {
+    "file": "icon-dark-399x399.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 26308
+   }
+  ]
+ },
+ {
+  "team": "Bayer 04 Leverkusen",
+  "league": "Bundesliga",
+  "brandfetch_domain": "bayer04.de",
+  "brandfetch_id": "idnJv7Cnry",
+  "dir": "bundesliga/bayer-04-leverkusen",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 35016
+   },
+   {
+    "file": "logo-dark-800x625.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 120946
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 33101
+   }
+  ]
+ },
+ {
+  "team": "Borussia Mönchengladbach",
+  "league": "Bundesliga",
+  "brandfetch_domain": "borussia.de",
+  "brandfetch_id": "idIL1K_g0G",
+  "dir": "bundesliga/borussia-monchengladbach",
+  "files": [
+   {
+    "file": "icon-dark-320x320.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 12231
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1330
+   },
+   {
+    "file": "logo-dark-800x1277.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 17454
+   }
+  ]
+ },
+ {
+  "team": "Eintracht Frankfurt",
+  "league": "Bundesliga",
+  "brandfetch_domain": "eintracht.de",
+  "brandfetch_id": "id22rJ9g8I",
+  "dir": "bundesliga/eintracht-frankfurt",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 40437
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 10084
+   },
+   {
+    "file": "logo-light-800x239.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 12814
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 10071
+   },
+   {
+    "file": "logo-dark-800x239.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 12014
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 8023
+   },
+   {
+    "file": "symbol-dark-800x800.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 31855
+   }
+  ]
+ },
+ {
+  "team": "FC Augsburg",
+  "league": "Bundesliga",
+  "brandfetch_domain": "fcaugsburg.de",
+  "brandfetch_id": "idjd_w4npN",
+  "dir": "bundesliga/fc-augsburg",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 16996
+   },
+   {
+    "file": "logo-light-181x180.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 3194
+   }
+  ]
+ },
+ {
+  "team": "FC Bayern München",
+  "league": "Bundesliga",
+  "brandfetch_domain": "fcbayern.com",
+  "brandfetch_id": "id7xKlArvj",
+  "dir": "bundesliga/fc-bayern-munchen",
+  "files": [
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 7517
+   },
+   {
+    "file": "logo-light-800x800.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 32776
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 43404
+   }
+  ]
+ },
+ {
+  "team": "FC Schalke 04",
+  "league": "Bundesliga",
+  "brandfetch_domain": "schalke04.de",
+  "brandfetch_id": "idmBu3Boge",
+  "dir": "bundesliga/fc-schalke-04",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 21843
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 4286
+   },
+   {
+    "file": "logo-dark-800x800.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 17472
+   }
+  ]
+ },
+ {
+  "team": "Hamburger SV",
+  "league": "Bundesliga",
+  "brandfetch_domain": "hsv.de",
+  "brandfetch_id": "id044ahBy1",
+  "dir": "bundesliga/hamburger-sv",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 11675
+   },
+   {
+    "file": "logo-dark-820x607.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 4059
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 685
+   }
+  ]
+ },
+ {
+  "team": "SC Freiburg",
+  "league": "Bundesliga",
+  "brandfetch_domain": "scfreiburg.com",
+  "brandfetch_id": "id9_aMx3Mq",
+  "dir": "bundesliga/sc-freiburg",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 21982
+   },
+   {
+    "file": "logo-dark-820x1141.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 30691
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 8420
+   }
+  ]
+ },
+ {
+  "team": "SC Paderborn 07",
+  "league": "Bundesliga",
+  "brandfetch_domain": "scp07.de",
+  "brandfetch_id": "idUMBdvAO6",
+  "dir": "bundesliga/sc-paderborn-07",
+  "files": [
+   {
+    "file": "icon-dark-2048x2048.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 375388
+   }
+  ],
+  "note": "Brandfetch's logo for both Paderborn entries is the club's Kids Club mark, removed; the icon is the real crest on a patterned background"
+ },
+ {
+  "team": "SV Werder Bremen",
+  "league": "Bundesliga",
+  "brandfetch_domain": "werder.de",
+  "brandfetch_id": "idS_vogYry",
+  "dir": "bundesliga/sv-werder-bremen",
+  "files": [
+   {
+    "file": "icon-dark-1080x1080.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 51911
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 5028
+   },
+   {
+    "file": "logo-light-800x270.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 7244
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 1076
+   },
+   {
+    "file": "symbol-dark-800x1200.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 15922
+   }
+  ]
+ },
+ {
+  "team": "TSG 1899 Hoffenheim",
+  "league": "Bundesliga",
+  "brandfetch_domain": "tsg-hoffenheim.de",
+  "brandfetch_id": "idx2WHdRcY",
+  "dir": "bundesliga/tsg-1899-hoffenheim",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 20094
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 8302
+   },
+   {
+    "file": "logo-dark-800x960.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 75689
+   }
+  ]
+ },
+ {
+  "team": "VfB Stuttgart",
+  "league": "Bundesliga",
+  "brandfetch_domain": "vfb.de",
+  "brandfetch_id": "idNF-2EI46",
+  "dir": "bundesliga/vfb-stuttgart",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 22819
+   },
+   {
+    "file": "logo-light-820x893.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 26928
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 12126
+   }
+  ]
+ },
+ {
+  "team": "Athletic Club",
+  "league": "LaLiga",
+  "brandfetch_domain": "athletic-club.eus",
+  "brandfetch_id": "idWe1O36nv",
+  "dir": "laliga/athletic-club",
+  "files": [
+   {
+    "file": "icon-dark-384x384.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 19560
+   },
+   {
+    "file": "logo-light-3027x568.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 21670
+   },
+   {
+    "file": "logo-dark-3026x568.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 22862
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 9778
+   },
+   {
+    "file": "symbol-dark-800x921.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 30763
+   }
+  ]
+ },
+ {
+  "team": "CA Osasuna",
+  "league": "LaLiga",
+  "brandfetch_domain": "osasuna.es",
+  "brandfetch_id": "ideMC_SABJ",
+  "dir": "laliga/ca-osasuna",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 16901
+   },
+   {
+    "file": "logo-dark-820x1100.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 34621
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 10702
+   }
+  ]
+ },
+ {
+  "team": "Club Atlético de Madrid",
+  "league": "LaLiga",
+  "brandfetch_domain": "atleticodemadrid.com",
+  "brandfetch_id": "idQssUQaT5",
+  "dir": "laliga/club-atletico-de-madrid",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 11118
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 8828
+   },
+   {
+    "file": "logo-dark-800x1066.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 107935
+   }
+  ]
+ },
+ {
+  "team": "Deportivo Alavés",
+  "league": "LaLiga",
+  "brandfetch_domain": "deportivoalaves.com",
+  "brandfetch_id": "id_rnTdxyQ",
+  "dir": "laliga/deportivo-alaves",
+  "files": [
+   {
+    "file": "logo-dark-820x818.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 30515
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 12235
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 34115
+   }
+  ]
+ },
+ {
+  "team": "Elche CF",
+  "league": "LaLiga",
+  "brandfetch_domain": "elchecf.es",
+  "brandfetch_id": "id8ro5tdKR",
+  "dir": "laliga/elche-cf",
+  "files": [
+   {
+    "file": "logo-dark-820x1006.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 25515
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 32593
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 14115
+   }
+  ]
+ },
+ {
+  "team": "FC Barcelona",
+  "league": "LaLiga",
+  "brandfetch_domain": "fcbarcelona.com",
+  "brandfetch_id": "idUZjgming",
+  "dir": "laliga/fc-barcelona",
+  "files": [
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 8131
+   },
+   {
+    "file": "logo-light-800x125.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 7428
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 11123
+   },
+   {
+    "file": "logo-dark-800x811.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 22197
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 11123
+   },
+   {
+    "file": "symbol-dark-800x811.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 22197
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 21718
+   }
+  ]
+ },
+ {
+  "team": "Getafe CF",
+  "league": "LaLiga",
+  "brandfetch_domain": "getafecf.com",
+  "brandfetch_id": "id3kuFKd4r",
+  "dir": "laliga/getafe-cf",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 22568
+   },
+   {
+    "file": "logo-dark-820x857.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 66457
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 831316
+   }
+  ]
+ },
+ {
+  "team": "Levante UD",
+  "league": "LaLiga",
+  "brandfetch_domain": "levanteud.com",
+  "brandfetch_id": "id3Br5T1VT",
+  "dir": "laliga/levante-ud",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 44059
+   },
+   {
+    "file": "logo-dark-820x997.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 34920
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 14538
+   }
+  ]
+ },
+ {
+  "team": "Málaga CF",
+  "league": "LaLiga",
+  "brandfetch_domain": "malagacf.com",
+  "brandfetch_id": "idUxZyvCHQ",
+  "dir": "laliga/malaga-cf",
+  "files": [
+   {
+    "file": "logo-dark-820x927.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 29408
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 60615
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 18254
+   }
+  ]
+ },
+ {
+  "team": "RC Celta de Vigo",
+  "league": "LaLiga",
+  "brandfetch_domain": "rccelta.es",
+  "brandfetch_id": "id7tZG7we9",
+  "dir": "laliga/rc-celta-de-vigo",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 41013
+   },
+   {
+    "file": "logo-dark-820x1450.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 21520
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 29961
+   }
+  ]
+ },
+ {
+  "team": "RC Deportivo A Coruña",
+  "league": "LaLiga",
+  "brandfetch_domain": "rcdeportivo.es",
+  "brandfetch_id": "idDoyaKu0-",
+  "dir": "laliga/rc-deportivo-a-coruna",
+  "files": [
+   {
+    "file": "logo-light-820x1003.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 57543
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 67557
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 19351
+   }
+  ]
+ },
+ {
+  "team": "Rayo Vallecano de Madrid",
+  "league": "LaLiga",
+  "brandfetch_domain": "rayovallecano.es",
+  "brandfetch_id": "ideeZq_J5O",
+  "dir": "laliga/rayo-vallecano-de-madrid",
+  "files": [
+   {
+    "file": "logo-light-820x728.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 24345
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 57211
+   },
+   {
+    "file": "icon-dark-392x392.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 14075
+   }
+  ]
+ },
+ {
+  "team": "Real Betis Balompié",
+  "league": "LaLiga",
+  "brandfetch_domain": "realbetisbalompie.es",
+  "brandfetch_id": "idZqlsQ4Hw",
+  "dir": "laliga/real-betis-balompie",
+  "files": [
+   {
+    "file": "logo-light-820x301.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 9157
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 15633
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 64180
+   }
+  ]
+ },
+ {
+  "team": "Real Madrid CF",
+  "league": "LaLiga",
+  "brandfetch_domain": "realmadrid.com",
+  "brandfetch_id": "iddu4C868E",
+  "dir": "laliga/real-madrid-cf",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 24595
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 34071
+   },
+   {
+    "file": "logo-dark-800x259.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 16069
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 39572
+   },
+   {
+    "file": "symbol-dark-800x1115.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 93297
+   }
+  ]
+ },
+ {
+  "team": "RB Leipzig",
+  "league": "Bundesliga",
+  "brandfetch_domain": "rbleipzig.com",
+  "brandfetch_id": "idfiNJBB5h",
+  "dir": "bundesliga/rb-leipzig",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 19177
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 13856
+   },
+   {
+    "file": "logo-light-800x548.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 20003
+   }
+  ]
+ },
+ {
+  "team": "Real Racing Club",
+  "league": "LaLiga",
+  "brandfetch_domain": "realracingclub.es",
+  "brandfetch_id": "idfGrUUDfS",
+  "dir": "laliga/real-racing-club",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 18715
+   },
+   {
+    "file": "logo-dark-820x1144.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 49568
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 44138
+   }
+  ]
+ },
+ {
+  "team": "Real Sociedad de Fútbol",
+  "league": "LaLiga",
+  "brandfetch_domain": "realsociedad.eus",
+  "brandfetch_id": "idIQJNFLjr",
+  "dir": "laliga/real-sociedad-de-futbol",
+  "files": [
+   {
+    "file": "logo-dark-820x942.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 36974
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 33296
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 21012
+   }
+  ]
+ },
+ {
+  "team": "Sevilla FC",
+  "league": "LaLiga",
+  "brandfetch_domain": "sevillafc.es",
+  "brandfetch_id": "idOEJk4pSJ",
+  "dir": "laliga/sevilla-fc",
+  "files": [
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 18728
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 2098376
+   },
+   {
+    "file": "logo-light-800x974.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 253334
+   }
+  ]
+ },
+ {
+  "team": "Valencia CF",
+  "league": "LaLiga",
+  "brandfetch_domain": "valenciacf.com",
+  "brandfetch_id": "idcmAE5B31",
+  "dir": "laliga/valencia-cf",
+  "files": [
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 8815
+   },
+   {
+    "file": "logo-light-800x178.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 33816
+   },
+   {
+    "file": "symbol-dark.svg",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 7355
+   },
+   {
+    "file": "symbol-dark-800x1046.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 179279
+   },
+   {
+    "file": "icon-dark-400x400.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 34779
+   }
+  ]
+ },
+ {
+  "team": "Atlanta Hawks",
+  "league": "NBA",
+  "brandfetch_domain": "atlantahawks.com",
+  "brandfetch_id": "idFG2me-Gn",
+  "dir": "nba/atlanta-hawks",
+  "files": [
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 1841
+   },
+   {
+    "file": "logo-light-820x820.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 11012
+   }
+  ],
+  "note": "hawks.com returned the Kia sponsor logo; replaced with atlantahawks.com (unofficial domain, logo checked by eye)"
+ },
+ {
+  "team": "Boston Celtics",
+  "league": "NBA",
+  "brandfetch_domain": "celtics.com",
+  "brandfetch_id": "idgZo2_d3T",
+  "dir": "nba/boston-celtics",
+  "files": [
+   {
+    "file": "logo-dark-384x384.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 5090
+   }
+  ]
+ },
+ {
+  "team": "Brooklyn Nets",
+  "league": "NBA",
+  "brandfetch_domain": "brooklynnets.com",
+  "brandfetch_id": "idPI54awgI",
+  "dir": "nba/brooklyn-nets",
+  "files": [
+   {
+    "file": "logo-light-180x180.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 6476
+   }
+  ]
+ },
+ {
+  "team": "Charlotte Hornets",
+  "league": "NBA",
+  "brandfetch_domain": "hornets.com",
+  "brandfetch_id": "idvwoIZfHw",
+  "dir": "nba/charlotte-hornets",
+  "files": [
+   {
+    "file": "logo-light-158x150.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 11278
+   }
+  ]
+ },
+ {
+  "team": "Chicago Bulls",
+  "league": "NBA",
+  "brandfetch_domain": "bulls.com",
+  "brandfetch_id": "idfjFmWrQu",
+  "dir": "nba/chicago-bulls",
+  "files": [
+   {
+    "file": "logo-dark-105x105.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 3004
+   }
+  ]
+ },
+ {
+  "team": "Cleveland Cavaliers",
+  "league": "NBA",
+  "brandfetch_domain": "cavs.com",
+  "brandfetch_id": "idIcGY-BaP",
+  "dir": "nba/cleveland-cavaliers",
+  "files": [
+   {
+    "file": "logo-dark-86x74.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1295
+   }
+  ]
+ },
+ {
+  "team": "Dallas Mavericks",
+  "league": "NBA",
+  "brandfetch_domain": "mavs.com",
+  "brandfetch_id": "id4feV4-XS",
+  "dir": "nba/dallas-mavericks",
+  "files": [
+   {
+    "file": "logo-dark-156x155.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 6022
+   }
+  ]
+ },
+ {
+  "team": "Denver Nuggets",
+  "league": "NBA",
+  "brandfetch_domain": "nuggets.com",
+  "brandfetch_id": "idEF8AAwgq",
+  "dir": "nba/denver-nuggets",
+  "files": [
+   {
+    "file": "logo-dark-300x300.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 12788
+   }
+  ]
+ },
+ {
+  "team": "Detroit Pistons",
+  "league": "NBA",
+  "brandfetch_domain": "pistons.com",
+  "brandfetch_id": "idABbDkFJM",
+  "dir": "nba/detroit-pistons",
+  "files": [
+   {
+    "file": "logo-dark-70x70.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1469
+   }
+  ]
+ },
+ {
+  "team": "Golden State Warriors",
+  "league": "NBA",
+  "brandfetch_domain": "warriors.com",
+  "brandfetch_id": "idc1OtY6Ke",
+  "dir": "nba/golden-state-warriors",
+  "files": [
+   {
+    "file": "logo-dark-1080x1080.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 57381
+   }
+  ]
+ },
+ {
+  "team": "Houston Rockets",
+  "league": "NBA",
+  "brandfetch_domain": "rockets.com",
+  "brandfetch_id": "id9yCdj-Ql",
+  "dir": "nba/houston-rockets",
+  "files": [
+   {
+    "file": "logo-light-820x1038.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 9983
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 1885
+   }
+  ]
+ },
+ {
+  "team": "Indiana Pacers",
+  "league": "NBA",
+  "brandfetch_domain": "pacers.com",
+  "brandfetch_id": "idSLOm3R_X",
+  "dir": "nba/indiana-pacers",
+  "files": [
+   {
+    "file": "logo-dark-350x350.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 4731
+   }
+  ]
+ },
+ {
+  "team": "Los Angeles Clippers",
+  "league": "NBA",
+  "brandfetch_domain": "laclipperssuites.com",
+  "brandfetch_id": "idCrXWbDZr",
+  "dir": "nba/los-angeles-clippers",
+  "files": [
+   {
+    "file": "logo-dark-200x200.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 9808
+   },
+   {
+    "file": "icon-dark-400x400.png",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 12341
+   }
+  ],
+  "note": "clippers.com had only a 32 px logo; replaced with the Clippers' suites site entry"
+ },
+ {
+  "team": "Los Angeles Lakers",
+  "league": "NBA",
+  "brandfetch_domain": "lakers.com",
+  "brandfetch_id": "idn5SQijok",
+  "dir": "nba/los-angeles-lakers",
+  "files": [
+   {
+    "file": "logo-light-70x70.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 2651
+   }
+  ]
+ },
+ {
+  "team": "Memphis Grizzlies",
+  "league": "NBA",
+  "brandfetch_domain": "grizzlies.com",
+  "brandfetch_id": "idOHsdBUKK",
+  "dir": "nba/memphis-grizzlies",
+  "files": [
+   {
+    "file": "logo-light-820x772.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 23835
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 3348
+   }
+  ]
+ },
+ {
+  "team": "Miami Heat",
+  "league": "NBA",
+  "brandfetch_domain": "heat.com",
+  "brandfetch_id": "idmZ26g7yd",
+  "dir": "nba/miami-heat",
+  "files": [
+   {
+    "file": "logo-dark-820x820.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 16949
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 5359
+   }
+  ]
+ },
+ {
+  "team": "Milwaukee Bucks",
+  "league": "NBA",
+  "brandfetch_domain": "bucks.com",
+  "brandfetch_id": "idYZwIHL6W",
+  "dir": "nba/milwaukee-bucks",
+  "files": [
+   {
+    "file": "logo-light-820x820.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 17950
+   },
+   {
+    "file": "logo-light.svg",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 5146
+   }
+  ]
+ },
+ {
+  "team": "Minnesota Timberwolves",
+  "league": "NBA",
+  "brandfetch_domain": "timberwolves.com",
+  "brandfetch_id": "id6bffAvPG",
+  "dir": "nba/minnesota-timberwolves",
+  "files": [
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 5074
+   },
+   {
+    "file": "logo-dark-800x800.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 24895
+   },
+   {
+    "file": "icon-dark-480x480.jpeg",
+    "type": "icon",
+    "theme": "dark",
+    "bytes": 29221
+   }
+  ]
+ },
+ {
+  "team": "New Orleans Pelicans",
+  "league": "NBA",
+  "brandfetch_domain": "pelicans.com",
+  "brandfetch_id": "idEr56aHiL",
+  "dir": "nba/new-orleans-pelicans",
+  "files": [
+   {
+    "file": "logo-dark-512x512.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 9738
+   }
+  ]
+ },
+ {
+  "team": "New York Knicks",
+  "league": "NBA",
+  "brandfetch_domain": "nyknicks.com",
+  "brandfetch_id": "idt8CT4BCl",
+  "dir": "nba/new-york-knicks",
+  "files": [
+   {
+    "file": "logo-dark-500x405.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 14012
+   }
+  ]
+ },
+ {
+  "team": "Oklahoma City Thunder",
+  "league": "NBA",
+  "brandfetch_domain": "oklahomacitythunder.org",
+  "brandfetch_id": "idK-We1m1u",
+  "dir": "nba/oklahoma-city-thunder",
+  "files": [
+   {
+    "file": "logo-light-1000x1000.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 28066
+   }
+  ],
+  "note": "okcthunder.com has no logo in Brandfetch; this is from oklahomacitythunder.org (unofficial domain), logo checked by eye"
+ },
+ {
+  "team": "Orlando Magic",
+  "league": "NBA",
+  "brandfetch_domain": "orlandomagic.com",
+  "brandfetch_id": "idADSI_mVW",
+  "dir": "nba/orlando-magic",
+  "files": [
+   {
+    "file": "logo-dark-512x512.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 13599
+   }
+  ]
+ },
+ {
+  "team": "Philadelphia 76ers",
+  "league": "NBA",
+  "brandfetch_domain": "sixers.com",
+  "brandfetch_id": "idRdzUCa8j",
+  "dir": "nba/philadelphia-76ers",
+  "files": [
+   {
+    "file": "logo-dark-1575x1575.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 24325
+   }
+  ]
+ },
+ {
+  "team": "Phoenix Suns",
+  "league": "NBA",
+  "brandfetch_domain": "suns.com",
+  "brandfetch_id": "idY2dUjEbM",
+  "dir": "nba/phoenix-suns",
+  "files": [
+   {
+    "file": "logo-dark-512x512.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 18916
+   }
+  ]
+ },
+ {
+  "team": "Portland Trail Blazers",
+  "league": "NBA",
+  "brandfetch_domain": "trailblazers.com",
+  "brandfetch_id": "idNsWQ6GG4",
+  "dir": "nba/portland-trail-blazers",
+  "files": [
+   {
+    "file": "logo-dark-1000x1108.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 23306
+   }
+  ]
+ },
+ {
+  "team": "Sacramento Kings",
+  "league": "NBA",
+  "brandfetch_domain": "sacramentokings.com",
+  "brandfetch_id": "id1Appe2L0",
+  "dir": "nba/sacramento-kings",
+  "files": [
+   {
+    "file": "logo-dark-70x80.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1525
+   }
+  ]
+ },
+ {
+  "team": "San Antonio Spurs",
+  "league": "NBA",
+  "brandfetch_domain": "spurs.com",
+  "brandfetch_id": "idKJo12hrv",
+  "dir": "nba/san-antonio-spurs",
+  "files": [
+   {
+    "file": "logo-light-5000x2256.png",
+    "type": "logo",
+    "theme": "light",
+    "bytes": 41911
+   }
+  ]
+ },
+ {
+  "team": "Toronto Raptors",
+  "league": "NBA",
+  "brandfetch_domain": "raptors.com",
+  "brandfetch_id": "id10G_6Jup",
+  "dir": "nba/toronto-raptors",
+  "files": [
+   {
+    "file": "logo-dark-192x193.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 2958
+   }
+  ]
+ },
+ {
+  "team": "Utah Jazz",
+  "league": "NBA",
+  "brandfetch_domain": "utahjazz.com",
+  "brandfetch_id": "idj1dtYGwZ",
+  "dir": "nba/utah-jazz",
+  "files": [
+   {
+    "file": "logo-dark-118x118.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 1284
+   }
+  ]
+ },
+ {
+  "team": "Washington Wizards",
+  "league": "NBA",
+  "brandfetch_domain": "washingtonwizards.com",
+  "brandfetch_id": "id2xVR00GN",
+  "dir": "nba/washington-wizards",
+  "files": [
+   {
+    "file": "logo-dark-820x820.png",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 15393
+   },
+   {
+    "file": "logo-dark.svg",
+    "type": "logo",
+    "theme": "dark",
+    "bytes": 3143
+   }
+  ]
+ },
+ {
+  "team": "AEK Athens",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "AEK_Athens_F.C.",
+  "dir": "champions-league/aek-athens",
+  "files": [
+   {
+    "file": "symbol-dark-120x162.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 11687
+   }
+  ]
+ },
+ {
+  "team": "Bodø/Glimt",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "FK_Bodø/Glimt",
+  "dir": "champions-league/bodo-glimt",
+  "files": [
+   {
+    "file": "symbol-dark-250x256.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 21387
+   }
+  ]
+ },
+ {
+  "team": "Club Brugge",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Club_Brugge_KV",
+  "dir": "champions-league/club-brugge",
+  "files": [
+   {
+    "file": "symbol-dark-330x433.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 62637
+   }
+  ]
+ },
+ {
+  "team": "Como",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Como_1907",
+  "dir": "champions-league/como",
+  "files": [
+   {
+    "file": "symbol-dark-500x517.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 28187
+   }
+  ]
+ },
+ {
+  "team": "Fenerbahçe",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Fenerbahçe_S.K._(football)",
+  "dir": "champions-league/fenerbahce",
+  "files": [
+   {
+    "file": "symbol-dark-330x330.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 64174
+   }
+  ]
+ },
+ {
+  "team": "Feyenoord",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Feyenoord",
+  "dir": "champions-league/feyenoord",
+  "files": [
+   {
+    "file": "symbol-dark-960x960.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 143673
+   }
+  ]
+ },
+ {
+  "team": "Galatasaray",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Galatasaray_S.K._(football)",
+  "dir": "champions-league/galatasaray",
+  "files": [
+   {
+    "file": "symbol-dark-1920x2385.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 154024
+   }
+  ]
+ },
+ {
+  "team": "Inter",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Inter_Milan",
+  "dir": "champions-league/inter",
+  "files": [
+   {
+    "file": "symbol-dark-960x960.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 67228
+   }
+  ]
+ },
+ {
+  "team": "LASK",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "LASK",
+  "dir": "champions-league/lask",
+  "files": [
+   {
+    "file": "symbol-dark-960x1213.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 44682
+   }
+  ]
+ },
+ {
+  "team": "Lens",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "RC_Lens",
+  "dir": "champions-league/lens",
+  "files": [
+   {
+    "file": "symbol-dark-330x445.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 37774
+   }
+  ]
+ },
+ {
+  "team": "Lille",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Lille_OSC",
+  "dir": "champions-league/lille",
+  "files": [
+   {
+    "file": "symbol-dark-330x314.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 28158
+   }
+  ]
+ },
+ {
+  "team": "Napoli",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "SSC_Napoli",
+  "dir": "champions-league/napoli",
+  "files": [
+   {
+    "file": "symbol-dark-960x960.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 97033
+   }
+  ]
+ },
+ {
+  "team": "PSV Eindhoven",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "PSV_Eindhoven",
+  "dir": "champions-league/psv-eindhoven",
+  "files": [
+   {
+    "file": "symbol-dark-500x413.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 64949
+   }
+  ]
+ },
+ {
+  "team": "Paris Saint-Germain",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Paris_Saint-Germain_F.C.",
+  "dir": "champions-league/paris-saint-germain",
+  "files": [
+   {
+    "file": "symbol-dark-330x331.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 43873
+   }
+  ]
+ },
+ {
+  "team": "Porto",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "FC_Porto",
+  "dir": "champions-league/porto",
+  "files": [
+   {
+    "file": "symbol-dark-330x439.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 97491
+   }
+  ]
+ },
+ {
+  "team": "Roma",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "AS_Roma",
+  "dir": "champions-league/roma",
+  "files": [
+   {
+    "file": "symbol-dark-330x428.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 54776
+   }
+  ]
+ },
+ {
+  "team": "Sabah",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Sabah_FC_(Azerbaijan)",
+  "dir": "champions-league/sabah",
+  "files": [
+   {
+    "file": "symbol-dark-330x414.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 32939
+   }
+  ]
+ },
+ {
+  "team": "Shakhtar Donetsk",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "FC_Shakhtar_Donetsk",
+  "dir": "champions-league/shakhtar-donetsk",
+  "files": [
+   {
+    "file": "symbol-dark-330x521.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 48610
+   }
+  ]
+ },
+ {
+  "team": "Slavia Praha",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "SK_Slavia_Prague",
+  "dir": "champions-league/slavia-praha",
+  "files": [
+   {
+    "file": "symbol-dark-500x691.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 27097
+   }
+  ]
+ },
+ {
+  "team": "Slovan Bratislava",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "ŠK_Slovan_Bratislava",
+  "dir": "champions-league/slovan-bratislava",
+  "files": [
+   {
+    "file": "symbol-dark-250x315.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 34968
+   }
+  ]
+ },
+ {
+  "team": "Sporting CP",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Sporting_CP",
+  "dir": "champions-league/sporting-cp",
+  "files": [
+   {
+    "file": "symbol-dark-250x348.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 38483
+   }
+  ]
+ },
+ {
+  "team": "Viking",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Viking_FK",
+  "dir": "champions-league/viking",
+  "files": [
+   {
+    "file": "symbol-dark-500x298.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 33013
+   }
+  ]
+ },
+ {
+  "team": "Villarreal",
+  "league": "Champions League",
+  "source": "wikipedia",
+  "wikipedia_title": "Villarreal_CF",
+  "dir": "champions-league/villarreal",
+  "files": [
+   {
+    "file": "symbol-dark-330x411.png",
+    "type": "symbol",
+    "theme": "dark",
+    "bytes": 54885
+   }
+  ]
+ }
+]

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "data": {
+    "builder_volume_contracts": "0",
+    "builder_volume_notional_usd": "0.000000",
+    "builder_fee_base_usd": "0.000000",
+    "builder_fees_received_usd": "0.000000"
+  },
+  "seq": "12115578920",
+  "state_time_ms": "1793147360446",
+  "server_time_ms": "1793147360470"
+}

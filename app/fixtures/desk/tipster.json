@@ -1,0 +1,682 @@
+{
+  "tipster": {
+    "wallet": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+    "settled": 7,
+    "won": 4,
+    "hit_rate_ppm": 571428,
+    "roi_ppm": 472544,
+    "brier_ppm": 233082,
+    "edge_ppm": 178909,
+    "avg_odds_u": 2517645,
+    "skin_u": 45000000,
+    "followers_roi_ppm": -12000,
+    "streak": 0,
+    "open_count": 1,
+    "open_staked_u": 10000000,
+    "copies": 3,
+    "fees_earned_u": 240000
+  },
+  "history": [
+    {
+      "ticket": "5a8EouA4FUKy3zbS9Q4ytLcBcp1VundhPmuZAMhmg12S",
+      "settled_at": 1792795400,
+      "roi_cum_ppm": 721014,
+      "brier_cum_ppm": 200703
+    },
+    {
+      "ticket": "1y1x53P3TrRKYin4dHQzzarpNWoYrqfmMCayYtUbXWC",
+      "settled_at": 1792797200,
+      "roi_cum_ppm": -139493,
+      "brier_cum_ppm": 284568
+    },
+    {
+      "ticket": "HsPgnpzUrY9ffGHRzYCp37viC5rDjwMXWoQi7yHNUvGP",
+      "settled_at": 1792883600,
+      "roi_cum_ppm": 864467,
+      "brier_cum_ppm": 269000
+    },
+    {
+      "ticket": "5qvJUMR6RwufGDT3n9BVtebhTFfbk1RWuwiQqHR7cHDq",
+      "settled_at": 1792968200,
+      "roi_cum_ppm": 773969,
+      "brier_cum_ppm": 245767
+    },
+    {
+      "ticket": "FNTXqbuzZNrRcLJwkaze1JhZuikchdKYUYHiko6wK9Ab",
+      "settled_at": 1793054600,
+      "roi_cum_ppm": 432821,
+      "brier_cum_ppm": 246372
+    },
+    {
+      "ticket": "83qkB2j4Eoodu1c6FPP8jM9Cm56aFR2khVTWVS6s4T2k",
+      "settled_at": 1793142800,
+      "roi_cum_ppm": 662550,
+      "brier_cum_ppm": 235233
+    },
+    {
+      "ticket": "3XxZVeVJZ36GweDwTXC3TRvWMUSF7RvuQwdDSdjqn1Jj",
+      "settled_at": 1793229200,
+      "roi_cum_ppm": 472544,
+      "brier_cum_ppm": 233082
+    }
+  ],
+  "settled": [
+    {
+      "ticket": "3XxZVeVJZ36GweDwTXC3TRvWMUSF7RvuQwdDSdjqn1Jj",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046558618,
+      "state": "settled",
+      "n": 2,
+      "stake_u": 4000000,
+      "payout_u": 11936332,
+      "odds_offered_u": 2984083,
+      "odds_fair_u": 3315648,
+      "fee_u": 1326260,
+      "minted_at": 1793207600,
+      "settled_at": 1793229200,
+      "paid_u": 0,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT27_BOSPHI_ML.BOS",
+          "game_id": "nba-bos-phi-2026-10-27",
+          "away": "Boston Celtics",
+          "home": "Philadelphia 76ers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793214800000,
+          "p_quote_u": 580000,
+          "p_fill_u": 580000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT27_INDMIL_ML.IND",
+          "game_id": "nba-ind-mil-2026-10-27",
+          "away": "Indiana Pacers",
+          "home": "Milwaukee Bucks",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793216600000,
+          "p_quote_u": 520000,
+          "p_fill_u": 520000,
+          "hedged": true,
+          "status": "lost",
+          "resolution_u": 1000000
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91060",
+          "symbol": "NBA_26OCT27_BOSPHI_ML.BOS",
+          "side": "bid",
+          "price_u": 580000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "91061",
+          "symbol": "NBA_26OCT27_INDMIL_ML.IND",
+          "side": "ask",
+          "price_u": 480000,
+          "size": 8,
+          "fee_u": 33600,
+          "builder_fee_u": 5600,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "2Yq8u31FLgjBWbWhVH8FCWXBG7EejCtJxQdwHF7Cg8sLcpEZ7pLwWqPGa2QdYdWKP5nvzJm6HivzJoEs5Aq5QC9p",
+        "finalize": "JJpwhL3LB8PAFrqoTX7VwionSnjp9zqfnEUU8tejR668ArVXP3VZNGEokyydRqdoBh5H7Jtpb9BHDuwmYqtjVdk",
+        "settle": "59QbZFyjtgN4DiBTp61QyE6uQwvQwy39kq2hpLi1XBwmiaD9xiA1s4fCYGCmS5ELVScnjKNu7jnR7VWbJqTe1TZj",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "33T8qS9TwydiHR7Q8oxjzYKpgErBtFczXix2WhFshmf3sEy78id8gb6q9QPEH93JWuLQD2LSYo5FU6XVou1X6Dw5",
+          "PZtbH56mXsCUwECUyJq9md6ZhrQv4NCQ67HRoafcWevmCTzphfEH5kYfuQybBtgLLMR9p4n9DNSiHCakYaqYCYF"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "83qkB2j4Eoodu1c6FPP8jM9Cm56aFR2khVTWVS6s4T2k",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046550699,
+      "state": "settled",
+      "n": 2,
+      "stake_u": 5000000,
+      "payout_u": 14285705,
+      "odds_offered_u": 2857141,
+      "odds_fair_u": 3174602,
+      "fee_u": 1587305,
+      "minted_at": 1793121200,
+      "settled_at": 1793142800,
+      "paid_u": 14285705,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT26_LACPOR_ML.LAC",
+          "game_id": "nba-lac-por-2026-10-26",
+          "away": "LA Clippers",
+          "home": "Portland Trail Blazers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793128400000,
+          "p_quote_u": 700000,
+          "p_fill_u": 700000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT26_BKNWAS_ML.BKN",
+          "game_id": "nba-bkn-was-2026-10-26",
+          "away": "Brooklyn Nets",
+          "home": "Washington Wizards",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793130200000,
+          "p_quote_u": 450000,
+          "p_fill_u": 450000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 0
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91050",
+          "symbol": "NBA_26OCT26_LACPOR_ML.LAC",
+          "side": "bid",
+          "price_u": 700000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "91051",
+          "symbol": "NBA_26OCT26_BKNWAS_ML.BKN",
+          "side": "ask",
+          "price_u": 550000,
+          "size": 8,
+          "fee_u": 33600,
+          "builder_fee_u": 5600,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "5x6TbRdadQQRNSmq3R5EasyiPhYpsVPV62EW7d46E4d79Why1CM5XTF9cmkHDxDM5sW8PiGbBaLKypf57b9DbaX",
+        "finalize": "65mvJ4wEExqabrQuzYvWELXTUAPbG2VnKcjBSSPNPRTJVVKXW6A1shqoXynHjGpepirtgucjGfV9GxM6a4UXcLCh",
+        "settle": "4Kn4GZvuVHnDFaAnBfoPDfGQ1wXrAo56DbuUxRVpHnAGKnDzZPCi57miPv8w5Tm4caEUxvvUn8ZKHVFEF1oaDHui",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "4UcgiLGjnAP1evRJHUbEDX4PmJHJoB7b3XCTGZ6dRr5GNsigqLrukHMNso81E5Kmnv4dkzVigAPYoUSS7qSkfKuk",
+          "3STFsXrYpbopo7XZV2yVymxqgPu9jVguFreX3qzxbaDAtZNu9pjvUXK29KUtPY6YNhuQg2xQSD42iXaVMARMcvkM"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "FNTXqbuzZNrRcLJwkaze1JhZuikchdKYUYHiko6wK9Ab",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046542780,
+      "state": "settled",
+      "n": 1,
+      "stake_u": 5000000,
+      "payout_u": 9500000,
+      "odds_offered_u": 1900000,
+      "odds_fair_u": 2000000,
+      "fee_u": 500000,
+      "minted_at": 1793034800,
+      "settled_at": 1793054600,
+      "paid_u": 0,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT25_MEMNOP_ML.MEM",
+          "game_id": "nba-mem-nop-2026-10-25",
+          "away": "Memphis Grizzlies",
+          "home": "New Orleans Pelicans",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793042000000,
+          "p_quote_u": 500000,
+          "p_fill_u": 500000,
+          "hedged": true,
+          "status": "lost",
+          "resolution_u": 0
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91040",
+          "symbol": "NBA_26OCT25_MEMNOP_ML.MEM",
+          "side": "bid",
+          "price_u": 500000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "7Kmg1sHdURYBUSHKk4v8Y1puvmUhXMrGqbAZPSCxD7pMM6e714RZhEuCiboV2QA9r8eepx8RT6wRcH6zbagNmSM",
+        "finalize": "3Hc6AyuyFmVoLe3fcC8hBjAgaC7Q5jLrPyZjcSicAxUsX2fuLxGoRrTE6iuyuPMYPDSrtEXSFDJtxkoZnCDgpAtS",
+        "settle": "4rLg6J8giEJ5EC8K2pKKvDLBcwL5ryLb7H1EBLiuaejqNFirjhSvfBa3cPNazXKBjdv44ziQ1VnthZx1gng9cwAn",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "3XuvddxedPt67szjDJKxPNvQpwUQxLncWwWBY2hY9kBLwqE7VzvnDSg96pC4oTTsvEroikn2vmd77XpK7UU57HgD"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "5qvJUMR6RwufGDT3n9BVtebhTFfbk1RWuwiQqHR7cHDq",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046534861,
+      "state": "settled",
+      "n": 1,
+      "stake_u": 5000000,
+      "payout_u": 7421875,
+      "odds_offered_u": 1484375,
+      "odds_fair_u": 1562500,
+      "fee_u": 390625,
+      "minted_at": 1792948400,
+      "settled_at": 1792968200,
+      "paid_u": 7421875,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT24_CLEATL_ML.CLE",
+          "game_id": "nba-cle-atl-2026-10-24",
+          "away": "Cleveland Cavaliers",
+          "home": "Atlanta Hawks",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1792955600000,
+          "p_quote_u": 640000,
+          "p_fill_u": 640000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91030",
+          "symbol": "NBA_26OCT24_CLEATL_ML.CLE",
+          "side": "bid",
+          "price_u": 640000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "27JzXGAVWL43WbHYjrAh6cx4jtVWzZQqBy8DnxYoaD5vkygpZhXG5kcrNQutLpfKBDYYYfFVFnkZMdNiJnP4DjPv",
+        "finalize": "2ByZ1WYEAQy4bftkPzJUfgv8CAvfmyQBJQddMzaSzBPTrUNmAJivZPev6EePmNcmUgaroRyrHPmtnR6b4qknCa5s",
+        "settle": "5dfRKaahxFkbFA8KbRcFSScd5XVzZv73EoXtPtB3daphVFuSacYAt2A7aUcGwQ7kiLciQZ1SCeNLHo6yezQ6qEf3",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "2CttgupRyzKyxHdoBqP8peV9ceBioi9Df5t4k46onjt4zDj8iKBrxJmwUDbVVfE1jRBeP43Y6wcLS73KqVnyh5kc"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "HsPgnpzUrY9ffGHRzYCp37viC5rDjwMXWoQi7yHNUvGP",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046526942,
+      "state": "settled",
+      "n": 2,
+      "stake_u": 6000000,
+      "payout_u": 21226404,
+      "odds_offered_u": 3537734,
+      "odds_fair_u": 3930816,
+      "fee_u": 2358492,
+      "minted_at": 1792862000,
+      "settled_at": 1792883600,
+      "paid_u": 21226404,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT23_GSWPHX_ML.GSW",
+          "game_id": "nba-gsw-phx-2026-10-23",
+          "away": "Golden State Warriors",
+          "home": "Phoenix Suns",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1792869200000,
+          "p_quote_u": 480000,
+          "p_fill_u": 480000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 0
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT23_MINSAC_ML.MIN",
+          "game_id": "nba-min-sac-2026-10-23",
+          "away": "Minnesota Timberwolves",
+          "home": "Sacramento Kings",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1792871000000,
+          "p_quote_u": 530000,
+          "p_fill_u": 530000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91020",
+          "symbol": "NBA_26OCT23_GSWPHX_ML.GSW",
+          "side": "ask",
+          "price_u": 520000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "91021",
+          "symbol": "NBA_26OCT23_MINSAC_ML.MIN",
+          "side": "bid",
+          "price_u": 530000,
+          "size": 8,
+          "fee_u": 33600,
+          "builder_fee_u": 5600,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "3587xWgXFNgFfdhNvgNYkuEzUL2b5EfRaaAbqFg1nJYKc8M8CqPfwcfneanHcBYxqDS7G9157JnYgKg1EeyYLPbj",
+        "finalize": "5Mk4xro96GwWYdqPViGnEuCJ66eKZFTmsAg2WRctMnVqvWGrdpF9cVvXaVX8KgEgMWR1LWwYeCKDwq6HM96KNoGL",
+        "settle": "2x7nL4pM4tVBvLumkb8b6S7AWJBBP8PYbEaypWynYfWmrtqqGCervH6r5SsFX3VM7rgJvidtG8eYWvUoki4MJbPL",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "46ovVP5uAW4nY2QTkG6DD6fmkzwxbMQByg3RkQnyT77FNGpxjXtj8Lmdo76NpH9SUZEU5gpJahxaxiA1pTd9GPCY",
+          "bLVkWjqVA5WomxSbToiyjmKj5bNFVdayCbeLH1DhpoQt7ZdEomzsmWBVmHYQQsotdu2QT7434X1WycmM9Z7GQyY"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "1y1x53P3TrRKYin4dHQzzarpNWoYrqfmMCayYtUbXWC",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046519023,
+      "state": "settled",
+      "n": 2,
+      "stake_u": 5000000,
+      "payout_u": 15695840,
+      "odds_offered_u": 3139168,
+      "odds_fair_u": 3487965,
+      "fee_u": 1743985,
+      "minted_at": 1792775600,
+      "settled_at": 1792797200,
+      "paid_u": 0,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT22_DENLAL_ML.DEN",
+          "game_id": "nba-den-lal-2026-10-22",
+          "away": "Denver Nuggets",
+          "home": "Los Angeles Lakers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1792782800000,
+          "p_quote_u": 610000,
+          "p_fill_u": 610000,
+          "hedged": true,
+          "status": "lost",
+          "resolution_u": 0
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT22_MIACHI_ML.MIA",
+          "game_id": "nba-mia-chi-2026-10-22",
+          "away": "Miami Heat",
+          "home": "Chicago Bulls",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1792784600000,
+          "p_quote_u": 470000,
+          "p_fill_u": 470000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 0
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91010",
+          "symbol": "NBA_26OCT22_DENLAL_ML.DEN",
+          "side": "bid",
+          "price_u": 610000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "91011",
+          "symbol": "NBA_26OCT22_MIACHI_ML.MIA",
+          "side": "ask",
+          "price_u": 530000,
+          "size": 8,
+          "fee_u": 33600,
+          "builder_fee_u": 5600,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "4epEnFTq5T13T3kBDc6KCs24TwjjSBoHxoQCxubCyrANLKBBDRizcYZNK2sZwVuhg6pvx3J1D6LUCbYLaLizncZB",
+        "finalize": "2NTagymgnyRHATdYH6jWr5h31tDug3UEkqmM4VKUvWfbFkGiwLk9LpPipLTaWChMXdDLWdH9wh67haHPtqHaWuNe",
+        "settle": "4VH2YutZab7gvfYQpgsWP72pMJqo2kEUpT6SMoKbikmNUATnB3oroKnjKbrFHYWLiDL9gdj3jdAzGVfCSQykbDHU",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "5Hd9rAMmTmCdL4hYRVwkgJFvhuCfDyHrrYySi63GHwHFVwuxXPUgsMNn8nYjkGTE4WpoCS8nuVYf38egHnWou2qX",
+          "5XNUusNr9TpXewzQcWYmWAVQqkw6R5yF2XbQ5QZxooQb3sKLN4dCLghEHKomn6MTudJit44QfdnwR9BViW9KQ4ek"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    },
+    {
+      "ticket": "5a8EouA4FUKy3zbS9Q4ytLcBcp1VundhPmuZAMhmg12S",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046511104,
+      "state": "settled",
+      "n": 1,
+      "stake_u": 5000000,
+      "payout_u": 8605070,
+      "odds_offered_u": 1721014,
+      "odds_fair_u": 1811594,
+      "fee_u": 452900,
+      "minted_at": 1792775600,
+      "settled_at": 1792795400,
+      "paid_u": 8605070,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "all legs resolved"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT22_BOSNYK_ML.BOS",
+          "game_id": "nba-bos-nyk-2026-10-22",
+          "away": "Boston Celtics",
+          "home": "New York Knicks",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1792782800000,
+          "p_quote_u": 552000,
+          "p_fill_u": 552000,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "91000",
+          "symbol": "NBA_26OCT22_BOSNYK_ML.BOS",
+          "side": "bid",
+          "price_u": 552000,
+          "size": 5,
+          "fee_u": 21000,
+          "builder_fee_u": 3500,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "2XZFiMPYxGQqZ8P8vnKoHYQcJs8NdC2vfSJbniRdT8FX9EUuHj4RB4tPrbCxJUsPwt1AZifAm76xnsJuvieEFmho",
+        "finalize": "4c6Srrzw1981sussdm6iMunuyfPkAZLtmES8ZqLXuceeZp1J55ueDrN5wSG6coLg9CXDAhtFnetonNU8HuVDAhgx",
+        "settle": "3nMEHwFUaD5fTGjBvFPdyuznyonv9rX2y7zBoCf5eeDUq7T2fnSNYk1qAWWaeegT1zca5awio9Kir8VDaT5fXKW6",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "hhYYD55Atkiv95TurW9b5hRjuMKuSKZSzAG5LBA1osZTot6kuvaEXt8NFRn6uUYxqmHdyBdXQCBzwwtDit8vY3Z"
+        ]
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    }
+  ],
+  "open": [
+    {
+      "ticket": "BLQwFyEZM2G4ChRKepsTuW4wHGEppUSZKUvm8TTFyujE",
+      "user": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "nonce": 4398046566537,
+      "state": "open",
+      "n": 2,
+      "stake_u": 10000000,
+      "payout_u": 53797090,
+      "odds_offered_u": 5379709,
+      "odds_fair_u": 6122761,
+      "fee_u": 7430522,
+      "minted_at": 1793212385,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 9120000,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "game_id": "nba-phi-ind-2026-10-28",
+          "away": "Philadelphia 76ers",
+          "home": "Indiana Pacers",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793228400000,
+          "p_quote_u": 699000,
+          "p_fill_u": 699000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        },
+        {
+          "idx": 1,
+          "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+          "game_id": "nba-hou-mil-2026-10-28",
+          "away": "Houston Rockets",
+          "home": "Milwaukee Bucks",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793232000000,
+          "p_quote_u": 240000,
+          "p_fill_u": 240000,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null
+        }
+      ],
+      "fills": [
+        {
+          "trade_id": "92000",
+          "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+          "side": "bid",
+          "price_u": 699000,
+          "size": 9,
+          "fee_u": 37800,
+          "builder_fee_u": 6300,
+          "venue": "mock"
+        },
+        {
+          "trade_id": "92001",
+          "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+          "side": "ask",
+          "price_u": 760000,
+          "size": 14,
+          "fee_u": 58800,
+          "builder_fee_u": 9800,
+          "venue": "mock"
+        }
+      ],
+      "tx": {
+        "open_pending": "5VdDZf6MmXJyY6aFsYGaFHadLTQTh6PJ5MzrZXpiDSQ4yJXbCa3HGKwPXVpKx2jhrXhqwHUERmvFfqX9q3r4Y5c6",
+        "finalize": "4vuho1zG1uBn7w9NbjWkvM37gXv9oEsRgNGJNBaB7UxbXztesDXDMGfEXc4YAXM36HG9zC7mHQLB29mDstgzAk68",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": []
+      },
+      "tipster": "5KxPQ7wpiutb7LjB4NurkXRzwnLBpLcoED5n9Gdeq5K3",
+      "copied_from": null
+    }
+  ]
+}

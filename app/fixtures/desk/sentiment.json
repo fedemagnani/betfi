@@ -1,0 +1,161 @@
+{
+  "as_of_ms": 1793212985011,
+  "min_holders": 3,
+  "games": [
+    {
+      "game_id": "nba-phi-ind-2026-10-28",
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+      "price": {
+        "away_u": 695000,
+        "home_u": 305000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 3,
+          "stake_u": 116760000
+        },
+        "home": {
+          "accounts": 2,
+          "stake_u": 20130000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 7,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 114047000,
+        "home_u": 4485000
+      },
+      "schedina": {
+        "away_u": 9000000,
+        "home_u": 5000000,
+        "tickets": 2
+      }
+    },
+    {
+      "game_id": "nba-orl-tor-2026-10-28",
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+      "price": {
+        "away_u": 350000,
+        "home_u": 650000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 0,
+          "stake_u": 0
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 3250000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 1,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 0
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 0,
+        "tickets": 0
+      }
+    },
+    {
+      "game_id": "nba-hou-mil-2026-10-28",
+      "symbol": "NBA_26OCT28_HOUMIL_ML.HOU",
+      "price": {
+        "away_u": 755000,
+        "home_u": 245000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 3775000
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 7840000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 2,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7680000
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 0,
+        "tickets": 0
+      }
+    },
+    {
+      "game_id": "nba-sas-uta-2026-10-28",
+      "symbol": "NBA_26OCT28_SASUTA_ML.SAS",
+      "price": {
+        "away_u": 855000,
+        "home_u": 145000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 33345000
+        },
+        "home": {
+          "accounts": 2,
+          "stake_u": 7685000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 3,
+        "synced": true,
+        "thin": false
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7950000
+      },
+      "schedina": {
+        "away_u": 7000000,
+        "home_u": 0,
+        "tickets": 1
+      }
+    },
+    {
+      "game_id": "nba-okc-dal-2026-10-28",
+      "symbol": "NBA_26OCT28_OKCDAL_ML.OKC",
+      "price": {
+        "away_u": 635000,
+        "home_u": 365000
+      },
+      "pascal_holders": {
+        "away": {
+          "accounts": 1,
+          "stake_u": 12700000
+        },
+        "home": {
+          "accounts": 1,
+          "stake_u": 10950000
+        },
+        "excluded_makers": 1,
+        "trades_seen": 3,
+        "synced": true,
+        "thin": true
+      },
+      "flow_24h": {
+        "away_u": 0,
+        "home_u": 7000000
+      },
+      "schedina": {
+        "away_u": 0,
+        "home_u": 9000000,
+        "tickets": 1
+      }
+    }
+  ]
+}

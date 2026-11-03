@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "data": {
+    "owner": "2o3ktZJPpS55RkGTKrdLJLTqzPC1pFXDz63bwWSTerFe",
+    "deposit_address": "CQdzjZpQ3w8K1uLU3gMm68YjyBEuHNB9baaE553jqyEv",
+    "registered": true
+  },
+  "seq": "12115579876",
+  "state_time_ms": "1793147360754",
+  "server_time_ms": "1793147360798"
+}

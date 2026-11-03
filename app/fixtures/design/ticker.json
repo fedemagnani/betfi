@@ -1,0 +1,12 @@
+[
+  {
+    "type": "feed",
+    "kind": "mint",
+    "text": "sol_bull99 placed a bet",
+    "ts_ms": 1793301580000,
+    "who": "sol_bull99",
+    "amount_u": 737187700,
+    "team": "Real Madrid",
+    "odds_u": 1880000
+  }
+]

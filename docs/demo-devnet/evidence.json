@@ -1,0 +1,1533 @@
+{
+ "wallet": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+ "wallet2": "GRcokhtY6rjKeAvLZQgBzG8Tg8mX7U5VaHw84gJpnw1m",
+ "fund_sol": "0.025",
+ "fund2_sol": "0.008",
+ "fund_sig": "4sGgiQffXqv6oNZ6A9RKhDWMX8bSJQAKmhVWqbCUX7QZHKAKqk7FwVucK1LhGXXXKodnKMUqMBC8S5yuBpTD86Ln",
+ "fund2_sig": "64DL3SouYfyRMQ4d5zQPcUT4DrTjV2REn8DRgTSNet8N6UwuJxkhp9LxVioz9w2ihmSDqqStyukBuCvHmfKSBKjZ",
+ "flags": {
+  "tip": true,
+  "copy": true,
+  "bonk": true,
+  "sol": true,
+  "soccer": true
+ },
+ "rpc_429_in_browser": 15,
+ "tickets": {
+  "A": {
+   "ticket": "Yust7gAdkUBRMDXTJ51myNPVrVGD6UKwAcmRYgeXZJp",
+   "user": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "nonce": 2105741072125964,
+   "state": "cashed_out",
+   "n": 3,
+   "stake_u": 11140000,
+   "payout_u": 49186696,
+   "odds_offered_u": 4415322,
+   "odds_fair_u": 5276842,
+   "fee_u": 9597329,
+   "minted_at": 1793353923,
+   "settled_at": 1793353986,
+   "paid_u": 18918698,
+   "cash_out": {
+    "available": false,
+    "c_u": null,
+    "reason": "ticket cashed out"
+   },
+   "legs": [
+    {
+     "idx": 0,
+     "symbol": "NBA_26OCT30_CHAWAS_ML.CHA",
+     "game_id": "nba-cha-was-2026-10-30",
+     "away": "Charlotte Hornets",
+     "home": "Washington Wizards",
+     "pick": "away",
+     "side": "long",
+     "start_ms": 1793401200000,
+     "p_quote_u": 469000,
+     "p_fill_u": 469000,
+     "hedged": false,
+     "status": "won",
+     "resolution_u": 1000000,
+     "kind": "winner",
+     "label": "Hornets"
+    },
+    {
+     "idx": 1,
+     "symbol": "BUND_26OCT30_ELVM05_ML.M05",
+     "game_id": "bundesliga-elv-m05-2026-10-30",
+     "away": "1. FSV Mainz 05",
+     "home": "SV 07 Elversberg",
+     "pick": "away",
+     "side": "long",
+     "start_ms": 1793388600000,
+     "p_quote_u": 475000,
+     "p_fill_u": 475000,
+     "hedged": true,
+     "status": "open",
+     "resolution_u": null,
+     "kind": "winner",
+     "label": "1. FSV Mainz 05"
+    },
+    {
+     "idx": 2,
+     "symbol": "NBA_26OCT30_CHIBOS_ML.CHI",
+     "game_id": "nba-chi-bos-2026-10-30",
+     "away": "Chicago Bulls",
+     "home": "Boston Celtics",
+     "pick": "home",
+     "side": "short",
+     "start_ms": 1793403000000,
+     "p_quote_u": 890000,
+     "p_fill_u": 890000,
+     "hedged": false,
+     "status": "open",
+     "resolution_u": null,
+     "kind": "winner",
+     "label": "Celtics"
+    }
+   ],
+   "fills": [
+    {
+     "trade_id": "9000000000",
+     "symbol": "BUND_26OCT30_ELVM05_ML.M05",
+     "side": "bid",
+     "price_u": 475000,
+     "size": 22,
+     "fee_u": 109725,
+     "builder_fee_u": 5486,
+     "venue": "mock"
+    }
+   ],
+   "tx": {
+    "open_pending": "3mQeejTSgDX8EWZNHdxZ3idn4rHm1dJNTd2fTiWcprRCnHNdwTqztuHQoL4gX3LSQYCioR7f5122CvuJXtKceXfv",
+    "finalize": "2xqoNdTwVXk3EvWozvUuEkmkWMYfNQkUGz1Y2RWYtrfgufJ915V1skRQTtqg31PsZMUZc4URMA1oUHEdFnaYZaom",
+    "settle": null,
+    "refund_pending": null,
+    "cash_out": "4AxsZ3huvWeCen9y9Ai9sY9WcCuVBquH5h3vhFw1cSoD7QHVv8NPDGF88yEJjbpxSiNhCsSTqFwiZtm4ViZjSJkX",
+    "resolve_leg": [
+     "4rDheQsrnHEm4ApCYWYpHR8W5BftSAsF2PUf17QYVrGwRF6L1xxVL7N93ZiKDPAucyQPRLVoB6jUKDJqm641S112"
+    ],
+    "slot": {
+     "open_pending": 516735940,
+     "cash_out": 516736205,
+     "settle": null
+    },
+    "confirm_ms": {
+     "open_pending": 1087,
+     "cash_out": 1236
+    }
+   },
+   "tipster": null,
+   "copied_from": null,
+   "posted_odds_u": 4415322,
+   "title": null
+  },
+  "B": {
+   "ticket": "J2DAdBsATbyxk4LJVxX1W8HBrqdvk6cYpNmds8DgqsFU",
+   "user": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "nonce": 5870027224446248,
+   "state": "settled",
+   "n": 2,
+   "stake_u": 11140000,
+   "payout_u": 28968621,
+   "odds_offered_u": 2600414,
+   "odds_fair_u": 2925901,
+   "fee_u": 3625920,
+   "minted_at": 1793353928,
+   "settled_at": 1793354005,
+   "paid_u": 28968621,
+   "cash_out": {
+    "available": false,
+    "c_u": null,
+    "reason": "ticket settled"
+   },
+   "legs": [
+    {
+     "idx": 0,
+     "symbol": "NBA_26OCT30_DETBKN_ML.DET",
+     "game_id": "nba-det-bkn-2026-10-30",
+     "away": "Detroit Pistons",
+     "home": "Brooklyn Nets",
+     "pick": "away",
+     "side": "long",
+     "start_ms": 1793403000000,
+     "p_quote_u": 740000,
+     "p_fill_u": 740000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 1000000,
+     "kind": "winner",
+     "label": "Pistons"
+    },
+    {
+     "idx": 1,
+     "symbol": "NBA_26OCT30_NYKPHI_ML.NYK",
+     "game_id": "nba-nyk-phi-2026-10-30",
+     "away": "New York Knicks",
+     "home": "Philadelphia 76ers",
+     "pick": "home",
+     "side": "short",
+     "start_ms": 1793403000000,
+     "p_quote_u": 469000,
+     "p_fill_u": 469000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 0,
+     "kind": "winner",
+     "label": "76ers"
+    }
+   ],
+   "fills": [
+    {
+     "trade_id": "9000000001",
+     "symbol": "NBA_26OCT30_DETBKN_ML.DET",
+     "side": "bid",
+     "price_u": 740000,
+     "size": 14,
+     "fee_u": 53872,
+     "builder_fee_u": 2693,
+     "venue": "mock"
+    },
+    {
+     "trade_id": "9000000002",
+     "symbol": "NBA_26OCT30_NYKPHI_ML.NYK",
+     "side": "ask",
+     "price_u": 531000,
+     "size": 22,
+     "fee_u": 109577,
+     "builder_fee_u": 5478,
+     "venue": "mock"
+    }
+   ],
+   "tx": {
+    "open_pending": "5xEQQkN8k3yABm7gDa51awWMhBe1kyhuwCBhiXpZaDqCfbaqU5erTwZm8bby1RNJ9ytsaGWjfHd6VKDgGm5daN2",
+    "finalize": "37XKU3uSoW1Nj7hfyGqwKHgiLbPd92iZpePDYdDTv2Tnhv2FtKiWAKY9kSbjPCiUw4Dv2CCX93PHYgLmZ3nZfehq",
+    "settle": "5xxQHzCC5EB2auaxF8HuT9qXqty5okigMQKWEDuLpjXJNiHPh2sDzQFnCy4fgLh1nwtPTNj5Ffsi3WRRoPWEEqkD",
+    "refund_pending": null,
+    "cash_out": null,
+    "resolve_leg": [
+     "3ZF39wLJSMQgfGmXvx2fHERTt343PZPbVBDSfKMeEu1wQLBDmaDDon4PFwP387UM5BfybdSW8m7RtVK81QNgeUvi",
+     "5X7FiTPcAuuRvywBxQn4o9wXA2FJ2SEuC19u2EWSPtyC1y8S2k2QQ8NP1pgPDK5X1spZ52TGw7oaLLCg7NJ2yUog"
+    ],
+    "slot": {
+     "open_pending": 516735954,
+     "cash_out": null,
+     "settle": 516736287
+    },
+    "confirm_ms": {
+     "open_pending": 1536,
+     "cash_out": null
+    }
+   },
+   "tipster": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "copied_from": null,
+   "posted_odds_u": 2600414,
+   "title": null
+  },
+  "C": {
+   "ticket": "HgKh3WAsiBuZsTEUt2HB8CV3GdCCW29oAwQp8MF58YWB",
+   "user": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "nonce": 7439880976688073,
+   "state": "settled",
+   "n": 1,
+   "stake_u": 8690791,
+   "payout_u": 12129593,
+   "odds_offered_u": 1395683,
+   "odds_fair_u": 1458789,
+   "fee_u": 548439,
+   "minted_at": 1793353964,
+   "settled_at": 1793354025,
+   "paid_u": 12129593,
+   "cash_out": {
+    "available": false,
+    "c_u": null,
+    "reason": "ticket settled"
+   },
+   "legs": [
+    {
+     "idx": 0,
+     "symbol": "LALIGA_26OCT30_VILESP_ML.VIL",
+     "game_id": "lal-vil-esp-2026-10-30",
+     "away": "RCD Espanyol de Barcelona",
+     "home": "Villarreal CF",
+     "pick": "home",
+     "side": "long",
+     "start_ms": 1793390400000,
+     "p_quote_u": 695000,
+     "p_fill_u": 695000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 1000000,
+     "kind": "winner",
+     "label": "Villarreal"
+    }
+   ],
+   "fills": [
+    {
+     "trade_id": "9000000005",
+     "symbol": "LALIGA_26OCT30_VILESP_ML.VIL",
+     "side": "bid",
+     "price_u": 695000,
+     "size": 13,
+     "fee_u": 55113,
+     "builder_fee_u": 2755,
+     "venue": "mock"
+    }
+   ],
+   "tx": {
+    "open_pending": "43RE9SLCDBu7Hp5EEq85XLucKTGpVdz4qt7ghWHUkh9YVWqW6CTcxpaA58gkGA59juzePknnD6UCmiiDMpBcR3kK",
+    "finalize": "3uRY5DWjJNiuwQ5CXmRtPAxUSqf5gJTPQiZMLuDvggkT9oashNrR7UKugHK6eRhiWA7bL64jkjUnZiZxZxtDCc1B",
+    "settle": "dGCYoB2x82GS5EcmaEBZMrzjXSyQrCWkcnVu44Z65Gnvc1pSRiowU78y5fvMgtQkKx86wjhrevj7Ce1F5ApA8PN",
+    "refund_pending": null,
+    "cash_out": null,
+    "resolve_leg": [
+     "5kSezvo2d9N2mWdh4jLxY5CQqHqYeGge9V2U1Jp7yehPr8SmYkcZzHE1qM3DxYdXXK1NSiEfZXtJJGPopw3nQ5Hx"
+    ],
+    "slot": {
+     "open_pending": 516736111,
+     "cash_out": null,
+     "settle": 516736369
+    },
+    "confirm_ms": {
+     "open_pending": 975,
+     "cash_out": null
+    }
+   },
+   "tipster": null,
+   "copied_from": null,
+   "posted_odds_u": 1395683,
+   "title": null
+  },
+  "D": {
+   "ticket": "5FHFwofpU2VJe3w7mttyAa4HuddW8Ht5LrZu4Zbo6Xfy",
+   "user": "GRcokhtY6rjKeAvLZQgBzG8Tg8mX7U5VaHw84gJpnw1m",
+   "nonce": 5253126492460266,
+   "state": "settled",
+   "n": 2,
+   "stake_u": 5570000,
+   "payout_u": 14484309,
+   "odds_offered_u": 2600414,
+   "odds_fair_u": 2925901,
+   "fee_u": 1812961,
+   "minted_at": 1793353948,
+   "settled_at": 1793354006,
+   "paid_u": 14484309,
+   "cash_out": {
+    "available": false,
+    "c_u": null,
+    "reason": "ticket settled"
+   },
+   "legs": [
+    {
+     "idx": 0,
+     "symbol": "NBA_26OCT30_DETBKN_ML.DET",
+     "game_id": "nba-det-bkn-2026-10-30",
+     "away": "Detroit Pistons",
+     "home": "Brooklyn Nets",
+     "pick": "away",
+     "side": "long",
+     "start_ms": 1793403000000,
+     "p_quote_u": 740000,
+     "p_fill_u": 740000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 1000000,
+     "kind": "winner",
+     "label": "Pistons"
+    },
+    {
+     "idx": 1,
+     "symbol": "NBA_26OCT30_NYKPHI_ML.NYK",
+     "game_id": "nba-nyk-phi-2026-10-30",
+     "away": "New York Knicks",
+     "home": "Philadelphia 76ers",
+     "pick": "home",
+     "side": "short",
+     "start_ms": 1793403000000,
+     "p_quote_u": 469000,
+     "p_fill_u": 469000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 0,
+     "kind": "winner",
+     "label": "76ers"
+    }
+   ],
+   "fills": [
+    {
+     "trade_id": "9000000003",
+     "symbol": "NBA_26OCT30_DETBKN_ML.DET",
+     "side": "bid",
+     "price_u": 740000,
+     "size": 7,
+     "fee_u": 26936,
+     "builder_fee_u": 1346,
+     "venue": "mock"
+    },
+    {
+     "trade_id": "9000000004",
+     "symbol": "NBA_26OCT30_NYKPHI_ML.NYK",
+     "side": "ask",
+     "price_u": 531000,
+     "size": 11,
+     "fee_u": 54788,
+     "builder_fee_u": 2739,
+     "venue": "mock"
+    }
+   ],
+   "tx": {
+    "open_pending": "4ESi9akiAHPuW2TdjXzx2BSreNgNgno5zPet9G7j5uJvDxDDTKo1MftV8uRbXBByxNPU8QKx3YPG23wCvnEtMmxp",
+    "finalize": "31PrSPFm66psMY8cHWwAPyuygHx3kEEU7mNXi7UYi5MsVw2hdzxuRyN9K1uYTwxALd8qwkNiwCSRgMjC6sG3aajr",
+    "settle": "5HaNspPnMGTnNofCxvt8Q2GJMAkcNBNUSBM6RUZntEab9e85onrH5r4YXP9E4FDvNxWd7oQZdRM5PthKW9uHgJVn",
+    "refund_pending": null,
+    "cash_out": null,
+    "resolve_leg": [
+     "4bJfEt8PxRW8SgG78pFEpB9vyfD4U3PLjKdKiAercCQnWZMsXSJ3jDm5HmZt73d8NTpuDeHDG6kTZvJXmPhsGJCh",
+     "4q8vmBamWYnpXCwuQKM5X5AqCuPV4BJg2TrJtGvKRbzqQzggrLzf3QzX3YAx3Zam5wLRHPnChdp7ZRQA9N4JUnKq"
+    ],
+    "slot": {
+     "open_pending": 516736042,
+     "cash_out": null,
+     "settle": 516736292
+    },
+    "confirm_ms": {
+     "open_pending": 1612,
+     "cash_out": null
+    }
+   },
+   "tipster": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "copied_from": "J2DAdBsATbyxk4LJVxX1W8HBrqdvk6cYpNmds8DgqsFU",
+   "posted_odds_u": 2600414,
+   "title": null
+  },
+  "E": {
+   "ticket": "Hby9kUuoFhu9tJYcmqfAssY73JPju1Aur8dE4ExdndZ2",
+   "user": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "nonce": 7086023988977730,
+   "state": "settled",
+   "n": 1,
+   "stake_u": 10929922,
+   "payout_u": 15254711,
+   "odds_offered_u": 1395683,
+   "odds_fair_u": 1458789,
+   "fee_u": 689741,
+   "minted_at": 1793353970,
+   "settled_at": 1793354027,
+   "paid_u": 15254711,
+   "cash_out": {
+    "available": false,
+    "c_u": null,
+    "reason": "ticket settled"
+   },
+   "legs": [
+    {
+     "idx": 0,
+     "symbol": "LALIGA_26OCT30_VILESP_ML.VIL",
+     "game_id": "lal-vil-esp-2026-10-30",
+     "away": "RCD Espanyol de Barcelona",
+     "home": "Villarreal CF",
+     "pick": "home",
+     "side": "long",
+     "start_ms": 1793390400000,
+     "p_quote_u": 695000,
+     "p_fill_u": 695000,
+     "hedged": true,
+     "status": "won",
+     "resolution_u": 1000000,
+     "kind": "winner",
+     "label": "Villarreal"
+    }
+   ],
+   "fills": [
+    {
+     "trade_id": "9000000006",
+     "symbol": "LALIGA_26OCT30_VILESP_ML.VIL",
+     "side": "bid",
+     "price_u": 695000,
+     "size": 16,
+     "fee_u": 67832,
+     "builder_fee_u": 3391,
+     "venue": "mock"
+    }
+   ],
+   "tx": {
+    "open_pending": "4v7TrJdAxc1RY7kwyQyiUJP3vcDTFeSvqPgDbaoooUEZJSegSeSr8zQ6vqGPwRjNnVTtmVYsosGZudMs8zXpv4bx",
+    "finalize": "4rbvZc2c956Nvcmt2Z4MocpZ5SKYQkPKZ3Cm6ttGxt6CnWr1x3pzQWcvxfoNnTYJHCro82HPF3mJzaH9LgpVbvke",
+    "settle": "Xu5W592oyhvRp4Sqay9LygWToqzFv2vLNZm1RkyRSc9bVddtbVSvTdFHb4yKmsSiosPL3gogio4LBwryzqgDayf",
+    "refund_pending": null,
+    "cash_out": null,
+    "resolve_leg": [
+     "3KZwKtNoNpsAZsCoRrBtRnqPfzL2HVKKhns7QpbxB34DBQMFvHAdRH7QGKjUvNZZ4uekJtEf6oHmnpWfB7UEqHme"
+    ],
+    "slot": {
+     "open_pending": 516736137,
+     "cash_out": null,
+     "settle": 516736378
+    },
+    "confirm_ms": {
+     "open_pending": 1428,
+     "cash_out": null
+    }
+   },
+   "tipster": null,
+   "copied_from": null,
+   "posted_odds_u": 1395683,
+   "title": null
+  }
+ },
+ "txs": [
+  {
+   "sig": "4sGgiQffXqv6oNZ6A9RKhDWMX8bSJQAKmhVWqbCUX7QZHKAKqk7FwVucK1LhGXXXKodnKMUqMBC8S5yuBpTD86Ln",
+   "slot": 516735922,
+   "block_time": 1793353917,
+   "err": null,
+   "signer": "6UDpy1nCGH5XkFPzXxLDivzAV4NCZR5e3GsoQP6ttFuz",
+   "ix": "SystemTransfer",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": null
+  },
+  {
+   "sig": "trAs6egxBKjnnG4dftQSqq6WW4J1ebhaVnR8wBhiTPVRLnR1cN4W5H1Zz3ir9975BnxP5f6yBzFBuJdi3bxgYgE",
+   "slot": 516735934,
+   "block_time": 1793353920,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "FaucetUsdc",
+   "user_usdc_delta_u": 1000000000,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": null
+  },
+  {
+   "sig": "3mQeejTSgDX8EWZNHdxZ3idn4rHm1dJNTd2fTiWcprRCnHNdwTqztuHQoL4gX3LSQYCioR7f5122CvuJXtKceXfv",
+   "slot": 516735940,
+   "block_time": 1793353922,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "OpenPending",
+   "user_usdc_delta_u": -11140000,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "A"
+  },
+  {
+   "sig": "3KsdvmQkQomGvAachYwBj7Xg9oz5MVyKVqPEjpbDk1Tm3AyEd1onXndZD2eNYFUHPset1euwo7QomVMiKduDyPDt",
+   "slot": 516735947,
+   "block_time": 1793353923,
+   "err": {
+    "InstructionError": [
+     1,
+     {
+      "Custom": 3012
+     }
+    ]
+   },
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "A",
+   "refused_duplicate": true
+  },
+  {
+   "sig": "2xqoNdTwVXk3EvWozvUuEkmkWMYfNQkUGz1Y2RWYtrfgufJ915V1skRQTtqg31PsZMUZc4URMA1oUHEdFnaYZaom",
+   "slot": 516735947,
+   "block_time": 1793353923,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "A"
+  },
+  {
+   "sig": "5xEQQkN8k3yABm7gDa51awWMhBe1kyhuwCBhiXpZaDqCfbaqU5erTwZm8bby1RNJ9ytsaGWjfHd6VKDgGm5daN2",
+   "slot": 516735954,
+   "block_time": 1793353925,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "OpenPending",
+   "user_usdc_delta_u": -11140000,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B"
+  },
+  {
+   "sig": "37XKU3uSoW1Nj7hfyGqwKHgiLbPd92iZpePDYdDTv2Tnhv2FtKiWAKY9kSbjPCiUw4Dv2CCX93PHYgLmZ3nZfehq",
+   "slot": 516735970,
+   "block_time": 1793353929,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B"
+  },
+  {
+   "sig": "4ESHhvFqkrtEzKk2PyfubkjAmRnFBzvrQJ62WkN3wpoarxyWJ8uxJVFN55Fy3uPHS9QS5XgpQ4jFcFQHVW5tLD2y",
+   "slot": 516735971,
+   "block_time": 1793353929,
+   "err": {
+    "InstructionError": [
+     1,
+     {
+      "Custom": 3012
+     }
+    ]
+   },
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B",
+   "refused_duplicate": true
+  },
+  {
+   "sig": "64DL3SouYfyRMQ4d5zQPcUT4DrTjV2REn8DRgTSNet8N6UwuJxkhp9LxVioz9w2ihmSDqqStyukBuCvHmfKSBKjZ",
+   "slot": 516736018,
+   "block_time": 1793353940,
+   "err": null,
+   "signer": "6UDpy1nCGH5XkFPzXxLDivzAV4NCZR5e3GsoQP6ttFuz",
+   "ix": "SystemTransfer",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": null
+  },
+  {
+   "sig": "5BffyfiEur1fKWcS7iBd9uMAanuYrqf6dwMCPbH26LRDk2tYzpra56i6WWNVQKKLte2Zpsd2u5NbmPz6BHVH1wgP",
+   "slot": 516736030,
+   "block_time": 1793353943,
+   "err": null,
+   "signer": "GRcokhtY6rjKeAvLZQgBzG8Tg8mX7U5VaHw84gJpnw1m",
+   "ix": "FaucetUsdc",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 1000000000,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": null
+  },
+  {
+   "sig": "4ESi9akiAHPuW2TdjXzx2BSreNgNgno5zPet9G7j5uJvDxDDTKo1MftV8uRbXBByxNPU8QKx3YPG23wCvnEtMmxp",
+   "slot": 516736042,
+   "block_time": 1793353946,
+   "err": null,
+   "signer": "GRcokhtY6rjKeAvLZQgBzG8Tg8mX7U5VaHw84gJpnw1m",
+   "ix": "OpenPending",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": -5681400,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "D"
+  },
+  {
+   "sig": "31PrSPFm66psMY8cHWwAPyuygHx3kEEU7mNXi7UYi5MsVw2hdzxuRyN9K1uYTwxALd8qwkNiwCSRgMjC6sG3aajr",
+   "slot": 516736050,
+   "block_time": 1793353948,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 89120,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "D"
+  },
+  {
+   "sig": "2C3NEi47nh6V8cWcq1U47Vt9WeXUvjYJKJHsADUoYKiUTeqwbcGSqEvxcjU4B62y6awD6xf28Zq6QVfkahnS7Uzm",
+   "slot": 516736061,
+   "block_time": 1793353951,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "Faucet",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 5000000000,
+   "user_sol_delta": 0,
+   "ticket": null
+  },
+  {
+   "sig": "43RE9SLCDBu7Hp5EEq85XLucKTGpVdz4qt7ghWHUkh9YVWqW6CTcxpaA58gkGA59juzePknnD6UCmiiDMpBcR3kK",
+   "slot": 516736111,
+   "block_time": 1793353963,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "Swap+OpenPending",
+   "user_usdc_delta_u": 43673,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": -1000000000,
+   "user_sol_delta": 0,
+   "ticket": "C"
+  },
+  {
+   "sig": "3hV9Z9GQFbA91JkX2vrCHKTpuYAS8XZbpZ3z4r93pVsVSmMZzKQn4FKVkyiHHzuabvRPriZXNg5js9XsFU2KaEeq",
+   "slot": 516736117,
+   "block_time": 1793353964,
+   "err": {
+    "InstructionError": [
+     1,
+     {
+      "Custom": 3012
+     }
+    ]
+   },
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "C",
+   "refused_duplicate": true
+  },
+  {
+   "sig": "3uRY5DWjJNiuwQ5CXmRtPAxUSqf5gJTPQiZMLuDvggkT9oashNrR7UKugHK6eRhiWA7bL64jkjUnZiZxZxtDCc1B",
+   "slot": 516736117,
+   "block_time": 1793353964,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "C"
+  },
+  {
+   "sig": "2Rf3VT3ugGQWiGynCCNqz2FoPbcLKK3UrtChxqvJyLyFC3ka6H2KZu3Dga3ZHtKuQVYMbD881R8BCPCzPzHzY8Qg",
+   "slot": 516736129,
+   "block_time": 1793353967,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "Faucet",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 1000000000,
+   "ticket": null
+  },
+  {
+   "sig": "4v7TrJdAxc1RY7kwyQyiUJP3vcDTFeSvqPgDbaoooUEZJSegSeSr8zQ6vqGPwRjNnVTtmVYsosGZudMs8zXpv4bx",
+   "slot": 516736137,
+   "block_time": 1793353969,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "Swap+OpenPending",
+   "user_usdc_delta_u": 54925,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": -115100000,
+   "ticket": "E"
+  },
+  {
+   "sig": "4rbvZc2c956Nvcmt2Z4MocpZ5SKYQkPKZ3Cm6ttGxt6CnWr1x3pzQWcvxfoNnTYJHCro82HPF3mJzaH9LgpVbvke",
+   "slot": 516736143,
+   "block_time": 1793353970,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Finalize",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "E"
+  },
+  {
+   "sig": "4rDheQsrnHEm4ApCYWYpHR8W5BftSAsF2PUf17QYVrGwRF6L1xxVL7N93ZiKDPAucyQPRLVoB6jUKDJqm641S112",
+   "slot": 516736197,
+   "block_time": 1793353984,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "A"
+  },
+  {
+   "sig": "4AxsZ3huvWeCen9y9Ai9sY9WcCuVBquH5h3vhFw1cSoD7QHVv8NPDGF88yEJjbpxSiNhCsSTqFwiZtm4ViZjSJkX",
+   "slot": 516736205,
+   "block_time": 1793353986,
+   "err": null,
+   "signer": "CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA",
+   "ix": "CashOut",
+   "user_usdc_delta_u": 18918698,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "A"
+  },
+  {
+   "sig": "5X7FiTPcAuuRvywBxQn4o9wXA2FJ2SEuC19u2EWSPtyC1y8S2k2QQ8NP1pgPDK5X1spZ52TGw7oaLLCg7NJ2yUog",
+   "slot": 516736281,
+   "block_time": 1793354004,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B"
+  },
+  {
+   "sig": "3ZF39wLJSMQgfGmXvx2fHERTt343PZPbVBDSfKMeEu1wQLBDmaDDon4PFwP387UM5BfybdSW8m7RtVK81QNgeUvi",
+   "slot": 516736281,
+   "block_time": 1793354004,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B"
+  },
+  {
+   "sig": "4bJfEt8PxRW8SgG78pFEpB9vyfD4U3PLjKdKiAercCQnWZMsXSJ3jDm5HmZt73d8NTpuDeHDG6kTZvJXmPhsGJCh",
+   "slot": 516736286,
+   "block_time": 1793354005,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "D"
+  },
+  {
+   "sig": "5xxQHzCC5EB2auaxF8HuT9qXqty5okigMQKWEDuLpjXJNiHPh2sDzQFnCy4fgLh1nwtPTNj5Ffsi3WRRoPWEEqkD",
+   "slot": 516736287,
+   "block_time": 1793354006,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Settle",
+   "user_usdc_delta_u": 28968621,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "B"
+  },
+  {
+   "sig": "4q8vmBamWYnpXCwuQKM5X5AqCuPV4BJg2TrJtGvKRbzqQzggrLzf3QzX3YAx3Zam5wLRHPnChdp7ZRQA9N4JUnKq",
+   "slot": 516736288,
+   "block_time": 1793354006,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "D"
+  },
+  {
+   "sig": "5HaNspPnMGTnNofCxvt8Q2GJMAkcNBNUSBM6RUZntEab9e85onrH5r4YXP9E4FDvNxWd7oQZdRM5PthKW9uHgJVn",
+   "slot": 516736292,
+   "block_time": 1793354007,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Settle",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 14484309,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "D"
+  },
+  {
+   "sig": "5kSezvo2d9N2mWdh4jLxY5CQqHqYeGge9V2U1Jp7yehPr8SmYkcZzHE1qM3DxYdXXK1NSiEfZXtJJGPopw3nQ5Hx",
+   "slot": 516736364,
+   "block_time": 1793354024,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "C"
+  },
+  {
+   "sig": "dGCYoB2x82GS5EcmaEBZMrzjXSyQrCWkcnVu44Z65Gnvc1pSRiowU78y5fvMgtQkKx86wjhrevj7Ce1F5ApA8PN",
+   "slot": 516736369,
+   "block_time": 1793354025,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Settle",
+   "user_usdc_delta_u": 12129593,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "C"
+  },
+  {
+   "sig": "3KZwKtNoNpsAZsCoRrBtRnqPfzL2HVKKhns7QpbxB34DBQMFvHAdRH7QGKjUvNZZ4uekJtEf6oHmnpWfB7UEqHme",
+   "slot": 516736372,
+   "block_time": 1793354026,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "ResolveLeg",
+   "user_usdc_delta_u": 0,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "E"
+  },
+  {
+   "sig": "Xu5W592oyhvRp4Sqay9LygWToqzFv2vLNZm1RkyRSc9bVddtbVSvTdFHb4yKmsSiosPL3gogio4LBwryzqgDayf",
+   "slot": 516736378,
+   "block_time": 1793354027,
+   "err": null,
+   "signer": "131Hmjktmt3zTFt7MEDs4eq76fFdw1cnBk81tGqu1CGp",
+   "ix": "Settle",
+   "user_usdc_delta_u": 15254711,
+   "copier_usdc_delta_u": 0,
+   "user_bonk_delta": 0,
+   "user_sol_delta": 0,
+   "ticket": "E"
+  }
+ ],
+ "checks": [
+  {
+   "what": "01-fresh-wallet: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "wallet 1: Account shows the burner's address",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "wallet 1: Account's balance is 1,000.00 USDC (euros above it at the desk's rate)",
+   "ok": true,
+   "detail": "1,000.00 USDC"
+  },
+  {
+   "what": "02-faucet: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker, honesty pill",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A: the slip starts empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "03-card: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A: the slip pill says 3 Picks and the total",
+   "ok": true,
+   "detail": "3 Picks • Total 4.41"
+  },
+  {
+   "what": "A drawer: 3 legs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "A drawer: the €10 preset, one purple \"Bet • €10.00\"",
+   "ok": true,
+   "detail": "Bet • €10.00"
+  },
+  {
+   "what": "A drawer: total, fair total, payout, margin, Pascal fees, floor = a /quote answer",
+   "ok": true,
+   "detail": "{\"Total\":\"4.41\",\"Fair total\":\"5.27\",\"Payout\":\"49.18 USDC\",\"Our margin\":\"9.59 USDC\",\"Paid to Pascal (est.)\":\"0.23 USDC\",\"Lowest total accepted if prices move\":\"4.28\"}"
+  },
+  {
+   "what": "04-tray: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "05-escrowed: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A celebration: View Transaction opens the open_pending on Solscan (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/3mQeejTSgDX8EWZNHdxZ3idn4rHm1dJNTd2fTiWcprRCnHNdwTqztuHQoL4gX3LSQYCioR7f5122CvuJXtKceXfv?cluster=devnet"
+  },
+  {
+   "what": "A celebration: Total and payout are the fresh /quote the transaction signs",
+   "ok": true,
+   "detail": "4.41 €44.19"
+  },
+  {
+   "what": "A celebration: \"Hedge mock-filled · test money\"",
+   "ok": true,
+   "detail": "Hedge mock-filled · test money"
+  },
+  {
+   "what": "06-minted: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A: the ticket holds the 3 picks played",
+   "ok": true,
+   "detail": "Yust7gAdkUBRMDXTJ51myNPVrVGD6UKwAcmRYgeXZJp"
+  },
+  {
+   "what": "B: the slip starts empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "B: the slip pill says 2 Picks and the total",
+   "ok": true,
+   "detail": "2 Picks • Total 2.60"
+  },
+  {
+   "what": "B drawer: 2 legs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "B drawer: the €10 preset, one purple \"Bet • €10.00\"",
+   "ok": true,
+   "detail": "Bet • €10.00"
+  },
+  {
+   "what": "B: \"Share as a tip\" is on",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "B drawer: total, fair total, payout, margin, Pascal fees, floor = a /quote answer",
+   "ok": true,
+   "detail": "{\"Total\":\"2.60\",\"Fair total\":\"2.92\",\"Payout\":\"28.96 USDC\",\"Our margin\":\"3.62 USDC\",\"Paid to Pascal (est.)\":\"0.16 USDC\",\"Lowest total accepted if prices move\":\"2.52\"}"
+  },
+  {
+   "what": "04b-tray-tip: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "B celebration: View Transaction opens the open_pending on Solscan (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/5xEQQkN8k3yABm7gDa51awWMhBe1kyhuwCBhiXpZaDqCfbaqU5erTwZm8bby1RNJ9ytsaGWjfHd6VKDgGm5daN2?cluster=devnet"
+  },
+  {
+   "what": "B celebration: Total and payout are the fresh /quote the transaction signs",
+   "ok": true,
+   "detail": "2.60 €26.02"
+  },
+  {
+   "what": "B celebration: \"Hedge mock-filled · test money\"",
+   "ok": true,
+   "detail": "Hedge mock-filled · test money"
+  },
+  {
+   "what": "B: the ticket holds the 2 picks played",
+   "ok": true,
+   "detail": "J2DAdBsATbyxk4LJVxX1W8HBrqdvk6cYpNmds8DgqsFU"
+  },
+  {
+   "what": "B celebration: \"Shared as a tip\"",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "B: the desk lists it as an own tip (tipster = the wallet, not a copy)",
+   "ok": true,
+   "detail": "tipster CcudZeEMHyW2aeb5zDQn6zDXacVpWsezcHQLUtXkwLjA"
+  },
+  {
+   "what": "c1-fresh-wallet: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "wallet 2: Account shows the burner's address",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "wallet 2: Account's balance is 1,000.00 USDC (euros above it at the desk's rate)",
+   "ok": true,
+   "detail": "1,000.00 USDC"
+  },
+  {
+   "what": "c2-faucet: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker, honesty pill",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "copy: wallet 2 is still connected on Tipsters (app bar balance, no connect button)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "copy: the profile's docked CTA is \"Copy Schedina • Total x\" at B's total",
+   "ok": true,
+   "detail": "Copy Schedina • Total 2.60"
+  },
+  {
+   "what": "c2b-tipster-profile: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "copy: the tip's copy page is open for copies",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "copy: the copy-fee line is the copy-quote's ceil(2% of the stake)",
+   "ok": true,
+   "detail": "stake 5570000, fee 111400, shown 0.11 USDC"
+  },
+  {
+   "what": "copy: the copy-quote prices the tip's legs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "c3-copy-quote: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "copy celebration on /copy: View Transaction opens the open_pending on Solscan (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/4ESi9akiAHPuW2TdjXzx2BSreNgNgno5zPet9G7j5uJvDxDDTKo1MftV8uRbXBByxNPU8QKx3YPG23wCvnEtMmxp?cluster=devnet"
+  },
+  {
+   "what": "c3-copy-minted: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "copy: minted with copied_from = the tip, not itself a tip",
+   "ok": true,
+   "detail": "copied_from J2DAdBsATbyxk4LJVxX1W8HBrqdvk6cYpNmds8DgqsFU"
+  },
+  {
+   "what": "copiers drawer: \"Copiers (1)\" on B's profile card, one row for wallet 2's copy",
+   "ok": true,
+   "detail": "Copiers (1); 1 row(s): GR GRco…nw1m €5.00"
+  },
+  {
+   "what": "c2c-copiers: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "C: the slip starts empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "C: the slip pill says 1 Pick and the total",
+   "ok": true,
+   "detail": "1 Pick • Total 1.39"
+  },
+  {
+   "what": "C drawer: 1 legs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "C drawer: you pay 10000 mockBONK, swap fee line and stake = the /swap-quote's fee_u and min_out_u",
+   "ok": true,
+   "detail": "fee 43686, min_out 8690791"
+  },
+  {
+   "what": "C drawer: the desk is quoted at stake_u = min_out_u",
+   "ok": true,
+   "detail": "8690791"
+  },
+  {
+   "what": "C drawer: one Bet, paying in mockBONK; tips off",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "c-tray-mockbonk: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "C drawer: total, fair total, payout, margin, Pascal fees, floor = a /quote answer",
+   "ok": true,
+   "detail": "{\"You pay\":\"10,000 mockBONK\",\"Stake (the swap's minimum)\":\"8.69 USDC\",\"Total\":\"1.39\",\"Fair total\":\"1.45\",\"Payout\":\"12.12 USDC\",\"Our margin\":\"0.54 USDC\",\"Swap fee (0.5%)\":\"0.04 USDC\",\"Paid to Pascal (est.)\":\"0.05 USDC\",\"Lowest total accepted if prices move\":\"1.35\"}"
+  },
+  {
+   "what": "C celebration: View Transaction opens the open_pending on Solscan (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/43RE9SLCDBu7Hp5EEq85XLucKTGpVdz4qt7ghWHUkh9YVWqW6CTcxpaA58gkGA59juzePknnD6UCmiiDMpBcR3kK?cluster=devnet"
+  },
+  {
+   "what": "C celebration: Total and payout are the fresh /quote the transaction signs",
+   "ok": true,
+   "detail": "1.39 €10.89"
+  },
+  {
+   "what": "C: the signed quote's stake is the fresh swap quote's min_out_u",
+   "ok": true,
+   "detail": "stake 8690791, min_out 8690791"
+  },
+  {
+   "what": "C celebration: \"Hedge mock-filled · test money\"",
+   "ok": true,
+   "detail": "Hedge mock-filled · test money"
+  },
+  {
+   "what": "06c-minted-mockbonk: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "C: the ticket holds the 1 picks played",
+   "ok": true,
+   "detail": "HgKh3WAsiBuZsTEUt2HB8CV3GdCCW29oAwQp8MF58YWB"
+  },
+  {
+   "what": "E: Account's DEPOSIT gave test mockSOL (#deposit-mocksol, the balance row)",
+   "ok": true,
+   "detail": "1 mockSOL"
+  },
+  {
+   "what": "E: the slip starts empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "E: the slip pill says 1 Pick and the total",
+   "ok": true,
+   "detail": "1 Pick • Total 1.39"
+  },
+  {
+   "what": "E drawer: 1 legs",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "E drawer: €10 in SOL pays 0.1151 mockSOL (€10 ÷ the desk's €86.86 per SOL), swap lines = the /swap-quote",
+   "ok": true,
+   "detail": "amount_in 115100000, fee 54762, min_out 10929922"
+  },
+  {
+   "what": "E: the mockSOL pool pays the SOL price within 2% (crank amm-peg --from-fx; SOL coinbase)",
+   "ok": true,
+   "detail": "-0.79% off"
+  },
+  {
+   "what": "E drawer: the desk is quoted at stake_u = min_out_u",
+   "ok": true,
+   "detail": "10929922"
+  },
+  {
+   "what": "E drawer: one \"Bet • x SOL\"",
+   "ok": true,
+   "detail": "Bet • 0.1151 SOL"
+  },
+  {
+   "what": "e-tray-mocksol: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "E drawer: total, fair total, payout, margin, Pascal fees, floor = a /quote answer",
+   "ok": true,
+   "detail": "{\"You pay\":\"0.1151 mockSOL\",\"Stake (the swap's minimum)\":\"10.92 USDC\",\"Total\":\"1.39\",\"Fair total\":\"1.45\",\"Payout\":\"15.25 USDC\",\"Our margin\":\"0.68 USDC\",\"Swap fee (0.5%)\":\"0.05 USDC\",\"Paid to Pascal (est.)\":\"0.06 USDC\",\"Lowest total accepted if prices move\":\"1.35\"}"
+  },
+  {
+   "what": "E celebration: View Transaction opens the open_pending on Solscan (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/4v7TrJdAxc1RY7kwyQyiUJP3vcDTFeSvqPgDbaoooUEZJSegSeSr8zQ6vqGPwRjNnVTtmVYsosGZudMs8zXpv4bx?cluster=devnet"
+  },
+  {
+   "what": "E celebration: Total and payout are the fresh /quote the transaction signs",
+   "ok": true,
+   "detail": "1.39 €13.70"
+  },
+  {
+   "what": "E: the signed quote's stake is the fresh swap quote's min_out_u",
+   "ok": true,
+   "detail": "stake 10929922, min_out 10929922"
+  },
+  {
+   "what": "E celebration: \"Hedge mock-filled · test money\"",
+   "ok": true,
+   "detail": "Hedge mock-filled · test money"
+  },
+  {
+   "what": "06e-minted-mocksol: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "E: the ticket holds the 1 picks played",
+   "ok": true,
+   "detail": "Hby9kUuoFhu9tJYcmqfAssY73JPju1Aur8dE4ExdndZ2"
+  },
+  {
+   "what": "07-leg1-won: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A offer: the offer shown and the button's amount are the signed /cashout-quote c_u",
+   "ok": true,
+   "detail": "18.91 USDC (€16.99)"
+  },
+  {
+   "what": "08-offer: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A celebration: the balance went up by the cash-out, the slot is the indexer's",
+   "ok": true,
+   "detail": "(+€16.99); Slot 516,736,205"
+  },
+  {
+   "what": "A celebration: View Transaction is a Solscan link (cluster=devnet)",
+   "ok": true,
+   "detail": "https://solscan.io/tx/4AxsZ3huvWeCen9y9Ai9sY9WcCuVBquH5h3vhFw1cSoD7QHVv8NPDGF88yEJjbpxSiNhCsSTqFwiZtm4ViZjSJkX?cluster=devnet"
+  },
+  {
+   "what": "08b-cashout-celebration: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "A: the celebration's View Transaction is the cash_out My Bets links",
+   "ok": true,
+   "detail": "4AxsZ3huvWeCen9y9Ai9sY9WcCuVBquH5h3vhFw1cSoD7QHVv8NPDGF88yEJjbpxSiNhCsSTqFwiZtm4ViZjSJkX / 4AxsZ3huvWeCen9y9Ai9sY9WcCuVBquH5h3vhFw1cSoD7QHVv8NPDGF88yEJjbpxSiNhCsSTqFwiZtm4ViZjSJkX"
+  },
+  {
+   "what": "09-cashed-out: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "Account's test USDC = the token account on chain",
+   "ok": true,
+   "detail": "1,025.79 USDC"
+  },
+  {
+   "what": "10-settled: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker, honesty pill",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "copy page: no copy-quote asked once the copy was minted",
+   "ok": true,
+   "detail": "0 asked"
+  },
+  {
+   "what": "c4-copy-settled: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "Tipsters: the settled tip's wallet is on the board (show everyone)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "11-tipsters: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "12-house: 390 px dark, no horizontal scroll, no trading words, values toned, tabular figures, test-money marker, honesty pill",
+   "ok": true,
+   "detail": "scrollWidth 390"
+  },
+  {
+   "what": "end of night: no open ticket, vault locked 0 (crank status)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "no page errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "every transaction of the run succeeded",
+   "ok": true,
+   "detail": "31 transactions, 3 refused duplicate finalize/settle(s) from another desk with the crank key"
+  },
+  {
+   "what": "A: open_pending moved −stake from the wallet",
+   "ok": true,
+   "detail": "-11140000"
+  },
+  {
+   "what": "A: the ticket's payout and odds are the signed quote's",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "A: finalize and resolve_leg sent by the crank",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "A: cash_out paid the wallet exactly C of the signed offer, and the desk says paid C",
+   "ok": true,
+   "detail": "C 18918698, delta 18918698, paid 18918698"
+  },
+  {
+   "what": "A: the celebration's \"Hedge mock-filled\" matches the desk's fills (venue mock)",
+   "ok": true,
+   "detail": "1 fills, builder fee 0.0054 USDC"
+  },
+  {
+   "what": "B: open_pending moved −stake from the wallet",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "B: settle (by the crank) paid the wallet the full payout P shown at Gioca",
+   "ok": true,
+   "detail": "P 28968621, delta 28968621, paid 28968621, shown 28968621"
+  },
+  {
+   "what": "B: an own tip on the desk (tipster = the wallet)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "what": "copy: minted",
+   "ok": true,
+   "detail": "5FHFwofpU2VJe3w7mttyAa4HuddW8Ht5LrZu4Zbo6Xfy"
+  },
+  {
+   "what": "copy: open_pending escrowed stake + the 2% copy fee from wallet 2",
+   "ok": true,
+   "detail": "delta -5681400, stake 5570000, fee 111400"
+  },
+  {
+   "what": "copy: its finalize (by the crank) paid the tipster's USDC account its share of the fee, as the desk records",
+   "ok": true,
+   "detail": "tipster +89120, fee 111400, desk fees_earned_u 89120"
+  },
+  {
+   "what": "copy: settled with the tip, paying wallet 2 the copy's payout",
+   "ok": true,
+   "detail": "payout 14484309, delta 14484309"
+  },
+  {
+   "what": "C: minted",
+   "ok": true,
+   "detail": "HgKh3WAsiBuZsTEUt2HB8CV3GdCCW29oAwQp8MF58YWB"
+  },
+  {
+   "what": "C: one transaction swapped mockBONK and opened the schedina",
+   "ok": true,
+   "detail": "Swap+OpenPending"
+  },
+  {
+   "what": "C: the swap sold exactly the mockBONK asked",
+   "ok": true,
+   "detail": "-1000000000"
+  },
+  {
+   "what": "C: stake on chain = the swap quote's min_out_u; the wallet kept the swap's surplus (≥ 0 USDC)",
+   "ok": true,
+   "detail": "stake 8690791, min_out 8690791, wallet USDC 43673"
+  },
+  {
+   "what": "E: minted",
+   "ok": true,
+   "detail": "Hby9kUuoFhu9tJYcmqfAssY73JPju1Aur8dE4ExdndZ2"
+  },
+  {
+   "what": "E: one transaction swapped mockSOL and opened the schedina",
+   "ok": true,
+   "detail": "Swap+OpenPending"
+  },
+  {
+   "what": "E: the swap sold exactly the mockSOL the app asked (€10 at the SOL price)",
+   "ok": true,
+   "detail": "-115100000"
+  },
+  {
+   "what": "E: stake on chain = the swap quote's min_out_u; the wallet kept the swap's surplus (≥ 0 USDC)",
+   "ok": true,
+   "detail": "stake 10929922, min_out 10929922, wallet USDC 54925, pool -0.79% off the SOL price"
+  },
+  {
+   "what": "E: settled at the end of the night",
+   "ok": true,
+   "detail": "settled"
+  },
+  {
+   "what": "faucet: +1,000 test USDC",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "screenshots": [
+  "01-fresh-wallet",
+  "02-faucet",
+  "03-card",
+  "04-tray",
+  "05-escrowed",
+  "06-minted",
+  "04b-tray-tip",
+  "c1-fresh-wallet",
+  "c2-faucet",
+  "c2b-tipster-profile",
+  "c3-copy-quote",
+  "c3-copy-minted",
+  "c2c-copiers",
+  "c-tray-mockbonk",
+  "06c-minted-mockbonk",
+  "e-tray-mocksol",
+  "06e-minted-mocksol",
+  "07-leg1-won",
+  "08-offer",
+  "08b-cashout-celebration",
+  "09-cashed-out",
+  "10-settled",
+  "c4-copy-settled",
+  "11-tipsters",
+  "12-house"
+ ],
+ "notes": {
+  "slate": [
+   "0: nba-cha-was-2026-10-30 (basketball)",
+   "1: bundesliga-elv-m05-2026-10-30 (soccer)",
+   "2: nba-chi-bos-2026-10-30 (basketball)",
+   "3: nba-det-bkn-2026-10-30 (basketball)",
+   "4: nba-nyk-phi-2026-10-30 (basketball)",
+   "5: nba-orl-tor-2026-10-30 (basketball)",
+   "6: nba-hou-dal-2026-10-30 (basketball)",
+   "7: nba-ind-mia-2026-10-30 (basketball)",
+   "8: nba-lac-min-2026-10-30 (basketball)",
+   "9: nba-den-phx-2026-10-30 (basketball)",
+   "10: nba-lal-gsw-2026-10-30 (basketball)",
+   "11: lal-vil-esp-2026-10-30 (soccer)"
+  ],
+  "line": "none on the card"
+ }
+}

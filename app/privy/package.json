@@ -1,0 +1,20 @@
+{
+  "name": "schedina-privy-bridge",
+  "private": true,
+  "version": "0.0.0",
+  "description": "window.SchedinaPrivy: Google login via Privy and its embedded Solana wallet, bundled into app/assets/privy.js (just privy-bundle)",
+  "type": "module",
+  "scripts": {
+    "bundle": "esbuild src/index.js --bundle --format=esm --minify --platform=browser --target=es2020 --legal-comments=none --outfile=../assets/privy.js"
+  },
+  "dependencies": {
+    "@privy-io/js-sdk-core": "0.79.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  },
+  "overrides": {
+    "viem": "2.57.7"
+  },
+  "comment": "viem: Privy 0.79.0 asks 2.57.7 (optional peer) while its @privy-io/ethereum 0.2.5 asks 2.56.5; one copy, the SDK's."
+}

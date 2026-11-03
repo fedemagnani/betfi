@@ -1,0 +1,80 @@
+/* BetFi deck: the app's palette (app/assets), small type, lots of empty space. */
+:root {
+  --bf-bg: #0a0b10;
+  --bf-ink: #e6e8ee;
+  --bf-muted: #8b93a5;
+  --bf-faint: #2a2d36;
+  --bf-green: #14f195;
+  --bf-purple: #9945ff;
+}
+
+.slidev-layout {
+  background: var(--bf-bg);
+  color: var(--bf-ink);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  padding: 2.5rem 3.5rem;
+}
+
+/* Titles are small eyebrows, not headlines. */
+.slidev-layout h1 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bf-muted);
+  margin-bottom: 0;
+}
+
+.slidev-layout h1 + p { opacity: 1; }
+
+.muted { color: var(--bf-muted); }
+.green { color: var(--bf-green); }
+.purple { color: var(--bf-purple); }
+
+/* Bullet lists: the point on the left, its logos or formula in a right-hand column.
+   `.one` drops the right column; `.sub` indents a point under the one above it.
+   (Not `.pt`/`.lg`: UnoCSS reads those as utilities, `pt` being padding-top.) */
+.points { display: grid; grid-template-columns: 1fr auto; gap: 1.1rem 3rem; align-items: center; width: 46rem; max-width: 100%; }
+.points.one { grid-template-columns: 1fr; gap: 0.8rem; }
+.item { position: relative; padding-left: 1.1rem; }
+.item::before {
+  content: ""; position: absolute; left: 0; top: calc(0.8em - 2.5px); /* the first line's middle */
+  width: 5px; height: 5px; border-radius: 50%; background: var(--bf-green);
+}
+.item b { font-weight: 600; }
+.item span { color: var(--bf-muted); }
+.item.sub { margin-left: 1.5rem; }
+.item.sub::before { background: none; border: 1px solid var(--bf-muted); }
+.side { display: flex; align-items: center; justify-content: flex-end; gap: 1.5rem; }
+.side img { opacity: 0.9; }
+.side p { margin: 0; }
+/* Formulas aligned on "=": each left side right-aligned in the same width. */
+.side.eq { justify-content: flex-start; gap: 0.3em; }
+.side.eq .lhs { width: 3.4rem; text-align: right; }
+/* The formulas as their own column, evenly spaced, not tied to the bullets' rows. */
+.eqs { display: flex; flex-direction: column; gap: 1.75rem; }
+
+/* A list beside a small diagram (page 3: wallets → BetFi ⇄ aggregators, BetFi → prediction market). */
+.split { display: grid; grid-template-columns: 1fr auto; gap: 2.5rem; align-items: center; width: 46rem; max-width: 100%; }
+.split .points { width: auto; }
+/* Beside a diagram or the formulas, the list spans their height, its points spread evenly (slides 3, 4, 6). */
+.split:has(> .flow), .split:has(> .eqs) { align-items: stretch; }
+.split:has(> .flow) > .points, .split:has(> .eqs) > .points { display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; }
+/* The diagram right after the list instead of at the far edge (slide 4). */
+.split.snug { grid-template-columns: max-content auto; gap: 6rem; }
+.flow line { stroke: var(--bf-muted); stroke-width: 1.2; }
+.flow .head { fill: var(--bf-muted); }
+.flow .box { fill: none; stroke: var(--bf-faint); stroke-width: 1.2; }
+.flow .label { fill: var(--bf-muted); font-size: 10px; }
+/* Box names (what the entities are) set apart from the arrows' actions. */
+.flow .name { fill: var(--bf-muted); font-size: 7.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-anchor: middle; }
+.flow .mark { fill: var(--bf-ink); font-size: 11px; font-weight: 600; letter-spacing: -0.01em; }
+.flow .word { font-size: 22px; font-weight: 600; letter-spacing: -0.025em; text-anchor: middle; }
+.flow .bet { fill: var(--bf-ink); }
+.flow .fi { fill: var(--bf-green); }
+
+/* A logo beside a slide title (slide 4: Rust). */
+.title-mark { display: inline-block; height: 1.5em; vertical-align: -0.4em; margin-left: 0.35em; opacity: 0.9; }
+
+.katex { font-size: 1.35em; }

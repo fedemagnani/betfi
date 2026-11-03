@@ -1,0 +1,313 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+  "tickets": [
+    {
+      "ticket": "Gyn6E4YhK3f5stkJ4Ht6JC22CVweNaWJ8ARjhF1ZkWYo",
+      "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+      "nonce": 830369762348663,
+      "state": "open",
+      "n": 3,
+      "stake_u": 27142405,
+      "payout_u": 123508707,
+      "odds_offered_u": 4550396,
+      "odds_fair_u": 5197928,
+      "fee_u": 3381265,
+      "minted_at": 1793301540,
+      "settled_at": null,
+      "paid_u": null,
+      "cash_out": {
+        "available": true,
+        "c_u": 30120000,
+        "reason": null
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+          "game_id": "el-fen-pao-2026-10-29",
+          "away": "Fenerbahçe",
+          "home": "Panathinaikos",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793298600000,
+          "p_quote_u": 510204,
+          "p_fill_u": 510204,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Panathinaikos"
+        },
+        {
+          "idx": 1,
+          "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+          "game_id": "el-rma-oly-2026-10-29",
+          "away": "Olympiacos",
+          "home": "Real Madrid",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793303100000,
+          "p_quote_u": 641025,
+          "p_fill_u": 641025,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Real Madrid"
+        },
+        {
+          "idx": 2,
+          "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+          "game_id": "nba-bos-nyk-2026-10-29",
+          "away": "NY Knicks",
+          "home": "Boston Celtics",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793318400000,
+          "p_quote_u": 588235,
+          "p_fill_u": 588235,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Boston Celtics"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "CYqCxBoKE5KD5qUAUHumNqxa3yF7e9HmdGDtQKMdjU6MAynHUe9x3yC9Wj2dgJmZFURzPpTLsuTdF3LXHcVmAwu4",
+        "finalize": "BS9QfDEtf7irq4wnByxy38DwjthhfQWCAztCaiRyUPesH6PMpAZcck7GbJordkqQJPcN6LytGwEj4LMf8uRJ74Ky",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 284912041,
+          "cash_out": null,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": 412,
+          "cash_out": null
+        }
+      },
+      "tipster": null,
+      "copied_from": null,
+      "title": null,
+      "posted_odds_u": 4550396
+    },
+    {
+      "ticket": "Ep84MGf1LRjsp1qagW9SqWExUEX8xtaWBd3EfUaArzGw",
+      "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+      "nonce": 8933921334083885,
+      "state": "cashed_out",
+      "n": 1,
+      "stake_u": 21714000,
+      "payout_u": 45599475,
+      "odds_offered_u": 2100003,
+      "odds_fair_u": 2164952,
+      "fee_u": 651420,
+      "minted_at": 1793215800,
+      "settled_at": 1793221500,
+      "paid_u": 66450000,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "ticket cashed_out"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "UCL_26OCT28_RMAMCI_ML.RMA",
+          "game_id": "ucl-rma-mci-2026-10-28",
+          "away": "Manchester City",
+          "home": "Real Madrid",
+          "pick": "home",
+          "side": "long",
+          "start_ms": 1793217600000,
+          "p_quote_u": 461904,
+          "p_fill_u": 461904,
+          "hedged": true,
+          "status": "open",
+          "resolution_u": null,
+          "kind": "winner",
+          "line": null,
+          "label": "Real Madrid"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "GTBRCs9Trp4LYbsjL92cKpCVGiV3FXHiT6bmpGP2yEMa9yaegBPYzgQAN8Q8D4rSC8BkpCh2rjkVB2pKw1vvnTyj",
+        "finalize": "H8a9bmmRJ2UZjVmfvhCHu7MHb2a8xVafxBQGy6fY68oNDDmRDMqUeXkjKPTU5vf9Bxy2A6kK3exa8DFLDj9XiUvD",
+        "settle": null,
+        "refund_pending": null,
+        "cash_out": "Dcm7FUw3V8h35dU6SGsRmuyPiEZ7PHGghMJDuijWMLu5D48Cus7LaXje1TS22ARzueHN488uKr4UjH5Psr6o7psK",
+        "resolve_leg": [],
+        "slot": {
+          "open_pending": 284903273,
+          "cash_out": 892104821,
+          "settle": null
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": 380
+        }
+      },
+      "tipster": null,
+      "copied_from": null,
+      "title": null,
+      "posted_odds_u": 2100003
+    },
+    {
+      "ticket": "AEKfV6cqH6T9WByYHTdkFn9T3FcQoddQKmZ3RdcM7spH",
+      "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+      "nonce": 7327628375385173,
+      "state": "settled",
+      "n": 1,
+      "stake_u": 21714000,
+      "payout_u": 36913815,
+      "odds_offered_u": 1700000,
+      "odds_fair_u": 1752578,
+      "fee_u": 651420,
+      "minted_at": 1793203200,
+      "settled_at": 1793217600,
+      "paid_u": 36913815,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "ticket settled"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT28_MILBAR_ML.MIL",
+          "game_id": "el-mil-bar-2026-10-28",
+          "away": "Milan",
+          "home": "Barcelona",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793209500000,
+          "p_quote_u": 570588,
+          "p_fill_u": 570588,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000,
+          "kind": "winner",
+          "line": null,
+          "label": "Barcelona"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "AoxUZyPhVQu3NDnPiAoPr9k7oHJK5Fafqg1jmwtdLBTsFoXkFAKXixnxz8fqcKQbLZBFWdqUR5ccpjCFjBm4Fzdn",
+        "finalize": "GbpeLGV3ekkHY8rbjQyw446pYRafng7tqGxWs2KdambfFWRV9wzTNPXNkz1oCpr5cseTxhxTrv7YviR73BngeNit",
+        "settle": "GgGWQbohEbCjq3N2u6JVMB3QSSXhLN4qSTCuiXHunRhtG3JU9iWFTatigjFV3HP91JSGK2rdM57ue9sGQe8FMZHx",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "FPVDC9Cwt91CcC2AQm4yNYMAftJ9qwPtbN9VENfTA3raFwqdzjZxAvHNQQCU2TD4QB9UgyZ5iKHMxMVzG18bP6nM"
+        ],
+        "slot": {
+          "open_pending": 284906366,
+          "cash_out": null,
+          "settle": 284642574
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": null
+        }
+      },
+      "tipster": null,
+      "copied_from": null,
+      "title": null,
+      "posted_odds_u": 1700000
+    },
+    {
+      "ticket": "EiyuzritsqxnRPMcRxY4PBVKRbTqRLD6zcY794Pzs7cT",
+      "user": "A9WWowqfchfKaZ7EaxUNuoTP9Uh3TKPDgxN8uUCrKskx",
+      "nonce": 6420568493795296,
+      "state": "settled",
+      "n": 2,
+      "stake_u": 10857000,
+      "payout_u": 51689470,
+      "odds_offered_u": 4760934,
+      "odds_fair_u": 5275274,
+      "fee_u": 1058557,
+      "minted_at": 1793205000,
+      "settled_at": 1793223000,
+      "paid_u": 0,
+      "cash_out": {
+        "available": false,
+        "c_u": null,
+        "reason": "ticket settled"
+      },
+      "legs": [
+        {
+          "idx": 0,
+          "symbol": "EL_26OCT28_MILBAR_ML.MIL",
+          "game_id": "el-mil-bar-2026-10-28",
+          "away": "Milan",
+          "home": "Barcelona",
+          "pick": "home",
+          "side": "short",
+          "start_ms": 1793209500000,
+          "p_quote_u": 570588,
+          "p_fill_u": 570588,
+          "hedged": true,
+          "status": "won",
+          "resolution_u": 1000000,
+          "kind": "winner",
+          "line": null,
+          "label": "Barcelona"
+        },
+        {
+          "idx": 1,
+          "symbol": "EL_26OCT28_ASVMON_ML.ASV",
+          "game_id": "el-asv-mon-2026-10-28",
+          "away": "ASVEL",
+          "home": "Monaco",
+          "pick": "away",
+          "side": "long",
+          "start_ms": 1793214000000,
+          "p_quote_u": 332225,
+          "p_fill_u": 332225,
+          "hedged": true,
+          "status": "lost",
+          "resolution_u": 0,
+          "kind": "winner",
+          "line": null,
+          "label": "ASVEL"
+        }
+      ],
+      "fills": [],
+      "tx": {
+        "open_pending": "GkBejZcEjxgX5F5D3QfnnmcMqq3Drqvjk6CdB4HBQAkFFzjH2htaqBdMrzZefW4A5ZFgA9KVzcT9JZQF5yhQ3Fqg",
+        "finalize": "BHPViWtaXuaUUCo5Uw4BtDcVJASN7A9edBG15x5iiLRGCdXb3zvL96d4mKBWwcWCeEuGcLQEkdcruuy3VXNSbXFZ",
+        "settle": "HndG6jdniMhj6upzCnyBAWwFmTnTJqTA9tuaAwidCPLgB4JFYh6m7teDY4zWcBbVDymu3cWc7YPwNaCveb35PaEa",
+        "refund_pending": null,
+        "cash_out": null,
+        "resolve_leg": [
+          "GAEtvZkLGxVKjXRnW2g6SfmN7ocN6L3hCH3gmQ9RyyTuCMD9WSAUUrxBJ34yjAGWpK3xUJYQzwy7yD7EAUDJBSrW",
+          "GLnxZEuAzMnX2AuWppt2udh974m5G7FJ8iWz8p6hUuMdHsrWyC4RrdSweh2BFa6Jva12XWUWcYEseKLgiSzgfwXq"
+        ],
+        "slot": {
+          "open_pending": 284910808,
+          "cash_out": null,
+          "settle": 284646381
+        },
+        "confirm_ms": {
+          "open_pending": null,
+          "cash_out": null
+        }
+      },
+      "tipster": null,
+      "copied_from": null,
+      "title": null,
+      "posted_odds_u": 4760934
+    }
+  ]
+}

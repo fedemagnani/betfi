@@ -1,0 +1,10 @@
+{
+  "mint": "9n4tnNg5pREwfsMvkpaGNQ6hXrvq6onFvo6eCma34jjq",
+  "amount_in": "1000000000",
+  "usdc_out_u": 9930238,
+  "fee_u": 49801,
+  "min_out_u": 9880586,
+  "slippage_bps": 50,
+  "route": "mock-amm",
+  "pool": "4Aub8FuCV2zsrtvV5GuX3yk637UrHCUQqLygt2CrJB71"
+}

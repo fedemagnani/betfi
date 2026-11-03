@@ -1,0 +1,28 @@
+prompts
+
+# local env and signing keys
+.env
+keys/
+*-keypair.json
+
+# build output
+target/
+node_modules/
+app/privy/node_modules
+.anchor/
+test-ledger/
+app/dist/
+slides/dist/
+**/*.rs.bk
+__pycache__/
+
+# tape raw captures (only the trimmed samples are committed)
+tapes/*/raw/
+tapes/*.raw
+
+# agent worktrees
+.claude/worktrees/
+
+# OS noise
+.DS_Store
+.claude

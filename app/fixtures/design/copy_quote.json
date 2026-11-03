@@ -1,0 +1,55 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "n": 3,
+  "stake_u": 27142405,
+  "legs": [
+    {
+      "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+      "game_id": "el-rma-oly-2026-10-29",
+      "side": "short",
+      "pick": "home",
+      "start_ms": 1793303100000,
+      "price_u": 641025,
+      "p_max_u": 651025,
+      "m1_ppm": 50000,
+      "overlaps": true,
+      "in_play": false
+    },
+    {
+      "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+      "game_id": "nba-bos-nyk-2026-10-29",
+      "side": "short",
+      "pick": "home",
+      "start_ms": 1793318400000,
+      "price_u": 588235,
+      "p_max_u": 598235,
+      "m1_ppm": 30000,
+      "overlaps": false,
+      "in_play": false
+    },
+    {
+      "symbol": "UCL_26OCT29_ARSBAY_ML.ARS",
+      "game_id": "ucl-ars-bay-2026-10-29",
+      "side": "long",
+      "pick": "home",
+      "start_ms": 1793304000000,
+      "price_u": 510204,
+      "p_max_u": 520204,
+      "m1_ppm": 50000,
+      "overlaps": true,
+      "in_play": false
+    }
+  ],
+  "odds_fair_u": 5197928,
+  "odds_offered_u": 4550396,
+  "payout_u": 123508706,
+  "fee_u": 17575575,
+  "pascal_fees_est_u": 120000,
+  "copy_fee_u": 542848,
+  "slippage_bps": 300,
+  "min_payout_per_unit_u": 4413884,
+  "quote_expires_at": 1793301610,
+  "quote_signer": "design-fixture-not-signed",
+  "quote_msg": "",
+  "quote_sig": ""
+}

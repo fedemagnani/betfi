@@ -1,0 +1,355 @@
+{
+  "_fixture": "BetFi C2 mockup content: fictional, for visual review only (7.0a design fixtures v2)",
+  "sport": "all",
+  "date": "2026-10-29",
+  "as_of_ms": 1793301600000,
+  "games": [
+    {
+      "game_id": "el-fen-pao-2026-10-29",
+      "sport": "basketball",
+      "league": "EuroLeague",
+      "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+      "start_ms": 1793298600000,
+      "expected_resolution_ms": 1793305800000,
+      "away": {
+        "name": "Fenerbahçe",
+        "abbr": "FEN"
+      },
+      "home": {
+        "name": "Panathinaikos",
+        "abbr": "PAO"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 510204,
+          "odds_u": 1960000
+        },
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 617283,
+          "odds_u": 1620002
+        }
+      ],
+      "markets_count": 1,
+      "in_play": true,
+      "started_ms": 1793298600000,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Head to Head",
+          "picks": [
+            {
+              "label": "Panathinaikos",
+              "team": "home",
+              "outcome": "1",
+              "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+              "side": "short",
+              "price_u": 510204,
+              "odds_u": 1960000
+            },
+            {
+              "label": "Fenerbahçe",
+              "team": "away",
+              "outcome": "2",
+              "symbol": "EL_26OCT29_FENPAO_ML.FEN",
+              "side": "long",
+              "price_u": 617283,
+              "odds_u": 1620002
+            }
+          ]
+        }
+      ],
+      "score": {
+        "home": 61,
+        "away": 66,
+        "period": "Q3",
+        "elapsed": "4:12"
+      }
+    },
+    {
+      "game_id": "el-rma-oly-2026-10-29",
+      "sport": "basketball",
+      "league": "EuroLeague",
+      "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+      "start_ms": 1793303100000,
+      "expected_resolution_ms": 1793310300000,
+      "away": {
+        "name": "Olympiacos",
+        "abbr": "OLY"
+      },
+      "home": {
+        "name": "Real Madrid",
+        "abbr": "RMA"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 641025,
+          "odds_u": 1560001
+        },
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 392156,
+          "odds_u": 2550005
+        }
+      ],
+      "markets_count": 25,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Head to Head",
+          "picks": [
+            {
+              "label": "Real Madrid",
+              "team": "home",
+              "outcome": "1",
+              "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+              "side": "short",
+              "price_u": 641025,
+              "odds_u": 1560001
+            },
+            {
+              "label": "Olympiacos",
+              "team": "away",
+              "outcome": "2",
+              "symbol": "EL_26OCT29_OLYRMA_ML.OLY",
+              "side": "long",
+              "price_u": 392156,
+              "odds_u": 2550005
+            }
+          ]
+        },
+        {
+          "kind": "spread",
+          "line": "+3.5",
+          "picks": [
+            {
+              "label": "Olympiacos +3.5",
+              "team": "away",
+              "symbol": "EL_26OCT29_OLYRMA_SP.OLY_3",
+              "side": "long",
+              "price_u": 520833,
+              "odds_u": 1920001
+            },
+            {
+              "label": "Real Madrid -3.5",
+              "team": "home",
+              "symbol": "EL_26OCT29_OLYRMA_SP.OLY_3",
+              "side": "short",
+              "price_u": 531914,
+              "odds_u": 1880003
+            }
+          ]
+        },
+        {
+          "kind": "total",
+          "line": "161.5",
+          "picks": [
+            {
+              "label": "Over 161.5",
+              "team": null,
+              "symbol": "EL_26OCT29_OLYRMA_TP_161",
+              "side": "long",
+              "price_u": 526315,
+              "odds_u": 1900002
+            },
+            {
+              "label": "Under 161.5",
+              "team": null,
+              "symbol": "EL_26OCT29_OLYRMA_TP_161",
+              "side": "short",
+              "price_u": 526315,
+              "odds_u": 1900002
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "nba-bos-nyk-2026-10-29",
+      "sport": "basketball",
+      "league": "NBA",
+      "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+      "start_ms": 1793318400000,
+      "expected_resolution_ms": 1793325600000,
+      "away": {
+        "name": "NY Knicks",
+        "abbr": "NYK"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "abbr": "BOS"
+      },
+      "long_team": "away",
+      "picks": [
+        {
+          "pick": "home",
+          "side": "short",
+          "price_u": 588235,
+          "odds_u": 1700000
+        },
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 458715,
+          "odds_u": 2180002
+        }
+      ],
+      "markets_count": 32,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Moneyline",
+          "picks": [
+            {
+              "label": "Boston Celtics",
+              "team": "home",
+              "outcome": "1",
+              "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+              "side": "short",
+              "price_u": 588235,
+              "odds_u": 1700000
+            },
+            {
+              "label": "NY Knicks",
+              "team": "away",
+              "outcome": "2",
+              "symbol": "NBA_26OCT30_NYKBOS_ML.NYK",
+              "side": "long",
+              "price_u": 458715,
+              "odds_u": 2180002
+            }
+          ]
+        },
+        {
+          "kind": "spread",
+          "line": "+3.5",
+          "picks": [
+            {
+              "label": "NY Knicks +3.5",
+              "team": "away",
+              "symbol": "NBA_26OCT30_NYKBOS_SP.NYK_3",
+              "side": "long",
+              "price_u": 526315,
+              "odds_u": 1900002
+            },
+            {
+              "label": "Boston Celtics -3.5",
+              "team": "home",
+              "symbol": "NBA_26OCT30_NYKBOS_SP.NYK_3",
+              "side": "short",
+              "price_u": 526315,
+              "odds_u": 1900002
+            }
+          ]
+        },
+        {
+          "kind": "total",
+          "line": "221.5",
+          "picks": [
+            {
+              "label": "Over 221.5",
+              "team": null,
+              "symbol": "NBA_26OCT30_NYKBOS_TP_221",
+              "side": "long",
+              "price_u": 523560,
+              "odds_u": 1910000
+            },
+            {
+              "label": "Under 221.5",
+              "team": null,
+              "symbol": "NBA_26OCT30_NYKBOS_TP_221",
+              "side": "short",
+              "price_u": 529100,
+              "odds_u": 1890001
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "ucl-ars-bay-2026-10-29",
+      "sport": "soccer",
+      "league": "Champions League",
+      "symbol": "UCL_26OCT29_ARSBAY_ML.ARS",
+      "start_ms": 1793304000000,
+      "expected_resolution_ms": 1793311200000,
+      "away": {
+        "name": "Bayern Munich",
+        "abbr": "BAY"
+      },
+      "home": {
+        "name": "Arsenal",
+        "abbr": "ARS"
+      },
+      "long_team": "home",
+      "picks": [
+        {
+          "pick": "home",
+          "side": "long",
+          "price_u": 510204,
+          "odds_u": 1960000
+        },
+        {
+          "pick": "away",
+          "side": "long",
+          "price_u": 263157,
+          "odds_u": 3800012
+        }
+      ],
+      "markets_count": 3,
+      "in_play": false,
+      "started_ms": null,
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Full Time Result (1X2)",
+          "picks": [
+            {
+              "label": "Arsenal",
+              "team": "home",
+              "outcome": "1",
+              "symbol": "UCL_26OCT29_ARSBAY_ML.ARS",
+              "side": "long",
+              "price_u": 510204,
+              "odds_u": 1960000
+            },
+            {
+              "label": "Draw",
+              "team": null,
+              "outcome": "X",
+              "symbol": "UCL_26OCT29_ARSBAY_ML.DRAW",
+              "side": "long",
+              "price_u": 277777,
+              "odds_u": 3600010
+            },
+            {
+              "label": "Bayern Munich",
+              "team": "away",
+              "outcome": "2",
+              "symbol": "UCL_26OCT29_ARSBAY_ML.BAY",
+              "side": "long",
+              "price_u": 263157,
+              "odds_u": 3800012
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

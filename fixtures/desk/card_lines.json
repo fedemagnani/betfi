@@ -1,0 +1,265 @@
+{
+  "as_of_ms": 1793212985011,
+  "date": "2026-10-28",
+  "games": [
+    {
+      "away": {
+        "abbr": "PHI",
+        "name": "Philadelphia 76ers"
+      },
+      "expected_resolution_ms": 1793242800000,
+      "game_id": "nba-phi-ind-2026-10-28",
+      "home": {
+        "abbr": "IND",
+        "name": "Indiana Pacers"
+      },
+      "in_play": true,
+      "league": "NBA",
+      "long_team": "away",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Moneyline",
+          "picks": [
+            {
+              "label": "76ers",
+              "odds_u": 1430615,
+              "outcome": "2",
+              "price_u": 699000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+              "team": "away"
+            },
+            {
+              "label": "Pacers",
+              "odds_u": 3236245,
+              "outcome": "1",
+              "price_u": 309000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_PHIIND_ML.PHI",
+              "team": "home"
+            }
+          ]
+        }
+      ],
+      "markets_count": 1,
+      "picks": [
+        {
+          "odds_u": 1430615,
+          "outcome": "2",
+          "pick": "away",
+          "price_u": 699000,
+          "side": "long"
+        },
+        {
+          "odds_u": 3236245,
+          "outcome": "1",
+          "pick": "home",
+          "price_u": 309000,
+          "side": "short"
+        }
+      ],
+      "sport": "basketball",
+      "start_ms": 1793228400000,
+      "started_ms": 1793228400000,
+      "symbol": "NBA_26OCT28_PHIIND_ML.PHI"
+    },
+    {
+      "away": {
+        "abbr": "ORL",
+        "name": "Orlando Magic"
+      },
+      "expected_resolution_ms": 1793244600000,
+      "game_id": "nba-orl-tor-2026-10-28",
+      "home": {
+        "abbr": "TOR",
+        "name": "Toronto Raptors"
+      },
+      "in_play": false,
+      "league": "NBA",
+      "long_team": "away",
+      "markets": [
+        {
+          "kind": "winner",
+          "line": null,
+          "market_title": "Moneyline",
+          "picks": [
+            {
+              "label": "Magic",
+              "odds_u": 2638522,
+              "outcome": "2",
+              "price_u": 379000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+              "team": "away"
+            },
+            {
+              "label": "Raptors",
+              "odds_u": 1589825,
+              "outcome": "1",
+              "price_u": 629000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_ML.ORL",
+              "team": "home"
+            }
+          ]
+        },
+        {
+          "kind": "spread",
+          "line": "-3.5",
+          "picks": [
+            {
+              "label": "Magic +3.5",
+              "odds_u": 2178649,
+              "price_u": 459000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_3",
+              "team": "away"
+            },
+            {
+              "label": "Raptors -3.5",
+              "odds_u": 1788908,
+              "price_u": 559000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_3",
+              "team": "home"
+            }
+          ]
+        },
+        {
+          "kind": "spread",
+          "line": "-4.5",
+          "picks": [
+            {
+              "label": "Magic +4.5",
+              "odds_u": 2004008,
+              "price_u": 499000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_4",
+              "team": "away"
+            },
+            {
+              "label": "Raptors -4.5",
+              "odds_u": 1926782,
+              "price_u": 519000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_4",
+              "team": "home"
+            }
+          ]
+        },
+        {
+          "kind": "spread",
+          "line": "-5.5",
+          "picks": [
+            {
+              "label": "Magic +5.5",
+              "odds_u": 1855287,
+              "price_u": 539000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_5",
+              "team": "away"
+            },
+            {
+              "label": "Raptors -5.5",
+              "odds_u": 2087682,
+              "price_u": 479000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_SP.TOR_5",
+              "team": "home"
+            }
+          ]
+        },
+        {
+          "kind": "total",
+          "line": "221.5",
+          "picks": [
+            {
+              "label": "Over 221.5",
+              "odds_u": 1788908,
+              "price_u": 559000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.221",
+              "team": null
+            },
+            {
+              "label": "Under 221.5",
+              "odds_u": 2227171,
+              "price_u": 449000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.221",
+              "team": null
+            }
+          ]
+        },
+        {
+          "kind": "total",
+          "line": "223.5",
+          "picks": [
+            {
+              "label": "Over 223.5",
+              "odds_u": 1964636,
+              "price_u": 509000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.223",
+              "team": null
+            },
+            {
+              "label": "Under 223.5",
+              "odds_u": 2004008,
+              "price_u": 499000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.223",
+              "team": null
+            }
+          ]
+        },
+        {
+          "kind": "total",
+          "line": "224.5",
+          "picks": [
+            {
+              "label": "Over 224.5",
+              "odds_u": 2044989,
+              "price_u": 489000,
+              "side": "long",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.224",
+              "team": null
+            },
+            {
+              "label": "Under 224.5",
+              "odds_u": 1926782,
+              "price_u": 519000,
+              "side": "short",
+              "symbol": "NBA_26OCT28_ORLTOR_TT.224",
+              "team": null
+            }
+          ]
+        }
+      ],
+      "markets_count": 10,
+      "picks": [
+        {
+          "odds_u": 2638522,
+          "outcome": "2",
+          "pick": "away",
+          "price_u": 379000,
+          "side": "long"
+        },
+        {
+          "odds_u": 1589825,
+          "outcome": "1",
+          "pick": "home",
+          "price_u": 629000,
+          "side": "short"
+        }
+      ],
+      "sport": "basketball",
+      "start_ms": 1793230200000,
+      "started_ms": null,
+      "symbol": "NBA_26OCT28_ORLTOR_ML.ORL"
+    }
+  ],
+  "sport": "nba"
+}

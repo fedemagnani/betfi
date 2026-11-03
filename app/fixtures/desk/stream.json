@@ -1,0 +1,30 @@
+[
+ {
+  "delay_ms": 300,
+  "frame": "{\"type\":\"heartbeat\",\"ts_ms\":1793213000000}"
+ },
+ {
+  "delay_ms": 1500,
+  "frame": "{\"type\":\"progress\",\"pending\":\"dXvU3r7WBMCuGfJG6121KEzLjrdXLmfAku1PaiK3jEs\",\"stage\":\"escrowed\",\"fills\":[],\"ticket\":null}"
+ },
+ {
+  "delay_ms": 1500,
+  "frame": "{\"type\":\"progress\",\"pending\":\"dXvU3r7WBMCuGfJG6121KEzLjrdXLmfAku1PaiK3jEs\",\"stage\":\"hedging\",\"fills\":[{\"trade_id\":\"90001\",\"symbol\":\"NBA_26OCT28_PHIIND_ML.PHI\",\"side\":\"bid\",\"price_u\":699000,\"size\":8,\"fee_u\":33663,\"builder_fee_u\":5592,\"venue\":\"mock\"},{\"trade_id\":\"90002\",\"symbol\":\"NBA_26OCT28_ORLTOR_ML.ORL\",\"side\":\"ask\",\"price_u\":371000,\"size\":13,\"fee_u\":60673,\"builder_fee_u\":4823,\"venue\":\"mock\"},{\"trade_id\":\"90003\",\"symbol\":\"NBA_26OCT28_OKCDAL_ML.OKC\",\"side\":\"bid\",\"price_u\":659000,\"size\":23,\"fee_u\":103370,\"builder_fee_u\":15157,\"venue\":\"mock\"}],\"ticket\":null}"
+ },
+ {
+  "delay_ms": 600,
+  "frame": "{\"type\":\"feed\",\"kind\":\"fill\",\"text\":\"mock-filled 8 PHI @ 0.699 for ticket #7\",\"ts_ms\":1793212999000}"
+ },
+ {
+  "delay_ms": 1500,
+  "frame": "{\"type\":\"progress\",\"pending\":\"dXvU3r7WBMCuGfJG6121KEzLjrdXLmfAku1PaiK3jEs\",\"stage\":\"minted\",\"fills\":[],\"ticket\":\"HGMZNFqTMf4bcdUpSoZNG981rPiAYk6utvoPuSJ19DZy\"}"
+ },
+ {
+  "delay_ms": 200,
+  "frame": "{\"type\":\"ticket\",\"ticket\":{\"ticket\":\"HGMZNFqTMf4bcdUpSoZNG981rPiAYk6utvoPuSJ19DZy\",\"user\":\"6P3JVey5HWAxhLTaRCAEeJ3yoXWNT7YsxbHhHbESntos\",\"nonce\":7,\"state\":\"open\",\"n\":3,\"stake_u\":5000000,\"payout_u\":14795428,\"odds_offered_u\":2959085,\"odds_fair_u\":3514745,\"fee_u\":2778297,\"minted_at\":1793213000,\"settled_at\":null,\"paid_u\":null,\"cash_out\":{\"available\":true,\"c_u\":4650000,\"reason\":null},\"legs\":[{\"idx\":0,\"symbol\":\"NBA_26OCT28_PHIIND_ML.PHI\",\"game_id\":\"nba-phi-ind-2026-10-28\",\"away\":\"Philadelphia 76ers\",\"home\":\"Indiana Pacers\",\"pick\":\"away\",\"side\":\"long\",\"start_ms\":1793228400000,\"p_quote_u\":699000,\"p_fill_u\":699000,\"hedged\":true,\"status\":\"open\",\"resolution_u\":null},{\"idx\":1,\"symbol\":\"NBA_26OCT28_ORLTOR_ML.ORL\",\"game_id\":\"nba-orl-tor-2026-10-28\",\"away\":\"Orlando Magic\",\"home\":\"Toronto Raptors\",\"pick\":\"home\",\"side\":\"short\",\"start_ms\":1793230200000,\"p_quote_u\":629000,\"p_fill_u\":629000,\"hedged\":true,\"status\":\"open\",\"resolution_u\":null},{\"idx\":2,\"symbol\":\"NBA_26OCT28_OKCDAL_ML.OKC\",\"game_id\":\"nba-okc-dal-2026-10-28\",\"away\":\"Oklahoma City Thunder\",\"home\":\"Dallas Mavericks\",\"pick\":\"away\",\"side\":\"long\",\"start_ms\":1793237400000,\"p_quote_u\":659000,\"p_fill_u\":659000,\"hedged\":true,\"status\":\"open\",\"resolution_u\":null}],\"fills\":[{\"trade_id\":\"90001\",\"symbol\":\"NBA_26OCT28_PHIIND_ML.PHI\",\"side\":\"bid\",\"price_u\":699000,\"size\":8,\"fee_u\":33663,\"builder_fee_u\":5592,\"venue\":\"mock\"},{\"trade_id\":\"90002\",\"symbol\":\"NBA_26OCT28_ORLTOR_ML.ORL\",\"side\":\"ask\",\"price_u\":371000,\"size\":13,\"fee_u\":60673,\"builder_fee_u\":4823,\"venue\":\"mock\"},{\"trade_id\":\"90003\",\"symbol\":\"NBA_26OCT28_OKCDAL_ML.OKC\",\"side\":\"bid\",\"price_u\":659000,\"size\":23,\"fee_u\":103370,\"builder_fee_u\":15157,\"venue\":\"mock\"}],\"tx\":{\"open_pending\":\"2sbQKQr77CTo7qbkPRjqHbH4AeqMdghxhrgYFX8YQfUEwVNRNYXwDqABiUoGgHQ1RztwJcF4F5h6phT9pDSx3TSy\",\"finalize\":\"5e1yyaV8yWW5hvtSWqD5deb4QUcqDx8ji7M7AVoFCRbUEq8uRHL5Zt7yd2aiBnuTC8Kiig47drD3Ls6fepNYCRB4\",\"settle\":null,\"refund_pending\":null,\"cash_out\":null,\"resolve_leg\":[]},\"tipster\":null,\"copied_from\":null}}"
+ },
+ {
+  "delay_ms": 800,
+  "frame": "{\"type\":\"progress\",\"pending\":\"ExWxkMB2uywWf8cSyhYAczeFEqCiiiuUWbHViTdL6Htt\",\"stage\":\"refunded\",\"fills\":[],\"ticket\":null}"
+ }
+]
