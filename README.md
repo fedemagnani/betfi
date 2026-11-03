@@ -3,6 +3,15 @@
 A parlay sportsbook on Solana, priced and hedged on [Pascal](https://pascal.trade)'s prediction
 markets.
 
+
+
+
+
+https://github.com/user-attachments/assets/32b3b001-08b9-439c-b6bd-9447f55277d5
+
+
+## Architecture
+
 ![Architecture](docs/architecture.svg)
 
 ## Highlights
